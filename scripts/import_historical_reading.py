@@ -425,6 +425,21 @@ def write_notes() -> int:
     return count
 
 
+def _autolink_digest_lines(lines: list[str]) -> str:
+    linked = []
+    for line in lines:
+        stripped = line.strip()
+        if re.fullmatch(r'https?://\S+', stripped):
+            linked.append(f'<{stripped}>')
+            continue
+        if re.fullmatch(r'-\s+https?://\S+.*', stripped):
+            prefix, url = stripped.split(' ', 1)
+            linked.append(f'{prefix} <{url}>')
+            continue
+        linked.append(line)
+    return '\n'.join(linked).lstrip() + '\n'
+
+
 def write_digests() -> int:
     for p in DIGESTS_DIR.glob('*.md'):
         if p.name != '_index.md':
@@ -437,7 +452,7 @@ def write_digests() -> int:
         text = src.read_text()
         lines = text.splitlines()
         title = lines[0].lstrip('# ').strip() if lines else name
-        body = '\n'.join(lines[1:]).lstrip() + '\n'
+        body = _autolink_digest_lines(lines[1:])
         m = re.search(r'(20\d\d-\d\d-\d\d)', name)
         date = m.group(1) if m else '2026-01-01'
         kind = 'newsletter' if 'newsletter' in name else 'weekly-reading'

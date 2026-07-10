@@ -1,5 +1,5 @@
 +++
-title = "Git internals and the data model"
+title = "promoting an 85-minute MIT lecture on Git internals / data model"
 slug = "2026-06-08-promoting-an-85-minute-mit-lecture-on-git-internals-data-model"
 date = 2026-06-08
 [taxonomies]

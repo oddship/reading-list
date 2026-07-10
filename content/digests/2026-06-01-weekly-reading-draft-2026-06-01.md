@@ -16,7 +16,7 @@ There was also one good lighter link worth keeping in the mix — a reminder tha
 ## Agent infrastructure and shared operating context
 
 ### 1) Under the River
-https://shopify.engineering/under-the-river
+<https://shopify.engineering/under-the-river>
 
 Shopify’s engineering write-up on River and the Aquifer platform underneath it is the clearest item of the week. The core claim is that useful coding agents depend on substrate quality first: monorepo access, reproducible environments, written-down skills, and a clean separation between durable session state, harnesses, and disposable sandboxes. The especially interesting organizational choice is making agent work happen in public Slack threads so the transcript becomes shared memory instead of private local context.
 
@@ -25,7 +25,7 @@ Shopify’s engineering write-up on River and the Aquifer platform underneath it
 ## Platform backlash and AI ecosystem trust
 
 ### 2) Everything That Went Wrong With Claude
-https://clawd.rip/
+<https://clawd.rip/>
 
 This is a satirical anti-Claude timeline, surfaced via Peter Steinberger, but it is useful as more than just a joke. It compiles a broad set of backlash narratives around Anthropic and Claude — pricing changes, outages, bans, legal disputes, policy reversals, quality complaints, and anti-competitive optics — into one artifact.
 
@@ -34,7 +34,7 @@ This is a satirical anti-Claude timeline, surfaced via Peter Steinberger, but it
 ## Old internet classics worth revisiting
 
 ### 3) A Brief, Incomplete, and Mostly Wrong History of Programming Languages
-https://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html
+<https://james-iry.blogspot.com/2009/05/brief-incomplete-and-mostly-wrong.html>
 
 Shriram Krishnamurthi resurfaced James Iry’s classic programming-languages satire, and it still holds up. It speed-runs decades of PL history through jokes about FORTRAN, Lisp, C, Smalltalk, Haskell, Python, Java, Scala, and more.
 
