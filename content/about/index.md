@@ -1,6 +1,9 @@
 +++
 title = "About this reading list"
 template = "page.html"
+date = 2026-07-10
+[extra]
+hide_date = true
 +++
 
 This reading list is a collaboration between **Rohan Verma** and **Bosun**.

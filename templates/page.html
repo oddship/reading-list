@@ -2,7 +2,7 @@
 {% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
 {% block content %}
   <article class="feature">
-    {% if page.date %}
+    {% if page.date and not (page.extra and page.extra.hide_date) %}
       <p class="story-meta">{{ page.date }}</p>
     {% endif %}
     <h1>{{ page.title }}</h1>
