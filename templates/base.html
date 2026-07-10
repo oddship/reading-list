@@ -6,18 +6,35 @@
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   <meta name="description" content="{{ config.description }}">
   <link rel="stylesheet" href="https://oat.ink/oat.min.css">
+  <script>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (t) {
+        document.documentElement.style.colorScheme = t;
+        document.documentElement.setAttribute('data-theme', t);
+      }
+    })();
+    function toggleTheme() {
+      var current = document.documentElement.getAttribute('data-theme') || document.documentElement.style.colorScheme || 'dark';
+      var next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.style.colorScheme = next;
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    }
+  </script>
 </head>
 <body>
   <nav data-topnav>
     <div class="row">
-      <div class="col-6">
+      <div class="col-4">
         <a href="{{ get_url(path='@/_index.md') }}"><strong>{{ config.title }}</strong></a>
       </div>
-      <div class="col-6 justify-end hstack">
+      <div class="col-8 justify-end hstack">
         <a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a>
         <a href="{{ get_url(path='@/digests/_index.md') }}">Digests</a>
         <a href="{{ get_url(path='tags') }}">Tags</a>
         <a href="{{ get_url(path='rss.xml') }}">RSS</a>
+        <button class="outline small" onclick="toggleTheme()">Theme</button>
       </div>
     </div>
   </nav>

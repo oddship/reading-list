@@ -7,11 +7,18 @@
         <h1>{{ section.title }}</h1>
         {% if section.title == "Digests" %}
           <span class="badge" data-variant="secondary">{{ section.pages | length }} digests</span>
+        {% elif section.title == "Notes" %}
+          <span class="badge">{{ section.pages | length }} notes</span>
         {% endif %}
       </div>
       <p>{{ section.content | safe }}</p>
       {% if section.title == "Digests" %}
         <p><small>Latest first. Weekly roundups, newsletter-style essays, and archive cleanups live here.</small></p>
+      {% elif section.title == "Notes" %}
+        <footer class="hstack">
+          <a href="{{ get_url(path='tags') }}" class="button outline small">Browse tags</a>
+          <a href="{{ get_url(path='rss.xml') }}" class="button outline small">RSS</a>
+        </footer>
       {% endif %}
     </header>
   </section>
@@ -25,7 +32,11 @@
   {% for page in note_pages %}
     <article class="card">
       <header>
-        <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+        {% if section.title == "Notes" %}
+          <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=88) }}</a></h2>
+        {% else %}
+          <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+        {% endif %}
         <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
       </header>
       {% if section.title == "Digests" %}
@@ -34,9 +45,22 @@
           <a href="{{ page.permalink }}" class="button small">Read digest</a>
         </footer>
       {% elif page.extra and page.extra.why_it_matters %}
-        <p><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
+        <p>{{ page.extra.why_it_matters | truncate(length=220) }}</p>
+        <footer class="hstack">
+          <a href="{{ page.permalink }}" class="button small">Read note</a>
+          {% if page.taxonomies.tags %}
+            {% for tag in page.taxonomies.tags %}
+              {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 3 %}
+                <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </footer>
       {% else %}
         <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
+        <footer class="hstack">
+          <a href="{{ page.permalink }}" class="button small">Read note</a>
+        </footer>
       {% endif %}
     </article>
   {% endfor %}
