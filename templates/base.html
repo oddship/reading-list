@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <meta name="description" content="{{ config.description }}">
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --panel: #131722;
+      --text: #e8ecf3;
+      --muted: #9aa7b8;
+      --link: #8cc2ff;
+      --border: #222938;
+      --max: 760px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 24px; }
+    header { margin-bottom: 32px; }
+    nav { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+    .muted { color: var(--muted); }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin: 18px 0;
+    }
+    .meta { color: var(--muted); font-size: 0.95rem; }
+    .taglist { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+    .tag {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #1a2130;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    article img { max-width: 100%; }
+    footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); }
+    code { background: #151a24; padding: 0.1rem 0.35rem; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 style="margin-bottom: 4px;"><a href="{{ get_url(path='@/_index.md') }}">{{ config.title }}</a></h1>
+      <div class="muted">{{ config.extra.site_subtitle }}</div>
+      <nav>
+        <a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a>
+        <a href="{{ get_url(path='@/digests/_index.md') }}">Digests</a>
+        <a href="{{ get_taxonomy_url(kind='tags') }}">Tags</a>
+        <a href="{{ get_url(path='rss.xml') }}">RSS</a>
+      </nav>
+    </header>
+    {% block content %}{% endblock content %}
+    <footer>
+      Built with Zola. Source-driven curation workflow for links, notes, and digests.
+    </footer>
+  </div>
+</body>
+</html>

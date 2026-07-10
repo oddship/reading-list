@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
+{% block content %}
+  <article class="card">
+    <h2 style="margin-top: 0;">{{ page.title }}</h2>
+    <div class="meta">{{ page.date }}</div>
+    {% if page.extra and page.extra.source_url %}
+      <p><strong>Source:</strong> <a href="{{ page.extra.source_url }}">{{ page.extra.source_url }}</a></p>
+    {% endif %}
+    {% if page.extra and page.extra.why_it_matters %}
+      <p><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
+    {% endif %}
+    <div>{{ page.content | safe }}</div>
+    {% if page.taxonomies.tags %}
+      <ul class="taglist">
+        {% for tag in page.taxonomies.tags %}
+          <li><a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </article>
+{% endblock content %}

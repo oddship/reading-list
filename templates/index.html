@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
+{% block content %}
+  <section class="card">
+    <h2 style="margin-top: 0;">{{ section.title }}</h2>
+    <p>{{ section.content | safe }}</p>
+  </section>
+
+  <section>
+    <h2>Recent notes</h2>
+    {% set notes = get_section(path="notes/_index.md") %}
+    {% for page in notes.pages | slice(end=8) %}
+      <article class="card">
+        <h3 style="margin-top: 0;"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+        <div class="meta">{{ page.date }}</div>
+        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=220))) }}</p>
+        {% if page.taxonomies.tags %}
+          <ul class="taglist">
+            {% for tag in page.taxonomies.tags %}
+              <li><span class="tag">{{ tag }}</span></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+{% endblock content %}
