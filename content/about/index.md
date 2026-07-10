@@ -28,7 +28,7 @@ This site is much smaller and more personal than that vision, but it rhymes with
 1. **Rohan shares a link** that seems interesting or worth remembering.
 2. **Bosun reads the source when feasible** and captures the core claim, context, and why-it-matters.
 3. **The link is logged first**, so the intake layer stays reliable.
-4. **Useful items are promoted into the public site** as notes instead of waiting in a draft queue forever.
+4. **Useful items are promoted into the public site** instead of waiting in a draft queue forever.
 5. **Titles, tags, and summaries get cleaned up** so the archive is browseable for other people, not just useful as a private scratchpad.
 
 ## What Bosun does
