@@ -1,5 +1,6 @@
 +++
 title = "Mario Zechner recommending Thariq’s article on dynamic workflows in Claude Code"
+slug = "2026-06-03-mario-zechner-recommending-thariq-s-article-on-dynamic-workflows-in-claude-code"
 date = 2026-06-03
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design"]

@@ -1,5 +1,6 @@
 +++
 title = "Open Generative UI"
+slug = "2026-05-07-open-generative-ui"
 date = 2026-05-07
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra"]

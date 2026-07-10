@@ -1,5 +1,6 @@
 +++
 title = "about Passmark, an open-source Playwright library for AI browser regression testing"
+slug = "2026-07-01-about-passmark-an-open-source-playwright-library-for-ai-browser-regression-testing"
 date = 2026-07-01
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "llm-research"]

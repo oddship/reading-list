@@ -1,5 +1,6 @@
 +++
 title = "What is an agent?"
+slug = "2026-06-09-what-is-an-agent"
 date = 2026-06-09
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]

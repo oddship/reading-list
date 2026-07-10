@@ -1,5 +1,6 @@
 +++
 title = "Mitchell Hashimoto post praising antirez's write-up on developing Redis Array support as a good example of..."
+slug = "2026-05-05-mitchell-hashimoto-post-praising-antirez-s-write-up-on-developing-redis-array-support-as-a-good-exa"
 date = 2026-05-05
 [taxonomies]
 tags = ["reading-log", "x-post", "antirez-com", "historical-backfill", "ai-infra", "developer-tools"]

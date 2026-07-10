@@ -1,5 +1,6 @@
 +++
 title = "translation layer"
+slug = "2026-05-12-translation-layer"
 date = 2026-05-12
 [taxonomies]
 tags = ["reading-log", "article", "ajeygore-in", "historical-backfill", "agents", "org-design", "llm-research"]

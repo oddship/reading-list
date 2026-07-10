@@ -1,5 +1,6 @@
 +++
 title = "Engineering for Bounded Cognition"
+slug = "2026-06-28-engineering-for-bounded-cognition"
 date = 2026-06-28
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]

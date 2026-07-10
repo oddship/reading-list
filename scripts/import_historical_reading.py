@@ -406,6 +406,7 @@ def write_notes() -> int:
             frontmatter = [
                 '+++',
                 f'title = "{escape_toml(title)}"',
+                f'slug = "{escape_toml(slug)}"',
                 f'date = {entry["date"]}',
                 '[taxonomies]',
                 'tags = [' + ', '.join(f'"{escape_toml(t)}"' for t in tags) + ']',

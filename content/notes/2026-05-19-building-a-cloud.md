@@ -1,5 +1,6 @@
 +++
 title = "building a cloud"
+slug = "2026-05-19-building-a-cloud"
 date = 2026-05-19
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]

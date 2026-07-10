@@ -1,5 +1,6 @@
 +++
 title = "Cost YAGNI Was Never About"
+slug = "2026-07-06-cost-yagni-was-never-about"
 date = 2026-07-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]

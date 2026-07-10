@@ -1,5 +1,6 @@
 +++
 title = "ParliamentWatch"
+slug = "2026-05-07-parliamentwatch"
 date = 2026-05-07
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]

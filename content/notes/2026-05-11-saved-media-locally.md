@@ -1,5 +1,6 @@
 +++
 title = "Saved media locally"
+slug = "2026-05-11-saved-media-locally"
 date = 2026-05-11
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "llm-research"]

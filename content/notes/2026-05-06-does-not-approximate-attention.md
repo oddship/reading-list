@@ -1,5 +1,6 @@
 +++
 title = "does not approximate attention"
+slug = "2026-05-06-does-not-approximate-attention"
 date = 2026-05-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]

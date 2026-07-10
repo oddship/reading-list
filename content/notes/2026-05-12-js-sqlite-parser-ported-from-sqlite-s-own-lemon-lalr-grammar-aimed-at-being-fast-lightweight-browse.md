@@ -1,5 +1,6 @@
 +++
 title = "JS SQLite parser ported from SQLite’s own Lemon/LALR grammar, aimed at being fast, lightweight, browser-fri..."
+slug = "2026-05-12-js-sqlite-parser-ported-from-sqlite-s-own-lemon-lalr-grammar-aimed-at-being-fast-lightweight-browse"
 date = 2026-05-12
 [taxonomies]
 tags = ["reading-log", "article", "github-com", "historical-backfill", "developer-tools", "llm-research"]

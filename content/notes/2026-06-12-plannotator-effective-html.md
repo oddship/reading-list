@@ -1,5 +1,6 @@
 +++
 title = "plannotator/effective-html"
+slug = "2026-06-12-plannotator-effective-html"
 date = 2026-06-12
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]

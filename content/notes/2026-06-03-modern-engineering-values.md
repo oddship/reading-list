@@ -1,5 +1,6 @@
 +++
 title = "Modern Engineering Values"
+slug = "2026-06-03-modern-engineering-values"
 date = 2026-06-03
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design", "llm-research"]

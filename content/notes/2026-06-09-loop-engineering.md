@@ -1,5 +1,6 @@
 +++
 title = "Loop Engineering"
+slug = "2026-06-09-loop-engineering"
 date = 2026-06-09
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents"]

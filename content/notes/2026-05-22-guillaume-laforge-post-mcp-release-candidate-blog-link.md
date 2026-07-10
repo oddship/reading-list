@@ -1,5 +1,6 @@
 +++
 title = "Guillaume Laforge post + MCP release-candidate blog link"
+slug = "2026-05-22-guillaume-laforge-post-mcp-release-candidate-blog-link"
 date = 2026-05-22
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design"]

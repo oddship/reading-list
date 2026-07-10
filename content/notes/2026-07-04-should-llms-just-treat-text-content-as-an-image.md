@@ -1,5 +1,6 @@
 +++
 title = "Should LLMs just treat text content as an image?"
+slug = "2026-07-04-should-llms-just-treat-text-content-as-an-image"
 date = 2026-07-04
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "llm-research"]

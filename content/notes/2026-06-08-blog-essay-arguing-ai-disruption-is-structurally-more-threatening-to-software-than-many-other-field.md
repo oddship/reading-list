@@ -1,5 +1,6 @@
 +++
 title = "blog essay arguing AI disruption is structurally more threatening to software than many other fields becaus..."
+slug = "2026-06-08-blog-essay-arguing-ai-disruption-is-structurally-more-threatening-to-software-than-many-other-field"
 date = 2026-06-08
 [taxonomies]
 tags = ["reading-log", "article", "b-ark-ca", "historical-backfill", "security", "llm-research"]

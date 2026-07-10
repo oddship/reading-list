@@ -1,5 +1,6 @@
 +++
 title = "Sid's writeup on a recently patched Instagram/Meta account takeover flow"
+slug = "2026-06-02-sid-s-writeup-on-a-recently-patched-instagram-meta-account-takeover-flow"
 date = 2026-06-02
 [taxonomies]
 tags = ["reading-log", "article", "0xsid-com", "historical-backfill", "security", "developer-tools"]

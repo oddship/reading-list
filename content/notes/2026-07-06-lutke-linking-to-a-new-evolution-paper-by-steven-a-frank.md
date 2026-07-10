@@ -1,5 +1,6 @@
 +++
 title = "lutke linking to a new Evolution paper by Steven A. Frank"
+slug = "2026-07-06-lutke-linking-to-a-new-evolution-paper-by-steven-a-frank"
 date = 2026-07-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]

@@ -1,5 +1,6 @@
 +++
 title = "Profiling | Internals for Interns"
+slug = "2026-06-30-profiling-internals-for-interns"
 date = 2026-06-30
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "llm-research", "systems"]

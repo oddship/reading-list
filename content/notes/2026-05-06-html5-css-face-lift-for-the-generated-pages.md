@@ -1,5 +1,6 @@
 +++
 title = "HTML5+CSS face lift for the generated pages"
+slug = "2026-05-06-html5-css-face-lift-for-the-generated-pages"
 date = 2026-05-06
 [taxonomies]
 tags = ["reading-log", "article", "github-com", "historical-backfill", "ai-infra", "security", "developer-tools", "llm-research"]

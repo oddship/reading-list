@@ -1,5 +1,6 @@
 +++
 title = "Gaslighting Openness"
+slug = "2026-06-10-gaslighting-openness"
 date = 2026-06-10
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "systems"]

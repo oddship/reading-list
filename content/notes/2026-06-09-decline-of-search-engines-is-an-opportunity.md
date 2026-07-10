@@ -1,5 +1,6 @@
 +++
 title = "Decline of Search Engines is an Opportunity"
+slug = "2026-06-09-decline-of-search-engines-is-an-opportunity"
 date = 2026-06-09
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "llm-research"]

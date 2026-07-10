@@ -1,5 +1,6 @@
 +++
 title = "public launch of Cloud Run sandboxes"
+slug = "2026-07-08-public-launch-of-cloud-run-sandboxes"
 date = 2026-07-08
 [taxonomies]
 tags = ["reading-log", "x-post", "agents", "ai-infra"]

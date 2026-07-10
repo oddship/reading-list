@@ -1,5 +1,6 @@
 +++
 title = "long talk by the ex-NVIDIA engineer behind Unsloth on fine-tuning and reasoning-model workflows"
+slug = "2026-07-08-long-talk-by-the-ex-nvidia-engineer-behind-unsloth-on-fine-tuning-and-reasoning-model-workflows"
 date = 2026-07-08
 [taxonomies]
 tags = ["reading-log", "x-post", "agents", "ai-infra", "org-design", "llm-research"]

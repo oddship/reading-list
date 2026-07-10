@@ -1,5 +1,6 @@
 +++
 title = "Lines of Code Got a Better Publicist"
+slug = "2026-06-11-lines-of-code-got-a-better-publicist"
 date = 2026-06-11
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]

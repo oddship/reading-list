@@ -1,5 +1,6 @@
 +++
 title = "Prateek describing an AI SRE workflow built with SigNoz by a 3-person team at Alien Intelligence"
+slug = "2026-07-01-prateek-describing-an-ai-sre-workflow-built-with-signoz-by-a-3-person-team-at-alien-intelligence"
 date = 2026-07-01
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design"]

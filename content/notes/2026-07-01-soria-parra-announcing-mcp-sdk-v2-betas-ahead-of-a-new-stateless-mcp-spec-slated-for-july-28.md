@@ -1,5 +1,6 @@
 +++
 title = "Soria Parra announcing MCP SDK v2 betas ahead of a new stateless MCP spec slated for July 28"
+slug = "2026-07-01-soria-parra-announcing-mcp-sdk-v2-betas-ahead-of-a-new-stateless-mcp-spec-slated-for-july-28"
 date = 2026-07-01
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]

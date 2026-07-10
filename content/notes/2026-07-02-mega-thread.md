@@ -1,5 +1,6 @@
 +++
 title = "mega thread"
+slug = "2026-07-02-mega-thread"
 date = 2026-07-02
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents"]

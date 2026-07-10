@@ -1,5 +1,6 @@
 +++
 title = "Andras Bacsai jokes that Coolify created a fake repo with fake bounties so agent/bot-driven fake PR submiss..."
+slug = "2026-05-13-andras-bacsai-jokes-that-coolify-created-a-fake-repo-with-fake-bounties-so-agent-bot-driven-fake-pr"
 date = 2026-05-13
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "llm-research"]

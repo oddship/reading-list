@@ -1,5 +1,6 @@
 +++
 title = "Project Glasswing: what Mythos showed us"
+slug = "2026-05-19-project-glasswing-what-mythos-showed-us"
 date = 2026-05-19
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "llm-research"]

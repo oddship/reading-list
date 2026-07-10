@@ -1,5 +1,6 @@
 +++
 title = "just use loops"
+slug = "2026-06-08-just-use-loops"
 date = 2026-06-08
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]

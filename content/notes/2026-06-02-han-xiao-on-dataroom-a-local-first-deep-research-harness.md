@@ -1,5 +1,6 @@
 +++
 title = "Han Xiao on Dataroom, a local-first deep research harness"
+slug = "2026-06-02-han-xiao-on-dataroom-a-local-first-deep-research-harness"
 date = 2026-06-02
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "llm-research"]

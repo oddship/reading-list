@@ -1,5 +1,6 @@
 +++
 title = "Harness Engineering for Self-Improvement"
+slug = "2026-07-06-harness-engineering-for-self-improvement"
 date = 2026-07-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "org-design", "llm-research"]

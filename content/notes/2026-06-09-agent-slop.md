@@ -1,5 +1,6 @@
 +++
 title = "agent slop"
+slug = "2026-06-09-agent-slop"
 date = 2026-06-09
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]

@@ -1,5 +1,6 @@
 +++
 title = "Printing Press"
+slug = "2026-05-07-printing-press"
 date = 2026-05-07
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]

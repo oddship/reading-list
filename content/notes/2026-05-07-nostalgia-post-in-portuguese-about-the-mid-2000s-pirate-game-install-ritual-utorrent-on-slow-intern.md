@@ -1,5 +1,6 @@
 +++
 title = "Nostalgia post in Portuguese about the mid-2000s pirate-game install ritual: uTorrent on slow internet, see..."
+slug = "2026-05-07-nostalgia-post-in-portuguese-about-the-mid-2000s-pirate-game-install-ritual-utorrent-on-slow-intern"
 date = 2026-05-07
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "org-design"]

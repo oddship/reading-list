@@ -1,5 +1,6 @@
 +++
 title = "is moving its GitHub repo into the"
+slug = "2026-05-07-is-moving-its-github-repo-into-the"
 date = 2026-05-07
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "developer-tools", "org-design"]

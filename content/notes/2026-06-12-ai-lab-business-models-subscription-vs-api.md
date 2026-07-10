@@ -1,5 +1,6 @@
 +++
 title = "AI lab business models: subscription vs API"
+slug = "2026-06-12-ai-lab-business-models-subscription-vs-api"
 date = 2026-06-12
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]

@@ -1,5 +1,6 @@
 +++
 title = "Solo Climb"
+slug = "2026-06-04-solo-climb"
 date = 2026-06-04
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "org-design", "llm-research"]

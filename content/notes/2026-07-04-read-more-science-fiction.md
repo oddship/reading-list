@@ -1,5 +1,6 @@
 +++
 title = "Read More (Science) Fiction"
+slug = "2026-07-04-read-more-science-fiction"
 date = 2026-07-04
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "llm-research"]

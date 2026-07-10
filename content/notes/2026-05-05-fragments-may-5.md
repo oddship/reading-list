@@ -1,5 +1,6 @@
 +++
 title = "Fragments: May 5"
+slug = "2026-05-05-fragments-may-5"
 date = 2026-05-05
 [taxonomies]
 tags = ["reading-log", "x-post", "martinfowler-com", "historical-backfill", "llm-research"]

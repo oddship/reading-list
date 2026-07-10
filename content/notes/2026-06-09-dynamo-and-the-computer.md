@@ -1,5 +1,6 @@
 +++
 title = "Dynamo and the Computer"
+slug = "2026-06-09-dynamo-and-the-computer"
 date = 2026-06-09
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "org-design", "llm-research"]

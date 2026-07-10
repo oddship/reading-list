@@ -1,5 +1,6 @@
 +++
 title = "skepticism: the thread oversold it a bit — the paper is a broad survey/position piece, not a clean proof th..."
+slug = "2026-06-10-skepticism-the-thread-oversold-it-a-bit-the-paper-is-a-broad-survey-position-piece-not-a-clean-proo"
 date = 2026-06-10
 [taxonomies]
 tags = ["reading-log", "x-post", "arxiv-org", "historical-backfill", "agents", "ai-infra", "org-design", "llm-research"]

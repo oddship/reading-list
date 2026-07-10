@@ -1,5 +1,6 @@
 +++
 title = "Andrej Jovanović announcing the Red Queen Gödel Machine (arXiv:2606.26294)"
+slug = "2026-07-06-andrej-jovanovi-announcing-the-red-queen-g-del-machine-arxiv-2606-26294"
 date = 2026-07-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]

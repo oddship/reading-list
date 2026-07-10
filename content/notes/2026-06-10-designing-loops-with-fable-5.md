@@ -1,5 +1,6 @@
 +++
 title = "Designing loops with Fable 5"
+slug = "2026-06-10-designing-loops-with-fable-5"
 date = 2026-06-10
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design", "llm-research"]

@@ -1,5 +1,6 @@
 +++
 title = "You and Your Research"
+slug = "2026-06-29-you-and-your-research"
 date = 2026-06-29
 [taxonomies]
 tags = ["reading-log", "article", "cs-utexas-edu", "historical-backfill"]

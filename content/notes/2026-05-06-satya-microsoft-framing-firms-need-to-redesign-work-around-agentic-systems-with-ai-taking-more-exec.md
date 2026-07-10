@@ -1,5 +1,6 @@
 +++
 title = "Satya/Microsoft framing: firms need to redesign work around agentic systems, with AI taking more execution..."
+slug = "2026-05-06-satya-microsoft-framing-firms-need-to-redesign-work-around-agentic-systems-with-ai-taking-more-exec"
 date = 2026-05-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "org-design", "llm-research"]

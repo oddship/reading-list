@@ -1,5 +1,6 @@
 +++
 title = "Fatih Arslan asking whether anyone has made git worktrees feel natural in daily use"
+slug = "2026-06-26-fatih-arslan-asking-whether-anyone-has-made-git-worktrees-feel-natural-in-daily-use"
 date = 2026-06-26
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]

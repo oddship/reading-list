@@ -1,5 +1,6 @@
 +++
 title = "Auth for MCP"
+slug = "2026-05-07-auth-for-mcp"
 date = 2026-05-07
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "developer-tools"]

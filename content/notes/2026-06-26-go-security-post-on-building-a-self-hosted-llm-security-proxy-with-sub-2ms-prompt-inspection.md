@@ -1,5 +1,6 @@
 +++
 title = "Go/security post on building a self-hosted LLM security proxy with sub-2ms prompt inspection"
+slug = "2026-06-26-go-security-post-on-building-a-self-hosted-llm-security-proxy-with-sub-2ms-prompt-inspection"
 date = 2026-06-26
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "security", "llm-research"]

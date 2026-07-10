@@ -1,5 +1,6 @@
 +++
 title = "News: Dell and Lenovo became premier sponsors of LVFS (Linux Vendor Firmware Service), the fwupd-backed fir..."
+slug = "2026-05-06-news-dell-and-lenovo-became-premier-sponsors-of-lvfs-linux-vendor-firmware-service-the-fwupd-backed"
 date = 2026-05-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]

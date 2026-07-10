@@ -1,5 +1,6 @@
 +++
 title = "Armin Ronacher explaining Pi’s new per-project approval prompt and the security model behind it"
+slug = "2026-06-08-armin-ronacher-explaining-pi-s-new-per-project-approval-prompt-and-the-security-model-behind-it"
 date = 2026-06-08
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "llm-research"]

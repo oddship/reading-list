@@ -1,5 +1,6 @@
 +++
 title = "Pratilekha"
+slug = "2026-05-05-pratilekha"
 date = 2026-05-05
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "llm-research"]

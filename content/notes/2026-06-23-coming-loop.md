@@ -1,5 +1,6 @@
 +++
 title = "Coming Loop"
+slug = "2026-06-23-coming-loop"
 date = 2026-06-23
 [taxonomies]
 tags = ["reading-log", "x-post", "lucumr-pocoo-org", "historical-backfill", "agents", "security", "org-design", "llm-research"]

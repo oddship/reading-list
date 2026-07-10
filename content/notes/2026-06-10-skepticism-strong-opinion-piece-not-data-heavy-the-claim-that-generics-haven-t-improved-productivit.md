@@ -1,5 +1,6 @@
 +++
 title = "skepticism: strong opinion piece, not data-heavy; the claim that generics haven’t improved productivity is..."
+slug = "2026-06-10-skepticism-strong-opinion-piece-not-data-heavy-the-claim-that-generics-haven-t-improved-productivit"
 date = 2026-06-10
 [taxonomies]
 tags = ["reading-log", "x-post", "itnext-io", "historical-backfill"]

@@ -1,5 +1,6 @@
 +++
 title = "Orosz linking Semgrep’s benchmark writeup on GLM 5.2 vs Claude for IDOR detection"
+slug = "2026-06-29-orosz-linking-semgrep-s-benchmark-writeup-on-glm-5-2-vs-claude-for-idor-detection"
 date = 2026-06-29
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "llm-research"]

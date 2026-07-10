@@ -1,5 +1,6 @@
 +++
 title = "Kenton Varda argues against per-agent manual permission configuration and for capability-based security for..."
+slug = "2026-06-24-kenton-varda-argues-against-per-agent-manual-permission-configuration-and-for-capability-based-secu"
 date = 2026-06-24
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design", "llm-research"]

@@ -1,5 +1,6 @@
 +++
 title = "Great Divergence in Software Engineering"
+slug = "2026-07-08-great-divergence-in-software-engineering"
 date = 2026-07-08
 [taxonomies]
 tags = ["reading-log", "x-post", "stack72-dev", "agents", "developer-tools", "org-design", "llm-research"]

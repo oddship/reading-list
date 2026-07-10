@@ -1,5 +1,6 @@
 +++
 title = "Rhys Sullivan note on why MCP underdelivered initially and what comes next"
+slug = "2026-06-26-rhys-sullivan-note-on-why-mcp-underdelivered-initially-and-what-comes-next"
 date = 2026-06-26
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "developer-tools"]

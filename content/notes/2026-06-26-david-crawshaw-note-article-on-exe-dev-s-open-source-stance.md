@@ -1,5 +1,6 @@
 +++
 title = "David Crawshaw note/article on exe.dev’s open-source stance"
+slug = "2026-06-26-david-crawshaw-note-article-on-exe-dev-s-open-source-stance"
 date = 2026-06-26
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents"]

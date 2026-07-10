@@ -1,5 +1,6 @@
 +++
 title = "Chris Short’s DevOps’ish 316 roundup"
+slug = "2026-07-06-chris-short-s-devops-ish-316-roundup"
 date = 2026-07-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "developer-tools"]

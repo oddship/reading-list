@@ -1,5 +1,6 @@
 +++
 title = "Deedy post listing standout Claude Fable 5 demos and benchmark anecdotes"
+slug = "2026-06-10-deedy-post-listing-standout-claude-fable-5-demos-and-benchmark-anecdotes"
 date = 2026-06-10
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-research"]

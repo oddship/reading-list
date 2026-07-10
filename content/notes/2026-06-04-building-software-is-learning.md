@@ -1,5 +1,6 @@
 +++
 title = "Building Software Is Learning"
+slug = "2026-06-04-building-software-is-learning"
 date = 2026-06-04
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "org-design"]

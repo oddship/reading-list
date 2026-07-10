@@ -1,5 +1,6 @@
 +++
 title = "Anthropic's core idea is to train a model to verbalize its own internal activations into human-readable tex..."
+slug = "2026-05-07-anthropic-s-core-idea-is-to-train-a-model-to-verbalize-its-own-internal-activations-into-human-read"
 date = 2026-05-07
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]

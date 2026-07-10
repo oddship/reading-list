@@ -1,5 +1,6 @@
 +++
 title = "de TLD offline due to DNSSEC?"
+slug = "2026-05-05-de-tld-offline-due-to-dnssec"
 date = 2026-05-05
 [taxonomies]
 tags = ["reading-log", "article", "captnemo-in", "news-ycombinator-com", "historical-backfill", "ai-infra", "systems"]

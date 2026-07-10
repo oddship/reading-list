@@ -1,5 +1,6 @@
 +++
 title = "agentic-inbox"
+slug = "2026-07-06-agentic-inbox"
 date = 2026-07-06
 [taxonomies]
 tags = ["reading-log", "article", "blog-sh1ma-dev", "historical-backfill", "agents", "security", "developer-tools"]

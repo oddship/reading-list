@@ -1,5 +1,6 @@
 +++
 title = "cursed code"
+slug = "2026-06-26-cursed-code"
 date = 2026-06-26
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]

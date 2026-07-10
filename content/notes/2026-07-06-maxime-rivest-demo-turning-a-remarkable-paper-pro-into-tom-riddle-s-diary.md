@@ -1,5 +1,6 @@
 +++
 title = "Maxime Rivest demo turning a reMarkable Paper Pro into Tom Riddle’s diary"
+slug = "2026-07-06-maxime-rivest-demo-turning-a-remarkable-paper-pro-into-tom-riddle-s-diary"
 date = 2026-07-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]

@@ -1,5 +1,6 @@
 +++
 title = "David Rosenthal on the AI affordability crisis"
+slug = "2026-06-23-david-rosenthal-on-the-ai-affordability-crisis"
 date = 2026-06-23
 [taxonomies]
 tags = ["reading-log", "article", "blog-dshr-org", "historical-backfill", "agents", "llm-research"]

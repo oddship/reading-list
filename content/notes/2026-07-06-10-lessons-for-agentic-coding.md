@@ -1,5 +1,6 @@
 +++
 title = "10 Lessons for Agentic Coding"
+slug = "2026-07-06-10-lessons-for-agentic-coding"
 date = 2026-07-06
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security"]

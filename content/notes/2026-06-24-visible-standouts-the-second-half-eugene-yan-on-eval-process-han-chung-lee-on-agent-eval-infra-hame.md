@@ -1,5 +1,6 @@
 +++
 title = "Visible standouts: The Second Half; Eugene Yan on eval process; Han-Chung Lee on agent eval infra; Hamel/Sh..."
+slug = "2026-06-24-visible-standouts-the-second-half-eugene-yan-on-eval-process-han-chung-lee-on-agent-eval-infra-hame"
 date = 2026-06-24
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "llm-research"]

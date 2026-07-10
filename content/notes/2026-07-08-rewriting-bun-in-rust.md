@@ -1,5 +1,6 @@
 +++
 title = "Rewriting Bun in Rust"
+slug = "2026-07-08-rewriting-bun-in-rust"
 date = 2026-07-08
 [taxonomies]
 tags = ["reading-log", "x-post", "bun-com", "ai-infra", "developer-tools"]

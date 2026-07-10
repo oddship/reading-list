@@ -1,5 +1,6 @@
 +++
 title = "Our fears about AI are really fears about capitalism"
+slug = "2026-06-09-our-fears-about-ai-are-really-fears-about-capitalism"
 date = 2026-06-09
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-research"]

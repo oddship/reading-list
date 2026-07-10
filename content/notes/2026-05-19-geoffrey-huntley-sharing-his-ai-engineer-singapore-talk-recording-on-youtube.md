@@ -1,5 +1,6 @@
 +++
 title = "Geoffrey Huntley sharing his ai.engineer Singapore talk recording on YouTube"
+slug = "2026-05-19-geoffrey-huntley-sharing-his-ai-engineer-singapore-talk-recording-on-youtube"
 date = 2026-05-19
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "org-design"]

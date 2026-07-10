@@ -1,5 +1,6 @@
 +++
 title = "Why AI Agents Fail in Production"
+slug = "2026-06-04-why-ai-agents-fail-in-production"
 date = 2026-06-04
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design", "llm-research"]

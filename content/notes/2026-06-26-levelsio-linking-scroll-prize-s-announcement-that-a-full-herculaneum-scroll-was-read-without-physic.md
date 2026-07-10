@@ -1,5 +1,6 @@
 +++
 title = "levelsio linking Scroll Prize’s announcement that a full Herculaneum scroll was read without physically ope..."
+slug = "2026-06-26-levelsio-linking-scroll-prize-s-announcement-that-a-full-herculaneum-scroll-was-read-without-physic"
 date = 2026-06-26
 [taxonomies]
 tags = ["reading-log", "x-post", "historical-backfill"]
