@@ -7,6 +7,8 @@ tags = ["digest", "newsletter", "historical-backfill"]
 source_file = "/root/.openclaw/workspace-rohan-work/tmp/newsletter-draft-2026-05-10-weekly.md"
 status = "published"
 +++
+## Intro
+
 I have been collecting a lot of links lately: blog posts, product launches, research notes, tweets, and side threads that felt worth saving.
 
 So instead of forcing them into one big argument, I wanted to do a simpler weekly roundup: what I read, what stood out, and why each link felt worth keeping.
@@ -166,7 +168,7 @@ Useful context on the recent `.in` domain suspension incident. The most importan
 - `nless` for exploring logs/CSV/JSON as terminal tables: <https://x.com/i/status/2051733119405817951>
 - Ben Holmes on Slate vs TipTap/ProseMirror ergonomics: <https://x.com/i/status/2051492921430384656>
 
-## Closing
+## Closing note
 
 I like this format better for now.
 

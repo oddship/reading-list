@@ -440,6 +440,20 @@ def _autolink_digest_lines(lines: list[str]) -> str:
     return '\n'.join(linked).lstrip() + '\n'
 
 
+def _normalize_digest_body(body: str) -> str:
+    if not body.lstrip().startswith('## '):
+        body = '## Intro\n\n' + body.lstrip()
+    replacements = {
+        '## Closing\n': '## Closing note\n',
+        '## Possible title alternatives\n': '## Possible titles\n',
+        '## 7. My current thesis\n': '## Closing note\n',
+        '## Links and notes\n': '## Also worth saving\n',
+    }
+    for old, new in replacements.items():
+        body = body.replace(old, new)
+    return body
+
+
 def write_digests() -> int:
     for p in DIGESTS_DIR.glob('*.md'):
         if p.name != '_index.md':
@@ -452,7 +466,9 @@ def write_digests() -> int:
         text = src.read_text()
         lines = text.splitlines()
         title = lines[0].lstrip('# ').strip() if lines else name
-        body = _autolink_digest_lines(lines[1:])
+        if title.startswith('Weekly reading draft — '):
+            title = title.replace('Weekly reading draft — ', 'Weekly reading — ', 1)
+        body = _normalize_digest_body(_autolink_digest_lines(lines[1:]))
         m = re.search(r'(20\d\d-\d\d-\d\d)', name)
         date = m.group(1) if m else '2026-01-01'
         kind = 'newsletter' if 'newsletter' in name else 'weekly-reading'

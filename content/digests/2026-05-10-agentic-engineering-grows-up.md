@@ -7,6 +7,8 @@ tags = ["digest", "newsletter", "historical-backfill"]
 source_file = "/root/.openclaw/workspace-rohan-work/tmp/newsletter-draft-2026-05-10.md"
 status = "published"
 +++
+## Intro
+
 I have been sitting on a large pile of AI links, tweets, papers, product launches, and side conversations for the last week or two. A lot of them looked unrelated at first: antirez writing about Redis Array, Anthropic shipping managed agents, Auth0 talking about auth for MCP, Mario Zechner pushing back on sparse-attention hype, Mitchell Hashimoto defending "AI slop" in a very specific context, Microsoft rebranding workflow redesign as frontier-firm strategy, and a small Indian civic-tech project making parliamentary reports searchable.
 
 But taken together, I think they point at the same shift.
@@ -198,7 +200,7 @@ And finally, outside AI proper but still very much in the same systems mindset, 
 
 This is not "AI news," but it rhymes with the broader theme of invisible infrastructure layers carrying more fragility than people assume. Convenience abstractions are great until the hidden control plane has a bad day.
 
-## 7. My current thesis
+## Closing note
 
 If I had to compress all of this into one sentence, it would be this:
 
@@ -225,7 +227,7 @@ The model is not the whole product.
 
 The loop is.
 
-## Links and notes
+## Also worth saving
 
 ### AI coding / engineering
 - antirez on Redis Array: <https://antirez.com/news/164>
@@ -261,7 +263,7 @@ The loop is.
 - Thomas Ptacek's *Against DNSSEC*: <https://sockpuppet.org/blog/2015/01/15/against-dnssec/>
 - Nemo on `.in` / Namecheap WHOIS bug: <https://captnemo.in/blog/2026/05/05/namecheap-whois/>
 
-## Possible title alternatives
+## Possible titles
 
 - Agentic engineering grows up
 - The loop becomes the product
