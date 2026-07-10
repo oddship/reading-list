@@ -1,7 +1,7 @@
 +++
 title = "AI lab business models: subscription vs API"
 slug = "2026-06-12-ai-lab-business-models-subscription-vs-api"
-date = 2026-06-12
+date = 2026-06-12T10:51:00+05:30
 [taxonomies]
 tags = ["llm-research"]
 [extra]

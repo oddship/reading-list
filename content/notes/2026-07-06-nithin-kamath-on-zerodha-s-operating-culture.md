@@ -1,7 +1,7 @@
 +++
 title = "Nithin Kamath on Zerodha’s operating culture"
 slug = "2026-07-06-nithin-kamath-on-zerodha-s-operating-culture"
-date = 2026-07-06
+date = 2026-07-06T00:05:00+05:30
 [taxonomies]
 tags = ["org-design", "llm-research"]
 [extra]

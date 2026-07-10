@@ -1,7 +1,7 @@
 +++
 title = "ParliamentWatch"
 slug = "2026-05-07-parliamentwatch"
-date = 2026-05-07
+date = 2026-05-07T00:08:00+05:30
 [taxonomies]
 tags = []
 [extra]

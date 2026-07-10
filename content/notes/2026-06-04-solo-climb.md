@@ -1,7 +1,7 @@
 +++
 title = "Solo Climb"
 slug = "2026-06-04-solo-climb"
-date = 2026-06-04
+date = 2026-06-04T10:51:00+05:30
 [taxonomies]
 tags = ["agents", "developer-tools", "org-design", "llm-research"]
 [extra]

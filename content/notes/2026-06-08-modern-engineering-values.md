@@ -1,7 +1,7 @@
 +++
 title = "Modern Engineering Values"
 slug = "2026-06-08-modern-engineering-values"
-date = 2026-06-08
+date = 2026-06-08T07:30:00+05:30
 [taxonomies]
 tags = ["agents", "org-design"]
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "selection of great PRs that were submitted to Pi: a thread"
 slug = "2026-05-07-selection-of-great-prs-that-were-submitted-to-pi-a-thread"
-date = 2026-05-07
+date = 2026-05-07T00:11:00+05:30
 [taxonomies]
 tags = []
 [extra]

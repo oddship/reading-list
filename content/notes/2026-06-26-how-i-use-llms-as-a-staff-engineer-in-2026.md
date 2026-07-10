@@ -1,7 +1,7 @@
 +++
 title = "How I use LLMs as a staff engineer in 2026"
 slug = "2026-06-26-how-i-use-llms-as-a-staff-engineer-in-2026"
-date = 2026-06-26
+date = 2026-06-26T19:24:00+05:30
 [taxonomies]
 tags = ["agents", "ai-infra", "org-design", "llm-research"]
 [extra]

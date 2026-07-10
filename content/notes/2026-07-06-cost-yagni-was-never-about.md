@@ -1,7 +1,7 @@
 +++
 title = "Cost YAGNI Was Never About"
 slug = "2026-07-06-cost-yagni-was-never-about"
-date = 2026-07-06
+date = 2026-07-06T00:02:00+05:30
 [taxonomies]
 tags = []
 [extra]

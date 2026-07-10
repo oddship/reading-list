@@ -1,7 +1,7 @@
 +++
 title = "AI ate my role! What's next?"
 slug = "2026-05-19-ai-ate-my-role-what-s-next"
-date = 2026-05-19
+date = 2026-05-19T00:02:00+05:30
 [taxonomies]
 tags = ["agents", "org-design"]
 [extra]

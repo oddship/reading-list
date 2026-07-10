@@ -1,7 +1,7 @@
 +++
 title = "Jake’s launch post for sqlite3-parser-js: claims a pure-JS port of SQLite’s parser beats every other JS SQL..."
 slug = "2026-05-12-jake-s-launch-post-for-sqlite3-parser-js-claims-a-pure-js-port-of-sqlite-s-parser-beats-every-other"
-date = 2026-05-12
+date = 2026-05-12T00:04:00+05:30
 [taxonomies]
 tags = ["llm-research"]
 [extra]

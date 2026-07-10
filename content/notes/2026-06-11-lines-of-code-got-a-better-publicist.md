@@ -1,7 +1,7 @@
 +++
 title = "Lines of Code Got a Better Publicist"
 slug = "2026-06-11-lines-of-code-got-a-better-publicist"
-date = 2026-06-11
+date = 2026-06-11T03:45:00+05:30
 [taxonomies]
 tags = []
 [extra]

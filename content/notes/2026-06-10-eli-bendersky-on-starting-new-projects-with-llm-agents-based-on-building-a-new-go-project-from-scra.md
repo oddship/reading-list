@@ -1,7 +1,7 @@
 +++
 title = "Eli Bendersky on starting new projects with LLM agents, based on building a new Go project from scratch"
 slug = "2026-06-10-eli-bendersky-on-starting-new-projects-with-llm-agents-based-on-building-a-new-go-project-from-scra"
-date = 2026-06-10
+date = 2026-06-10T08:03:00+05:30
 [taxonomies]
 tags = ["agents", "llm-research"]
 [extra]

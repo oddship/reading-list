@@ -1,7 +1,7 @@
 +++
 title = "Open Generative UI"
 slug = "2026-05-07-open-generative-ui"
-date = 2026-05-07
+date = 2026-05-07T00:05:00+05:30
 [taxonomies]
 tags = ["agents", "ai-infra"]
 [extra]

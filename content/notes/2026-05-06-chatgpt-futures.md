@@ -1,7 +1,7 @@
 +++
 title = "ChatGPT Futures"
 slug = "2026-05-06-chatgpt-futures"
-date = 2026-05-06
+date = 2026-05-06T00:10:00+05:30
 [taxonomies]
 tags = ["security", "org-design", "systems"]
 [extra]

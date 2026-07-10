@@ -1,7 +1,7 @@
 +++
 title = "Fragments: May 5"
 slug = "2026-05-05-fragments-may-5"
-date = 2026-05-05
+date = 2026-05-05T00:07:00+05:30
 [taxonomies]
 tags = ["llm-research"]
 [extra]

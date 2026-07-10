@@ -1,7 +1,7 @@
 +++
 title = "translation layer"
 slug = "2026-05-12-translation-layer"
-date = 2026-05-12
+date = 2026-05-12T00:02:00+05:30
 [taxonomies]
 tags = ["agents", "org-design", "llm-research"]
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "Dynamo and the Computer"
 slug = "2026-06-09-dynamo-and-the-computer"
-date = 2026-06-09
+date = 2026-06-09T01:54:00+05:30
 [taxonomies]
 tags = ["agents", "developer-tools", "org-design", "llm-research"]
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "does not approximate attention"
 slug = "2026-05-06-does-not-approximate-attention"
-date = 2026-05-06
+date = 2026-05-06T00:06:00+05:30
 [taxonomies]
 tags = ["llm-research"]
 [extra]

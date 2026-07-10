@@ -1,7 +1,7 @@
 +++
 title = "mega thread"
 slug = "2026-07-02-mega-thread"
-date = 2026-07-02
+date = 2026-07-02T10:42:00+05:30
 [taxonomies]
 tags = ["agents"]
 [extra]

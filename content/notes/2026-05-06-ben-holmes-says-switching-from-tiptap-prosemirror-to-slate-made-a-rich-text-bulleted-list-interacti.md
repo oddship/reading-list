@@ -1,7 +1,7 @@
 +++
 title = "Ben Holmes says switching from TipTap/ProseMirror to Slate made a rich-text bulleted-list interaction drama..."
 slug = "2026-05-06-ben-holmes-says-switching-from-tiptap-prosemirror-to-slate-made-a-rich-text-bulleted-list-interacti"
-date = 2026-05-06
+date = 2026-05-06T00:04:00+05:30
 [taxonomies]
 tags = ["developer-tools", "llm-research"]
 [extra]

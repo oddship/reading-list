@@ -1,7 +1,7 @@
 +++
 title = "promoting an 85-minute MIT lecture on Git internals / data model"
 slug = "2026-06-08-promoting-an-85-minute-mit-lecture-on-git-internals-data-model"
-date = 2026-06-08
+date = 2026-06-08T12:47:00+05:30
 [taxonomies]
 tags = ["agents", "developer-tools", "llm-research"]
 [extra]

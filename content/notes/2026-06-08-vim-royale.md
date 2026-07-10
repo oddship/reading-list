@@ -1,7 +1,7 @@
 +++
 title = "vim_royale"
 slug = "2026-06-08-vim-royale"
-date = 2026-06-08
+date = 2026-06-08T01:15:00+05:30
 [taxonomies]
 tags = []
 [extra]

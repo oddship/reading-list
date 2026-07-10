@@ -1,7 +1,7 @@
 +++
 title = "agent-ready"
 slug = "2026-06-08-agent-ready"
-date = 2026-06-08
+date = 2026-06-08T23:16:00+05:30
 [taxonomies]
 tags = ["agents"]
 [extra]

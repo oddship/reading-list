@@ -1,7 +1,7 @@
 +++
 title = "building a cloud"
 slug = "2026-05-19-building-a-cloud"
-date = 2026-05-19
+date = 2026-05-19T00:01:00+05:30
 [taxonomies]
 tags = []
 [extra]

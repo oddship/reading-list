@@ -1,7 +1,7 @@
 +++
 title = "Should LLMs just treat text content as an image?"
 slug = "2026-07-04-should-llms-just-treat-text-content-as-an-image"
-date = 2026-07-04
+date = 2026-07-04T10:14:00+05:30
 [taxonomies]
 tags = ["agents", "ai-infra", "llm-research"]
 [extra]

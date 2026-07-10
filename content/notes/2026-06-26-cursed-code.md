@@ -1,7 +1,7 @@
 +++
 title = "cursed code"
 slug = "2026-06-26-cursed-code"
-date = 2026-06-26
+date = 2026-06-26T19:23:00+05:30
 [taxonomies]
 tags = []
 [extra]

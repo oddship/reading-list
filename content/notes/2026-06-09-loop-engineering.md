@@ -1,7 +1,7 @@
 +++
 title = "Loop Engineering"
 slug = "2026-06-09-loop-engineering"
-date = 2026-06-09
+date = 2026-06-09T09:50:00+05:30
 [taxonomies]
 tags = ["agents"]
 [extra]

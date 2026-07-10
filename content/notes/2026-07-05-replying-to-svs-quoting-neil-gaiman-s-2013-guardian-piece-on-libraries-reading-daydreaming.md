@@ -1,7 +1,7 @@
 +++
 title = "replying to @_svs_, quoting Neil Gaiman’s 2013 Guardian piece on libraries/reading/daydreaming"
 slug = "2026-07-05-replying-to-svs-quoting-neil-gaiman-s-2013-guardian-piece-on-libraries-reading-daydreaming"
-date = 2026-07-05
+date = 2026-07-05T16:56:00+05:30
 [taxonomies]
 tags = ["llm-research"]
 [extra]

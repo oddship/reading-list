@@ -1,7 +1,7 @@
 +++
 title = "microwavegang"
 slug = "2026-05-07-microwavegang"
-date = 2026-05-07
+date = 2026-05-07T00:06:00+05:30
 [taxonomies]
 tags = ["llm-research"]
 [extra]

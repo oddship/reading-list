@@ -1,7 +1,7 @@
 +++
 title = "Robot Privilege and the Jetson Delusion"
 slug = "2026-07-02-robot-privilege-and-the-jetson-delusion"
-date = 2026-07-02
+date = 2026-07-02T11:03:00+05:30
 [taxonomies]
 tags = ["security"]
 [extra]

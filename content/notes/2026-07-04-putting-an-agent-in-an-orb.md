@@ -1,7 +1,7 @@
 +++
 title = "Putting an Agent in an Orb"
 slug = "2026-07-04-putting-an-agent-in-an-orb"
-date = 2026-07-04
+date = 2026-07-04T04:03:00+05:30
 [taxonomies]
 tags = ["agents", "security"]
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "Andras Bacsai jokes that Coolify created a fake repo with fake bounties so agent/bot-driven fake PR submiss..."
 slug = "2026-05-13-andras-bacsai-jokes-that-coolify-created-a-fake-repo-with-fake-bounties-so-agent-bot-driven-fake-pr"
-date = 2026-05-13
+date = 2026-05-13T00:03:00+05:30
 [taxonomies]
 tags = ["agents", "security", "llm-research"]
 [extra]

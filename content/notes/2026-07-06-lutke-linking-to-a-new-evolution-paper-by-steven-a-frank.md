@@ -1,7 +1,7 @@
 +++
 title = "lutke linking to a new Evolution paper by Steven A. Frank"
 slug = "2026-07-06-lutke-linking-to-a-new-evolution-paper-by-steven-a-frank"
-date = 2026-07-06
+date = 2026-07-06T00:01:00+05:30
 [taxonomies]
 tags = []
 [extra]

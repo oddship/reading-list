@@ -1,7 +1,7 @@
 +++
 title = "Designing loops with Fable 5"
 slug = "2026-06-10-designing-loops-with-fable-5"
-date = 2026-06-10
+date = 2026-06-10T07:49:00+05:30
 [taxonomies]
 tags = ["agents", "org-design", "llm-research"]
 [extra]

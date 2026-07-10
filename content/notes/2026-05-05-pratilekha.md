@@ -1,7 +1,7 @@
 +++
 title = "Pratilekha"
 slug = "2026-05-05-pratilekha"
-date = 2026-05-05
+date = 2026-05-05T00:08:00+05:30
 [taxonomies]
 tags = ["ai-infra", "llm-research"]
 [extra]

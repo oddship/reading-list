@@ -1,7 +1,7 @@
 +++
 title = "Go/security post on building a self-hosted LLM security proxy with sub-2ms prompt inspection"
 slug = "2026-06-26-go-security-post-on-building-a-self-hosted-llm-security-proxy-with-sub-2ms-prompt-inspection"
-date = 2026-06-26
+date = 2026-06-26T15:45:00+05:30
 [taxonomies]
 tags = ["agents", "ai-infra", "security", "llm-research"]
 [extra]

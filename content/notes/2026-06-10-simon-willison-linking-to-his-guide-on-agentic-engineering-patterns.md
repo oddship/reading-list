@@ -1,7 +1,7 @@
 +++
 title = "Simon Willison linking to his guide on agentic engineering patterns"
 slug = "2026-06-10-simon-willison-linking-to-his-guide-on-agentic-engineering-patterns"
-date = 2026-06-10
+date = 2026-06-10T02:39:00+05:30
 [taxonomies]
 tags = ["agents", "systems"]
 [extra]

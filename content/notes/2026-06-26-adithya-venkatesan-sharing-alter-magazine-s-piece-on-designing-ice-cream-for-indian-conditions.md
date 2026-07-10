@@ -1,7 +1,7 @@
 +++
 title = "Adithya Venkatesan sharing Alter Magazine’s piece on designing ice cream for Indian conditions"
 slug = "2026-06-26-adithya-venkatesan-sharing-alter-magazine-s-piece-on-designing-ice-cream-for-indian-conditions"
-date = 2026-06-26
+date = 2026-06-26T13:26:00+05:30
 [taxonomies]
 tags = ["developer-tools"]
 [extra]

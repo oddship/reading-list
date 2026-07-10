@@ -1,7 +1,7 @@
 +++
 title = "Narayanan pointing to a Normal Tech essay on why AI hasn’t replaced software engineers"
 slug = "2026-06-11-narayanan-pointing-to-a-normal-tech-essay-on-why-ai-hasn-t-replaced-software-engineers"
-date = 2026-06-11
+date = 2026-06-11T21:21:00+05:30
 [taxonomies]
 tags = ["llm-research"]
 [extra]

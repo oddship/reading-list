@@ -1,7 +1,7 @@
 +++
 title = "Code as Agent Harness"
 slug = "2026-06-10-code-as-agent-harness"
-date = 2026-06-10
+date = 2026-06-10T09:46:00+05:30
 [taxonomies]
 tags = ["agents", "ai-infra", "llm-research"]
 [extra]

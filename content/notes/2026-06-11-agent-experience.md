@@ -1,7 +1,7 @@
 +++
 title = "agent experience"
 slug = "2026-06-11-agent-experience"
-date = 2026-06-11
+date = 2026-06-11T17:54:00+05:30
 [taxonomies]
 tags = ["agents", "llm-research"]
 [extra]

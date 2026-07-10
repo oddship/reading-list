@@ -1,7 +1,7 @@
 +++
 title = "linking filiph.net/text/pokerd.html"
 slug = "2026-06-19-linking-filiph-net-text-pokerd-html"
-date = 2026-06-19
+date = 2026-06-20T01:40:00+05:30
 [taxonomies]
 tags = []
 [extra]

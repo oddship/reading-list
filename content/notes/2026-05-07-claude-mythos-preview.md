@@ -1,7 +1,7 @@
 +++
 title = "Claude Mythos Preview"
 slug = "2026-05-07-claude-mythos-preview"
-date = 2026-05-07
+date = 2026-05-07T00:19:00+05:30
 [taxonomies]
 tags = ["security", "org-design"]
 [extra]

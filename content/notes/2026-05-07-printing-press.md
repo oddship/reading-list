@@ -1,7 +1,7 @@
 +++
 title = "Printing Press"
 slug = "2026-05-07-printing-press"
-date = 2026-05-07
+date = 2026-05-07T00:18:00+05:30
 [taxonomies]
 tags = ["agents", "developer-tools"]
 [extra]

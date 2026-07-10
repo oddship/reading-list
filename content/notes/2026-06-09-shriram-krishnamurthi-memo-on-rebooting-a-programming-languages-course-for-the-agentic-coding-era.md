@@ -1,7 +1,7 @@
 +++
 title = "Shriram Krishnamurthi memo on rebooting a programming languages course for the agentic coding era"
 slug = "2026-06-09-shriram-krishnamurthi-memo-on-rebooting-a-programming-languages-course-for-the-agentic-coding-era"
-date = 2026-06-09
+date = 2026-06-09T21:15:00+05:30
 [taxonomies]
 tags = ["agents", "security", "llm-research"]
 [extra]

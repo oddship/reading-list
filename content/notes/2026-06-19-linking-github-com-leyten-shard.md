@@ -1,7 +1,7 @@
 +++
 title = "linking github.com/leyten/shard"
 slug = "2026-06-19-linking-github-com-leyten-shard"
-date = 2026-06-19
+date = 2026-06-19T13:34:00+05:30
 [taxonomies]
 tags = ["ai-infra", "developer-tools", "llm-research", "systems"]
 [extra]

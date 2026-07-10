@@ -1,7 +1,7 @@
 +++
 title = "Gaslighting Openness"
 slug = "2026-06-10-gaslighting-openness"
-date = 2026-06-10
+date = 2026-06-10T00:23:00+05:30
 [taxonomies]
 tags = ["systems"]
 [extra]

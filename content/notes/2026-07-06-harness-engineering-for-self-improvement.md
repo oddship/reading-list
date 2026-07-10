@@ -1,7 +1,7 @@
 +++
 title = "Harness Engineering for Self-Improvement"
 slug = "2026-07-06-harness-engineering-for-self-improvement"
-date = 2026-07-06
+date = 2026-07-06T00:11:00+05:30
 [taxonomies]
 tags = ["agents", "ai-infra", "org-design", "llm-research"]
 [extra]

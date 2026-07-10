@@ -1,7 +1,7 @@
 +++
 title = "Sid's writeup on a recently patched Instagram/Meta account takeover flow"
 slug = "2026-06-02-sid-s-writeup-on-a-recently-patched-instagram-meta-account-takeover-flow"
-date = 2026-06-02
+date = 2026-06-02T15:41:00+05:30
 [taxonomies]
 tags = ["security", "developer-tools"]
 [extra]

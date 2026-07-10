@@ -1,7 +1,7 @@
 +++
 title = "Why AI Agents Fail in Production"
 slug = "2026-06-04-why-ai-agents-fail-in-production"
-date = 2026-06-04
+date = 2026-06-04T18:15:00+05:30
 [taxonomies]
 tags = ["agents", "security", "org-design", "llm-research"]
 [extra]

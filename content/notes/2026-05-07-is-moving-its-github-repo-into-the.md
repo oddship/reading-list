@@ -1,7 +1,7 @@
 +++
 title = "is moving its GitHub repo into the"
 slug = "2026-05-07-is-moving-its-github-repo-into-the"
-date = 2026-05-07
+date = 2026-05-07T00:16:00+05:30
 [taxonomies]
 tags = ["agents", "security", "developer-tools", "org-design"]
 [extra]

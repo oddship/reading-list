@@ -1,7 +1,7 @@
 +++
 title = "agent principal-agent problem"
 slug = "2026-05-07-agent-principal-agent-problem"
-date = 2026-05-07
+date = 2026-05-07T00:15:00+05:30
 [taxonomies]
 tags = ["agents", "org-design", "llm-research"]
 [extra]

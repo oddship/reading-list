@@ -1,7 +1,7 @@
 +++
 title = "Deedy post listing standout Claude Fable 5 demos and benchmark anecdotes"
 slug = "2026-06-10-deedy-post-listing-standout-claude-fable-5-demos-and-benchmark-anecdotes"
-date = 2026-06-10
+date = 2026-06-10T07:56:00+05:30
 [taxonomies]
 tags = ["org-design", "llm-research"]
 [extra]

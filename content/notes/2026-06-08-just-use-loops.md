@@ -1,7 +1,7 @@
 +++
 title = "just use loops"
 slug = "2026-06-08-just-use-loops"
-date = 2026-06-08
+date = 2026-06-08T02:13:00+05:30
 [taxonomies]
 tags = ["agents", "llm-research"]
 [extra]

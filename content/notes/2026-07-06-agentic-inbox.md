@@ -1,7 +1,7 @@
 +++
 title = "agentic-inbox"
 slug = "2026-07-06-agentic-inbox"
-date = 2026-07-06
+date = 2026-07-06T00:08:00+05:30
 [taxonomies]
 tags = ["agents", "security", "developer-tools"]
 [extra]

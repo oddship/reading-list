@@ -1,7 +1,7 @@
 +++
 title = "Claude Code Is Steganographically Marking Requests"
 slug = "2026-07-01-claude-code-is-steganographically-marking-requests"
-date = 2026-07-01
+date = 2026-07-01T19:35:00+05:30
 [taxonomies]
 tags = ["agents", "security"]
 [extra]

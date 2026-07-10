@@ -1,7 +1,7 @@
 +++
 title = "transfer station"
 slug = "2026-05-06-transfer-station"
-date = 2026-05-06
+date = 2026-05-06T00:08:00+05:30
 [taxonomies]
 tags = ["ai-infra", "security", "llm-research"]
 [extra]

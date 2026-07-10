@@ -1,7 +1,7 @@
 +++
 title = "Read More (Science) Fiction"
 slug = "2026-07-04-read-more-science-fiction"
-date = 2026-07-04
+date = 2026-07-04T04:04:00+05:30
 [taxonomies]
 tags = ["agents", "developer-tools", "llm-research"]
 [extra]

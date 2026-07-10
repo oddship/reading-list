@@ -1,7 +1,7 @@
 +++
 title = "antirez reacting sharply to Anthropic’s Opus 4.8 as a product/management failure rather than a raw model-ca..."
 slug = "2026-06-04-antirez-reacting-sharply-to-anthropic-s-opus-4-8-as-a-product-management-failure-rather-than-a-raw"
-date = 2026-06-04
+date = 2026-06-04T19:33:00+05:30
 [taxonomies]
 tags = ["org-design", "llm-research"]
 [extra]

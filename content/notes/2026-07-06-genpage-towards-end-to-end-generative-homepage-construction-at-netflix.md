@@ -1,7 +1,7 @@
 +++
 title = "GenPage: Towards End-to-End Generative Homepage Construction at Netflix"
 slug = "2026-07-06-genpage-towards-end-to-end-generative-homepage-construction-at-netflix"
-date = 2026-07-06
+date = 2026-07-06T00:10:00+05:30
 [taxonomies]
 tags = ["ai-infra"]
 [extra]

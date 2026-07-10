@@ -1,7 +1,7 @@
 +++
 title = "Building Software Is Learning"
 slug = "2026-06-04-building-software-is-learning"
-date = 2026-06-04
+date = 2026-06-04T06:31:00+05:30
 [taxonomies]
 tags = ["org-design"]
 [extra]

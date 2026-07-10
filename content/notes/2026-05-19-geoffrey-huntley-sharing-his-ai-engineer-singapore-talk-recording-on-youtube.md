@@ -1,7 +1,7 @@
 +++
 title = "Geoffrey Huntley sharing his ai.engineer Singapore talk recording on YouTube"
 slug = "2026-05-19-geoffrey-huntley-sharing-his-ai-engineer-singapore-talk-recording-on-youtube"
-date = 2026-05-19
+date = 2026-05-19T00:04:00+05:30
 [taxonomies]
 tags = ["org-design"]
 [extra]

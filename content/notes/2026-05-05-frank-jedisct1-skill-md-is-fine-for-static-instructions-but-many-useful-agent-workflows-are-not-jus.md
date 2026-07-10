@@ -1,7 +1,7 @@
 +++
 title = "Frank/jedisct1: SKILL.md is fine for static instructions. But many useful agent workflows are not just inst..."
 slug = "2026-05-05-frank-jedisct1-skill-md-is-fine-for-static-instructions-but-many-useful-agent-workflows-are-not-jus"
-date = 2026-05-05
+date = 2026-05-05T00:06:00+05:30
 [taxonomies]
 tags = ["agents", "llm-research"]
 [extra]
