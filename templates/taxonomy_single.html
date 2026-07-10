@@ -19,7 +19,7 @@
     <div class="story-list">
       {% for page in term.pages %}
         <article class="story">
-          <p class="story-meta">{{ page.date }}</p>
+          <p class="story-meta">{{ page.date | date(format="%Y-%m-%d") }}</p>
           <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
           <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=260))) }}</p>
           <div class="story-footer">

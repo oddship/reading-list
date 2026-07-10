@@ -1,7 +1,7 @@
 +++
 title = "Liminality"
 slug = "2026-07-10-liminality"
-date = 2026-07-10
+date = 2026-07-10T11:06:00+05:30
 [taxonomies]
 tags = ["org-design"]
 [extra]

@@ -1,7 +1,7 @@
 +++
 title = "David Crawshaw on OSS authors and professionalism"
 slug = "2026-07-10-david-crawshaw-on-oss-authors-and-professionalism"
-date = 2026-07-10
+date = 2026-07-10T22:51:00+05:30
 [taxonomies]
 tags = ["developer-tools", "org-design"]
 [extra]

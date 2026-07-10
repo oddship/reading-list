@@ -1,7 +1,7 @@
 +++
 title = "How I Use Codex To Automate Parts Of My Research Workflow"
 slug = "2026-07-08-how-i-use-codex-to-automate-parts-of-my-research-workflow"
-date = 2026-07-08
+date = 2026-07-08T23:02:00+05:30
 [taxonomies]
 tags = ["agents", "org-design"]
 [extra]

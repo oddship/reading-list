@@ -1,7 +1,7 @@
 +++
 title = "Rewriting Bun in Rust"
 slug = "2026-07-09-rewriting-bun-in-rust"
-date = 2026-07-09
+date = 2026-07-09T10:34:00+05:30
 [taxonomies]
 tags = ["ai-infra", "developer-tools"]
 [extra]

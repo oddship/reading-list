@@ -1,7 +1,7 @@
 +++
 title = "Some new agentic patterns"
 slug = "2026-07-08-some-new-agentic-patterns"
-date = 2026-07-08
+date = 2026-07-08T22:40:00+05:30
 [taxonomies]
 tags = ["agents", "org-design", "llm-research"]
 [extra]

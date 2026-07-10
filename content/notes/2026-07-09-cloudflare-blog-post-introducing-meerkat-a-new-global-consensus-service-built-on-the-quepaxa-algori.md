@@ -1,7 +1,7 @@
 +++
 title = "Cloudflare blog post introducing Meerkat, a new global consensus service built on the QuePaxa algorithm"
 slug = "2026-07-09-cloudflare-blog-post-introducing-meerkat-a-new-global-consensus-service-built-on-the-quepaxa-algori"
-date = 2026-07-09
+date = 2026-07-09T23:10:00+05:30
 [taxonomies]
 tags = ["ai-infra", "llm-research", "systems"]
 [extra]

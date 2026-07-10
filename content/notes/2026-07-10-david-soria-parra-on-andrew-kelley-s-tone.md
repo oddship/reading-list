@@ -1,7 +1,7 @@
 +++
 title = "David Soria Parra on Andrew Kelley’s tone"
 slug = "2026-07-10-david-soria-parra-on-andrew-kelley-s-tone"
-date = 2026-07-10
+date = 2026-07-10T22:52:00+05:30
 [taxonomies]
 tags = ["developer-tools", "org-design"]
 [extra]

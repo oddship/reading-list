@@ -42,7 +42,7 @@
   <div class="story-list">
     {% for page in note_pages %}
       <article class="story">
-        <p class="story-meta">{{ page.date }}</p>
+        <p class="story-meta">{{ page.date | date(format="%Y-%m-%d") }}</p>
         <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=92) }}</a></h2>
         {% if section.title == "Digests" %}
           <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | replace(from="This week This week’s", to="This week’s") | replace(from="Intro This week’s", to="This week’s") | truncate(length=420))) }}</p>

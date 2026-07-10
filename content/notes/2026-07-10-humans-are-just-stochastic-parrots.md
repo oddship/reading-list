@@ -1,7 +1,7 @@
 +++
 title = "Humans Are Just Stochastic Parrots"
 slug = "2026-07-10-humans-are-just-stochastic-parrots"
-date = 2026-07-10
+date = 2026-07-10T11:07:00+05:30
 [taxonomies]
 tags = ["org-design", "llm-research"]
 [extra]

@@ -5,7 +5,7 @@
     {% if page.date %}
       {% if page.extra and page.extra.hide_date %}
       {% else %}
-        <p class="story-meta">{{ page.date }}</p>
+        <p class="story-meta">{{ page.date | date(format="%Y-%m-%d") }}</p>
       {% endif %}
     {% endif %}
     <h1>{{ page.title }}</h1>

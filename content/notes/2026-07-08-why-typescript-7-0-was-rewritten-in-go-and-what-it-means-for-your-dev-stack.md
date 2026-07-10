@@ -1,7 +1,7 @@
 +++
 title = "Why TypeScript 7.0 Was Rewritten in Go (and what it means for your dev stack)"
 slug = "2026-07-08-why-typescript-7-0-was-rewritten-in-go-and-what-it-means-for-your-dev-stack"
-date = 2026-07-08
+date = 2026-07-08T22:32:00+05:30
 [taxonomies]
 tags = ["agents", "ai-infra", "org-design"]
 [extra]
