@@ -39,9 +39,10 @@ Do not use when:
    - Prefer compact markdown notes and minimal template edits.
    - Completion criterion: the repo reflects the intended user-visible change.
 
-3. Preserve stable note URLs.
+3. Preserve stable note URLs and keep tags coherent.
    - When importer-driven historical notes are regenerated, keep explicit slugs in frontmatter so title cleanup does not create Zola path collisions or unstable permalinks.
-   - Completion criterion: Zola builds without path-collision errors and historical URLs remain deterministic.
+   - Reuse existing tags before inventing new ones, and keep topic tags more important than host/domain trivia.
+   - Completion criterion: Zola builds without path-collision errors and the tag vocabulary stays compact and intentional.
 
 4. Keep hosting context straight.
    - While GitHub Pages is the active host, `config.toml` should use `https://oddship.github.io/reading-list` as `base_url`.

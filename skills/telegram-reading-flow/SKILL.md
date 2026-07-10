@@ -47,7 +47,9 @@ Do not use when:
 
 4. Promote every useful item to the public site.
    - Convert useful items into `content/notes/*.md` with tags, source URL, a short why-it-matters field, and preserve `logged at IST` when available.
-   - Completion criterion: the Zola note is concise, grounded, and committed to the repo without waiting for a separate publish decision.
+   - Tag thoughtfully: prefer reusing existing topical tags before inventing new ones, keep source-mechanics tags (`x-post`, `article`, `historical-backfill`) separate from topic tags, and only create a new topic tag when several future notes are likely to benefit from the same bucket.
+   - Avoid host/domain tags unless the source itself is the story or the host is a meaningful recurring lens.
+   - Completion criterion: the Zola note is concise, grounded, tagged deliberately, and committed to the repo without waiting for a separate publish decision.
 
 5. Preserve the distinction between capture and heavier synthesis.
    - The reading log is still the intake layer, but useful notes should move into the repo by default.
@@ -61,6 +63,16 @@ Do not use when:
 7. Run a humanizer pass before committing public-facing prose.
    - Clean up AI-ish phrasing and strip em dashes unless the user explicitly asked for them.
    - Completion criterion: content promoted into the repo reads naturally and respects the user's punctuation preferences.
+
+## Tagging guidance
+
+- Reuse existing topic tags whenever they fit cleanly. Prefer a stable small vocabulary over one-off novelty tags.
+- Treat `reading-log`, `x-post`, `article`, and `historical-backfill` as mechanics/provenance tags, not the main topical taxonomy.
+- Prefer at most 2 to 4 meaningful topical tags per note.
+- Create a new topical tag only when it is likely to group several current or future notes in a way a reader would actually browse.
+- Avoid host/domain tags unless the publisher or product itself is the point of the note and is likely to recur.
+- If a note only weakly fits a tag, leave it out. Sparse but reliable tagging is better than noisy coverage.
+- Before introducing a new tag, search the repo for close existing tags and pick the closest stable term if it is good enough.
 
 ## Common Pitfalls
 

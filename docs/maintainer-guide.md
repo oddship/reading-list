@@ -48,6 +48,15 @@ Each note should include:
 For X posts that primarily point somewhere else, prefer the linked article/blog/paper as `source_url` when it was actually read.
 If only the X post text was accessible, keep the X URL and say so in a retrieval note.
 
+## Tagging guidance
+
+- Reuse existing topic tags before creating new ones.
+- Keep mechanics/provenance tags separate from reader-facing topical tags.
+- Prefer a compact recurring vocabulary over highly specific one-off labels.
+- Create a new tag only when it is likely to organize multiple notes meaningfully.
+- Avoid tagging by source domain unless the domain itself is part of why the note matters.
+- When in doubt, fewer but more reliable tags are better.
+
 ## Publishing conventions
 
 - Every useful note should be promoted into the repo without waiting for a separate "publish" step.
