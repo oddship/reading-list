@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
 {% block content %}
-  <article class="card">
-    <h2 style="margin-top: 0;">{{ page.title }}</h2>
-    <div class="meta">{{ page.date }}</div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <p><small>{{ page.date }}</small></p>
     {% if page.extra and page.extra.source_url %}
       <p><strong>Source:</strong> <a href="{{ page.extra.source_url }}">{{ page.extra.source_url }}</a></p>
     {% endif %}
@@ -12,13 +12,13 @@
     {% endif %}
     <div>{{ page.content | safe }}</div>
     {% if page.taxonomies.tags %}
-      <ul class="taglist">
+      <p>
         {% for tag in page.taxonomies.tags %}
           {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" %}
-            <li><a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">{{ tag }}</a></li>
+            <small><a href="{{ get_taxonomy_url(kind='tags', name=tag) }}">#{{ tag }}</a></small>{% if not loop.last %} {% endif %}
           {% endif %}
         {% endfor %}
-      </ul>
+      </p>
     {% endif %}
   </article>
 {% endblock content %}

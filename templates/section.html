@@ -1,25 +1,27 @@
 {% extends "base.html" %}
 {% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
 {% block content %}
-  <section class="card">
-    <h2 style="margin-top: 0;">{{ section.title }}</h2>
+  <section>
+    <h1>{{ section.title }}</h1>
     <div>{{ section.content | safe }}</div>
     {% if section.title == "Digests" %}
-      <p class="meta" style="margin-top: 12px;">Latest first. Weekly roundups, newsletter-style essays, and archive cleanups all live here.</p>
+      <p><small>Latest first. Weekly roundups, newsletter-style essays, and archive cleanups live here.</small></p>
     {% endif %}
   </section>
+
   {% if paginator %}
     {% set note_pages = paginator.pages %}
   {% else %}
     {% set note_pages = section.pages %}
   {% endif %}
+
   {% for page in note_pages %}
-    <article class="card">
-      <h3 style="margin-top: 0;"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-      <div class="meta">{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</div>
+    <article>
+      <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+      <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
       {% if section.title == "Digests" %}
         <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=320))) }}</p>
-        <p><a href="{{ page.permalink }}">Read digest →</a></p>
+        <p><a href="{{ page.permalink }}">Read digest</a></p>
       {% elif page.extra and page.extra.why_it_matters %}
         <p><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
       {% else %}
@@ -27,21 +29,12 @@
       {% endif %}
     </article>
   {% endfor %}
+
   {% if paginator %}
-    <nav class="card" aria-label="Pagination">
-      <div style="display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center;">
-        <div>
-          {% if paginator.previous %}
-            <a href="{{ paginator.previous }}">← Newer</a>
-          {% endif %}
-        </div>
-        <div class="meta">Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</div>
-        <div>
-          {% if paginator.next %}
-            <a href="{{ paginator.next }}">Older →</a>
-          {% endif %}
-        </div>
-      </div>
+    <nav aria-label="Pagination">
+      {% if paginator.previous %}<a href="{{ paginator.previous }}">Newer</a>{% endif %}
+      <small>Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</small>
+      {% if paginator.next %}<a href="{{ paginator.next }}">Older</a>{% endif %}
     </nav>
   {% endif %}
 {% endblock content %}

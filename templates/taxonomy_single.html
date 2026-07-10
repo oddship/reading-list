@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block title %}{{ term.name }} · {{ config.title }}{% endblock title %}
 {% block content %}
-  <section class="card">
-    <h2 style="margin-top: 0;">Tag: {{ term.name }}</h2>
+  <section>
+    <h1>Tag: {{ term.name }}</h1>
+    {% for page in term.pages %}
+      <article>
+        <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+        <p><small>{{ page.date }}</small></p>
+        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
+      </article>
+    {% endfor %}
   </section>
-  {% for page in term.pages %}
-    <article class="card">
-      <h3 style="margin-top: 0;"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-      <div class="meta">{{ page.date }}</div>
-      <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
-    </article>
-  {% endfor %}
 {% endblock content %}

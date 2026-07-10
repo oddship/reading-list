@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% block title %}Tags · {{ config.title }}{% endblock title %}
 {% block content %}
-  <section class="card">
-    <h2 style="margin-top: 0;">Tags</h2>
+  <section>
+    <h1>Tags</h1>
     <ul>
       {% for term in terms %}
         <li><a href="{{ term.permalink }}">{{ term.name }}</a> ({{ term.pages | length }})</li>
