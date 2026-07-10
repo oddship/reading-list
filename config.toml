@@ -12,8 +12,6 @@ taxonomies = [
 ]
 
 [markdown]
-highlight_code = true
-highlight_theme = "css"
 render_emoji = true
 
 [extra]
