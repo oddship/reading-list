@@ -1,4 +1,4 @@
-base_url = "https://reading-list.oddship.net"
+base_url = "https://oddship.github.io/reading-list"
 title = "Reading List"
 description = "A curated linklog of essays, posts, papers, and notes."
 compile_sass = false
