@@ -6,7 +6,7 @@ tags = ["digest", "newsletter", "historical-backfill"]
 [extra]
 source_file = "/root/.openclaw/workspace-rohan-work/tmp/newsletter-draft-2026-05-10.md"
 +++
-## This week
+## Intro
 
 I have been sitting on a large pile of AI links, tweets, papers, product launches, and side conversations for the last week or two. A lot of them looked unrelated at first: antirez writing about Redis Array, Anthropic shipping managed agents, Auth0 talking about auth for MCP, Mario Zechner pushing back on sparse-attention hype, Mitchell Hashimoto defending "AI slop" in a very specific context, Microsoft rebranding workflow redesign as frontier-firm strategy, and a small Indian civic-tech project making parliamentary reports searchable.
 
@@ -261,11 +261,3 @@ The loop is.
 - HN on `.de` / DNSSEC: <https://news.ycombinator.com/item?id=48027897>
 - Thomas Ptacek's *Against DNSSEC*: <https://sockpuppet.org/blog/2015/01/15/against-dnssec/>
 - Nemo on `.in` / Namecheap WHOIS bug: <https://captnemo.in/blog/2026/05/05/namecheap-whois/>
-
-## Possible titles
-
-- Agentic engineering grows up
-- The loop becomes the product
-- The boring layers are where AI gets real
-- AI is moving from demos to workflow infrastructure
-- The most interesting thing in AI right now is the harness

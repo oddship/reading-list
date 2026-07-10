@@ -444,7 +444,8 @@ def _normalize_digest_body(body: str) -> str:
     }
     for old, new in replacements.items():
         body = body.replace(old, new)
-    return body
+    body = re.sub(r'\n## Possible titles\n(?:\n?- .*?)+\n?$', '\n', body, flags=re.S)
+    return body.rstrip() + '\n'
 
 
 def write_digests() -> int:
