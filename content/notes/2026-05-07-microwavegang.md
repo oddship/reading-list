@@ -3,7 +3,7 @@ title = "microwavegang"
 slug = "2026-05-07-microwavegang"
 date = 2026-05-07
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
+tags = ["llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2051873677998956851"
 source_type = "x-post"

@@ -3,7 +3,7 @@ title = "blog essay arguing AI disruption is structurally more threatening to so
 slug = "2026-06-08-blog-essay-arguing-ai-disruption-is-structurally-more-threatening-to-software-than-many-other-field"
 date = 2026-06-08
 [taxonomies]
-tags = ["reading-log", "article", "b-ark-ca", "historical-backfill", "security", "llm-research"]
+tags = ["security", "llm-research"]
 [extra]
 source_url = "https://b-ark.ca/2026/06/07/cannibalism.html"
 source_type = "article"

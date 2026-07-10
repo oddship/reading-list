@@ -3,7 +3,7 @@ title = "Anthropic's core idea is to train a model to verbalize its own internal
 slug = "2026-05-07-anthropic-s-core-idea-is-to-train-a-model-to-verbalize-its-own-internal-activations-into-human-read"
 date = 2026-05-07
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]
+tags = ["agents", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2052435436157452769"
 source_type = "x-post"

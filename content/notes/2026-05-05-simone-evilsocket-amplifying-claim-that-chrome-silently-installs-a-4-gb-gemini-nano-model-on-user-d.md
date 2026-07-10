@@ -3,7 +3,7 @@ title = "Simone/evilsocket amplifying claim that Chrome silently installs a 4 GB
 slug = "2026-05-05-simone-evilsocket-amplifying-claim-that-chrome-silently-installs-a-4-gb-gemini-nano-model-on-user-d"
 date = 2026-05-05
 [taxonomies]
-tags = ["reading-log", "x-post", "awesomeagents-ai", "historical-backfill", "agents", "llm-research"]
+tags = ["agents", "llm-research"]
 [extra]
 source_url = "https://awesomeagents.ai/news/chrome-gemini-nano-silent-install/"
 source_type = "x-post"

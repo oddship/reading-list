@@ -3,7 +3,7 @@ title = "Decline of Search Engines is an Opportunity"
 slug = "2026-06-09-decline-of-search-engines-is-an-opportunity"
 date = 2026-06-09
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "llm-research"]
+tags = ["developer-tools", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2064231781419872472"
 source_type = "x-post"

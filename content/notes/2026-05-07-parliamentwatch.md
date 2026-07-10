@@ -3,7 +3,7 @@ title = "ParliamentWatch"
 slug = "2026-05-07-parliamentwatch"
 date = 2026-05-07
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill"]
+tags = []
 [extra]
 source_url = "https://x.com/i/status/2052264995787079900"
 source_type = "x-post"

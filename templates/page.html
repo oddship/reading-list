@@ -19,9 +19,7 @@
     {% if page.taxonomies.tags %}
       <div class="story-footer">
         {% for tag in page.taxonomies.tags %}
-          {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" %}
-            <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
-          {% endif %}
+          <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag | replace(from='-', to=' ') }}</a>
         {% endfor %}
       </div>
     {% endif %}

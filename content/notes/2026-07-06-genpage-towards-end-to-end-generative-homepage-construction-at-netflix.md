@@ -3,7 +3,7 @@ title = "GenPage: Towards End-to-End Generative Homepage Construction at Netflix
 slug = "2026-07-06-genpage-towards-end-to-end-generative-homepage-construction-at-netflix"
 date = 2026-07-06
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "ai-infra"]
+tags = ["ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2073864662068932752"
 source_type = "x-post"

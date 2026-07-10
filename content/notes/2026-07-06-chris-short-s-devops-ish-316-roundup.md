@@ -3,7 +3,7 @@ title = "Chris Short’s DevOps’ish 316 roundup"
 slug = "2026-07-06-chris-short-s-devops-ish-316-roundup"
 date = 2026-07-06
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "developer-tools"]
+tags = ["agents", "security", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2073768099182960888"
 source_type = "x-post"

@@ -1,13 +1,28 @@
 {% extends "base.html" %}
 {% block title %}Tags · {{ config.title }}{% endblock title %}
 {% block content %}
-  <section class="card">
-    <header>
-      <h1>Tags</h1>
-    </header>
-    <div class="hstack">
+  <section class="hero">
+    <p class="kicker">Tag index</p>
+    <h1>Tags</h1>
+    <p class="hero-copy">A small topical index for browsing the archive. These are intentionally sparse and biased toward recurring themes, not source mechanics.</p>
+  </section>
+
+  <section class="magazine-section">
+    <div class="section-head">
+      <div>
+        <p class="kicker">Topics</p>
+        <h2>Browse by theme</h2>
+        <p>Only the recurring topical tags are listed here. Source type and provenance live in note metadata, not in the public taxonomy.</p>
+      </div>
+    </div>
+
+    <div class="story-list">
       {% for term in terms %}
-        <a href="{{ term.permalink }}" class="badge">{{ term.name }} ({{ term.pages | length }})</a>
+        <article class="story">
+          <p class="story-meta">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %}</p>
+          <h3><a href="{{ term.permalink }}">{{ term.name | replace(from='-', to=' ') | title }}</a></h3>
+          <p class="story-summary">A clustered view of notes tagged around {{ term.name | replace(from='-', to=' ') }}.</p>
+        </article>
       {% endfor %}
     </div>
   </section>

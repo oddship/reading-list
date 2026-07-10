@@ -3,7 +3,7 @@ title = "long talk by the ex-NVIDIA engineer behind Unsloth on fine-tuning and r
 slug = "2026-07-10-long-talk-by-the-ex-nvidia-engineer-behind-unsloth-on-fine-tuning-and-reasoning-model-workflows"
 date = 2026-07-10
 [taxonomies]
-tags = ["reading-log", "x-post", "agents", "ai-infra", "org-design", "llm-research"]
+tags = ["agents", "ai-infra", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2075240393419936189"
 source_type = "x-post"

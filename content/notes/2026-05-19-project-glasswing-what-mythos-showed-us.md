@@ -3,7 +3,7 @@ title = "Project Glasswing: what Mythos showed us"
 slug = "2026-05-19-project-glasswing-what-mythos-showed-us"
 date = 2026-05-19
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "llm-research"]
+tags = ["agents", "security", "llm-research"]
 [extra]
 source_url = "https://x.com/Cloudflare/status/2056360412510060748"
 source_type = "x-post"

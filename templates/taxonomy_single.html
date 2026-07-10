@@ -1,18 +1,32 @@
 {% extends "base.html" %}
-{% block title %}{{ term.name }} · {{ config.title }}{% endblock title %}
+{% block title %}{{ term.name | replace(from='-', to=' ') | title }} · {{ config.title }}{% endblock title %}
 {% block content %}
-  <section class="card">
-    <header>
-      <h1>Tag: {{ term.name }}</h1>
-    </header>
-    {% for page in term.pages %}
-      <article class="card">
-        <header>
-          <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-          <p><small>{{ page.date }}</small></p>
-        </header>
-        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
-      </article>
-    {% endfor %}
+  <section class="hero">
+    <p class="kicker">Tag</p>
+    <h1>{{ term.name | replace(from='-', to=' ') | title }}</h1>
+    <p class="hero-copy">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %} collected under this theme.</p>
+  </section>
+
+  <section class="magazine-section">
+    <div class="section-head">
+      <div>
+        <p class="kicker">Archive</p>
+        <h2>Notes in this tag</h2>
+      </div>
+      <a href="{{ get_url(path='tags') }}" class="button outline small">All tags</a>
+    </div>
+
+    <div class="story-list">
+      {% for page in term.pages %}
+        <article class="story">
+          <p class="story-meta">{{ page.date }}</p>
+          <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+          <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=260))) }}</p>
+          <div class="story-footer">
+            <a href="{{ page.permalink }}" class="button small">Read note</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
   </section>
 {% endblock content %}

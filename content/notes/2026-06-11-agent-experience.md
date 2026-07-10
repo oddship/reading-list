@@ -3,7 +3,7 @@ title = "agent experience"
 slug = "2026-06-11-agent-experience"
 date = 2026-06-11
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]
+tags = ["agents", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2064734639634440622"
 source_type = "x-post"

@@ -51,7 +51,7 @@ If only the X post text was accessible, keep the X URL and say so in a retrieval
 ## Tagging guidance
 
 - Reuse existing topic tags before creating new ones.
-- Keep mechanics/provenance tags separate from reader-facing topical tags.
+- Keep mechanics/provenance tags out of the public taxonomy and store that information in metadata instead.
 - Prefer a compact recurring vocabulary over highly specific one-off labels.
 - Create a new tag only when it is likely to organize multiple notes meaningfully.
 - Avoid tagging by source domain unless the domain itself is part of why the note matters.

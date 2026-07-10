@@ -3,7 +3,7 @@ title = "Narayanan pointing to a Normal Tech essay on why AI hasn’t replaced s
 slug = "2026-06-11-narayanan-pointing-to-a-normal-tech-essay-on-why-ai-hasn-t-replaced-software-engineers"
 date = 2026-06-11
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
+tags = ["llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2065032543724785924"
 source_type = "x-post"

@@ -3,7 +3,7 @@ title = "Designing loops with Fable 5"
 slug = "2026-06-10-designing-loops-with-fable-5"
 date = 2026-06-10
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design", "llm-research"]
+tags = ["agents", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2064462744125128851"
 source_type = "x-post"

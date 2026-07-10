@@ -3,7 +3,7 @@ title = "Printing Press"
 slug = "2026-05-07-printing-press"
 date = 2026-05-07
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]
+tags = ["agents", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2052422567181611010"
 source_type = "x-post"

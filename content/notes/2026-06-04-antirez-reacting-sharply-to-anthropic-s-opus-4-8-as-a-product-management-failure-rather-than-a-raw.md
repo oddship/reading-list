@@ -3,7 +3,7 @@ title = "antirez reacting sharply to Anthropic’s Opus 4.8 as a product/managem
 slug = "2026-06-04-antirez-reacting-sharply-to-anthropic-s-opus-4-8-as-a-product-management-failure-rather-than-a-raw"
 date = 2026-06-04
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-research"]
+tags = ["org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2062521505146175851"
 source_type = "x-post"

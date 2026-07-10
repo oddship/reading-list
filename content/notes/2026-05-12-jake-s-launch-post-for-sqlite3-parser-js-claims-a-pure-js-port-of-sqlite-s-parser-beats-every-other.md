@@ -3,7 +3,7 @@ title = "Jake’s launch post for sqlite3-parser-js: claims a pure-JS port of SQ
 slug = "2026-05-12-jake-s-launch-post-for-sqlite3-parser-js-claims-a-pure-js-port-of-sqlite-s-parser-beats-every-other"
 date = 2026-05-12
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
+tags = ["llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2054213488596201603"
 source_type = "x-post"

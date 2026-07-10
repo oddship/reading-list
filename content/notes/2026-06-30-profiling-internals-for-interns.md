@@ -3,7 +3,7 @@ title = "Profiling | Internals for Interns"
 slug = "2026-06-30-profiling-internals-for-interns"
 date = 2026-06-30
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "llm-research", "systems"]
+tags = ["ai-infra", "llm-research", "systems"]
 [extra]
 source_url = "https://x.com/i/status/2071530061727949272"
 source_type = "x-post"

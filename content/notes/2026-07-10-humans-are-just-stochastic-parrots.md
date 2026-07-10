@@ -3,7 +3,7 @@ title = "Humans Are Just Stochastic Parrots"
 slug = "2026-07-10-humans-are-just-stochastic-parrots"
 date = 2026-07-10
 [taxonomies]
-tags = ["reading-log", "article", "tinyclouds-org", "org-design", "llm-research"]
+tags = ["org-design", "llm-research"]
 [extra]
 source_url = "https://tinyclouds.org/humans/"
 source_type = "article"

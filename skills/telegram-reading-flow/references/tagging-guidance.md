@@ -7,7 +7,7 @@ Keep the note taxonomy compact, reusable, and browseable.
 ## Rules
 
 - Reuse an existing topic tag unless a new tag would clearly organize multiple notes better.
-- Keep mechanics tags separate from topic tags.
+- Keep mechanics and source provenance in `extra.source_type` / `extra.source_url`, not in the public tag taxonomy.
 - Prefer 2 to 4 meaningful topic tags per note.
 - Avoid host/domain tags unless the publisher or product is itself the subject.
 - If a tag will only ever apply to one note, it is probably too narrow.

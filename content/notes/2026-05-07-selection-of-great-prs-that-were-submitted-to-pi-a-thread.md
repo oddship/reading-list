@@ -3,7 +3,7 @@ title = "selection of great PRs that were submitted to Pi: a thread"
 slug = "2026-05-07-selection-of-great-prs-that-were-submitted-to-pi-a-thread"
 date = 2026-05-07
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill"]
+tags = []
 [extra]
 source_url = "https://x.com/i/status/2052387165368201629"
 source_type = "x-post"

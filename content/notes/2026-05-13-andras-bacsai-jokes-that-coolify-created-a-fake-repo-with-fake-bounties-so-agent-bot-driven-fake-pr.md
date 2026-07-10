@@ -3,7 +3,7 @@ title = "Andras Bacsai jokes that Coolify created a fake repo with fake bounties
 slug = "2026-05-13-andras-bacsai-jokes-that-coolify-created-a-fake-repo-with-fake-bounties-so-agent-bot-driven-fake-pr"
 date = 2026-05-13
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "llm-research"]
+tags = ["agents", "security", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2054512710017298463"
 source_type = "x-post"

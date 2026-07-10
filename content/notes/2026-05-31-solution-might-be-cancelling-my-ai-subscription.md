@@ -3,7 +3,7 @@ title = "solution might be cancelling my AI subscription"
 slug = "2026-05-31-solution-might-be-cancelling-my-ai-subscription"
 date = 2026-05-31
 [taxonomies]
-tags = ["reading-log", "x-post", "thoughts-hmmz-org", "historical-backfill", "agents", "developer-tools", "org-design", "llm-research"]
+tags = ["agents", "developer-tools", "org-design", "llm-research"]
 [extra]
 source_url = "https://thoughts.hmmz.org/2026-05-31.html"
 source_type = "x-post"

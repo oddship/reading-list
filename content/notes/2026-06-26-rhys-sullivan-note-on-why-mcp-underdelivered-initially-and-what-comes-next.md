@@ -3,7 +3,7 @@ title = "Rhys Sullivan note on why MCP underdelivered initially and what comes n
 slug = "2026-06-26-rhys-sullivan-note-on-why-mcp-underdelivered-initially-and-what-comes-next"
 date = 2026-06-26
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "developer-tools"]
+tags = ["agents", "ai-infra", "developer-tools"]
 [extra]
 source_url = "https://x.com/RhysSullivan/status/2070311929038680262?s=20"
 source_type = "x-post"

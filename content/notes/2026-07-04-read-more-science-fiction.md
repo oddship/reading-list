@@ -3,7 +3,7 @@ title = "Read More (Science) Fiction"
 slug = "2026-07-04-read-more-science-fiction"
 date = 2026-07-04
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "llm-research"]
+tags = ["agents", "developer-tools", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2073508346607661235"
 source_type = "x-post"

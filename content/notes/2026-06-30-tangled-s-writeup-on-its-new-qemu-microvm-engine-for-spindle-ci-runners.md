@@ -3,7 +3,7 @@ title = "Tangled’s writeup on its new QEMU microVM engine for Spindle CI runne
 slug = "2026-06-30-tangled-s-writeup-on-its-new-qemu-microvm-engine-for-spindle-ci-runners"
 date = 2026-06-30
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "systems"]
+tags = ["agents", "ai-infra", "systems"]
 [extra]
 source_url = "https://x.com/i/status/2071966840801185811"
 source_type = "x-post"

@@ -3,7 +3,7 @@ title = "Fatih Arslan asking whether anyone has made git worktrees feel natural 
 slug = "2026-06-26-fatih-arslan-asking-whether-anyone-has-made-git-worktrees-feel-natural-in-daily-use"
 date = 2026-06-26
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]
+tags = ["agents", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2070393923504091649"
 source_type = "x-post"
