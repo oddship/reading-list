@@ -1,5 +1,7 @@
 +++
 title = "Things I read this week"
+slug = "2026-05-10-things-i-read-this-week"
+aliases = ["/digests/things-i-read-this-week/"]
 date = 2026-05-10
 [taxonomies]
 tags = []
