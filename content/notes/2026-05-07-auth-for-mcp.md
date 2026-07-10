@@ -17,4 +17,4 @@ Imported from historical reading log.
 - Auth0 is pitching `Auth for MCP` as the missing identity/authorization layer for production MCP servers: not just connecting agents to tools, but enforcing who the user is and what the agent may do on their behalf.
 - The notable implementation details are support for `CIMD` client registration, `OBO` token exchange for downstream APIs, and MCP-style resource identifiers instead of plain OAuth audience handling.
 - Why it matters: MCP is quickly moving from demo protocol to real integration surface, and this is a sign the surrounding auth/governance stack is hardening in parallel.
-- Good angle: `the boring enterprise layer is arriving for MCP — which is probably what makes it real`.
+- Good angle: `the boring enterprise layer is arriving for MCP, which is probably what makes it real`.

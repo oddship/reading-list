@@ -16,4 +16,4 @@ saved_link = "https://x.com/i/status/2057751443893858595"
 
 **Gist:** MCP 2026-07-28 RC is out; biggest revision so far with stateless HTTP-native core, first-class extensions (Apps, Tasks), stronger auth alignment, and a formal deprecation policy. Final spec slated for July 28.
 
-**Newsletter angle:** “MCP grows up operationally” — stateless transport + extension model + auth hardening as the path from prototype protocol to production infra.
+**Newsletter angle:** “MCP grows up operationally”, stateless transport + extension model + auth hardening as the path from prototype protocol to production infra.

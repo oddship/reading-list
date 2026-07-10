@@ -4,6 +4,9 @@
   <section class="card">
     <h2 style="margin-top: 0;">{{ section.title }}</h2>
     <div>{{ section.content | safe }}</div>
+    {% if section.title == "Digests" %}
+      <p class="meta" style="margin-top: 12px;">Latest first. Weekly roundups, newsletter-style essays, and archive cleanups all live here.</p>
+    {% endif %}
   </section>
   {% if paginator %}
     {% set note_pages = paginator.pages %}
@@ -14,7 +17,10 @@
     <article class="card">
       <h3 style="margin-top: 0;"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
       <div class="meta">{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</div>
-      {% if page.extra and page.extra.why_it_matters %}
+      {% if section.title == "Digests" %}
+        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=320))) }}</p>
+        <p><a href="{{ page.permalink }}">Read digest →</a></p>
+      {% elif page.extra and page.extra.why_it_matters %}
         <p><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
       {% else %}
         <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>

@@ -14,6 +14,6 @@ saved_link = "https://x.com/i/status/2065135794927419867"
 +++
 **Gist:** argues current AI-engineering rhetoric has regressed from measuring outcomes to measuring volume; “% of code written by AI” is just lines-of-code worship in new clothing, and should not be confused with delivery speed, quality, reliability, or customer value.
 
-**Newsletter angle:** pair with the Narayanan piece — anti-AI-washing on layoffs plus anti-vanity-metrics on productivity claims.
+**Newsletter angle:** pair with the Narayanan piece, anti-AI-washing on layoffs plus anti-vanity-metrics on productivity claims.
 
 **Retrieval note:** extracted via FXTwitter API; followed linked essay for full gist.

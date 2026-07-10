@@ -9,7 +9,7 @@ source_url = "https://www.cs.utexas.edu/~dahlin/bookshelf/hamming.html"
 source_type = "article"
 status = "published"
 newsletter_candidate = true
-why_it_matters = "still one of the cleanest framings for research leverage — not just “work hard,” but “work on the right thing at the right time in the right way.”"
+why_it_matters = "still one of the cleanest framings for research leverage, not just “work hard,” but “work on the right thing at the right time in the right way.”"
 saved_link = "https://www.cs.utexas.edu/~dahlin/bookshelf/hamming.html"
 +++
 **What it is:** Essay: “You and Your Research” / R.W. Hamming’s advice on doing important work.

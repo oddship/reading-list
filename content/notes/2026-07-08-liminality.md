@@ -14,6 +14,6 @@ saved_link = "https://geohot.github.io/blog/jekyll/update/2026/06/23/liminality.
 +++
 **What it is:** George Hotz blog post, "Liminality"
 
-**Gist:** A reflective, uneasy essay about living in the in-between phase of AI progress—where systems are not yet fully superior but already demoralizing, and where the real challenge is loss of control, hype aside.
+**Gist:** A reflective, uneasy essay about living in the in-between phase of AI progress, where systems are not yet fully superior but already demoralizing, and where the real challenge is loss of control, hype aside.
 
 **Newsletter angle:** Strong cultural/psychological framing of the current AI moment from someone close to the frontier, less technical but notable as mood and zeitgeist.

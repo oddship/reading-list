@@ -12,7 +12,7 @@ newsletter_candidate = true
 why_it_matters = "interesting pattern for using HTML as a durable output format for plans, architecture diagrams, and reviewable agent artifacts instead of plain markdown."
 saved_link = "https://x.com/i/status/2065479594023829619"
 +++
-**Gist:** the repo packages focused agent skills for producing self-contained, visually strong HTML artifacts — especially diagrams and plan pages — plus an optional Plannotator renderer/annotator. The post points to a demo video showing the diff/code viewer behavior.
+**Gist:** the repo packages focused agent skills for producing self-contained, visually strong HTML artifacts, especially diagrams and plan pages, plus an optional Plannotator renderer/annotator. The post points to a demo video showing the diff/code viewer behavior.
 
 **Newsletter angle:** “HTML as agent output surface” / better human-review loops for plans and diagrams.
 

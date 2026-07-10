@@ -16,6 +16,6 @@ saved_link = "https://x.com/slash1sol/status/2063762157339132084?s=20"
 
 **Gist:** the pitch is that most developers memorize Git commands without understanding commits, trees, refs, and the graph underneath; learning the model makes debugging history and merge/rebase failures much less magical.
 
-**Newsletter angle:** “Git literacy as leverage” — understanding the object graph matters more when agents are branching/rewriting history at speed.
+**Newsletter angle:** “Git literacy as leverage”, understanding the object graph matters more when agents are branching/rewriting history at speed.
 
 **Note:** extracted via FXTwitter API; saved from the post text only, lecture content itself not yet reviewed.

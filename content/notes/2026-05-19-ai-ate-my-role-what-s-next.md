@@ -14,6 +14,6 @@ saved_link = "https://x.com/i/status/2056594589126135984"
 +++
 **Gist:** argues most roles split into translation work that collapses into agents and judgement work that grows; strongest claim is the "100x engineer" pattern of one senior plus directed agents.
 
-**Newsletter angle:** "AI won't eat jobs evenly — it compresses translation work and amplifies judgment owners".
+**Newsletter angle:** "AI won't eat jobs evenly, it compresses translation work and amplifies judgment owners".
 
 **Note:** extracted via FXTwitter API + Ajey Gore article; article fetch was partial/truncated but core thesis was clear.

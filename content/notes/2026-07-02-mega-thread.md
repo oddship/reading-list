@@ -9,7 +9,7 @@ source_url = "https://x.com/i/status/2072522251300409556"
 source_type = "x-post"
 status = "reviewed"
 newsletter_candidate = true
-why_it_matters = "strong framing for AI-assisted software work—value shifts from raw code production toward rapid comprehension, review, and safe change-making."
+why_it_matters = "strong framing for AI-assisted software work, value shifts from raw code production toward rapid comprehension, review, and safe change-making."
 saved_link = "https://x.com/i/status/2072522251300409556"
 +++
 **Gist:** core claim is that even with coding agents, engineers still need to understand the generated code; the opening slide frames this as “understanding is the new bottleneck.”

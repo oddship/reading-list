@@ -9,7 +9,7 @@ source_url = "https://x.com/i/status/2064380248532398384"
 source_type = "x-post"
 status = "reviewed"
 newsletter_candidate = true
-why_it_matters = "strong operator essay on what actually compounds in the agent era — not prompting tricks, but ownership boundaries, feedback loops, and explicit context packaged for fresh agent sessions."
+why_it_matters = "strong operator essay on what actually compounds in the agent era, not prompting tricks, but ownership boundaries, feedback loops, and explicit context packaged for fresh agent sessions."
 saved_link = "https://x.com/i/status/2064380248532398384"
 +++
 **What it is:** Richard Seroter sharing Christoph Nakazawa’s “Modern Engineering Values”.

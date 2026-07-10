@@ -13,14 +13,14 @@ I have been collecting a lot of links lately: blog posts, product launches, rese
 
 So instead of forcing them into one big argument, I wanted to do a simpler weekly roundup: what I read, what stood out, and why each link felt worth keeping.
 
-A few themes did repeat in the background — agent workflow design, review loops, tooling surfaces, and infrastructure — but I have tried to keep this mostly focused on the links themselves.
+A few themes did repeat in the background, agent workflow design, review loops, tooling surfaces, and infrastructure, but I have tried to keep this mostly focused on the links themselves.
 
 ## AI coding and workflow design
 
 ### antirez on building Redis Array
 <https://antirez.com/news/164>
 
-A very grounded write-up from antirez on building Redis Array over about four months with heavy AI assistance. What I liked here is that AI shows up throughout the process — spec iteration, implementation, testing, review, and follow-on tooling work — without the post ever pretending the system built itself.
+A very grounded write-up from antirez on building Redis Array over about four months with heavy AI assistance. What I liked here is that AI shows up throughout the process, spec iteration, implementation, testing, review, and follow-on tooling work, without the post ever pretending the system built itself.
 
 Mitchell Hashimoto highlighted it too:
 <https://x.com/i/status/2051684321732530680>

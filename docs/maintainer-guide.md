@@ -4,11 +4,11 @@ This repo is the source of truth for `reading-list.oddship.net` / `oddship.githu
 
 ## What lives here
 
-- `content/notes/` — published reading notes
-- `content/digests/` — digest pages and roundups
-- `templates/` — Zola templates
-- `.github/workflows/deploy.yml` — GitHub Pages deployment
-- `skills/` — repo-local agent skills for maintaining the site and the Telegram ingest flow
+- `content/notes/`, published reading notes
+- `content/digests/`, digest pages and roundups
+- `templates/`, Zola templates
+- `.github/workflows/deploy.yml`, GitHub Pages deployment
+- `skills/`, repo-local agent skills for maintaining the site and the Telegram ingest flow
 
 ## Current operating model
 
@@ -60,22 +60,24 @@ If only the X post text was accessible, keep the X URL and say so in a retrieval
 ## GitHub Pages notes
 
 - During GitHub Pages hosting, `config.toml` should use:
-  - `base_url = "https://oddship.github.io/reading-list"`
+ - `base_url = "https://oddship.github.io/reading-list"`
 - After custom-domain cutover, switch it to:
-  - `base_url = "https://reading-list.oddship.net"`
+ - `base_url = "https://reading-list.oddship.net"`
 
 ## Auth expectations for automation
 
 - Repo update auth is expected via a dedicated env var for the scoped GitHub token
 - Git credentials should remain scoped to `github.com/oddship/reading-list.git`
 - Push permissions and Pages admin permissions are separate; do not assume one implies the other
+- Before commits, run a humanizer pass on user-facing prose and strip em dashes unless explicitly requested
 
 ## When updating this repo through automation
 
 1. Modify or add note files
 2. Check nav/base URL assumptions if deployment target changed
 3. Commit with a Conventional Commit message
-4. Push to `main`
-5. Verify the Pages workflow run succeeded
-6. Check the live rendered page, not just the git push
-7. For site-shape changes, verify homepage, `/notes/`, pagination, and `/digests/`
+4. Run a humanizer pass over user-facing prose before the commit lands
+5. Push to `main`
+6. Verify the Pages workflow run succeeded
+7. Check the live rendered page, not just the git push
+8. For site-shape changes, verify homepage, `/notes/`, pagination, and `/digests/`

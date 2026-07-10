@@ -11,12 +11,12 @@ This repo is both:
 
 ## Repo structure
 
-- `content/notes/` — individual reading notes
-- `content/digests/` — weekly/newsletter-style roundups
-- `templates/` — Zola templates
-- `scripts/import_historical_reading.py` — repeatable historical importer/backfill script
-- `docs/maintainer-guide.md` — repo and workflow operating notes
-- `skills/` — repo-local agent skills for maintenance and Telegram ingest flow
+- `content/notes/`, individual reading notes
+- `content/digests/`, weekly/newsletter-style roundups
+- `templates/`, Zola templates
+- `scripts/import_historical_reading.py`, repeatable historical importer/backfill script
+- `docs/maintainer-guide.md`, repo and workflow operating notes
+- `skills/`, repo-local agent skills for maintenance and Telegram ingest flow
 
 ## Content model
 
@@ -48,9 +48,11 @@ Older material came from multiple sources:
 
 The importer script exists so future backfills stay repeatable rather than manual.
 
-## Commit convention
+## Commit conventions
 
-Use Conventional Commits for repo changes.
+- Use Conventional Commits for repo changes.
+- Run a humanizer pass over user-facing prose before committing.
+- Avoid em dashes in user-facing writing unless Rohan explicitly asks for them.
 
 Examples:
 

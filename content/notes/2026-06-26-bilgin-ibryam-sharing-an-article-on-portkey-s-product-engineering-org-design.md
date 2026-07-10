@@ -14,6 +14,6 @@ saved_link = "https://x.com/i/status/2070218468021223619"
 +++
 **What it is:** Bilgin Ibryam sharing an article on Portkey’s product-engineering org design
 
-**Gist:** highlights a notably lean product org — 24 product engineers, 1 product designer, 0 PMs — and frames the build/operating model as the interesting part
+**Gist:** highlights a notably lean product org, 24 product engineers, 1 product designer, 0 PMs, and frames the build/operating model as the interesting part
 
 **Newsletter angle:** “the product engineer company” / what gets easier or riskier when PM functions collapse into eng

@@ -14,7 +14,7 @@ saved_link = "https://x.com/i/status/2064418523192136110"
 +++
 **What it is:** Langfuse post/article on automating the AI engineering loop without producing “agent slop”.
 
-**Gist:** argues the whole AI engineering loop can now technically be automated — instrumentation, monitoring, dataset building, testing, deployment — but full automation is a trap when human judgment is the product. Keep humans close to trace review, target definition, and quality-bar decisions.
+**Gist:** argues the whole AI engineering loop can now technically be automated, instrumentation, monitoring, dataset building, testing, deployment, but full automation is a trap when human judgment is the product. Keep humans close to trace review, target definition, and quality-bar decisions.
 
 **Newsletter angle:** “automate the loop, but not your taste” / “agent slop is what happens when evals become the whole target.”
 

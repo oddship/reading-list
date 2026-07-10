@@ -16,4 +16,4 @@ Imported from historical reading log.
 - Extracted via api.fxtwitter.com fallback.
 - Uttaran Nayak (Bangalore) announcing `Pratilekha`: `one API, every Indian & regional language. and we built this ourselves.`
 - Early signal worth tracking as part of the India/Bangalore AI/app layer scene, especially around multilingual infrastructure rather than generic model wrappers.
-- Good follow-up question later: what is actually novel here — translation, speech, multilingual inference stack, or developer platform packaging?
+- Good follow-up question later: what is actually novel here, translation, speech, multilingual inference stack, or developer platform packaging?

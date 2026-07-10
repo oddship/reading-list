@@ -9,7 +9,7 @@ source_url = "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/"
 source_type = "x-post"
 status = "published"
 newsletter_candidate = true
-why_it_matters = "crisp framing for agentic infra—queues, durable sessions, judges/orchestrators, and task harnesses may become unavoidable even for skeptics because security pressure and competitive speed force teams to loop."
+why_it_matters = "crisp framing for agentic infra, queues, durable sessions, judges/orchestrators, and task harnesses may become unavoidable even for skeptics because security pressure and competitive speed force teams to loop."
 saved_link = "https://x.com/i/status/2069371901583954275"
 +++
 **What it is:** Armin Ronacher post linking to “The Coming Loop”

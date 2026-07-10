@@ -14,7 +14,7 @@ saved_link = "https://nithinkamath.me/blog/why-a-nice-place-to-work-doesnt-just-
 +++
 **What it is:** Nithin Kamath on Zerodha’s operating culture
 
-**Gist:** a nice place to work is not accidental culture but the result of repeated leadership choices — slowing down to avoid burnout, staying small, avoiding fear-based management, letting tech make technical decisions, and refusing toxic revenue incentives
+**Gist:** a nice place to work is not accidental culture but the result of repeated leadership choices, slowing down to avoid burnout, staying small, avoiding fear-based management, letting tech make technical decisions, and refusing toxic revenue incentives
 
 **Notable line:** “A nice place to work is not a perk we offer. It is kind of a business model in itself.”
 

@@ -16,6 +16,6 @@ saved_link = "https://x.com/rasbt/status/2063649136323252397"
 
 **Gist:** in the reported benchmarks, LLM-generated context files were neutral-to-slightly-worse versus no context file, developer-written ones were better than LLM-written ones, and surprisingly the no-context condition was often cheaper/more efficient.
 
-**Newsletter angle:** more agent context is not automatically better — extra instructions can increase exploration cost without improving task success.
+**Newsletter angle:** more agent context is not automatically better, extra instructions can increase exploration cost without improving task success.
 
 **Note:** extracted from the FXTwitter API `article` body; links to arXiv paper `2602.11988`.

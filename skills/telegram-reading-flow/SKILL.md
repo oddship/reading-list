@@ -53,9 +53,13 @@ Do not use when:
    - Completion criterion: the public site stays curated rather than becoming a raw dump.
 
 6. Treat historical imports differently from live curation.
-   - For older OpenClaw / Drive-era backfills, prefer local work-reading logs first, then missing OpenClaw memory files, then weekly draft markdowns for digest pages.
+   - For older OpenClaw or Drive-era backfills, prefer local work-reading logs first, then missing OpenClaw memory files, then weekly draft markdowns for digest pages.
    - Preserve provenance when the historical wording is imported as-is.
    - Completion criterion: old material is recoverable in the site without pretending every item was freshly curated by hand.
+
+7. Run a humanizer pass before committing public-facing prose.
+   - Clean up AI-ish phrasing and strip em dashes unless the user explicitly asked for them.
+   - Completion criterion: content promoted into the repo reads naturally and respects the user's punctuation preferences.
 
 ## Common Pitfalls
 
@@ -64,6 +68,7 @@ Do not use when:
 3. Losing the retrieval note when only partial source access was possible.
 4. Writing verbose notes that are hard to scan later.
 5. Letting imported historical titles stay too raw when a small editorial cleanup would make the site much more readable.
+6. Committing user-facing prose without a humanizer pass, especially when it leaves AI-ish phrasing or em dashes the user dislikes.
 
 ## Verification Checklist
 
@@ -73,3 +78,4 @@ Do not use when:
 - [ ] Public note is concise and grounded
 - [ ] Publication decision is explicit rather than accidental
 - [ ] Historical imports preserve provenance and do not overstate what was actually read
+- [ ] Humanizer pass completed before commit

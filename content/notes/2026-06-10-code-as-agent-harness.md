@@ -9,7 +9,7 @@ source_url = "https://x.com/i/status/2064234290511331676"
 source_type = "x-post"
 status = "reviewed"
 newsletter_candidate = true
-why_it_matters = "a clean articulation of the shift from prompt engineering toward harness/system design — reliability coming from execution, verification, and environment structure, not just smarter base models."
+why_it_matters = "a clean articulation of the shift from prompt engineering toward harness/system design, reliability coming from execution, verification, and environment structure, not just smarter base models."
 saved_link = "https://x.com/i/status/2064234290511331676"
 +++
 **What it is:** How To AI thread summarizing the Stanford + Meta “Code as Agent Harness” paper.

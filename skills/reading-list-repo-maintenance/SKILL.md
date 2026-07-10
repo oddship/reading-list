@@ -39,24 +39,28 @@ Do not use when:
    - Prefer compact markdown notes and minimal template edits.
    - Completion criterion: the repo reflects the intended user-visible change.
 
-2a. Preserve stable note URLs.
+3. Preserve stable note URLs.
    - When importer-driven historical notes are regenerated, keep explicit slugs in frontmatter so title cleanup does not create Zola path collisions or unstable permalinks.
    - Completion criterion: Zola builds without path-collision errors and historical URLs remain deterministic.
 
-3. Keep hosting context straight.
+4. Keep hosting context straight.
    - While GitHub Pages is the active host, `config.toml` should use `https://oddship.github.io/reading-list` as `base_url`.
    - After custom-domain cutover, switch `base_url` to `https://reading-list.oddship.net`.
    - Completion criterion: generated URLs match the active deploy target.
 
-4. Push and verify, not just commit.
+5. Push and verify, not just commit.
    - Use Conventional Commit messages, push to `main`, inspect the latest GitHub Actions run, and check the live page.
    - Completion criterion: the latest deploy workflow succeeded and the rendered page reflects the change.
 
-5. Keep homepage and list UX intentional.
+6. Keep homepage and archive UX intentional.
    - Notes pagination, digest listing, and homepage summaries should keep working after content-shape changes.
    - Completion criterion: homepage, `/notes/`, and `/digests/` render the expected cards and navigation.
 
-6. Keep auth scoped.
+7. Run a humanizer pass before every commit.
+   - Remove AI-sounding phrasing where practical, and specifically eliminate em dashes from user-facing prose unless the user asked for them.
+   - Completion criterion: staged user-facing text has had a cleanup pass for voice and punctuation before commit.
+
+8. Keep auth scoped.
    - Use the dedicated repo token env var and path-scoped git credentials for this repo only.
    - Completion criterion: automation can push without broadening GitHub access unnecessarily.
 
@@ -67,12 +71,14 @@ Do not use when:
 3. Checking the repo diff but not the live rendered site.
 4. Mixing private reading-log concerns with public note rendering concerns.
 5. Cleaning up titles without preserving slug stability, causing Zola path collisions.
+6. Committing user-facing prose without a humanizer pass.
 
 ## Verification Checklist
 
 - [ ] Correct files edited
 - [ ] `base_url` matches current hosting target
-- [ ] Historical note slugs remain stable / collision-free
+- [ ] Historical note slugs remain stable and collision-free
+- [ ] User-facing prose got a humanizer pass
 - [ ] Changes committed and pushed
 - [ ] Latest Pages workflow succeeded
 - [ ] Live page matches the expected output

@@ -16,6 +16,6 @@ saved_link = "https://x.com/i/status/2062422936917885094"
 
 **Gist:** the piece argues coding is no longer the main bottleneck; the durable values now are strong ownership, taste, strict guardrails with fast feedback loops, repo-local context, stack ownership, and preserving option value while agents do more implementation work.
 
-**Newsletter angle:** AI doesn’t replace engineering values — it increases the premium on ownership, taste, fast verification, and keeping context where agents can actually use it.
+**Newsletter angle:** AI doesn’t replace engineering values, it increases the premium on ownership, taste, fast verification, and keeping context where agents can actually use it.
 
 **Note:** extracted via FXTwitter API and linked article; article read partially via web fetch due to truncation, but the main framework sections were captured.
