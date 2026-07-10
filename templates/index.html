@@ -4,47 +4,65 @@
   {% set notes = get_section(path="notes/_index.md") %}
   {% set digests = get_section(path="digests/_index.md") %}
 
-  <section>
-    <h1>{{ section.title }}</h1>
-    <div>{{ section.content | safe }}</div>
-    <p><small>{{ notes.pages | length }} notes · {{ digests.pages | length }} digests</small></p>
+  <section class="card">
+    <header>
+      <div class="hstack justify-between">
+        <h1>{{ section.title }}</h1>
+        <div class="hstack">
+          <span class="badge">{{ notes.pages | length }} notes</span>
+          <span class="badge" data-variant="secondary">{{ digests.pages | length }} digests</span>
+        </div>
+      </div>
+      <p>{{ section.content | safe }}</p>
+    </header>
   </section>
 
   {% if digests.pages | length > 0 %}
     {% set latest_digest = digests.pages | first %}
     <section>
-      <h2>Latest digest</h2>
-      <article>
-        <h3><a href="{{ latest_digest.permalink }}">{{ latest_digest.title }}</a></h3>
-        <p><small>{{ latest_digest.date }}</small></p>
+      <div class="hstack justify-between">
+        <h2>Latest digest</h2>
+        <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline small">Browse all digests</a>
+      </div>
+      <article class="card">
+        <header>
+          <h3><a href="{{ latest_digest.permalink }}">{{ latest_digest.title }}</a></h3>
+          <p><small>{{ latest_digest.date }}</small></p>
+        </header>
         <p>{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | truncate(length=260))) }}</p>
-        <p><a href="{{ get_url(path='@/digests/_index.md') }}">Browse all digests</a></p>
+        <footer>
+          <a href="{{ latest_digest.permalink }}" class="button small">Read digest</a>
+        </footer>
       </article>
     </section>
   {% endif %}
 
   <section>
-    <h2>Recent notes</h2>
+    <div class="hstack justify-between">
+      <h2>Recent notes</h2>
+      <a href="{{ get_url(path='@/notes/_index.md') }}" class="button outline small">Browse all notes</a>
+    </div>
     {% for page in notes.pages | slice(end=8) %}
-      <article>
-        <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-        <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
+      <article class="card">
+        <header>
+          <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+          <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
+        </header>
         {% if page.extra and page.extra.why_it_matters %}
           <p><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
         {% else %}
           <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=220))) }}</p>
         {% endif %}
         {% if page.taxonomies.tags %}
-          <p>
+          <footer class="hstack">
             {% for tag in page.taxonomies.tags %}
               {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" %}
-                <small><a href="{{ get_taxonomy_url(kind='tags', name=tag) }}">#{{ tag }}</a></small>{% if not loop.last %} {% endif %}
+                <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
               {% endif %}
             {% endfor %}
-          </p>
+          </footer>
         {% endif %}
       </article>
     {% endfor %}
-    <p><a href="{{ get_url(path='@/notes/_index.md') }}">Browse all notes</a></p>
   </section>
 {% endblock content %}

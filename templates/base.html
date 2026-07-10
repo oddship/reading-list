@@ -8,23 +8,30 @@
   <link rel="stylesheet" href="https://oat.ink/oat.min.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="{{ get_url(path='@/_index.md') }}"><strong>{{ config.title }}</strong></a>
-      <a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a>
-      <a href="{{ get_url(path='@/digests/_index.md') }}">Digests</a>
-      <a href="{{ get_url(path='tags') }}">Tags</a>
-      <a href="{{ get_url(path='rss.xml') }}">RSS</a>
-    </nav>
-    <p>{{ config.extra.site_subtitle }}</p>
-  </header>
+  <nav data-topnav>
+    <div class="row">
+      <div class="col-6">
+        <a href="{{ get_url(path='@/_index.md') }}"><strong>{{ config.title }}</strong></a>
+      </div>
+      <div class="col-6 justify-end hstack">
+        <a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a>
+        <a href="{{ get_url(path='@/digests/_index.md') }}">Digests</a>
+        <a href="{{ get_url(path='tags') }}">Tags</a>
+        <a href="{{ get_url(path='rss.xml') }}">RSS</a>
+      </div>
+    </div>
+  </nav>
 
-  <main>
+  <main class="container">
+    <header>
+      <p>{{ config.extra.site_subtitle }}</p>
+    </header>
     {% block content %}{% endblock content %}
   </main>
 
-  <footer>
-    <p>Built with Zola and Oat. Reading notes, digests, and repo-driven curation.</p>
+  <footer class="container">
+    <hr>
+    <p><small>Built with Zola and Oat. Reading notes, digests, and repo-driven curation.</small></p>
   </footer>
 </body>
 </html>

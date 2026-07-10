@@ -1,12 +1,14 @@
 {% extends "base.html" %}
 {% block title %}Tags · {{ config.title }}{% endblock title %}
 {% block content %}
-  <section>
-    <h1>Tags</h1>
-    <ul>
+  <section class="card">
+    <header>
+      <h1>Tags</h1>
+    </header>
+    <div class="hstack">
       {% for term in terms %}
-        <li><a href="{{ term.permalink }}">{{ term.name }}</a> ({{ term.pages | length }})</li>
+        <a href="{{ term.permalink }}" class="badge">{{ term.name }} ({{ term.pages | length }})</a>
       {% endfor %}
-    </ul>
+    </div>
   </section>
 {% endblock content %}

@@ -1,12 +1,16 @@
 {% extends "base.html" %}
 {% block title %}{{ term.name }} · {{ config.title }}{% endblock title %}
 {% block content %}
-  <section>
-    <h1>Tag: {{ term.name }}</h1>
+  <section class="card">
+    <header>
+      <h1>Tag: {{ term.name }}</h1>
+    </header>
     {% for page in term.pages %}
-      <article>
-        <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-        <p><small>{{ page.date }}</small></p>
+      <article class="card">
+        <header>
+          <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+          <p><small>{{ page.date }}</small></p>
+        </header>
         <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
       </article>
     {% endfor %}
