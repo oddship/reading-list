@@ -6,7 +6,7 @@ tags = ["digest", "newsletter", "historical-backfill"]
 [extra]
 source_file = "/root/.openclaw/workspace-rohan-work/tmp/newsletter-draft-2026-05-10.md"
 +++
-## Intro
+## This week
 
 I have been sitting on a large pile of AI links, tweets, papers, product launches, and side conversations for the last week or two. A lot of them looked unrelated at first: antirez writing about Redis Array, Anthropic shipping managed agents, Auth0 talking about auth for MCP, Mario Zechner pushing back on sparse-attention hype, Mitchell Hashimoto defending "AI slop" in a very specific context, Microsoft rebranding workflow redesign as frontier-firm strategy, and a small Indian civic-tech project making parliamentary reports searchable.
 

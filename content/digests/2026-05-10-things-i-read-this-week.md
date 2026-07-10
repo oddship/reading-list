@@ -6,7 +6,7 @@ tags = ["digest", "newsletter", "historical-backfill"]
 [extra]
 source_file = "/root/.openclaw/workspace-rohan-work/tmp/newsletter-draft-2026-05-10-weekly.md"
 +++
-## Intro
+## This week
 
 I have been collecting a lot of links lately: blog posts, product launches, research notes, tweets, and side threads that felt worth saving.
 
