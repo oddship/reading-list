@@ -1,0 +1,78 @@
++++
+title = "Weekly reading draft — 2026-05-25"
+date = 2026-05-25
+[taxonomies]
+tags = ["digest", "weekly-reading", "historical-backfill"]
+[extra]
+source_file = "/root/.openclaw/workspace-rohan-work/tmp/weekly-reading-draft-2026-05-25.md"
+status = "published"
++++
+## Intro
+
+This week’s saved reading had a pretty clean through-line: the interesting AI story is less about raw generation and more about workflow shape. Security teams are redesigning harnesses around stronger offensive models, infrastructure builders are questioning old cloud primitives, and protocol/tooling work is slowly becoming more production-ready.
+
+A second pattern: a lot of the most useful links were really about where judgment, verification, and operating constraints sit once agents get better. That showed up in security, org design, coding tools, and even protocol evolution.
+
+## AI security and workflow architecture
+
+### 1) Project Glasswing: what Mythos showed us
+https://blog.cloudflare.com/cyber-frontier-models/
+
+Cloudflare’s write-up is the strongest item from the week. The headline is that security-focused models are getting better at exploit-chain construction and proof generation, but the more important lesson is operational: broad “point an agent at a repo” workflows are the wrong shape. Narrowly scoped tasks, adversarial review, reachability tracing, and parallel harnesses seem to matter more.
+
+**Why it matters:** offensive AI changes security workflow design more than it changes scan speed.
+
+### 2) A lighter-weight edit primitive for coding agents
+https://antirez.com/news/166
+
+antirez proposes a checksum-tagged, line-oriented alternative to the usual full old-text CAS edit flow for LLM agents. The idea is to save tokens while still catching stale edits and hallucinated patches.
+
+**Why it matters:** it is a concrete design contribution to agent tooling, especially for local or token-constrained models where edit overhead matters.
+
+## Org design and infrastructure bets
+
+### 3) I am building a cloud
+https://crawshaw.io/
+
+David Crawshaw’s thesis is that current cloud abstractions are the wrong shape: compute sizing is too tightly coupled to resources, block storage still reflects older assumptions, and Kubernetes often papers over broken primitives instead of fixing them. The interesting part is not just the complaint, but the argument for local NVMe, async replication, and a more direct resource model.
+
+**Why it matters:** a sharp operator/founder critique of hyperscaler defaults right as agent-heavy systems make infrastructure choices more visible again.
+
+### 4) AI ate my role! What’s next?
+https://ajeygore.in/content/ai-ate-my-role-whats-next
+
+Ajey Gore extends his AI-native org argument into a role-by-role view. The key claim is that translation work compresses while judgment work expands, which means the org does not shrink evenly; it reweights toward people who can define problems, evaluate outputs, and make consequential calls.
+
+**Why it matters:** one of the clearer framings for how AI changes team shape without collapsing into shallow “AI replaces jobs” rhetoric.
+
+## Protocols and production hardening
+
+### 5) MCP 2026-07-28 release candidate
+https://blog.modelcontextprotocol.io/
+
+The new MCP release candidate looks like a meaningful maturation step: a stateless HTTP-native core, first-class extensions like Apps and Tasks, stronger auth alignment, and a more explicit deprecation path. The practical signal is that the protocol is trying to grow from experimental glue into something that can survive production environments.
+
+**Why it matters:** this is what “protocol grows up operationally” looks like — scaling, auth, and extension boundaries becoming first-class concerns.
+
+## Smaller but worth keeping
+
+### 6) Mario Zechner amplifying the antirez edit-tool idea
+https://x.com/i/status/2056696881221124100
+
+Mostly an amplifier rather than a standalone thesis, but it is useful as a sign that line-tagged edit protocols are resonating with other people thinking seriously about agent tooling.
+
+### 7) Geoffrey Huntley’s ai.engineer Singapore talk recording
+https://x.com/GeoffreyHuntley/status/2056492484029788342
+
+This one is lighter on extractable argument from the post itself, but still worth carrying as a review candidate if the talk gets watched or transcribed later.
+
+## Closing note
+
+My short version of the week: as model output gets cheaper, leverage keeps moving toward harnesses, review systems, constraints, and reversibility. That feels true whether the context is vulnerability research, cloud design, org charts, or protocol infrastructure.
+
+## Possible titles
+
+- Weekly reading: harnesses, clouds, and protocol hardening
+- Weekly reading: where the real AI work is moving
+- Weekly reading: security workflows, org judgment, and MCP growing up
+- Weekly reading: better agents need better operating surfaces

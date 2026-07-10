@@ -1,0 +1,19 @@
++++
+title = "Thomas Ptacek (tqbf) resurfaces his 2015 essay Against DNSSEC: https://sockpuppet.org/blog/2015/01/15/again..."
+date = 2026-05-06
+[taxonomies]
+tags = ["reading-log", "x-post", "sockpuppet-org", "historical-backfill"]
+[extra]
+source_url = "https://sockpuppet.org/blog/2015/01/15/against-dnssec/"
+source_type = "x-post"
+status = "published"
+newsletter_candidate = true
+why_it_matters = ""
+saved_link = "https://x.com/i/status/2051808962538824028"
++++
+Imported from historical reading log.
+- Extracted main post via `api.fxtwitter.com` fallback.
+- Thomas Ptacek (`tqbf`) resurfaces his 2015 essay `Against DNSSEC`: https://sockpuppet.org/blog/2015/01/15/against-dnssec/
+- Core gist of the linked essay:
+- Why it matters now: good historical context for the recent `.de` / DNSSEC outage discussion cluster and the tradeoff between cryptographic integrity and operational fragility.
+- Good newsletter angle: `old anti-DNSSEC argument worth rereading during a real-world DNSSEC-linked ccTLD failure`.

@@ -1,0 +1,124 @@
++++
+title = "Weekly reading draft — 2026-05-18"
+date = 2026-05-18
+[taxonomies]
+tags = ["digest", "weekly-reading", "historical-backfill"]
+[extra]
+source_file = "/root/.openclaw/workspace-rohan-work/tmp/weekly-reading-draft-2026-05-18.md"
+status = "published"
++++
+## Intro
+
+This week’s reading pile had a clear through-line: AI is getting better at speeding up execution, but the interesting work is shifting toward control surfaces — architecture, harnesses, review loops, org design, and security constraints.
+
+A few of the strongest links made the same point from different angles. Coding agents are useful, but they need explicit structure. Stack choices are getting more reversible. And once generation gets cheap, curation, verification, and trust become more important than ever.
+
+## AI workflows, harnesses, and architectural control
+
+### 1) I’m going back to writing code by hand
+https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/
+
+A strong field report on where AI coding help breaks down: not feature shipping, but architectural integrity. The best part is how concrete it is — god objects, state leakage, flat key-dispatch sprawl — and the conclusion is not “don’t use AI,” but “write your invariants down before you do.”
+
+Why it matters: one of the better counterweights to pure vibecoding narratives.
+
+### 2) Progressive rendering as a metaphor for coding agents
+https://x.com/thdxr/status/2053564545000407053
+
+Dax’s framing is memorable: building with coding agents is less like additive manufacturing and more like progressive rendering — start blurry, then keep making whole-system passes that sharpen the result.
+
+Why it matters: a compact mental model for iterative agent-assisted work, especially when paired with the architecture-control warning above.
+
+### 3) Simon Willison’s `llm` shebang trick
+https://til.simonwillison.net/llms/llm-shebang
+
+A neat example of plain-English files and YAML templates turning into executable scripts. The real value is not the novelty of a prompt in a shebang, but the way prompt, script, and tiny tool surface collapse into one artifact.
+
+Why it matters: a clean example of LLMs making small programmable interfaces much cheaper to build.
+
+### 4) Learn Harness Engineering
+https://walkinglabs.github.io/learn-harness-engineering/en/
+
+A useful meta-resource collecting the emerging best practices around coding-agent systems: constraints, state, verification, observability, and control loops.
+
+Why it matters: a good marker for where practice is heading — away from promptcraft, toward harness design.
+
+## Org shape and stack reversibility
+
+### 5) The anatomy of an AI-native org
+https://ajeygore.in/content/the-anatomy-of-an-ai-native-org
+
+Ajey Gore’s core claim is sharp: AI compresses the org’s translation layer. Spec-to-ticket-to-PR-to-release-note work gets cheaper, while judgement, product definition, architecture, and trust systems become more valuable.
+
+Why it matters: one of the clearer explanations of how AI changes org shape without relying on simplistic “AI replaces X” language.
+
+### 6) Bun, Rust, Zig, and the wrong lesson
+https://x.com/i/status/2055039647924007222
+
+Mitchell Hashimoto argues the interesting lesson in Bun’s Rust rewrite is not anti-Zig posturing, but that implementation languages may be becoming more fungible. The deeper question is what actually caused the failures, and how process, tooling, and language interacted.
+
+Why it matters: useful lens on rewrites as engineering stories rather than branding stories.
+
+### 7) Coding agents reduce stack lock-in
+https://x.com/i/status/2055060328048885788
+
+Simon Willison extends the same idea to app stacks: if migration costs fall enough, React Native versus native becomes less of a permanent ideological choice and more of a reversible bet.
+
+Why it matters: a simple but important update to how teams should think about technical lock-in.
+
+## Security, trust, and internet infrastructure
+
+### 8) Delay new dependencies by default
+https://x.com/i/status/2054600854553206992
+
+A practical supply-chain defense: avoid consuming freshly published third-party package versions immediately, enforce a waiting period, and rely on frozen exact versions and lockfiles.
+
+Why it matters: simple rule, big blast-radius reduction.
+
+### 9) NGINX Rift: an 18-year-old bug in edge infrastructure
+https://x.com/i/status/2054806079377444928
+
+A heap buffer overflow in NGINX’s rewrite module with pre-auth trigger conditions, crash/DoS impact, and possible RCE in weaker environments. The interesting part is not just the bug age, but the temporary mitigation path around rewrite rules if patching lags.
+
+Why it matters: a reminder that ancient, internet-facing infrastructure still hides dangerous surprises.
+
+### 10) Coolify’s fake bounty honeypot
+https://x.com/i/status/2054512710017298463
+
+Funny on the surface, but also revealing: if low-effort agent-generated PR spam keeps rising, maintainers will build traps, authenticity checks, and new moderation patterns.
+
+Why it matters: a small but sharp signal about the trust layer OSS will need in an agent-heavy era.
+
+## Local AI and unusual tooling
+
+### 11) antirez on DwarfStar 4 and local AI
+https://antirez.com/news/165
+
+The interesting part here is not “local AI exists,” but antirez arguing it is finally crossing into serious-work territory when the model, quantization, and memory footprint line up well enough.
+
+Why it matters: a useful threshold signal from someone generally hard to impress with hype.
+
+### 12) sqlite3-parser-js
+https://github.com/justjake/sqlite3-parser-js
+
+A pure-JS port of SQLite’s own parser grammar, with the launch framing that it outperforms other JS parsers, including some wasm-based ones.
+
+Why it matters: a nice reminder that careful parser architecture can beat the default “just use wasm” intuition.
+
+### 13) RuView
+https://github.com/ruvnet/RuView
+
+A very ambitious OSS pitch for camera-free sensing using WiFi CSI and cheap ESP32 hardware: presence, respiration, pose-ish signals, and more.
+
+Why it matters: compelling as “spatial intelligence without cameras,” though it deserves skepticism on the gap between README ambition and production reality.
+
+## Closing note
+
+The broad pattern this week: once generation gets cheap, the leverage moves to constraints, reversibility, trust, and system design. That feels true at every layer — code architecture, org structure, OSS moderation, dependency hygiene, and even stack choice.
+
+## Possible titles
+
+- Weekly reading: harnesses, rewrites, and trust systems
+- Weekly reading: AI control surfaces everywhere
+- Weekly reading: reversibility, review loops, and infrastructure
+- This week in reading: coding agents need better guardrails

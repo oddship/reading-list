@@ -1,0 +1,20 @@
++++
+title = "Simon's main clarification is that Anthropic is getting Colossus 1, while xAI keeps using the larger Coloss..."
+date = 2026-05-07
+[taxonomies]
+tags = ["reading-log", "x-post", "x-com", "historical-backfill"]
+[extra]
+source_url = "https://x.com/i/status/2052436629365948920"
+source_type = "x-post"
+status = "published"
+newsletter_candidate = true
+why_it_matters = "this is a reminder that frontier-model competition is now deeply entangled with opaque infrastructure, environmental politics, and supplier leverage—not just model benchmarks."
+saved_link = "https://x.com/i/status/2052436629365948920"
++++
+Imported from historical reading log.
+- Extracted Simon Willison's post via `api.fxtwitter.com` fallback and checked the linked note `Notes on the xAI/Anthropic data center deal`.
+- Simon's main clarification is that Anthropic is getting `Colossus 1`, while xAI keeps using the larger `Colossus 2`; early chatter that xAI had given up its own compute was wrong.
+- The sharper points are around externalities and dependency risk: Colossus 1 reportedly has a particularly bad environmental record, and the deal effectively makes Anthropic dependent on infrastructure controlled by Elon/xAI with an explicit `we reserve the right to reclaim the compute` caveat.
+- He also notes xAI had just given customers only two weeks' notice before shutting down several older models, which makes the supply-side relationship feel even shakier.
+- Why it matters: this is a reminder that frontier-model competition is now deeply entangled with opaque infrastructure, environmental politics, and supplier leverage—not just model benchmarks.
+- Good angle: `AI labs are accumulating supply-chain risk that looks a lot more like cloud/geopolitics than pure software`.
