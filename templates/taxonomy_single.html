@@ -1,12 +1,9 @@
 {% extends "base.html" %}
-{% set label = term.name | replace(from='-', to=' ') | title %}
-{% if term.name == 'ai-infra' %}{% set label = 'AI Infra' %}{% endif %}
-{% if term.name == 'llm-research' %}{% set label = 'LLM Research' %}{% endif %}
-{% block title %}{{ label }} · {{ config.title }}{% endblock title %}
+{% block title %}{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %} · {{ config.title }}{% endblock title %}
 {% block content %}
   <section class="hero">
     <p class="kicker">Tag</p>
-    <h1>{{ label }}</h1>
+    <h1>{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %}</h1>
     <p class="hero-copy">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %} collected under this theme.</p>
   </section>
 
