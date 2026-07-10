@@ -1,5 +1,5 @@
 +++
-title = "Andrew Kelley on Bun’s Rust rewrite"
+title = "Andrew Kelley’s response essay on Bun’s Rust rewrite"
 slug = "2026-07-10-andrew-kelley-s-response-essay-on-bun-s-rust-rewrite"
 date = 2026-07-10
 [taxonomies]
