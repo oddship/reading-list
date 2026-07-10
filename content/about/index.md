@@ -1,66 +1,42 @@
 +++
-title = "About this reading list"
+title = "About"
 template = "page.html"
 date = 2026-07-10
 [extra]
 hide_date = true
 +++
 
-This reading list is a collaboration between **Rohan Verma** and **Bosun**.
+I read a lot of stuff on the internet and I got tired of losing the good bits.
 
-Rohan is the editor with taste. He finds links worth saving: essays, blog posts, papers, product writeups, research notes, and occasional threads. Bosun helps turn that stream into something structured, readable, and easier to revisit.
+Most links disappear into bookmarks, chats, tabs, or some notes file I never look at again. This is my way of keeping a better trail.
 
-## What this is
+The idea here is simple. I share links I find interesting. Bosun helps me turn them into readable notes with decent titles, tags, summaries, and some structure around them. I am still doing the picking. The agent is helping with the packaging, cleanup, and maintenance.
 
-This is not a firehose and it is not an automated content mill.
+So this is not a publication in the traditional sense, and it is not an automated slop feed either. It is closer to a working reading log that is being cleaned up enough to be useful to other people too.
 
-It is a curated public notebook of things that felt worth keeping, with just enough structure to help other readers decide what to open next and why it matters.
+Why bother doing this publicly? Because search is getting worse, discovery is getting worse, and more of the web feels like filler written to satisfy platforms rather than people. Good writing and interesting ideas still exist, but finding them takes more effort now. Curation matters more in that world.
 
-## Why do this now
+A good reference for that broader theme is Nadh's piece on [Decentralised Open Indexes for Discovery](https://nadh.in/blog/decentralised-open-indexes/). This site is much smaller and more personal than that idea, but it comes from a similar instinct. If large discovery systems are getting noisier, smaller human-curated indexes become more useful.
 
-The internet is getting harder to trust and harder to search.
+What you will find here is fairly straightforward:
 
-There is more volume, more filler, more SEO sludge, more platform mediation, and more synthetic text competing for attention. In that environment, signal and curation matter more than ever.
+- links I found worth saving
+- short notes on why they mattered to me
+- recurring themes around systems, developer tools, AI, infrastructure, and the web itself
+- occasional weekly digests when a bunch of things fit together
 
-One useful framing for this comes from Nadh's essay, [*Decentralised Open Indexes for Discovery (DOID)*](https://nadh.in/blog/decentralised-open-indexes/), which argues that discovery on the web should rely less on a handful of gatekeepers and more on open, decentralised paths to quality resources.
+The process is also pretty straightforward.
 
-This site is much smaller and more personal than that vision, but it rhymes with the same instinct: if discovery is getting worse, careful human curation becomes more valuable.
+1. I drop a link.
+2. Bosun reads it when possible, or follows the linked source if the original post is just a pointer.
+3. It gets logged first.
+4. If it is worth keeping, it gets promoted here.
+5. Over time the archive gets cleaned up so it stays browseable.
 
-## How the process works
+That last part matters. Raw logs are useful for capture, but not very nice to read later. A lot of the work here is really about turning a messy stream into something with shape.
 
-1. **Rohan shares a link** that seems interesting or worth remembering.
-2. **Bosun reads the source when feasible** and captures the core claim, context, and why-it-matters.
-3. **The link is logged first**, so the intake layer stays reliable.
-4. **Useful items are promoted into the public site** instead of waiting in a draft queue forever.
-5. **Titles, tags, and summaries get cleaned up** so the archive is browseable for other people, not just useful as a private scratchpad.
+I also want this to stay opinionated. Not comprehensive. Not optimized for engagement. Not pretending to cover the whole internet. Just a growing index of things that seemed worth keeping around.
 
-## What Bosun does
+If that sounds useful, that is the page.
 
-Bosun helps with the mechanical and editorial layer:
-
-- turns rough link drops into consistent note pages
-- pulls out the important claim or angle
-- keeps titles, tags, and structure cleaner than the raw stream
-- maintains the archive, templates, and publishing workflow
-- helps make the collection legible for future readers
-
-## What remains human
-
-Taste, judgment, and selection still start with a person.
-
-This site reflects what Rohan found worth saving, not what an algorithm decided to maximize. Bosun helps package and maintain the work, but the point is not to erase the human editor. The point is to extend that editor's reach.
-
-## What to expect here
-
-You will find:
-
-- concise notes, not exhaustive summaries
-- a mix of current links and historical backfills
-- recurring themes around systems, AI, developer tools, infrastructure, and the shape of the modern web
-- an archive that aims to be useful for browsing, not just dumping
-
-## A small claim
-
-As search quality degrades and the open web gets noisier, thoughtfully curated indexes, linklogs, and reading gardens become more important.
-
-This is one small experiment in that direction.
+*Disclaimer: the content on this page is AI generated.*
