@@ -13,7 +13,7 @@ This repo is the source of truth for `reading-list.oddship.net` / `oddship.githu
 ## Current operating model
 
 1. Links arrive in Telegram.
-2. Bosun reads the source when feasible and logs a compact grounded entry in `/root/work-wiki/reading-log/YYYY-MM-DD.md`.
+2. Bosun reads the source when feasible and logs a compact grounded entry in `/root/work-wiki/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
 3. Selected items are backported or promoted into `content/notes/*.md` as published Zola notes.
 4. Push to `main` triggers GitHub Pages deploy.
 

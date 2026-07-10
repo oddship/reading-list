@@ -32,7 +32,7 @@ Each note carries frontmatter plus a short body. Useful fields in `[extra]` incl
 ## Operating model
 
 1. Links arrive in Telegram.
-2. Bosun reads the strongest available source and logs a compact grounded entry under `/root/work-wiki/reading-log/YYYY-MM-DD.md`.
+2. Bosun reads the strongest available source and logs a compact grounded entry under `/root/work-wiki/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
 3. Selected items are promoted into `content/notes/`.
 4. Weekly writeups become `content/digests/`.
 5. Pushes to `main` deploy to GitHub Pages.

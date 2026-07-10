@@ -1,7 +1,7 @@
 +++
 title = "Liminality"
-slug = "2026-07-08-liminality"
-date = 2026-07-08
+slug = "2026-07-09-liminality"
+date = 2026-07-09
 [taxonomies]
 tags = ["reading-log", "article", "geohot-github-io", "org-design"]
 [extra]

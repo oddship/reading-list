@@ -41,6 +41,7 @@ Do not use when:
    - Completion criterion: the gist is grounded in retrieved source material or the blocker is clearly recorded.
 
 3. Log to the work reading dropbox first.
+   - Resolve the dated log file in Asia/Kolkata before writing, not the machine timezone.
    - Append compact entries to `/root/work-wiki/reading-log/YYYY-MM-DD.md`.
    - Completion criterion: the canonical work log contains the new entry.
 
