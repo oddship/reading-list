@@ -1,7 +1,7 @@
 ---
 name: telegram-reading-flow
 description: Use when processing reading links dropped in Telegram and turning them into grounded reading-log entries or publishable Zola notes.
-version: 1.0.0
+version: 1.1.0
 author: Bosun
 license: MIT
 metadata:
@@ -45,12 +45,17 @@ Do not use when:
    - Completion criterion: the canonical work log contains the new entry.
 
 4. Promote selectively to the public site.
-   - Convert chosen items into `content/notes/*.md` with tags, source URL, and a short why-it-matters field.
+   - Convert chosen items into `content/notes/*.md` with tags, source URL, status, and a short why-it-matters field.
    - Completion criterion: the Zola note is concise, grounded, and publication-ready.
 
 5. Preserve the distinction between capture and publication.
    - Not everything logged needs to be public immediately.
    - Completion criterion: the public site stays curated rather than becoming a raw dump.
+
+6. Treat historical imports differently from live curation.
+   - For older OpenClaw / Drive-era backfills, prefer local work-reading logs first, then missing OpenClaw memory files, then weekly draft markdowns for digest pages.
+   - Preserve provenance when the historical wording is imported as-is.
+   - Completion criterion: old material is recoverable in the site without pretending every item was freshly curated by hand.
 
 ## Common Pitfalls
 
@@ -58,6 +63,7 @@ Do not use when:
 2. Publishing every captured link without curation.
 3. Losing the retrieval note when only partial source access was possible.
 4. Writing verbose notes that are hard to scan later.
+5. Letting imported historical titles stay too raw when a small editorial cleanup would make the site much more readable.
 
 ## Verification Checklist
 
@@ -66,3 +72,4 @@ Do not use when:
 - [ ] Work reading log updated when applicable
 - [ ] Public note is concise and grounded
 - [ ] Publication decision is explicit rather than accidental
+- [ ] Historical imports preserve provenance and do not overstate what was actually read

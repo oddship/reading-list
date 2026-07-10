@@ -1,5 +1,5 @@
 +++
-title = "selection of great PRs that were submitted to Pi — a thread"
+title = "A selection of great PRs that were submitted to Pi"
 slug = "2026-05-07-selection-of-great-prs-that-were-submitted-to-pi-a-thread"
 date = 2026-05-07
 [taxonomies]

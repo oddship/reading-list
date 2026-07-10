@@ -1,5 +1,5 @@
 +++
-title = "linking github.com/leyten/shard"
+title = "Shard"
 slug = "2026-06-19-linking-github-com-leyten-shard"
 date = 2026-06-19
 [taxonomies]

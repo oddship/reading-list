@@ -1,5 +1,5 @@
 +++
-title = "replying to @_svs_, quoting Neil Gaiman’s 2013 Guardian piece on libraries/reading/daydreaming"
+title = "Science fiction as imagination, not AI policy"
 slug = "2026-07-05-replying-to-svs-quoting-neil-gaiman-s-2013-guardian-piece-on-libraries-reading-daydreaming"
 date = 2026-07-05
 [taxonomies]

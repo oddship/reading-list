@@ -1,5 +1,5 @@
 +++
-title = "linking filiph.net/text/pokerd.html"
+title = "pokerd"
 slug = "2026-06-19-linking-filiph-net-text-pokerd-html"
 date = 2026-06-19
 [taxonomies]
