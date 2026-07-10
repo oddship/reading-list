@@ -2,11 +2,11 @@
 title = "Geoffrey Huntley sharing his ai.engineer Singapore talk recording on YouTube"
 date = 2026-05-19
 [taxonomies]
-tags = ["reading-log", "x-post", "x-com", "historical-backfill"]
+tags = ["reading-log", "x-post", "historical-backfill", "org-design"]
 [extra]
 source_url = "https://x.com/GeoffreyHuntley/status/2056492484029788342"
 source_type = "x-post"
-status = "published"
+status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "likely useful as a broad AI-org / AI-engineering talk to sample later, but the X post itself carries little concrete claim beyond the talk being worth reflection."
 saved_link = "https://x.com/GeoffreyHuntley/status/2056492484029788342"

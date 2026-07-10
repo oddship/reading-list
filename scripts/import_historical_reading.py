@@ -31,6 +31,31 @@ DIGEST_FILES = [
     'weekly-reading-draft-2026-07-06.md',
 ]
 
+TOPIC_RULES = [
+    ('agents', ['agent', 'agentic', 'subagent', 'orchestr', 'harness', 'workflow', 'mcp']),
+    ('ai-infra', ['inference', 'serving', 'latency', 'gpu', 'distributed', 'proxy', 'runtime']),
+    ('security', ['security', 'auth', 'authorization', 'identity', 'privacy', 'vuln', 'supply-chain', 'prompt injection']),
+    ('developer-tools', ['cli', 'tooling', 'git', 'playwright', 'sdk', 'diff viewer', 'editor']),
+    ('org-design', ['org', 'organization', 'culture', 'team', 'staff engineer', 'product engineer', 'management']),
+    ('llm-research', ['llm', 'model', 'benchmark', 'training', 'eval', 'reasoning', 'context window', 'interpretability']),
+    ('systems', ['consensus', 'dns', 'load balancing', 'cache locality', 'wan', 'profiling', 'microvm']),
+]
+
+TITLE_NOISE_PREFIXES = [
+    r'^x post by\s+[^ ]+\s+',
+    r'^x thread by\s+[^ ]+\s+',
+    r'^post by\s+[^ ]+\s+',
+    r'^x post from\s+[^ ]+\s+',
+    r'^x reply from\s+[^ ]+\s+',
+    r'^(?:an?\s+)?x\s+(?:post|thread|reply)\s+',
+]
+
+LEADING_VERB_PHRASES = [
+    'linking to ', 'sharing ', 'pointing to ', 'announcing ', 'quoting ', 'quoting and pointing to ',
+    'recommending ', 'revisiting ', 'summarizing ', 'describing ', 'explaining ', 'reacting to ',
+    'boosting ', 'praising ', 'introducing ', 'kicking off ', 'highlighting ',
+]
+
 
 def slugify(text: str) -> str:
     text = text.lower()
@@ -44,47 +69,127 @@ def escape_toml(text: str) -> str:
     return text.replace('\\', '\\\\').replace('"', '\\"')
 
 
+def extract_urls(text: str) -> list[str]:
+    return re.findall(r'https?://[^\s)>,]+', text)
+
+
+def normalize_whitespace(text: str) -> str:
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def normalize_title_phrase(text: str) -> str:
+    text = normalize_whitespace(text.replace('`', ''))
+    for pattern in TITLE_NOISE_PREFIXES:
+        text = re.sub(pattern, '', text, flags=re.I)
+    for phrase in LEADING_VERB_PHRASES:
+        text = re.sub(r'^' + re.escape(phrase), '', text, flags=re.I)
+    text = re.sub(r'^(the |a |an )', '', text, flags=re.I)
+    text = re.sub(r'^on\s+', '', text, flags=re.I)
+    text = text.strip(' .:-–—')
+    return text
+
+
+def quoted_fragments(text: str) -> list[str]:
+    fragments = []
+    for pattern in [r'“([^”]{4,140})”', r'"([^"\n]{4,140})"', r'`([^`\n]{3,140})`']:
+        fragments.extend(re.findall(pattern, text))
+    return [normalize_title_phrase(f) for f in fragments if normalize_title_phrase(f)]
+
+
+def prefer_fragment(fragment: str) -> bool:
+    bad = ['https://', 'http://', 'x.com/', 'twitter.com/', 'github.com/']
+    if any(b in fragment for b in bad):
+        return False
+    if '.' in fragment and ' ' not in fragment:
+        return False
+    return True
+
+
+def host_tag(url: str) -> str | None:
+    host = urlparse(url).netloc.lower().replace('www.', '')
+    return slugify(host) if host else None
+
+
+def infer_title_from_url(url: str) -> str | None:
+    parsed = urlparse(url)
+    if not parsed.path or parsed.path == '/':
+        return None
+    parts = [p for p in parsed.path.split('/') if p]
+    if not parts:
+        return None
+    last = parts[-1]
+    if last.isdigit() and len(parts) > 1:
+        last = parts[-2]
+    last = re.sub(r'\.[a-z0-9]+$', '', last)
+    if last in {'i', 'status', 'p'}:
+        return None
+    title = last.replace('-', ' ').replace('_', ' ')
+    title = normalize_title_phrase(title)
+    if len(title) < 4:
+        return None
+    return title.title()
+
+
 def clean_title(text: str) -> str:
-    text = re.sub(r'^[\-–—\s]+', '', text).strip()
-    text = re.sub(r'^X post by\s+', '', text, flags=re.I)
-    text = re.sub(r'^Post by\s+', '', text, flags=re.I)
-    text = re.sub(r'^what it is:\s*', '', text, flags=re.I)
-    text = text.replace('`', '')
-    text = re.sub(r'\s+', ' ', text).strip(' .')
+    text = normalize_title_phrase(text)
     if len(text) > 110:
         text = text[:107].rstrip() + '...'
     return text or 'Reading note'
 
 
-def pick_title(entry: dict, index: int) -> str:
-    if entry.get('what it is'):
-        return clean_title(entry['what it is'])
-    lines = entry.get('body_lines', [])
+def entry_value(entry: dict, *keys: str) -> str:
+    for key in keys:
+        if entry.get(key):
+            return str(entry[key]).strip()
+    return ''
+
+
+def first_meaningful_line(entry: dict) -> str:
     skip_prefixes = (
         'Extracted ', 'Main post ', 'No `tweet.article`', 'Could not ', 'Tried ',
         'User context', 'Blocker:', 'Retrieval note:', 'note:', 'Good ', 'Related ',
-        'Follow-up ', 'Light angle', 'The strongest practical point', 'Why it matters:'
+        'Follow-up ', 'Light angle', 'The strongest practical point', 'Why it matters:',
+        'Newsletter angle:', 'retrieval:', 'retrieval note:'
     )
-    for line in lines:
-        candidate = line.strip(' -')
+    for line in entry.get('body_lines', []):
+        candidate = normalize_whitespace(line.strip(' -'))
         if not candidate:
             continue
-        if candidate.startswith(skip_prefixes):
+        if candidate.lower().startswith(tuple(s.lower() for s in skip_prefixes)):
             continue
-        candidate = re.sub(r'^X post by\s+', '', candidate, flags=re.I)
-        candidate = re.sub(r'^Post by\s+', '', candidate, flags=re.I)
-        candidate = re.sub(r'^read (article|paper):\s*', '', candidate, flags=re.I)
-        candidate = re.sub(r'^Linked article:\s*', '', candidate, flags=re.I)
-        candidate = re.sub(r'^Link target:\s*', '', candidate, flags=re.I)
-        candidate = candidate.strip()
-        if candidate.startswith('http'):
+        return candidate
+    return ''
+
+
+def pick_title(entry: dict, index: int) -> str:
+    direct = entry_value(entry, 'what it is', 'what', 'source')
+    source_url = choose_source_url(entry)
+
+    for candidate in [direct, first_meaningful_line(entry), entry_value(entry, 'gist')]:
+        if not candidate:
             continue
-        return clean_title(candidate)
+        for frag in quoted_fragments(candidate):
+            if prefer_fragment(frag):
+                return clean_title(frag)
+        normalized = normalize_title_phrase(candidate)
+        if normalized and len(normalized) >= 6 and not normalized.lower().startswith('reading note'):
+            return clean_title(normalized)
+
+    for line in entry.get('body_lines', []):
+        for frag in quoted_fragments(line):
+            if prefer_fragment(frag):
+                return clean_title(frag)
+
+    if source_url and source_url != entry['saved_link']:
+        guessed = infer_title_from_url(source_url)
+        if guessed:
+            return clean_title(guessed)
+
+    guessed = infer_title_from_url(entry['saved_link'])
+    if guessed:
+        return clean_title(guessed)
+
     return f'Reading note {entry["date"]} #{index:02d}'
-
-
-def extract_urls(text: str) -> list[str]:
-    return re.findall(r'https?://[^\s)>,]+', text)
 
 
 def choose_source_url(entry: dict) -> str:
@@ -92,7 +197,6 @@ def choose_source_url(entry: dict) -> str:
     for key in ('source read',):
         if entry.get(key):
             return entry[key]
-    body = '\n'.join(entry.get('body_lines', []))
     urls = []
     for line in entry.get('body_lines', []):
         urls.extend(extract_urls(line))
@@ -117,22 +221,42 @@ def choose_why(entry: dict) -> str:
     return ''
 
 
-def tags_for(entry: dict, source_url: str) -> list[str]:
-    tags = ['reading-log']
-    source_type = 'x-post' if ('x.com/' in entry['saved_link'] or 'twitter.com/' in entry['saved_link']) else 'article'
-    tags.append(source_type)
-    host = urlparse(source_url).netloc.lower().replace('www.', '')
-    if host:
-        tags.append(slugify(host))
+def choose_status(entry: dict) -> str:
+    source_url = choose_source_url(entry)
+    if source_url == entry['saved_link'] and ('x.com/' in source_url or 'twitter.com/' in source_url):
+        return 'reviewed'
+    return 'published'
+
+
+def tags_for(entry: dict, source_url: str, title: str, why: str) -> list[str]:
+    saved = entry['saved_link']
+    source_type = 'x-post' if ('x.com/' in saved or 'twitter.com/' in saved) else 'article'
+    tags = ['reading-log', source_type]
+    for url in [source_url, saved]:
+        tag = host_tag(url)
+        if tag and tag not in {'x-com'}:
+            tags.append(tag)
     if entry['date'] < '2026-07-08':
         tags.append('historical-backfill')
+
+    blob = ' '.join([
+        title,
+        why,
+        entry_value(entry, 'gist'),
+        entry_value(entry, 'what it is', 'what', 'source'),
+        ' '.join(entry.get('body_lines', [])),
+    ]).lower()
+    for tag, needles in TOPIC_RULES:
+        if any(n in blob for n in needles):
+            tags.append(tag)
     return list(dict.fromkeys(tags))
 
 
 def convert_new_style(entry: dict) -> str:
     parts = []
-    if entry.get('what it is'):
-        parts.append(f'**What it is:** {entry["what it is"]}')
+    what = entry_value(entry, 'what it is', 'what', 'source')
+    if what:
+        parts.append(f'**What it is:** {what}')
     if entry.get('gist'):
         parts.append(f'**Gist:** {entry["gist"]}')
     if entry.get('notable line'):
@@ -143,6 +267,8 @@ def convert_new_style(entry: dict) -> str:
         parts.append(f'**Retrieval note:** {entry["retrieval note"]}')
     if entry.get('note'):
         parts.append(f'**Note:** {entry["note"]}')
+    if entry.get('notes'):
+        parts.append(f'**Notes:** {entry["notes"]}')
     return '\n\n'.join(parts).strip() + '\n'
 
 
@@ -162,6 +288,10 @@ def parse_date_file(path: Path) -> list[dict]:
     entries = []
     current = None
     structured = False
+    known_keys = {
+        'what it is', 'what', 'source', 'gist', 'why it matters', 'newsletter angle',
+        'retrieval note', 'note', 'notes', 'notable line', 'source read', 'retrieval', 'follow-up'
+    }
     for raw in lines:
         if raw.startswith('- ') and re.search(r'\b(?:saved link|saved):\s*', raw, flags=re.I):
             if current:
@@ -179,13 +309,23 @@ def parse_date_file(path: Path) -> list[dict]:
         if not current:
             continue
         if structured and raw.startswith('  - '):
-            key, _, value = raw[4:].partition(': ')
-            if _:
-                current[key.strip()] = value.strip()
+            line = raw[4:].strip()
+            key, _, value = line.partition(': ')
+            key_l = key.strip().lower()
+            value = value.strip()
+            if _ and key_l in known_keys:
+                current[key_l] = value
+            elif _ and value.startswith('http'):
+                current.setdefault('what it is', key.strip())
+                current.setdefault('source read', value)
             else:
-                current['body_lines'].append(raw[4:].strip())
+                current['body_lines'].append(line)
+                if _ and 'what it is' not in current:
+                    current['what it is'] = line
         elif not structured and raw.startswith('  - '):
             current['body_lines'].append(raw[4:].rstrip())
+        elif current and raw.startswith('- '):
+            current['body_lines'].append(raw[2:].rstrip())
     if current:
         entries.append(current)
     return entries
@@ -256,12 +396,13 @@ def write_notes() -> int:
             title = pick_title(entry, idx)
             source_url = choose_source_url(entry)
             why = choose_why(entry)
-            tags = tags_for(entry, source_url)
-            base_slug = slugify(f"{entry['date']}-{title}")[:90].strip('-')
+            status = choose_status(entry)
+            tags = tags_for(entry, source_url, title, why)
+            base_slug = slugify(f"{entry['date']}-{title}")[:110].strip('-')
             slug_counts[base_slug] += 1
             slug = base_slug if slug_counts[base_slug] == 1 else f'{base_slug}-{slug_counts[base_slug]}'
             source_type = 'x-post' if ('x.com/' in entry['saved_link'] or 'twitter.com/' in entry['saved_link']) else 'article'
-            body = convert_new_style(entry) if entry.get('what it is') or entry.get('gist') else convert_old_style(entry)
+            body = convert_new_style(entry) if any(entry.get(k) for k in ['what it is', 'what', 'source', 'gist', 'newsletter angle', 'retrieval note', 'note', 'notes']) else convert_old_style(entry)
             frontmatter = [
                 '+++',
                 f'title = "{escape_toml(title)}"',
@@ -271,7 +412,7 @@ def write_notes() -> int:
                 '[extra]',
                 f'source_url = "{escape_toml(source_url)}"',
                 f'source_type = "{source_type}"',
-                'status = "published"',
+                f'status = "{status}"',
                 'newsletter_candidate = true',
                 f'why_it_matters = "{escape_toml(why)}"',
                 f'saved_link = "{escape_toml(entry["saved_link"])}"',

@@ -2,7 +2,7 @@
 title = "Nithin Kamath on Zerodha’s operating culture"
 date = 2026-07-06
 [taxonomies]
-tags = ["reading-log", "article", "nithinkamath-me", "historical-backfill"]
+tags = ["reading-log", "article", "nithinkamath-me", "historical-backfill", "org-design", "llm-research"]
 [extra]
 source_url = "https://nithinkamath.me/blog/why-a-nice-place-to-work-doesnt-just-happen/"
 source_type = "article"

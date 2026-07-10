@@ -2,11 +2,11 @@
 title = "Mario Zechner recommending Thariq’s article on dynamic workflows in Claude Code"
 date = 2026-06-03
 [taxonomies]
-tags = ["reading-log", "x-post", "x-com", "historical-backfill"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2061941296932004175"
 source_type = "x-post"
-status = "published"
+status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful signal that workflow durability/harness design is becoming a real differentiator for long-running agentic tasks, not just prompt sugar."
 saved_link = "https://x.com/i/status/2061941296932004175"

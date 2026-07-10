@@ -13,8 +13,29 @@
   {% for page in note_pages %}
     <article class="card">
       <h3 style="margin-top: 0;"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-      <div class="meta">{{ page.date }}</div>
-      <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
+      <div class="meta">{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</div>
+      {% if page.extra and page.extra.why_it_matters %}
+        <p><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
+      {% else %}
+        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
+      {% endif %}
     </article>
   {% endfor %}
+  {% if paginator %}
+    <nav class="card" aria-label="Pagination">
+      <div style="display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center;">
+        <div>
+          {% if paginator.previous %}
+            <a href="{{ paginator.previous }}">← Newer</a>
+          {% endif %}
+        </div>
+        <div class="meta">Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</div>
+        <div>
+          {% if paginator.next %}
+            <a href="{{ paginator.next }}">Older →</a>
+          {% endif %}
+        </div>
+      </div>
+    </nav>
+  {% endif %}
 {% endblock content %}

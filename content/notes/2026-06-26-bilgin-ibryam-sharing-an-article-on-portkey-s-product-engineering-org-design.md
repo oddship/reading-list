@@ -2,11 +2,11 @@
 title = "Bilgin Ibryam sharing an article on Portkey’s product-engineering org design"
 date = 2026-06-26
 [taxonomies]
-tags = ["reading-log", "x-post", "x-com", "historical-backfill"]
+tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2070218468021223619"
 source_type = "x-post"
-status = "published"
+status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful datapoint for AI/devtools org design, especially for teams pushing product ownership into engineering"
 saved_link = "https://x.com/i/status/2070218468021223619"

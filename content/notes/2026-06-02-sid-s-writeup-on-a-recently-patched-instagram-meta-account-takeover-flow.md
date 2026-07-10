@@ -2,7 +2,7 @@
 title = "Sid's writeup on a recently patched Instagram/Meta account takeover flow"
 date = 2026-06-02
 [taxonomies]
-tags = ["reading-log", "article", "0xsid-com", "historical-backfill"]
+tags = ["reading-log", "article", "0xsid-com", "historical-backfill", "security", "developer-tools"]
 [extra]
 source_url = "https://www.0xsid.com/blog/meta-account-takeover-fiasco"
 source_type = "article"

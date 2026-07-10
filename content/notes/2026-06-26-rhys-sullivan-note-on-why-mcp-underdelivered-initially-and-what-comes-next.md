@@ -2,11 +2,11 @@
 title = "Rhys Sullivan note on why MCP underdelivered initially and what comes next"
 date = 2026-06-26
 [taxonomies]
-tags = ["reading-log", "x-post", "x-com", "historical-backfill"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "developer-tools"]
 [extra]
 source_url = "https://x.com/RhysSullivan/status/2070311929038680262?s=20"
 source_type = "x-post"
-status = "published"
+status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful framing for the current agent-tooling stack wars—less about MCP vs CLI ideology, more about reducing friction while preserving structure and semantics"
 saved_link = "https://x.com/RhysSullivan/status/2070311929038680262?s=20"

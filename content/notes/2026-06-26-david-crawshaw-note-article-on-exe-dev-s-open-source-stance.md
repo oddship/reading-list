@@ -2,11 +2,11 @@
 title = "David Crawshaw note/article on exe.dev’s open-source stance"
 date = 2026-06-26
 [taxonomies]
-tags = ["reading-log", "x-post", "x-com", "historical-backfill"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents"]
 [extra]
 source_url = "https://x.com/i/status/2070233733521723768"
 source_type = "x-post"
-status = "published"
+status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "crisp founder-level framing for where startups should draw the open/closed boundary"
 saved_link = "https://x.com/i/status/2070233733521723768"

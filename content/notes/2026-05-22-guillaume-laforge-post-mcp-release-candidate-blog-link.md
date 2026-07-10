@@ -2,11 +2,11 @@
 title = "Guillaume Laforge post + MCP release-candidate blog link"
 date = 2026-05-22
 [taxonomies]
-tags = ["reading-log", "x-post", "x-com", "historical-backfill"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2057751443893858595"
 source_type = "x-post"
-status = "published"
+status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "makes remote MCP deployments easier to scale and operate; also signals migration work for session-based or old Tasks implementations."
 saved_link = "https://x.com/i/status/2057751443893858595"
