@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security"]
 [extra]
 source_url = "https://x.com/i/status/2073455827235541273"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "strong concrete pattern library for making agents effective in headless remote sandboxes without constant human babysitting."
 saved_link = "https://x.com/i/status/2073455827235541273"

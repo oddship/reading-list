@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2070308475603951723"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "delightful example of language/compiler design used for computational theater, more about quines, staged codegen, and expressive weirdness than practical software"
 saved_link = "https://x.com/i/status/2070308475603951723"

@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "llm-
 [extra]
 source_url = "https://x.com/i/status/2064231781419872472"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "strong small-web / curation argument; relevant to personal knowledge systems, blogrolls, and human-filtered discovery."
 saved_link = "https://x.com/i/status/2064231781419872472"

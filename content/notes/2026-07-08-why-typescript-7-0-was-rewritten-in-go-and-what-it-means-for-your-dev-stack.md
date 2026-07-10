@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "spf13-com", "agents", "ai-infra", "org-design"
 [extra]
 source_url = "https://spf13.com/p/go-the-agentic-language/"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "Strong take on language/runtime choices for AI-assisted and agent-heavy developer workflows."
 saved_link = "https://x.com/i/status/2074591768603980121"

@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "cs-utexas-edu", "historical-backfill"]
 [extra]
 source_url = "https://www.cs.utexas.edu/~dahlin/bookshelf/hamming.html"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "still one of the cleanest framings for research leverage, not just “work hard,” but “work on the right thing at the right time in the right way.”"
 saved_link = "https://www.cs.utexas.edu/~dahlin/bookshelf/hamming.html"

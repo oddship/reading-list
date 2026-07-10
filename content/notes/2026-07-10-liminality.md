@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "geohot-github-io", "org-design"]
 [extra]
 source_url = "https://geohot.github.io/blog/jekyll/update/2026/06/23/liminality.html"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "Strong cultural/psychological framing of the current AI moment from someone close to the frontier, less technical but notable as mood and zeitgeist."
 saved_link = "https://geohot.github.io/blog/jekyll/update/2026/06/23/liminality.html"

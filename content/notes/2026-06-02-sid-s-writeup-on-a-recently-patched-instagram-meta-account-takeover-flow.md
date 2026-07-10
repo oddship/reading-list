@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "0xsid-com", "historical-backfill", "security"
 [extra]
 source_url = "https://www.0xsid.com/blog/meta-account-takeover-fiasco"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "recovery/support paths can become a zero-auth bypass that nullifies 2FA and revokes legit sessions."
 saved_link = "https://www.0xsid.com/blog/meta-account-takeover-fiasco"

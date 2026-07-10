@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2064199095992860864"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "one of the cleaner quantitative explanations for why code output metrics and shipped-product outcomes diverge; useful antidote to LOC/commit vanity metrics."
 saved_link = "https://x.com/i/status/2064199095992860864"

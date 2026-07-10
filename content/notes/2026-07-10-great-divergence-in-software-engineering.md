@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "stack72-dev", "agents", "developer-tools", "or
 [extra]
 source_url = "https://stack72.dev/the-great-divergence-in-software-engineering/"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "Strong framing for AI-native engineering orgs versus incumbents stuck in evaluation loops; good organizational/process lens."
 saved_link = "https://x.com/i/status/2075347173378859307"

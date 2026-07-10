@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "o
 [extra]
 source_url = "https://x.com/lilianweng/status/2074372369213428144?s=20"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "the real frontier in RSI may be the software system around the model, not just the model weights themselves"
 saved_link = "https://x.com/lilianweng/status/2074372369213428144?s=20"

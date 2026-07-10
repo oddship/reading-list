@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "martinfowler-com", "historical-backfill", "llm
 [extra]
 source_url = "https://martinfowler.com/fragments/2026-05-05.html"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://x.com/i/status/2051700087496093774"

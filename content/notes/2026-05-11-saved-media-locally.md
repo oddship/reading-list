@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/thdxr/status/2053566249351754193"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://x.com/thdxr/status/2053564545000407053"

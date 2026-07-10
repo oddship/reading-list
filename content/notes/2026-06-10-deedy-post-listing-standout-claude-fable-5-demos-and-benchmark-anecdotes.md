@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-resea
 [extra]
 source_url = "https://x.com/i/status/2064519826333397149"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful as sentiment and capability aggregation, though it is still a claims roundup rather than a primary technical writeup."
 saved_link = "https://x.com/i/status/2064519826333397149"

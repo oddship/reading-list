@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "crawshaw-io", "historical-backfill", "agents"
 [extra]
 source_url = "https://crawshaw.io/blog/agent-principal-agent"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "this is one of the clearest process-level arguments for why agent productivity gains may accrue unevenly, favoring small trusted teams over large review-heavy orgs."
 saved_link = "https://crawshaw.io/blog/agent-principal-agent"

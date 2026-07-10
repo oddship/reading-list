@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2056594589126135984"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful framing for how PM/EM/engineering roles change under agent-heavy workflows, especially the judgment-vs-translation lens."
 saved_link = "https://x.com/i/status/2056594589126135984"

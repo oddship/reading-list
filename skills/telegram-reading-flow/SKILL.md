@@ -45,13 +45,13 @@ Do not use when:
    - Append compact entries to `/root/work-wiki/reading-log/YYYY-MM-DD.md`.
    - Completion criterion: the canonical work log contains the new entry.
 
-4. Promote selectively to the public site.
-   - Convert chosen items into `content/notes/*.md` with tags, source URL, status, a short why-it-matters field, and preserve `logged at IST` when available.
-   - Completion criterion: the Zola note is concise, grounded, and publication-ready.
+4. Promote every useful item to the public site.
+   - Convert useful items into `content/notes/*.md` with tags, source URL, a short why-it-matters field, and preserve `logged at IST` when available.
+   - Completion criterion: the Zola note is concise, grounded, and committed to the repo without waiting for a separate publish decision.
 
-5. Preserve the distinction between capture and publication.
-   - Not everything logged needs to be public immediately.
-   - Completion criterion: the public site stays curated rather than becoming a raw dump.
+5. Preserve the distinction between capture and heavier synthesis.
+   - The reading log is still the intake layer, but useful notes should move into the repo by default.
+   - Completion criterion: the local log stays canonical and the public site stays current.
 
 6. Treat historical imports differently from live curation.
    - For older OpenClaw or Drive-era backfills, prefer local work-reading logs first, then missing OpenClaw memory files, then weekly draft markdowns for digest pages.
@@ -77,6 +77,6 @@ Do not use when:
 - [ ] Source actually read or blocker recorded
 - [ ] Work reading log updated when applicable
 - [ ] Public note is concise and grounded
-- [ ] Publication decision is explicit rather than accidental
+- [ ] Useful items were promoted to the repo without waiting for a separate publish prompt
 - [ ] Historical imports preserve provenance and do not overstate what was actually read
 - [ ] Humanizer pass completed before commit

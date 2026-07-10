@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "blog-k10s-dev", "historical-backfill", "agents
 [extra]
 source_url = "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://x.com/badlogicgames/status/2053747834696995181"

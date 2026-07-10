@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "d
 [extra]
 source_url = "https://x.com/i/status/2052138238111068277"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "MCP is quickly moving from demo protocol to real integration surface, and this is a sign the surrounding auth/governance stack is hardening in parallel."
 saved_link = "https://x.com/i/status/2052138238111068277"

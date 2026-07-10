@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2071206318094897201"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "strong framing for incident design, operability, code review, and AI-assisted development; “human error” often means the system expected impossible cognition."
 saved_link = "https://x.com/i/status/2071206318094897201"

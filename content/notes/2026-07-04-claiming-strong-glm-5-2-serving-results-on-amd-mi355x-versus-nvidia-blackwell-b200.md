@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2073155792182907085"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "another data point that AMD inference economics may be getting competitive for open-weight serving, especially if the software stack is tuned hard."
 saved_link = "https://x.com/i/status/2073155792182907085"

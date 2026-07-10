@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "llm-
 [extra]
 source_url = "https://x.com/i/status/2059162275014173014"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful pattern for making AI-powered test suites cheaper and fast enough for real CI loops."
 saved_link = "https://x.com/i/status/2059162275014173014"

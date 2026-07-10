@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/badlogicgames/status/2051936321610842245"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://x.com/badlogicgames/status/2051936321610842245"

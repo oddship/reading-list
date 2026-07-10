@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "security"]
 [extra]
 source_url = "https://x.com/i/status/2062173649222656006"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful counterexample to blanket anti-AI takes in critical infra, especially because it comes from a veteran maintainer dealing with real security pressure, regressions, and release tradeoffs in public."
 saved_link = "https://x.com/i/status/2062173649222656006"

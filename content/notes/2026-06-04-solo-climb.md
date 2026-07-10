@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/i/status/2062397480323682557"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "strong framing for the real bottleneck in agentic engineering orgs; the limiting factor is not raw agent capability but whether the org has internalized quality/safety systems enough to remove review redundancy."
 saved_link = "https://x.com/i/status/2062397480323682557"

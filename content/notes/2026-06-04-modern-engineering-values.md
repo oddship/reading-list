@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "o
 [extra]
 source_url = "https://x.com/i/status/2062422936917885094"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful firsthand operating model from someone shipping heavily with agents; especially relevant for how org structure and codebase hygiene need to adapt when review/implementation economics change."
 saved_link = "https://x.com/i/status/2062422936917885094"

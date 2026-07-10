@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/i/status/2070393923504091649"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "good signal that a powerful git feature still has notable UX/workflow friction, which often means wrapper tooling or conventions matter more than raw capability"
 saved_link = "https://x.com/i/status/2070393923504091649"

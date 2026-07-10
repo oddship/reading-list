@@ -34,7 +34,7 @@
       </div>
       <article class="feature">
         <p class="story-meta">{{ latest_digest.date }}</p>
-        <p class="story-summary">{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | truncate(length=420))) }}</p>
+        <p class="story-summary">{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | replace(from="Intro ", to="") | truncate(length=420))) }}</p>
         <div class="story-footer">
           <a href="{{ latest_digest.permalink }}" class="button small">Read digest</a>
           <span class="archive-note">Repo-driven archive synced from the work reading log.</span>

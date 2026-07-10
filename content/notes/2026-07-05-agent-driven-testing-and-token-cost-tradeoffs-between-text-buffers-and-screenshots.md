@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"
 [extra]
 source_url = "https://x.com/i/status/2073454451474481193"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful for designing UI/testing agents without assuming vision is prohibitively expensive."
 saved_link = "https://x.com/i/status/2073454451474481193"

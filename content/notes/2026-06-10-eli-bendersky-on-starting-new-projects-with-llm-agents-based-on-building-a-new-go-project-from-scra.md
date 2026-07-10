@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "eli-thegreenplace-net", "historical-backfill"
 [extra]
 source_url = "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "grounded workflow advice from someone shipping a maintainable codebase, not just prototyping; especially good on small-CL discipline and the distinction between cheap code generation and expensive long-term maintenance."
 saved_link = "https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/"

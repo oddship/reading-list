@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "d
 [extra]
 source_url = "https://x.com/i/status/2052337097315381517"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "this is an ecosystem/ownership cleanup move, but it deliberately forces extension authors to choose between forward compatibility and backward compatibility."
 saved_link = "https://x.com/i/status/2052337097315381517"

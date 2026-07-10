@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "captnemo-in", "news-ycombinator-com", "histor
 [extra]
 source_url = "https://captnemo.in/blog/2026/05/05/namecheap-whois/"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://news.ycombinator.com/item?id=48027897"

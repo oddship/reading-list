@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2065135794927419867"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "crisp critique of vanity metrics in AI-assisted engineering, especially for headcount and performance narratives."
 saved_link = "https://x.com/i/status/2065135794927419867"

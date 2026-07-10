@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"
 [extra]
 source_url = "https://x.com/i/status/2064418523192136110"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "a useful counterweight to full-autonomy rhetoric; sharp framing for where automation helps versus where incomplete evals/datasets drift into low-quality optimization."
 saved_link = "https://x.com/i/status/2064418523192136110"

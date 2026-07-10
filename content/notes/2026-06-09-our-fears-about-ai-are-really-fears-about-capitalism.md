@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-resea
 [extra]
 source_url = "https://x.com/i/status/2064411874788307020"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful governance/incentives frame that shifts AI discussion from model behavior alone to the organizational systems deploying them."
 saved_link = "https://x.com/i/status/2064411874788307020"

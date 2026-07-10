@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "blog-sh1ma-dev", "historical-backfill", "agen
 [extra]
 source_url = "https://blog.sh1ma.dev/en/articles/20260706_cloudflare_agentic_inbox/"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "agentic inboxes are becoming deployable infra products, but the real story is the surrounding control plane and auth plumbing"
 saved_link = "https://blog.sh1ma.dev/en/articles/20260706_cloudflare_agentic_inbox/"

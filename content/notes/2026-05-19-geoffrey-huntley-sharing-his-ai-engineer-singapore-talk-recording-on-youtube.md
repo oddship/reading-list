@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "org-design"]
 [extra]
 source_url = "https://x.com/GeoffreyHuntley/status/2056492484029788342"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "likely useful as a broad AI-org / AI-engineering talk to sample later, but the X post itself carries little concrete claim beyond the talk being worth reflection."
 saved_link = "https://x.com/GeoffreyHuntley/status/2056492484029788342"

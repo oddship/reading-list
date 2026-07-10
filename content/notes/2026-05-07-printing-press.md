@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/i/status/2052422567181611010"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "this is another strong signal that people are converging on `agent-native CLI` as a serious abstraction layer, not just a hacker preference."
 saved_link = "https://x.com/i/status/2052422567181611010"

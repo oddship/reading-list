@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2052299884817240444"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "this is a good signal that `agent UX` is shifting from text-plus-tools toward runtime-generated interfaces, with skills/specs becoming the control layer over unconstrained visual output."
 saved_link = "https://x.com/i/status/2052299884817240444"

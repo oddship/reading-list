@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security"]
 [extra]
 source_url = "https://x.com/i/status/2074272583441338710"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "the durable agentic-coding playbook is shifting from code production to taste, contracts, and operational discipline"
 saved_link = "https://x.com/i/status/2074272583441338710"

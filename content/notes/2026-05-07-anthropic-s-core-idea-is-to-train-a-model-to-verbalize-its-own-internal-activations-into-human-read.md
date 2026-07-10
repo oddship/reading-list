@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"
 [extra]
 source_url = "https://x.com/i/status/2052435436157452769"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "if this works well, it could make `model internals` more inspectable by ordinary researchers and safety workflows, not just interpretability specialists."
 saved_link = "https://x.com/i/status/2052435436157452769"

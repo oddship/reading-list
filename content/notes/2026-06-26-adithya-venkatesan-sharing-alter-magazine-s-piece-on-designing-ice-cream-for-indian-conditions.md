@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2070384048464347183"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "nice example of climate/context-aware product design where chemistry, supply chain, and local usage conditions all matter"
 saved_link = "https://x.com/i/status/2070384048464347183"

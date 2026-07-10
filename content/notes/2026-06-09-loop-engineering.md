@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents"]
 [extra]
 source_url = "https://x.com/i/status/2064127981161959567"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful framing for moving from one-shot agent use to repeatable multi-agent workflows with explicit state and review points."
 saved_link = "https://x.com/i/status/2064127981161959567"

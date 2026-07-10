@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "github-com", "historical-backfill", "ai-infra
 [extra]
 source_url = "https://github.com/ruvnet/RuView"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://github.com/ruvnet/RuView"

@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2072305334736003419"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "concrete small-team example of AI reducing ops interrupt load through observability-aware triage."
 saved_link = "https://x.com/i/status/2072305334736003419"

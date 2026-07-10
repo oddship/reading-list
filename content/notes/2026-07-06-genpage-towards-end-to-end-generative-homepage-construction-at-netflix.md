@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2073864662068932752"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "richer user context and simpler end-to-end generation can beat a stack of specialized personalization stages"
 saved_link = "https://x.com/i/status/2073864662068932752"

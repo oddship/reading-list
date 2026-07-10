@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/i/status/2072307451982958925"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "signal that MCP is standardizing around stateless patterns and SDK churn is happening now."
 saved_link = "https://x.com/i/status/2072307451982958925"

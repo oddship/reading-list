@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "security"]
 [extra]
 source_url = "https://x.com/i/status/2072550217203986457"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful framing that combines robotics realism with privacy/power concerns; also a strong counter to breathless humanoid-robot narratives."
 saved_link = "https://x.com/i/status/2072550217203986457"

@@ -1,5 +1,5 @@
 +++
-title = "Cloudflare blog post introducing Meerkat, a new global consensus service built on the QuePaxa algorithm"
+title = "Cloudflare introduces Meerkat"
 slug = "2026-07-09-cloudflare-blog-post-introducing-meerkat-a-new-global-consensus-service-built-on-the-quepaxa-algori"
 date = 2026-07-09
 [taxonomies]
@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "blog-cloudflare-com", "ai-infra", "llm-resear
 [extra]
 source_url = "https://blog.cloudflare.com/meerkat-introduction/"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "Notable systems/infrastructure piece on consensus design beyond Raft, especially for globally distributed control planes."
 saved_link = "https://blog.cloudflare.com/meerkat-introduction/"

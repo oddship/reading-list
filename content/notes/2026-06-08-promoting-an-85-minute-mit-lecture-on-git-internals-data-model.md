@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/slash1sol/status/2063762157339132084?s=20"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "good fit for the AI-era workflow point that agents can generate history quickly, but humans still need a strong Git mental model to untangle bad states."
 saved_link = "https://x.com/slash1sol/status/2063762157339132084?s=20"

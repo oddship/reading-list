@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security"]
 [extra]
 source_url = "https://x.com/i/status/2072254199614562569"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "relevant to agent/tool trust, observability, and hidden vendor-side routing/telemetry behavior."
 saved_link = "https://x.com/i/status/2072254199614562569"

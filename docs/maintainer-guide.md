@@ -14,7 +14,7 @@ This repo is the source of truth for `reading-list.oddship.net` / `oddship.githu
 
 1. Links arrive in Telegram.
 2. Bosun reads the source when feasible and logs a compact grounded entry in `/root/work-wiki/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
-3. Selected items are backported or promoted into `content/notes/*.md` as published Zola notes.
+3. Every useful item is backported or promoted into `content/notes/*.md` right away.
 4. Push to `main` triggers GitHub Pages deploy.
 
 ## Historical import sources
@@ -41,7 +41,6 @@ Each note should include:
 - `tags`
 - `extra.source_url`
 - `extra.source_type`
-- `extra.status`
 - `extra.newsletter_candidate`
 - `extra.why_it_matters`
 - `logged at IST` in the body when the log captured the original arrival time
@@ -51,12 +50,11 @@ If only the X post text was accessible, keep the X URL and say so in a retrieval
 
 ## Publishing conventions
 
-- Default public status for backported notes: `published`
-- Historical X-only items that were grounded from the post text but not a fully read downstream article may remain `reviewed`
-- Keep note bodies concise and retrieval-friendly
-- Preserve the strongest claim and why it matters
-- Keep speculation separate from grounded source claims
-- Prefer stable explicit slugs in note frontmatter when importer-generated titles may collide
+- Every useful note should be promoted into the repo without waiting for a separate "publish" step.
+- Keep note bodies concise and retrieval-friendly.
+- Preserve the strongest claim and why it matters.
+- Keep speculation separate from grounded source claims.
+- Prefer stable explicit slugs in note frontmatter when importer-generated titles may collide.
 
 ## GitHub Pages notes
 

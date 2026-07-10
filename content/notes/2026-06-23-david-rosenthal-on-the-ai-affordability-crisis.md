@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "blog-dshr-org", "historical-backfill", "agent
 [extra]
 source_url = "https://blog.dshr.org/2026/06/ais-affordability-crisis.html?m=1"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "strong macro case that today’s agent boom is constrained not just by capability but by unit economics; useful counterweight to “just add more loops/agents” optimism."
 saved_link = "https://blog.dshr.org/2026/06/ais-affordability-crisis.html?m=1"

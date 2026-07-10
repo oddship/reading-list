@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "l
 [extra]
 source_url = "https://x.com/Cloudflare/status/2056360412510060748"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "strong concrete framing for AI-assisted security work, generic coding agents pointed at big repos are the wrong shape; narrow scoped agents + adversarial review + parallel harnesses seem to be the winning pattern."
 saved_link = "https://x.com/Cloudflare/status/2056360412510060748"

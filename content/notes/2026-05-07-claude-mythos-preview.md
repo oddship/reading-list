@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "security", "org-design"
 [extra]
 source_url = "https://x.com/i/status/2052468573516513762"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "even with caveats, this is a striking datapoint for AI-assisted security triage/fix throughput in a real major codebase."
 saved_link = "https://x.com/i/status/2052468573516513762"

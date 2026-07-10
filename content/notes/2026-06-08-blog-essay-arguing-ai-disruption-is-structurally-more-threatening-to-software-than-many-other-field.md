@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "b-ark-ca", "historical-backfill", "security",
 [extra]
 source_url = "https://b-ark.ca/2026/06/07/cannibalism.html"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "concise articulation of the “tech gets disrupted by its own disruption machinery” thesis, with stronger labour/political economy framing than most AI-in-software essays."
 saved_link = "https://b-ark.ca/2026/06/07/cannibalism.html"

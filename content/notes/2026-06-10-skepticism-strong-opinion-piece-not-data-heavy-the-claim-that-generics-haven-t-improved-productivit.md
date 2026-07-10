@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "itnext-io", "historical-backfill"]
 [extra]
 source_url = "https://itnext.io/go-evolves-in-the-wrong-direction-7dfda8a1a620"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "a clear articulation of the “protect Go’s design center” position from someone with real credibility in performance-heavy Go systems."
 saved_link = "https://x.com/i/status/2063977235145486496"

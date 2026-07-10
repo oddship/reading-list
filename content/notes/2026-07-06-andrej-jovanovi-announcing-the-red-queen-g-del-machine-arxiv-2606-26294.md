@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"
 [extra]
 source_url = "https://x.com/i/status/2073907718151426302"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "smarter agents need smarter judges; the judge is becoming part of the frontier"
 saved_link = "https://x.com/i/status/2073907718151426302"

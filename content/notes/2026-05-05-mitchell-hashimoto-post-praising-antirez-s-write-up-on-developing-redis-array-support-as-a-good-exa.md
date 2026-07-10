@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "antirez-com", "historical-backfill", "ai-infra
 [extra]
 source_url = "https://antirez.com/news/164"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://x.com/i/status/2051684321732530680"

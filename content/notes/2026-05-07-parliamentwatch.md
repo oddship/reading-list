@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2052264995787079900"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "this is exactly the kind of thin, practical civic-tech layer that turns a buried public archive into something researchers, journalists, and policy people can actually use day to day."
 saved_link = "https://x.com/i/status/2052264995787079900"

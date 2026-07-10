@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2068006275888115814"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "nice example of using old/simple interfaces to reduce install friction and make niche software feel instantly accessible."
 saved_link = "https://x.com/i/status/2068006275888115814"

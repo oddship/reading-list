@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"
 [extra]
 source_url = "https://x.com/i/status/2063997292290474066"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "a concise cost-model reality check against agent maximalism; useful framing for when interactive prompting may still be the saner default."
 saved_link = "https://x.com/i/status/2063997292290474066"

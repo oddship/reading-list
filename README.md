@@ -24,7 +24,6 @@ Each note carries frontmatter plus a short body. Useful fields in `[extra]` incl
 
 - `source_url`
 - `source_type`
-- `status` (`reviewed` or `published` today)
 - `why_it_matters`
 - `newsletter_candidate`
 - `saved_link`
@@ -33,7 +32,7 @@ Each note carries frontmatter plus a short body. Useful fields in `[extra]` incl
 
 1. Links arrive in Telegram.
 2. Bosun reads the strongest available source and logs a compact grounded entry under `/root/work-wiki/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
-3. Selected items are promoted into `content/notes/`.
+3. Every useful item is promoted into `content/notes/` without waiting for a separate publish decision.
 4. Weekly writeups become `content/digests/`.
 5. Pushes to `main` deploy to GitHub Pages.
 

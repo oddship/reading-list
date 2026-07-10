@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "l
 [extra]
 source_url = "https://x.com/i/status/2054512710017298463"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://x.com/i/status/2054512710017298463"

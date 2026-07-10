@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "developer-t
 [extra]
 source_url = "https://x.com/i/status/2072652797603176572"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "strong real-world systems piece on when client-side LB is worth the complexity, especially for cache-sensitive, high-RPS fan-out services where shared routers distort latency and ownership."
 saved_link = "https://x.com/i/status/2072652797603176572"

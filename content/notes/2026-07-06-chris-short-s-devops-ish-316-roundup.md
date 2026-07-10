@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "d
 [extra]
 source_url = "https://x.com/i/status/2073768099182960888"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "infra edge signals, observability economics, protocolized agents, and security boundaries around agent tooling"
 saved_link = "https://x.com/i/status/2073768099182960888"

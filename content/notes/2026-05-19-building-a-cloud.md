@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2056514048649490605"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "interesting operator/founder critique of hyperscaler defaults, especially local NVMe + async replication + buy-resources-then-run-VMs framing."
 saved_link = "https://x.com/i/status/2056514048649490605"

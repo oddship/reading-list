@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "nithinkamath-me", "historical-backfill", "org
 [extra]
 source_url = "https://nithinkamath.me/blog/why-a-nice-place-to-work-doesnt-just-happen/"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "culture as operating system / business model, not HR perk"
 saved_link = "https://nithinkamath.me/blog/why-a-nice-place-to-work-doesnt-just-happen/"

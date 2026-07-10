@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "ajeygore-in", "historical-backfill", "agents"
 [extra]
 source_url = "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org"

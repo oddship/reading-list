@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2073544461473169432"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "narrative interfaces; AI gets more compelling when wrapped in a strong object metaphor"
 saved_link = "https://x.com/i/status/2073544461473169432"

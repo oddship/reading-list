@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "o
 [extra]
 source_url = "https://x.com/bibryam/status/2070467106412626035?s=20"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "a concrete staff-level operating model for AI adoption that is neither “AI writes everything” nor “just autocomplete”, and it matches the emerging pattern of shifting more execution onto agents while preserving human accountability"
 saved_link = "https://x.com/bibryam/status/2070467106412626035?s=20"

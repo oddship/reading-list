@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "aisagroup-substack-com", "agents", "org-design
 [extra]
 source_url = "https://aisagroup.substack.com/p/how-i-use-codex-to-automate-parts"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "Good example of disciplined, scoped agent adoption for research workflows rather than full autonomy theater."
 saved_link = "https://x.com/i/status/2074729038619512960"

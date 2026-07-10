@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/i/status/2069693133093568812"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "compact “best evals reading list” / why eval practice is shifting from static benchmarks to systems-level agent evaluation."
 saved_link = "https://x.com/i/status/2069693133093568812"

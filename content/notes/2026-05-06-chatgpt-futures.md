@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "chatgpt-com", "historical-backfill", "securit
 [extra]
 source_url = "https://chatgpt.com/futures/"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://chatgpt.com/futures/"

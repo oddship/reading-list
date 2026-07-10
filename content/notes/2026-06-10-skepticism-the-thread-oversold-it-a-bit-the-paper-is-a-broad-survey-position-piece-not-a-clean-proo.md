@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "arxiv-org", "historical-backfill", "agents", "
 [extra]
 source_url = "https://arxiv.org/abs/2605.18747"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "a good framing paper for people building coding/GUI/scientific/embodied agents; it gives language for treating harness design as the real systems problem."
 saved_link = "https://x.com/i/status/2064234293644448084"

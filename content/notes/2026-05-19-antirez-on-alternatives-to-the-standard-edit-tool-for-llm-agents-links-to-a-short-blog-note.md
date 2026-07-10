@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/antirez/status/2056638930406044131"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "concrete agent-tooling design tradeoff for local/token-poor models; useful if thinking about edit protocols, patch reliability, or file-level vs line-level conflict detection."
 saved_link = "https://x.com/antirez/status/2056638930406044131"

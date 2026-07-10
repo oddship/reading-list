@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2051873677998956851"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "this is a vivid, shareable example of `data quality showing up directly in loss curves`, which is often easier to remember than abstract warnings about web-scale corpora."
 saved_link = "https://x.com/i/status/2051873677998956851"

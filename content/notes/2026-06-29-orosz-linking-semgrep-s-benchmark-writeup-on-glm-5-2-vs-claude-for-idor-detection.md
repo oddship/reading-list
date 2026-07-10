@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "l
 [extra]
 source_url = "https://x.com/i/status/2071378924462911870"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "good evidence that harness design still dominates raw model choice, but also that at least one open-weight coding model has crossed into “serious default option” territory for security work on both performance and cost."
 saved_link = "https://x.com/i/status/2071378924462911870"

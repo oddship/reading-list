@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "github-com", "historical-backfill", "develope
 [extra]
 source_url = "https://github.com/justjake/sqlite3-parser-js"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://github.com/justjake/sqlite3-parser-js"

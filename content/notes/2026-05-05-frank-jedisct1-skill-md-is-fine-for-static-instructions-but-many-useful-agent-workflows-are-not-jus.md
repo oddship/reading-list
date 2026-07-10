@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "swival-dev", "historical-backfill", "agents", 
 [extra]
 source_url = "https://swival.dev/pages/metaskills.html"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://x.com/i/status/2051613998861193424"

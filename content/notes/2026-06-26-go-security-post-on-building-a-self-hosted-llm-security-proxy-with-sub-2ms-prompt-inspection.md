@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "s
 [extra]
 source_url = "https://x.com/i/status/2070417322842747145"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful practical architecture for regulated multi-provider LLM deployments where cloud gateways or provider-native guardrails are insufficient"
 saved_link = "https://x.com/i/status/2070417322842747145"

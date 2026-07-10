@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2072173324835389729"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "a sharper framing of practical AI leverage in software work, comprehension and safe navigation over raw code generation."
 saved_link = "https://x.com/i/status/2072173324835389729"

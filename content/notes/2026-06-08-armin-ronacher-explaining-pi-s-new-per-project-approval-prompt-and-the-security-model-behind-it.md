@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "l
 [extra]
 source_url = "https://x.com/i/status/2064060467975520341"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "strong practical framing for repo trust boundaries in coding-agent UX, and a good complement to the separate discussion about whether AGENTS files improve task performance."
 saved_link = "https://x.com/i/status/2064060467975520341"

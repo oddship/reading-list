@@ -7,7 +7,6 @@ tags = ["reading-log", "article", "walkinglabs-github-io", "historical-backfill"
 [extra]
 source_url = "https://walkinglabs.github.io/learn-harness-engineering/en/"
 source_type = "article"
-status = "published"
 newsletter_candidate = true
 why_it_matters = ""
 saved_link = "https://walkinglabs.github.io/learn-harness-engineering/en/"

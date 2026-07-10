@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "l
 [extra]
 source_url = "https://x.com/i/status/2073177018351440267"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "interesting framing for long-context efficiency, OCR-native workflows, and multimodal model design."
 saved_link = "https://x.com/i/status/2073177018351440267"

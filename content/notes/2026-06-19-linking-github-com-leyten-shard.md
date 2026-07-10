@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "developer-t
 [extra]
 source_url = "https://x.com/i/status/2067222629421895939"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "concrete datapoint that internet-scale multi-host inference may be usable, not just a curiosity."
 saved_link = "https://x.com/i/status/2067222629421895939"

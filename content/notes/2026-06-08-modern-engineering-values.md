@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2063751016718418024"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "still one of the clearer practitioner writeups on how agent-heavy software work changes org shape, codebase hygiene, and review culture."
 saved_link = "https://x.com/i/status/2063751016718418024"

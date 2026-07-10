@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2073694372122730715"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "code can be cheap to generate and still expensive to commit to"
 saved_link = "https://x.com/i/status/2073694372122730715"

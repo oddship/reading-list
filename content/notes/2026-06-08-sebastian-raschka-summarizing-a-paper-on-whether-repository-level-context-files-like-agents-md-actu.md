@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"
 [extra]
 source_url = "https://x.com/rasbt/status/2063649136323252397"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful empirical pushback against overstuffed agent instruction files; supports keeping repo guidance short, specific, and preferably written by humans with real domain context."
 saved_link = "https://x.com/rasbt/status/2063649136323252397"

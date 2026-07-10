@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2073987273327247775"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "MCP is maturing from a convenient developer protocol into something shaped by real distributed-systems constraints"
 saved_link = "https://x.com/i/status/2073987273327247775"

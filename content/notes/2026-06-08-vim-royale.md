@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2062015232743198849"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "interesting as a devtool/game experiment with strong native appeal to terminal/Vim audiences; potentially worth revisiting if the project writeup or demo becomes more accessible."
 saved_link = "https://x.com/i/status/2062015232743198849"

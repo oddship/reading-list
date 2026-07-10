@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design", 
 [extra]
 source_url = "https://x.com/i/status/2062169846901846421"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "this is a concrete practitioner writeup from someone shipping multiple projects with agent-first workflows, not just theory about how engineering culture should change."
 saved_link = "https://x.com/i/status/2062169846901846421"

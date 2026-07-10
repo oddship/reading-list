@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "l
 [extra]
 source_url = "https://x.com/i/status/2064353133908643905"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "good lens for what remains uniquely valuable in PL when codegen is abundant, language design as a way to narrow agent freedom and enforce stronger correctness/security properties."
 saved_link = "https://x.com/i/status/2064353133908643905"

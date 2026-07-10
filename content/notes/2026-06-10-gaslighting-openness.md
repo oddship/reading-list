@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "systems"]
 [extra]
 source_url = "https://x.com/i/status/2064735590432608409"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "likely high-signal if you want a critical essay on openness vs platform control from someone thoughtful about developer ecosystems."
 saved_link = "https://x.com/i/status/2064735590432608409"

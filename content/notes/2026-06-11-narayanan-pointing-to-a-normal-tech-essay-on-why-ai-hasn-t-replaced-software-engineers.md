@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2065032543724785924"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "a strong counterweight to simplistic codegen-output metrics and a better model for evaluating labor impact."
 saved_link = "https://x.com/i/status/2065032543724785924"

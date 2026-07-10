@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/SemiAnalysis_/status/2064815044085318040"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful datapoint for thinking about model pricing strategy, subsidy of heavy users, and why subscription products may be strategically more attractive than raw API economics suggest."
 saved_link = "https://x.com/SemiAnalysis_/status/2064815044085318040"

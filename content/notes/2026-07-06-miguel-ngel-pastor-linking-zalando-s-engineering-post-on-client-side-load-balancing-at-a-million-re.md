@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "syst
 [extra]
 source_url = "https://x.com/i/status/2073796043230052472"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "own the routing decision in-process when cache-sensitive fanout paths make shared infra the bottleneck"
 saved_link = "https://x.com/i/status/2073796043230052472"

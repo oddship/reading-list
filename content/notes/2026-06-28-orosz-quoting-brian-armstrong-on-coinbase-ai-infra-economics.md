@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2070735111226847242"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "practical evidence that infra/governance choices can bend AI cost curves without suppressing usage."
 saved_link = "https://x.com/i/status/2070735111226847242"

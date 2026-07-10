@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/i/status/2056696881221124100"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "light social proof that the tagged-edit idea is resonating beyond the original antirez note."
 saved_link = "https://x.com/i/status/2056696881221124100"

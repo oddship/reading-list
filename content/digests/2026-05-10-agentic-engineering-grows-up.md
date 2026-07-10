@@ -5,7 +5,6 @@ date = 2026-05-10
 tags = ["digest", "newsletter", "historical-backfill"]
 [extra]
 source_file = "/root/.openclaw/workspace-rohan-work/tmp/newsletter-draft-2026-05-10.md"
-status = "published"
 +++
 ## Intro
 

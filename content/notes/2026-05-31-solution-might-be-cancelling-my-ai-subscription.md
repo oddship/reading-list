@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "thoughts-hmmz-org", "historical-backfill", "ag
 [extra]
 source_url = "https://thoughts.hmmz.org/2026-05-31.html"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "good counterweight to \"more agent throughput = better work\" narratives; frames AI as an attention-management and meaning-allocation problem, not just a capability story."
 saved_link = "https://x.com/i/status/2061104408201412903"

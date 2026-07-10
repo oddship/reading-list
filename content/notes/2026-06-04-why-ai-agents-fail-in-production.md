@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "o
 [extra]
 source_url = "https://x.com/i/status/2062438877269258566"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "crisp infrastructure framing for agentic systems; useful counterweight to model-centric discussions and relevant for anyone thinking about durable execution, guardrails, and ops for real deployments."
 saved_link = "https://x.com/i/status/2062438877269258566"

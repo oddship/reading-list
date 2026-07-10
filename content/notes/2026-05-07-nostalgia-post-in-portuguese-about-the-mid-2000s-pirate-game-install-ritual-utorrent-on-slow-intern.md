@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2052026217751089616"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful more as `internet culture memory` than newsletter substance."
 saved_link = "https://x.com/i/status/2052026217751089616"

@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2073776496859082949"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "evolution-as-generalization; complexity as reusable-solution capacity rather than mere accumulation"
 saved_link = "https://x.com/i/status/2073776496859082949"

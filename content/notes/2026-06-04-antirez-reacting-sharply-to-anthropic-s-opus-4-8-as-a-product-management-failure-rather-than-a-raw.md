@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-resea
 [extra]
 source_url = "https://x.com/i/status/2062521505146175851"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "concise framing of the distinction between model research capability and product stewardship, especially relevant when AI labs are increasingly judged on reliability and release discipline rather than pure benchmark potential."
 saved_link = "https://x.com/i/status/2062521505146175851"

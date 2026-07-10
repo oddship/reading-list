@@ -221,13 +221,6 @@ def choose_why(entry: dict) -> str:
     return ''
 
 
-def choose_status(entry: dict) -> str:
-    source_url = choose_source_url(entry)
-    if source_url == entry['saved_link'] and ('x.com/' in source_url or 'twitter.com/' in source_url):
-        return 'reviewed'
-    return 'published'
-
-
 def tags_for(entry: dict, source_url: str, title: str, why: str) -> list[str]:
     saved = entry['saved_link']
     source_type = 'x-post' if ('x.com/' in saved or 'twitter.com/' in saved) else 'article'
@@ -398,7 +391,6 @@ def write_notes() -> int:
             title = pick_title(entry, idx)
             source_url = choose_source_url(entry)
             why = choose_why(entry)
-            status = choose_status(entry)
             tags = tags_for(entry, source_url, title, why)
             base_slug = slugify(f"{entry['date']}-{title}")[:110].strip('-')
             slug_counts[base_slug] += 1
@@ -415,7 +407,6 @@ def write_notes() -> int:
                 '[extra]',
                 f'source_url = "{escape_toml(source_url)}"',
                 f'source_type = "{source_type}"',
-                f'status = "{status}"',
                 'newsletter_candidate = true',
                 f'why_it_matters = "{escape_toml(why)}"',
                 f'saved_link = "{escape_toml(entry["saved_link"])}"',
@@ -483,7 +474,6 @@ def write_digests() -> int:
             f'tags = ["digest", "{kind}", "historical-backfill"]',
             '[extra]',
             f'source_file = "{escape_toml(str(src))}"',
-            'status = "published"',
             '+++',
             '',
         ]

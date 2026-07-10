@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"
 [extra]
 source_url = "https://x.com/i/status/2064734639634440622"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful framing for turning coding-agent usage from prompt craft into systems design / platform work."
 saved_link = "https://x.com/i/status/2064734639634440622"

@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-too
 [extra]
 source_url = "https://x.com/i/status/2064088872494194753"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "clean historical analogy for why many AI rollouts underperform; useful frame for distinguishing superficial tooling adoption from process redesign."
 saved_link = "https://x.com/i/status/2064088872494194753"

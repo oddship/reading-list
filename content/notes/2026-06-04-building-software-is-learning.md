@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2061834267240583185"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "crisp articulation of feedback-loop-first product engineering, especially relevant now that coding itself is cheaper and the bottleneck shifts toward learning what to build."
 saved_link = "https://x.com/i/status/2061834267240583185"

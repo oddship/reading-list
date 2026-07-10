@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2073515510851854688"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "clean distinction between fiction as imagination engine vs fiction as policy/analysis substrate."
 saved_link = "https://x.com/i/status/2073515510851854688"

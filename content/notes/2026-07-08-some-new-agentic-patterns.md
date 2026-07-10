@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "primeradiant-com", "agents", "org-design", "ll
 [extra]
 source_url = "https://primeradiant.com/blog/2026/new-agentic-patterns.html"
 source_type = "x-post"
-status = "published"
 newsletter_candidate = true
 why_it_matters = "Concrete patterns for embedding agents into team operations without pretending they are fully autonomous replacements."
 saved_link = "https://x.com/i/status/2074781610558345703"

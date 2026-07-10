@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "llm-researc
 [extra]
 source_url = "https://x.com/i/status/2071530061727949272"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "strong runtime internals explainer; useful for debugging/perf literacy and for understanding what pprof is actually showing."
 saved_link = "https://x.com/i/status/2071530061727949272"

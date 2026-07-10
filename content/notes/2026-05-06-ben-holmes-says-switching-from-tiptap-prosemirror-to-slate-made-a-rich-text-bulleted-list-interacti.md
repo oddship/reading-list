@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "llm-
 [extra]
 source_url = "https://x.com/i/status/2051492921430384656"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "useful anecdote for editor-stack choice, especially when complex WYSIWYG behavior is on the roadmap and dev velocity matters more than ecosystem gravity alone."
 saved_link = "https://x.com/i/status/2051492921430384656"

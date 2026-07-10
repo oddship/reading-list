@@ -7,7 +7,6 @@ tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design", 
 [extra]
 source_url = "https://x.com/i/status/2064462744125128851"
 source_type = "x-post"
-status = "reviewed"
 newsletter_candidate = true
 why_it_matters = "a concrete recipe for agent harness design, experiment → verifier → correction → verified memory, and a strong reminder that context management is part of the capability."
 saved_link = "https://x.com/i/status/2064462744125128851"
