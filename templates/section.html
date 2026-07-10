@@ -1,14 +1,24 @@
 {% extends "base.html" %}
 {% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
 {% block content %}
+  {% if section.title == "Notes" %}
+    {% set notes_meta = get_section(path="notes/_index.md") %}
+    {% set section_count = notes_meta.pages | length %}
+  {% elif section.title == "Digests" %}
+    {% set digests_meta = get_section(path="digests/_index.md") %}
+    {% set section_count = digests_meta.pages | length %}
+  {% else %}
+    {% set section_count = section.pages | length %}
+  {% endif %}
+
   <section class="card">
     <header>
       <div class="hstack justify-between">
         <h1>{{ section.title }}</h1>
         {% if section.title == "Digests" %}
-          <span class="badge" data-variant="secondary">{{ section.pages | length }} digests</span>
+          <span class="badge" data-variant="secondary">{{ section_count }} digests</span>
         {% elif section.title == "Notes" %}
-          <span class="badge">{{ section.pages | length }} notes</span>
+          <span class="badge">{{ section_count }} notes</span>
         {% endif %}
       </div>
       <p>{{ section.content | safe }}</p>
@@ -32,33 +42,31 @@
   {% for page in note_pages %}
     <article class="card">
       <header>
-        {% if section.title == "Notes" %}
-          <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=88) }}</a></h2>
-        {% else %}
-          <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
-        {% endif %}
+        <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=88) }}</a></h2>
         <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
       </header>
       {% if section.title == "Digests" %}
         <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=360))) }}</p>
-        <footer class="hstack">
+        <footer class="hstack justify-between">
           <a href="{{ page.permalink }}" class="button small">Read digest</a>
         </footer>
       {% elif page.extra and page.extra.why_it_matters %}
         <p>{{ page.extra.why_it_matters | truncate(length=220) }}</p>
-        <footer class="hstack">
+        <footer class="hstack justify-between">
           <a href="{{ page.permalink }}" class="button small">Read note</a>
-          {% if page.taxonomies.tags %}
-            {% for tag in page.taxonomies.tags %}
-              {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 3 %}
-                <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
+          <div class="hstack">
+            {% if page.taxonomies.tags %}
+              {% for tag in page.taxonomies.tags %}
+                {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 3 %}
+                  <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
         </footer>
       {% else %}
         <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
-        <footer class="hstack">
+        <footer class="hstack justify-between">
           <a href="{{ page.permalink }}" class="button small">Read note</a>
         </footer>
       {% endif %}

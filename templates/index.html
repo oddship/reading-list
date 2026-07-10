@@ -6,67 +6,61 @@
   {% set latest_digest = digests.pages | first %}
 
   <section class="card">
-    <header>
-      <div class="hstack justify-between">
-        <h1>{{ section.title }}</h1>
-        <div class="hstack">
-          <span class="badge">{{ notes.pages | length }} notes</span>
-          <span class="badge" data-variant="secondary">{{ digests.pages | length }} digests</span>
-        </div>
+    <div class="row">
+      <div class="col-8">
+        <header>
+          <h1>{{ section.title }}</h1>
+          <p>{{ section.content | safe }}</p>
+        </header>
+        <footer class="hstack">
+          <a href="{{ get_url(path='@/notes/_index.md') }}" class="button">Browse notes</a>
+          <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline">Browse digests</a>
+          <a href="{{ get_url(path='tags') }}" class="button outline">Browse tags</a>
+        </footer>
       </div>
-      <p>{{ section.content | safe }}</p>
-    </header>
-    <footer class="hstack">
-      <a href="{{ get_url(path='@/notes/_index.md') }}" class="button">Browse notes</a>
-      <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline">Browse digests</a>
-      <a href="{{ get_url(path='tags') }}" class="button outline">Browse tags</a>
-    </footer>
+      <div class="col-4">
+        <article role="alert" data-variant="success">
+          <strong>Archive</strong>
+          <p><small>{{ notes.pages | length }} notes and {{ digests.pages | length }} digests, kept current from the work reading log.</small></p>
+          <div class="hstack">
+            <span class="badge">Notes</span>
+            <span class="badge outline">Digests</span>
+            <span class="badge" data-variant="secondary">Tags</span>
+          </div>
+        </article>
+      </div>
+    </div>
   </section>
 
-  <div class="row">
-    <div class="col-8">
-      <section>
-        <div class="hstack justify-between">
+  {% if latest_digest %}
+    <section>
+      <div class="hstack justify-between">
+        <div>
           <h2>Latest digest</h2>
-          <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline small">Archive</a>
+          <p><small>The newest weekly round-up from the archive.</small></p>
         </div>
-        {% if latest_digest %}
-          <article class="card">
-            <header>
-              <h3><a href="{{ latest_digest.permalink }}">{{ latest_digest.title }}</a></h3>
-              <p><small>{{ latest_digest.date }}</small></p>
-            </header>
-            <p>{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | truncate(length=340))) }}</p>
-            <footer class="hstack">
-              <a href="{{ latest_digest.permalink }}" class="button small">Read digest</a>
-            </footer>
-          </article>
-        {% endif %}
-      </section>
-    </div>
-    <div class="col-4">
-      <aside class="card">
+        <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline small">Archive</a>
+      </div>
+      <article class="card">
         <header>
-          <h3>Archive status</h3>
+          <h3><a href="{{ latest_digest.permalink }}">{{ latest_digest.title }}</a></h3>
+          <p><small>{{ latest_digest.date }}</small></p>
         </header>
-        <p><small>Repo-driven reading garden synced from the local work reading log.</small></p>
-        <p>
-          <span class="badge">Notes</span>
-          <span class="badge outline">Weekly digests</span>
-          <span class="badge" data-variant="secondary">Tags</span>
-        </p>
-        <footer>
-          <nav>
-            <a href="{{ get_url(path='rss.xml') }}">RSS</a>
-          </nav>
+        <p>{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | truncate(length=320))) }}</p>
+        <footer class="hstack">
+          <a href="{{ latest_digest.permalink }}" class="button small">Read digest</a>
+          <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline small">All digests</a>
         </footer>
-      </aside>
-    </div>
-  </div>
+      </article>
+    </section>
+  {% endif %}
 
   <section>
     <div class="hstack justify-between">
-      <h2>Recent notes</h2>
+      <div>
+        <h2>Recent notes</h2>
+        <p><small>A small front-page sample from the latest entries.</small></p>
+      </div>
       <a href="{{ get_url(path='@/notes/_index.md') }}" class="button outline small">All notes</a>
     </div>
     <div class="row">
@@ -74,23 +68,26 @@
         <div class="col-6">
           <article class="card">
             <header>
-              <h3><a href="{{ page.permalink }}">{{ page.title | truncate(length=72) }}</a></h3>
+              <h3><a href="{{ page.permalink }}">{{ page.title | truncate(length=66) }}</a></h3>
               <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
             </header>
             {% if page.extra and page.extra.why_it_matters %}
-              <p>{{ page.extra.why_it_matters | truncate(length=180) }}</p>
+              <p>{{ page.extra.why_it_matters | truncate(length=160) }}</p>
             {% else %}
-              <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=180))) }}</p>
+              <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=160))) }}</p>
             {% endif %}
-            {% if page.taxonomies.tags %}
-              <footer class="hstack">
-                {% for tag in page.taxonomies.tags %}
-                  {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 3 %}
-                    <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
-                  {% endif %}
-                {% endfor %}
-              </footer>
-            {% endif %}
+            <footer class="hstack justify-between">
+              <a href="{{ page.permalink }}" class="button small">Read note</a>
+              <div class="hstack">
+                {% if page.taxonomies.tags %}
+                  {% for tag in page.taxonomies.tags %}
+                    {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 2 %}
+                      <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              </div>
+            </footer>
           </article>
         </div>
       {% endfor %}
