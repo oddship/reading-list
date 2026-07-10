@@ -12,6 +12,8 @@ newsletter_candidate = true
 why_it_matters = "Concrete patterns for embedding agents into team operations without pretending they are fully autonomous replacements."
 saved_link = "https://x.com/i/status/2074781610558345703"
 +++
+**Logged at IST:** 2026-07-08 22:40 IST
+
 **What it is:** X post by Bilgin Ibryam linking to Prime Radiant's "Some new agentic patterns"
 
 **Gist:** Describes production-ish internal agent patterns built around an "agentic user in the loop" model, with agents in Slack handling intake, ticketing, wiki updates, EA-style assistance, and subagent/container-backed workflows.

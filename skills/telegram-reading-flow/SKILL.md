@@ -46,7 +46,7 @@ Do not use when:
    - Completion criterion: the canonical work log contains the new entry.
 
 4. Promote selectively to the public site.
-   - Convert chosen items into `content/notes/*.md` with tags, source URL, status, and a short why-it-matters field.
+   - Convert chosen items into `content/notes/*.md` with tags, source URL, status, a short why-it-matters field, and preserve `logged at IST` when available.
    - Completion criterion: the Zola note is concise, grounded, and publication-ready.
 
 5. Preserve the distinction between capture and publication.

@@ -12,6 +12,8 @@ newsletter_candidate = true
 why_it_matters = "Strong framing for AI-native engineering orgs versus incumbents stuck in evaluation loops; good organizational/process lens."
 saved_link = "https://x.com/i/status/2075347173378859307"
 +++
+**Logged at IST:** 2026-07-10 12:11 IST
+
 **What it is:** X post by Geoffrey Huntley linking to Stack72's essay "The Great Divergence in Software Engineering"
 
 **Gist:** Argues that the gap between teams effectively using AI and teams still piloting or rejecting it is no longer a simple lead but a compounding divergence, driven by retooling workflows, encoding automation, and treating bad AI output as an engineering problem instead of a veto.

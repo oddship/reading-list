@@ -12,6 +12,8 @@ newsletter_candidate = true
 why_it_matters = "Good example of disciplined, scoped agent adoption for research workflows rather than full autonomy theater."
 saved_link = "https://x.com/i/status/2074729038619512960"
 +++
+**Logged at IST:** 2026-07-08 23:02 IST
+
 **What it is:** X post by Maksym Andriushchenko linking to a Substack post, "How I Use Codex To Automate Parts Of My Research Workflow"
 
 **Gist:** A pragmatic writeup on using Codex to reduce friction in AI safety research by offloading search, organization, setup, checking, and memory, while keeping human judgment and publication responsibility firmly in the loop.

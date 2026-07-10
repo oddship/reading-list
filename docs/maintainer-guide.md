@@ -44,6 +44,7 @@ Each note should include:
 - `extra.status`
 - `extra.newsletter_candidate`
 - `extra.why_it_matters`
+- `logged at IST` in the body when the log captured the original arrival time
 
 For X posts that primarily point somewhere else, prefer the linked article/blog/paper as `source_url` when it was actually read.
 If only the X post text was accessible, keep the X URL and say so in a retrieval note.

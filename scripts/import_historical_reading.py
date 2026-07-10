@@ -255,6 +255,8 @@ def tags_for(entry: dict, source_url: str, title: str, why: str) -> list[str]:
 def convert_new_style(entry: dict) -> str:
     parts = []
     what = entry_value(entry, 'what it is', 'what', 'source')
+    if entry.get('logged at ist'):
+        parts.append(f'**Logged at IST:** {entry["logged at ist"]}')
     if what:
         parts.append(f'**What it is:** {what}')
     if entry.get('gist'):
@@ -290,7 +292,7 @@ def parse_date_file(path: Path) -> list[dict]:
     structured = False
     known_keys = {
         'what it is', 'what', 'source', 'gist', 'why it matters', 'newsletter angle',
-        'retrieval note', 'note', 'notes', 'notable line', 'source read', 'retrieval', 'follow-up'
+        'retrieval note', 'note', 'notes', 'notable line', 'source read', 'retrieval', 'follow-up', 'logged at ist'
     }
     for raw in lines:
         if raw.startswith('- ') and re.search(r'\b(?:saved link|saved):\s*', raw, flags=re.I):

@@ -1,7 +1,7 @@
 +++
 title = "long talk by the ex-NVIDIA engineer behind Unsloth on fine-tuning and reasoning-model workflows"
-slug = "2026-07-08-long-talk-by-the-ex-nvidia-engineer-behind-unsloth-on-fine-tuning-and-reasoning-model-workflows"
-date = 2026-07-08
+slug = "2026-07-10-long-talk-by-the-ex-nvidia-engineer-behind-unsloth-on-fine-tuning-and-reasoning-model-workflows"
+date = 2026-07-10
 [taxonomies]
 tags = ["reading-log", "x-post", "agents", "ai-infra", "org-design", "llm-research"]
 [extra]
@@ -12,6 +12,8 @@ newsletter_candidate = true
 why_it_matters = "Useful pointer for the current small team / single GPU post-training stack around Unsloth, Triton, quantization, and RLHF-style methods."
 saved_link = "https://x.com/i/status/2075240393419936189"
 +++
+**Logged at IST:** 2026-07-10 00:05 IST
+
 **What it is:** X post by h100envy summarizing a long talk by the ex-NVIDIA engineer behind Unsloth on fine-tuning and reasoning-model workflows
 
 **Gist:** Frames a practical single-GPU stack for local/post-training work: choose a base model, use Triton kernels for faster fine-tuning, quantize to 4-bit, run GRPO/DPO, and ship a reasoning model on hardware you already own.
