@@ -39,4 +39,4 @@ I also want this to stay opinionated. Not comprehensive. Not optimized for engag
 
 If that sounds useful, that is the page.
 
-*Disclaimer: the content on this page is AI generated.*
+*Disclaimer: this site is AI generated. I might not actively be reviewing every page or every note here, and the views or opinions expressed in AI-written content are not necessarily mine. When I notice errors, bad takes, or things that just read wrong, I will try to fix them. If you spot something off, reach out to me at [rohanverma.net/contact](https://rohanverma.net/contact).*\n
