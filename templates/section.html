@@ -5,7 +5,12 @@
     <h2 style="margin-top: 0;">{{ section.title }}</h2>
     <div>{{ section.content | safe }}</div>
   </section>
-  {% for page in section.pages %}
+  {% if paginator %}
+    {% set note_pages = paginator.pages %}
+  {% else %}
+    {% set note_pages = section.pages %}
+  {% endif %}
+  {% for page in note_pages %}
     <article class="card">
       <h3 style="margin-top: 0;"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
       <div class="meta">{{ page.date }}</div>
