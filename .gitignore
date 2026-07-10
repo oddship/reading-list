@@ -3,3 +3,4 @@ public/
 .zola-cache/
 __pycache__/
 *.pyc
+.hermes/

@@ -14,7 +14,9 @@
     {% if page.taxonomies.tags %}
       <ul class="taglist">
         {% for tag in page.taxonomies.tags %}
-          <li><a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">{{ tag }}</a></li>
+          {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" %}
+            <li><a class="tag" href="{{ get_taxonomy_url(kind='tags', name=tag) }}">{{ tag }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     {% endif %}

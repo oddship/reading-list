@@ -1,27 +1,49 @@
 {% extends "base.html" %}
 {% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
 {% block content %}
+  {% set notes = get_section(path="notes/_index.md") %}
+  {% set digests = get_section(path="digests/_index.md") %}
   <section class="card">
     <h2 style="margin-top: 0;">{{ section.title }}</h2>
-    <p>{{ section.content | safe }}</p>
+    <div>{{ section.content | safe }}</div>
+    <p class="meta" style="margin-top: 12px;">{{ notes.pages | length }} notes · {{ digests.pages | length }} digests</p>
   </section>
+
+  {% if digests.pages | length > 0 %}
+    {% set latest_digest = digests.pages | first %}
+    <section>
+      <h2>Latest digest</h2>
+      <article class="card">
+        <h3 style="margin-top: 0;"><a href="{{ latest_digest.permalink }}">{{ latest_digest.title }}</a></h3>
+        <div class="meta">{{ latest_digest.date }}</div>
+        <p>{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | truncate(length=260))) }}</p>
+        <p><a href="{{ get_url(path='@/digests/_index.md') }}">Browse all digests →</a></p>
+      </article>
+    </section>
+  {% endif %}
 
   <section>
     <h2>Recent notes</h2>
-    {% set notes = get_section(path="notes/_index.md") %}
     {% for page in notes.pages | slice(end=8) %}
       <article class="card">
         <h3 style="margin-top: 0;"><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-        <div class="meta">{{ page.date }}</div>
-        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=220))) }}</p>
+        <div class="meta">{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</div>
+        {% if page.extra and page.extra.why_it_matters %}
+          <p><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
+        {% else %}
+          <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=220))) }}</p>
+        {% endif %}
         {% if page.taxonomies.tags %}
           <ul class="taglist">
             {% for tag in page.taxonomies.tags %}
-              <li><span class="tag">{{ tag }}</span></li>
+              {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" %}
+                <li><span class="tag">{{ tag }}</span></li>
+              {% endif %}
             {% endfor %}
           </ul>
         {% endif %}
       </article>
     {% endfor %}
+    <p><a href="{{ get_url(path='@/notes/_index.md') }}">Browse all notes →</a></p>
   </section>
 {% endblock content %}
