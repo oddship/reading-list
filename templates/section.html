@@ -45,7 +45,7 @@
         <p class="story-meta">{{ page.date }}</p>
         <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=92) }}</a></h2>
         {% if section.title == "Digests" %}
-          <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=420))) }}</p>
+          <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | replace(from="This week ", to="") | replace(from="Intro ", to="") | truncate(length=420))) }}</p>
           <div class="story-footer">
             <a href="{{ page.permalink }}" class="button small">Read digest</a>
           </div>

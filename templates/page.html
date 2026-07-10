@@ -10,7 +10,7 @@
     {% if page.extra and page.extra.why_it_matters %}
       <p class="story-summary"><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
     {% endif %}
-    <div>{{ page.content | safe }}</div>
+    <div class="prose">{{ page.content | safe }}</div>
     {% if page.taxonomies.tags %}
       <div class="story-footer">
         {% for tag in page.taxonomies.tags %}
