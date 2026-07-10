@@ -205,6 +205,17 @@
     .badge {
       border-radius: 999px;
     }
+    .button:not(.outline),
+    button.button:not(.outline),
+    .badge:not(.outline):not([data-variant="secondary"]) {
+      color: var(--primary-foreground) !important;
+    }
+    .button.outline,
+    button.button.outline,
+    .badge.outline,
+    .badge[data-variant="secondary"] {
+      color: var(--secondary-foreground) !important;
+    }
     .archive-note {
       color: var(--muted-foreground);
       max-width: 30rem;
