@@ -3,7 +3,12 @@
 {% block content %}
   <section class="card">
     <header>
-      <h1>{{ section.title }}</h1>
+      <div class="hstack justify-between">
+        <h1>{{ section.title }}</h1>
+        {% if section.title == "Digests" %}
+          <span class="badge" data-variant="secondary">{{ section.pages | length }} digests</span>
+        {% endif %}
+      </div>
       <p>{{ section.content | safe }}</p>
       {% if section.title == "Digests" %}
         <p><small>Latest first. Weekly roundups, newsletter-style essays, and archive cleanups live here.</small></p>
@@ -24,8 +29,8 @@
         <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
       </header>
       {% if section.title == "Digests" %}
-        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=320))) }}</p>
-        <footer>
+        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=360))) }}</p>
+        <footer class="hstack">
           <a href="{{ page.permalink }}" class="button small">Read digest</a>
         </footer>
       {% elif page.extra and page.extra.why_it_matters %}

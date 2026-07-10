@@ -3,6 +3,7 @@
 {% block content %}
   {% set notes = get_section(path="notes/_index.md") %}
   {% set digests = get_section(path="digests/_index.md") %}
+  {% set latest_digest = digests.pages | first %}
 
   <section class="card">
     <header>
@@ -15,54 +16,84 @@
       </div>
       <p>{{ section.content | safe }}</p>
     </header>
+    <footer class="hstack">
+      <a href="{{ get_url(path='@/notes/_index.md') }}" class="button">Browse notes</a>
+      <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline">Browse digests</a>
+      <a href="{{ get_url(path='tags') }}" class="button outline">Browse tags</a>
+    </footer>
   </section>
 
-  {% if digests.pages | length > 0 %}
-    {% set latest_digest = digests.pages | first %}
-    <section>
-      <div class="hstack justify-between">
-        <h2>Latest digest</h2>
-        <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline small">Browse all digests</a>
-      </div>
-      <article class="card">
+  <div class="row">
+    <div class="col-8">
+      <section>
+        <div class="hstack justify-between">
+          <h2>Latest digest</h2>
+          <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline small">Archive</a>
+        </div>
+        {% if latest_digest %}
+          <article class="card">
+            <header>
+              <h3><a href="{{ latest_digest.permalink }}">{{ latest_digest.title }}</a></h3>
+              <p><small>{{ latest_digest.date }}</small></p>
+            </header>
+            <p>{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | truncate(length=340))) }}</p>
+            <footer class="hstack">
+              <a href="{{ latest_digest.permalink }}" class="button small">Read digest</a>
+            </footer>
+          </article>
+        {% endif %}
+      </section>
+    </div>
+    <div class="col-4">
+      <aside class="card">
         <header>
-          <h3><a href="{{ latest_digest.permalink }}">{{ latest_digest.title }}</a></h3>
-          <p><small>{{ latest_digest.date }}</small></p>
+          <h3>Archive status</h3>
         </header>
-        <p>{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | truncate(length=260))) }}</p>
+        <p><small>Repo-driven reading garden synced from the local work reading log.</small></p>
+        <p>
+          <span class="badge">Notes</span>
+          <span class="badge outline">Weekly digests</span>
+          <span class="badge" data-variant="secondary">Tags</span>
+        </p>
         <footer>
-          <a href="{{ latest_digest.permalink }}" class="button small">Read digest</a>
+          <nav>
+            <a href="{{ get_url(path='rss.xml') }}">RSS</a>
+          </nav>
         </footer>
-      </article>
-    </section>
-  {% endif %}
+      </aside>
+    </div>
+  </div>
 
   <section>
     <div class="hstack justify-between">
       <h2>Recent notes</h2>
-      <a href="{{ get_url(path='@/notes/_index.md') }}" class="button outline small">Browse all notes</a>
+      <a href="{{ get_url(path='@/notes/_index.md') }}" class="button outline small">All notes</a>
     </div>
-    {% for page in notes.pages | slice(end=8) %}
-      <article class="card">
-        <header>
-          <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-          <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
-        </header>
-        {% if page.extra and page.extra.why_it_matters %}
-          <p><strong>Why it matters:</strong> {{ page.extra.why_it_matters }}</p>
-        {% else %}
-          <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=220))) }}</p>
-        {% endif %}
-        {% if page.taxonomies.tags %}
-          <footer class="hstack">
-            {% for tag in page.taxonomies.tags %}
-              {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" %}
-                <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
-              {% endif %}
-            {% endfor %}
-          </footer>
-        {% endif %}
-      </article>
-    {% endfor %}
+    <div class="row">
+      {% for page in notes.pages | slice(end=4) %}
+        <div class="col-6">
+          <article class="card">
+            <header>
+              <h3><a href="{{ page.permalink }}">{{ page.title | truncate(length=72) }}</a></h3>
+              <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
+            </header>
+            {% if page.extra and page.extra.why_it_matters %}
+              <p>{{ page.extra.why_it_matters | truncate(length=180) }}</p>
+            {% else %}
+              <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=180))) }}</p>
+            {% endif %}
+            {% if page.taxonomies.tags %}
+              <footer class="hstack">
+                {% for tag in page.taxonomies.tags %}
+                  {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 3 %}
+                    <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
+                  {% endif %}
+                {% endfor %}
+              </footer>
+            {% endif %}
+          </article>
+        </div>
+      {% endfor %}
+    </div>
   </section>
 {% endblock content %}
