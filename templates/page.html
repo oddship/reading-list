@@ -19,7 +19,11 @@
     {% if page.taxonomies.tags %}
       <div class="story-footer">
         {% for tag in page.taxonomies.tags %}
-          <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag | replace(from='-', to=' ') }}</a>
+          {% set tag_label = tag | replace(from='-', to=' ') %}
+          {% if tag == 'ai-infra' %}{% set tag_label = 'AI Infra' %}{% endif %}
+          {% if tag == 'llm-research' %}{% set tag_label = 'LLM Research' %}{% endif %}
+          {% if tag != 'ai-infra' and tag != 'llm-research' %}{% set tag_label = tag_label | title %}{% endif %}
+          <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag_label }}</a>
         {% endfor %}
       </div>
     {% endif %}

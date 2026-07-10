@@ -18,10 +18,13 @@
 
     <div class="story-list">
       {% for term in terms %}
+        {% set label = term.name | replace(from='-', to=' ') | title %}
+        {% if term.name == 'ai-infra' %}{% set label = 'AI Infra' %}{% endif %}
+        {% if term.name == 'llm-research' %}{% set label = 'LLM Research' %}{% endif %}
         <article class="story">
           <p class="story-meta">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %}</p>
-          <h3><a href="{{ term.permalink }}">{{ term.name | replace(from='-', to=' ') | title }}</a></h3>
-          <p class="story-summary">A clustered view of notes tagged around {{ term.name | replace(from='-', to=' ') }}.</p>
+          <h3><a href="{{ term.permalink }}">{{ label }}</a></h3>
+          <p class="story-summary">A clustered view of notes tagged around {{ label | lower }}.</p>
         </article>
       {% endfor %}
     </div>
