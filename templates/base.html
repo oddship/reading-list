@@ -5,7 +5,213 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   <meta name="description" content="{{ config.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://oat.ink/oat.min.css">
+  <style>
+    :root {
+      --page-bg: linear-gradient(180deg, #f7f4ee 0%, #f2ede4 100%);
+      --ink: #171411;
+      --muted: #6f655b;
+      --rule: rgba(23, 20, 17, 0.16);
+      --accent: #7b4c27;
+      --max: 72rem;
+    }
+    html[data-theme="dark"] {
+      --page-bg: linear-gradient(180deg, #14110f 0%, #1c1714 100%);
+      --ink: #f4eee6;
+      --muted: #b7a99c;
+      --rule: rgba(244, 238, 230, 0.18);
+      --accent: #e5b68d;
+    }
+    html, body {
+      background: var(--page-bg);
+      color: var(--ink);
+      font-family: "Instrument Sans", sans-serif;
+    }
+    body {
+      min-height: 100vh;
+      background-attachment: fixed;
+    }
+    h1, h2, h3 {
+      font-family: "Newsreader", serif;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      text-wrap: balance;
+    }
+    h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      line-height: 0.95;
+      margin: 0 0 1rem;
+    }
+    h2 {
+      font-size: clamp(1.6rem, 3vw, 2.3rem);
+      line-height: 1.05;
+      margin: 0 0 0.6rem;
+    }
+    h3 {
+      font-size: clamp(1.15rem, 2vw, 1.5rem);
+      line-height: 1.15;
+      margin: 0 0 0.4rem;
+    }
+    p, li, small {
+      color: var(--ink);
+    }
+    small, .muted {
+      color: var(--muted);
+    }
+    a {
+      color: var(--ink);
+      text-decoration-color: rgba(123, 76, 39, 0.45);
+      text-underline-offset: 0.14em;
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    .site-shell {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem 4rem;
+    }
+    nav[data-topnav] {
+      background: transparent;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.5rem;
+    }
+    nav[data-topnav] a,
+    nav[data-topnav] button {
+      font-size: 0.95rem;
+    }
+    .brand-lockup strong {
+      font-family: "Newsreader", serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .hero {
+      padding: 2rem 0 2.4rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 2rem;
+      display: grid;
+      gap: 1rem;
+    }
+    .hero-kicker {
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    .hero-copy {
+      max-width: 42rem;
+      font-size: clamp(1.05rem, 2vw, 1.2rem);
+      line-height: 1.55;
+      color: var(--muted);
+    }
+    .hero-actions {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .kicker {
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+    .magazine-section {
+      margin: 0 0 2.75rem;
+    }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.65rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .section-head p {
+      margin: 0.25rem 0 0;
+      color: var(--muted);
+      max-width: 36rem;
+    }
+    .feature {
+      display: grid;
+      gap: 1rem;
+      padding: 1rem 0 1.6rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .feature p {
+      max-width: 44rem;
+    }
+    .story-list {
+      display: grid;
+      gap: 1.25rem;
+    }
+    .story {
+      padding: 0 0 1.2rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .story:last-child {
+      border-bottom: 0;
+    }
+    .story-meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin: 0 0 0.55rem;
+    }
+    .story-summary {
+      max-width: 46rem;
+      color: var(--ink);
+      opacity: 0.9;
+      margin: 0.35rem 0 0.8rem;
+    }
+    .story-footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+    }
+    .button,
+    button.button {
+      border-radius: 999px;
+    }
+    .badge {
+      border-radius: 999px;
+    }
+    .counts {
+      display: flex;
+      gap: 0.55rem;
+      flex-wrap: wrap;
+    }
+    .archive-note {
+      color: var(--muted);
+      max-width: 30rem;
+      margin-top: 0.2rem;
+    }
+    footer.site-footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+    }
+    @media (max-width: 720px) {
+      .site-shell {
+        padding: 1rem 1rem 3rem;
+      }
+      .section-head {
+        align-items: start;
+        flex-direction: column;
+      }
+      nav[data-topnav] .row {
+        gap: 0.75rem;
+      }
+      nav[data-topnav] .justify-end {
+        justify-content: start;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
   <script>
     (function() {
       var t = localStorage.getItem('theme');
@@ -15,7 +221,7 @@
       }
     })();
     function toggleTheme() {
-      var current = document.documentElement.getAttribute('data-theme') || document.documentElement.style.colorScheme || 'dark';
+      var current = document.documentElement.getAttribute('data-theme') || document.documentElement.style.colorScheme || 'light';
       var next = current === 'dark' ? 'light' : 'dark';
       document.documentElement.style.colorScheme = next;
       document.documentElement.setAttribute('data-theme', next);
@@ -24,31 +230,27 @@
   </script>
 </head>
 <body>
-  <nav data-topnav>
-    <div class="row">
-      <div class="col-4">
-        <a href="{{ get_url(path='@/_index.md') }}"><strong>{{ config.title }}</strong></a>
+  <div class="site-shell">
+    <nav data-topnav>
+      <div class="row">
+        <div class="col-4 brand-lockup">
+          <a href="{{ get_url(path='@/_index.md') }}"><strong>{{ config.title }}</strong></a>
+        </div>
+        <div class="col-8 justify-end hstack">
+          <a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a>
+          <a href="{{ get_url(path='@/digests/_index.md') }}">Digests</a>
+          <a href="{{ get_url(path='tags') }}">Tags</a>
+          <a href="{{ get_url(path='rss.xml') }}">RSS</a>
+          <button class="button outline small" onclick="toggleTheme()">Theme</button>
+        </div>
       </div>
-      <div class="col-8 justify-end hstack">
-        <a href="{{ get_url(path='@/notes/_index.md') }}">Notes</a>
-        <a href="{{ get_url(path='@/digests/_index.md') }}">Digests</a>
-        <a href="{{ get_url(path='tags') }}">Tags</a>
-        <a href="{{ get_url(path='rss.xml') }}">RSS</a>
-        <button class="outline small" onclick="toggleTheme()">Theme</button>
-      </div>
-    </div>
-  </nav>
+    </nav>
 
-  <main class="container">
-    <header>
-      <p>{{ config.extra.site_subtitle }}</p>
-    </header>
     {% block content %}{% endblock content %}
-  </main>
 
-  <footer class="container">
-    <hr>
-    <p><small>Built with Zola and Oat. Reading notes, digests, and repo-driven curation.</small></p>
-  </footer>
+    <footer class="site-footer">
+      <p><small>Built with Zola and Oat. Reading notes, digests, and repo-driven curation.</small></p>
+    </footer>
+  </div>
 </body>
 </html>

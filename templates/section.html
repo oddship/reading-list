@@ -11,26 +11,26 @@
     {% set section_count = section.pages | length %}
   {% endif %}
 
-  <section class="card">
-    <header>
-      <div class="hstack justify-between">
-        <h1>{{ section.title }}</h1>
-        {% if section.title == "Digests" %}
-          <span class="badge" data-variant="secondary">{{ section_count }} digests</span>
-        {% elif section.title == "Notes" %}
-          <span class="badge">{{ section_count }} notes</span>
-        {% endif %}
-      </div>
-      <p>{{ section.content | safe }}</p>
-      {% if section.title == "Digests" %}
-        <p><small>Latest first. Weekly roundups, newsletter-style essays, and archive cleanups live here.</small></p>
-      {% elif section.title == "Notes" %}
-        <footer class="hstack">
-          <a href="{{ get_url(path='tags') }}" class="button outline small">Browse tags</a>
-          <a href="{{ get_url(path='rss.xml') }}" class="button outline small">RSS</a>
-        </footer>
+  <section class="hero">
+    <div>
+      <p class="hero-kicker">{{ config.extra.site_subtitle }}</p>
+      <h1>{{ section.title }}</h1>
+      <p class="hero-copy">{{ section.content | safe }}</p>
+    </div>
+    <div class="hero-actions">
+      {% if section.title == "Notes" %}
+        <a href="{{ get_url(path='tags') }}" class="button">Browse tags</a>
+        <a href="{{ get_url(path='rss.xml') }}" class="button outline">RSS</a>
+      {% elif section.title == "Digests" %}
+        <a href="{{ get_url(path='@/digests/_index.md') }}" class="button">Latest digest</a>
+        <a href="{{ get_url(path='rss.xml') }}" class="button outline">RSS</a>
       {% endif %}
-    </header>
+    </div>
+    {% if section.title == "Digests" %}
+      <div class="counts"><span class="badge" data-variant="secondary">{{ section_count }} digests</span></div>
+    {% elif section.title == "Notes" %}
+      <div class="counts"><span class="badge">{{ section_count }} notes</span></div>
+    {% endif %}
   </section>
 
   {% if paginator %}
@@ -39,22 +39,20 @@
     {% set note_pages = section.pages %}
   {% endif %}
 
-  {% for page in note_pages %}
-    <article class="card">
-      <header>
-        <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=88) }}</a></h2>
-        <p><small>{{ page.date }}{% if page.extra and page.extra.status %} · {{ page.extra.status }}{% endif %}</small></p>
-      </header>
-      {% if section.title == "Digests" %}
-        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=360))) }}</p>
-        <footer class="hstack justify-between">
-          <a href="{{ page.permalink }}" class="button small">Read digest</a>
-        </footer>
-      {% elif page.extra and page.extra.why_it_matters %}
-        <p>{{ page.extra.why_it_matters | truncate(length=220) }}</p>
-        <footer class="hstack justify-between">
-          <a href="{{ page.permalink }}" class="button small">Read note</a>
-          <div class="hstack">
+  <div class="story-list">
+    {% for page in note_pages %}
+      <article class="story">
+        <p class="story-meta">{{ page.date }}</p>
+        <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=92) }}</a></h2>
+        {% if section.title == "Digests" %}
+          <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=420))) }}</p>
+          <div class="story-footer">
+            <a href="{{ page.permalink }}" class="button small">Read digest</a>
+          </div>
+        {% elif page.extra and page.extra.why_it_matters %}
+          <p class="story-summary">{{ page.extra.why_it_matters | truncate(length=240) }}</p>
+          <div class="story-footer">
+            <a href="{{ page.permalink }}" class="button small">Read note</a>
             {% if page.taxonomies.tags %}
               {% for tag in page.taxonomies.tags %}
                 {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 3 %}
@@ -63,15 +61,15 @@
               {% endfor %}
             {% endif %}
           </div>
-        </footer>
-      {% else %}
-        <p>{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
-        <footer class="hstack justify-between">
-          <a href="{{ page.permalink }}" class="button small">Read note</a>
-        </footer>
-      {% endif %}
-    </article>
-  {% endfor %}
+        {% else %}
+          <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
+          <div class="story-footer">
+            <a href="{{ page.permalink }}" class="button small">Read note</a>
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
 
   {% if paginator %}
     <nav aria-label="Pagination">
