@@ -99,11 +99,12 @@
       max-width: var(--max);
       margin: 0 auto;
       padding: 1.1rem 1.1rem 4rem;
+      overflow-x: clip;
     }
     nav[data-topnav] {
-      background: color-mix(in srgb, var(--background) 88%, transparent);
+      background: color-mix(in srgb, var(--background) 94%, transparent);
       border-bottom: 1px solid var(--border);
-      margin-bottom: 1.4rem;
+      margin: 0 calc(50% - 50vw) 1.4rem;
       padding: 0.7rem 0 0.75rem;
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
@@ -111,6 +112,9 @@
     }
     nav[data-topnav] .row {
       align-items: center;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 1.1rem;
     }
     nav[data-topnav] a,
     nav[data-topnav] button {
@@ -229,6 +233,17 @@
     .prose li {
       font-size: 1.04rem;
       line-height: 1.72;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    .prose a,
+    .story-summary,
+    .story h3,
+    .feature h1,
+    .feature h2,
+    .feature h3 {
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
     .prose h2,
     .prose h3 {
@@ -246,12 +261,17 @@
         align-items: start;
         flex-direction: column;
       }
+      nav[data-topnav] {
+        margin-bottom: 1.1rem;
+      }
       nav[data-topnav] .row {
         gap: 0.7rem;
+        padding: 0 0.95rem;
       }
       .nav-links {
         justify-content: flex-start;
         gap: 0.65rem;
+        width: 100%;
       }
       h1 { font-size: clamp(2.6rem, 14vw, 4rem); }
       .hero { padding-top: 1.7rem; }
