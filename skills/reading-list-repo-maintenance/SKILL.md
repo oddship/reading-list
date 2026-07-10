@@ -65,6 +65,11 @@ Do not use when:
    - Use the dedicated repo token env var and path-scoped git credentials for this repo only.
    - Completion criterion: automation can push without broadening GitHub access unnecessarily.
 
+9. Keep repo-local skills in sync with live practice.
+   - When a recurring workflow changes, patch the repo-local skills/docs in the same commit rather than leaving the process layer stale.
+   - If the local `work-reading-dropbox` skill also changed, sync it in the same pass unless the difference is intentionally local-only.
+   - Completion criterion: the repo remains a trustworthy upstream source for the workflow it describes.
+
 ## Common Pitfalls
 
 1. Forgetting that `base_url` controls generated links.

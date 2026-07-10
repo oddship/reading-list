@@ -15,7 +15,7 @@ metadata:
 ## Overview
 
 This skill captures the operating model for the Telegram-to-reading-list pipeline.
-Links arrive in Telegram first, get grounded against the actual source when feasible, are logged compactly in the work reading log, and only then are selected items promoted into the public site.
+Links arrive in Telegram first, get grounded against the actual source when feasible, are logged compactly in the work reading log, and every useful item is then promoted into the public site.
 
 ## When to Use
 
@@ -64,6 +64,10 @@ Do not use when:
    - Clean up AI-ish phrasing and strip em dashes unless the user explicitly asked for them.
    - Completion criterion: content promoted into the repo reads naturally and respects the user's punctuation preferences.
 
+8. Keep the local and repo-local workflow skills aligned.
+   - When this workflow changes, patch the local `~/.hermes/skills/openclaw-imports/work-reading-dropbox/SKILL.md` too unless the difference is intentionally repo-specific.
+   - Completion criterion: Bosun does not carry conflicting versions of the same reading workflow across local and repo contexts.
+
 ## Tagging guidance
 
 - Reuse existing topic tags whenever they fit cleanly. Prefer a stable small vocabulary over one-off novelty tags.
@@ -73,6 +77,8 @@ Do not use when:
 - Avoid host/domain tags unless the publisher or product itself is the point of the note and is likely to recur.
 - If a note only weakly fits a tag, leave it out. Sparse but reliable tagging is better than noisy coverage.
 - Before introducing a new tag, search the repo for close existing tags and pick the closest stable term if it is good enough.
+- Use `references/tagging-guidance.md` as the longer-lived taxonomy policy.
+- Use `scripts/audit_tags.go` with `go run skills/telegram-reading-flow/scripts/audit_tags.go /root/reading-list-site` when auditing the current tag vocabulary.
 
 ## Common Pitfalls
 
