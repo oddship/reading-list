@@ -1,0 +1,20 @@
++++
+title = "solod: a subset of Go that translates to C"
+slug = "2026-07-11-solod-a-subset-of-go-that-translates-to-c"
+date = 2026-07-11T01:12:00+05:30
+[taxonomies]
+tags = ["developer-tools", "systems"]
+[extra]
+source_url = "https://github.com/solod-dev/solod"
+source_type = "x-post"
+newsletter_candidate = true
+why_it_matters = "Interesting small tooling pointer in the Go/compiler/toolchain space, especially if the broader thread is about language/runtime tradeoffs or portability."
+saved_link = "https://x.com/i/status/2075648623015084465"
++++
+**Logged at IST:** 2026-07-11 01:12 IST
+
+**What it is:** X reply by Aliaksandr Valialkin pointing to the `solod` project
+
+**Gist:** A terse recommendation of `solod`, a project described as "a subset of Go that translates to C." In context, this reads as a pointer toward an alternative path for getting highly portable or low-level output from Go-like code without using full Go as-is.
+
+**Newsletter angle:** Interesting small tooling pointer in the Go/compiler/toolchain space, especially if the broader thread is about language/runtime tradeoffs or portability.
