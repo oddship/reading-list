@@ -1,9 +1,9 @@
 +++
 title = "Deedy post listing standout Claude Fable 5 demos and benchmark anecdotes"
 slug = "2026-06-10-deedy-post-listing-standout-claude-fable-5-demos-and-benchmark-anecdotes"
-date = 2026-06-10T07:56:00+05:30
+date = 2026-06-10
 [taxonomies]
-tags = ["org-design", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2064519826333397149"
 source_type = "x-post"

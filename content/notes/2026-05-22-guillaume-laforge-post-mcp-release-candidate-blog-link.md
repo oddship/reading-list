@@ -1,9 +1,9 @@
 +++
 title = "Guillaume Laforge post + MCP release-candidate blog link"
 slug = "2026-05-22-guillaume-laforge-post-mcp-release-candidate-blog-link"
-date = 2026-05-22T15:47:00+05:30
+date = 2026-05-22
 [taxonomies]
-tags = ["agents", "security", "org-design"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2057751443893858595"
 source_type = "x-post"

@@ -1,9 +1,9 @@
 +++
 title = "Rewriting Bun in Rust"
 slug = "2026-07-09-rewriting-bun-in-rust"
-date = 2026-07-09T10:34:00+05:30
+date = 2026-07-09
 [taxonomies]
-tags = ["ai-infra", "developer-tools"]
+tags = ["reading-log", "x-post", "bun-com", "ai-infra", "developer-tools"]
 [extra]
 source_url = "https://bun.com/blog/bun-in-rust"
 source_type = "x-post"

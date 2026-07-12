@@ -1,9 +1,9 @@
 +++
 title = "10 Lessons for Agentic Coding"
 slug = "2026-07-06-10-lessons-for-agentic-coding"
-date = 2026-07-06T00:12:00+05:30
+date = 2026-07-06
 [taxonomies]
-tags = ["agents", "security"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "security"]
 [extra]
 source_url = "https://x.com/i/status/2074272583441338710"
 source_type = "x-post"

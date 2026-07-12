@@ -1,9 +1,9 @@
 +++
 title = "transfer station"
 slug = "2026-05-06-transfer-station"
-date = 2026-05-06T00:08:00+05:30
+date = 2026-05-06
 [taxonomies]
-tags = ["ai-infra", "security", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "security", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2052023116348469608"
 source_type = "x-post"

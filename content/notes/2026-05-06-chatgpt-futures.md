@@ -1,9 +1,9 @@
 +++
 title = "ChatGPT Futures"
 slug = "2026-05-06-chatgpt-futures"
-date = 2026-05-06T00:10:00+05:30
+date = 2026-05-06
 [taxonomies]
-tags = ["security", "org-design", "systems"]
+tags = ["reading-log", "article", "chatgpt-com", "historical-backfill", "security", "org-design", "systems"]
 [extra]
 source_url = "https://chatgpt.com/futures/"
 source_type = "article"

@@ -1,9 +1,9 @@
 +++
 title = "agentic-inbox"
 slug = "2026-07-06-agentic-inbox"
-date = 2026-07-06T00:08:00+05:30
+date = 2026-07-06
 [taxonomies]
-tags = ["agents", "security", "developer-tools"]
+tags = ["reading-log", "article", "blog-sh1ma-dev", "historical-backfill", "agents", "security", "developer-tools"]
 [extra]
 source_url = "https://blog.sh1ma.dev/en/articles/20260706_cloudflare_agentic_inbox/"
 source_type = "article"

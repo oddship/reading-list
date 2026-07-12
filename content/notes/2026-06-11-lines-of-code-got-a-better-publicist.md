@@ -1,9 +1,9 @@
 +++
 title = "Lines of Code Got a Better Publicist"
 slug = "2026-06-11-lines-of-code-got-a-better-publicist"
-date = 2026-06-11T03:45:00+05:30
+date = 2026-06-11
 [taxonomies]
-tags = []
+tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2065135794927419867"
 source_type = "x-post"

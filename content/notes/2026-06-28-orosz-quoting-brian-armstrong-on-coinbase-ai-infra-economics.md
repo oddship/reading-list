@@ -3,7 +3,7 @@ title = "Orosz quoting Brian Armstrong on Coinbase AI infra economics"
 slug = "2026-06-28-orosz-quoting-brian-armstrong-on-coinbase-ai-infra-economics"
 date = 2026-06-28
 [taxonomies]
-tags = ["llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2070735111226847242"
 source_type = "x-post"

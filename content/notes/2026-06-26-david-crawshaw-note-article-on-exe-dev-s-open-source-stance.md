@@ -1,9 +1,9 @@
 +++
 title = "David Crawshaw note/article on exe.dev’s open-source stance"
 slug = "2026-06-26-david-crawshaw-note-article-on-exe-dev-s-open-source-stance"
-date = 2026-06-26T01:58:00+05:30
+date = 2026-06-26
 [taxonomies]
-tags = ["agents"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents"]
 [extra]
 source_url = "https://x.com/i/status/2070233733521723768"
 source_type = "x-post"

@@ -1,9 +1,9 @@
 +++
 title = "linking filiph.net/text/pokerd.html"
 slug = "2026-06-19-linking-filiph-net-text-pokerd-html"
-date = 2026-06-20T01:40:00+05:30
+date = 2026-06-19
 [taxonomies]
-tags = []
+tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2068006275888115814"
 source_type = "x-post"

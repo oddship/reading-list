@@ -1,9 +1,9 @@
 +++
 title = "Why TypeScript 7.0 Was Rewritten in Go (and what it means for your dev stack)"
 slug = "2026-07-08-why-typescript-7-0-was-rewritten-in-go-and-what-it-means-for-your-dev-stack"
-date = 2026-07-08T22:32:00+05:30
+date = 2026-07-08
 [taxonomies]
-tags = ["agents", "ai-infra", "org-design"]
+tags = ["reading-log", "x-post", "spf13-com", "agents", "ai-infra", "org-design"]
 [extra]
 source_url = "https://spf13.com/p/go-the-agentic-language/"
 source_type = "x-post"

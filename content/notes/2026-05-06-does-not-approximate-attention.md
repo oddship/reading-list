@@ -1,9 +1,9 @@
 +++
 title = "does not approximate attention"
 slug = "2026-05-06-does-not-approximate-attention"
-date = 2026-05-06T00:06:00+05:30
+date = 2026-05-06
 [taxonomies]
-tags = ["llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/badlogicgames/status/2051936321610842245"
 source_type = "x-post"

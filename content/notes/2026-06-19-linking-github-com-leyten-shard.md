@@ -1,9 +1,9 @@
 +++
 title = "linking github.com/leyten/shard"
 slug = "2026-06-19-linking-github-com-leyten-shard"
-date = 2026-06-19T13:34:00+05:30
+date = 2026-06-19
 [taxonomies]
-tags = ["ai-infra", "developer-tools", "llm-research", "systems"]
+tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "developer-tools", "llm-research", "systems"]
 [extra]
 source_url = "https://x.com/i/status/2067222629421895939"
 source_type = "x-post"

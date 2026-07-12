@@ -1,9 +1,9 @@
 +++
 title = "Putting an Agent in an Orb"
 slug = "2026-07-04-putting-an-agent-in-an-orb"
-date = 2026-07-04T04:03:00+05:30
+date = 2026-07-04
 [taxonomies]
-tags = ["agents", "security"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "security"]
 [extra]
 source_url = "https://x.com/i/status/2073455827235541273"
 source_type = "x-post"

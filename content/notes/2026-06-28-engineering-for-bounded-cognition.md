@@ -3,7 +3,7 @@ title = "Engineering for Bounded Cognition"
 slug = "2026-06-28-engineering-for-bounded-cognition"
 date = 2026-06-28
 [taxonomies]
-tags = []
+tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2071206318094897201"
 source_type = "x-post"

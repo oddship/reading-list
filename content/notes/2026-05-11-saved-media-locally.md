@@ -1,9 +1,9 @@
 +++
 title = "Saved media locally"
 slug = "2026-05-11-saved-media-locally"
-date = 2026-05-11T00:02:00+05:30
+date = 2026-05-11
 [taxonomies]
-tags = ["agents", "developer-tools", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "llm-research"]
 [extra]
 source_url = "https://x.com/thdxr/status/2053566249351754193"
 source_type = "x-post"

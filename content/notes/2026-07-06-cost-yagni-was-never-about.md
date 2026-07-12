@@ -1,9 +1,9 @@
 +++
 title = "Cost YAGNI Was Never About"
 slug = "2026-07-06-cost-yagni-was-never-about"
-date = 2026-07-06T00:02:00+05:30
+date = 2026-07-06
 [taxonomies]
-tags = []
+tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2073694372122730715"
 source_type = "x-post"

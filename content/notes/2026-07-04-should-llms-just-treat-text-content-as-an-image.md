@@ -1,9 +1,9 @@
 +++
 title = "Should LLMs just treat text content as an image?"
 slug = "2026-07-04-should-llms-just-treat-text-content-as-an-image"
-date = 2026-07-04T10:14:00+05:30
+date = 2026-07-04
 [taxonomies]
-tags = ["agents", "ai-infra", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2073177018351440267"
 source_type = "x-post"

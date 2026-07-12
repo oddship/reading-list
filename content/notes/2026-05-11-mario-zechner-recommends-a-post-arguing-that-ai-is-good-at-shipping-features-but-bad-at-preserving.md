@@ -1,9 +1,9 @@
 +++
 title = "Mario Zechner recommends a post arguing that AI is good at shipping features but bad at preserving architec..."
 slug = "2026-05-11-mario-zechner-recommends-a-post-arguing-that-ai-is-good-at-shipping-features-but-bad-at-preserving"
-date = 2026-05-11T00:01:00+05:30
+date = 2026-05-11
 [taxonomies]
-tags = ["agents", "ai-infra"]
+tags = ["reading-log", "x-post", "blog-k10s-dev", "historical-backfill", "agents", "ai-infra"]
 [extra]
 source_url = "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/"
 source_type = "x-post"

@@ -1,9 +1,9 @@
 +++
 title = "How I Use Codex To Automate Parts Of My Research Workflow"
 slug = "2026-07-08-how-i-use-codex-to-automate-parts-of-my-research-workflow"
-date = 2026-07-08T23:02:00+05:30
+date = 2026-07-08
 [taxonomies]
-tags = ["agents", "org-design"]
+tags = ["reading-log", "x-post", "aisagroup-substack-com", "agents", "org-design"]
 [extra]
 source_url = "https://aisagroup.substack.com/p/how-i-use-codex-to-automate-parts"
 source_type = "x-post"

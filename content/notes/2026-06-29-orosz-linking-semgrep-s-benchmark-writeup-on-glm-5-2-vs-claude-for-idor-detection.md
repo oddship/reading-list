@@ -3,7 +3,7 @@ title = "Orosz linking Semgrep’s benchmark writeup on GLM 5.2 vs Claude for ID
 slug = "2026-06-29-orosz-linking-semgrep-s-benchmark-writeup-on-glm-5-2-vs-claude-for-idor-detection"
 date = 2026-06-29
 [taxonomies]
-tags = ["agents", "security", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2071378924462911870"
 source_type = "x-post"

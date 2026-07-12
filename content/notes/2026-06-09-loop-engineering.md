@@ -1,9 +1,9 @@
 +++
 title = "Loop Engineering"
 slug = "2026-06-09-loop-engineering"
-date = 2026-06-09T09:50:00+05:30
+date = 2026-06-09
 [taxonomies]
-tags = ["agents"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents"]
 [extra]
 source_url = "https://x.com/i/status/2064127981161959567"
 source_type = "x-post"

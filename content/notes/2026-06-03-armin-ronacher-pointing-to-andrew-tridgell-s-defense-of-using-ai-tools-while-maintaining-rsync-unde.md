@@ -1,9 +1,9 @@
 +++
 title = "Armin Ronacher pointing to Andrew Tridgell’s defense of using AI tools while maintaining rsync under a floo..."
 slug = "2026-06-03-armin-ronacher-pointing-to-andrew-tridgell-s-defense-of-using-ai-tools-while-maintaining-rsync-unde"
-date = 2026-06-03T19:51:00+05:30
+date = 2026-06-03
 [taxonomies]
-tags = ["security"]
+tags = ["reading-log", "x-post", "historical-backfill", "security"]
 [extra]
 source_url = "https://x.com/i/status/2062173649222656006"
 source_type = "x-post"

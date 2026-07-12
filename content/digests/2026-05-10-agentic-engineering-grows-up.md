@@ -1,10 +1,8 @@
 +++
 title = "Agentic engineering grows up"
-slug = "2026-05-10-agentic-engineering-grows-up"
-aliases = ["/digests/agentic-engineering-grows-up/"]
 date = 2026-05-10
 [taxonomies]
-tags = []
+tags = ["digest", "newsletter", "historical-backfill"]
 [extra]
 source_file = "/root/.openclaw/workspace-rohan-work/tmp/newsletter-draft-2026-05-10.md"
 +++

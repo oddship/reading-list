@@ -1,9 +1,9 @@
 +++
 title = "mega thread"
 slug = "2026-07-02-mega-thread"
-date = 2026-07-02T10:42:00+05:30
+date = 2026-07-02
 [taxonomies]
-tags = ["agents"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents"]
 [extra]
 source_url = "https://x.com/i/status/2072522251300409556"
 source_type = "x-post"

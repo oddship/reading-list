@@ -1,9 +1,9 @@
 +++
 title = "Simon Willison pointing to Bloomberg on Uber capping agentic coding-tool spend at $1,500/month per employee..."
 slug = "2026-06-03-simon-willison-pointing-to-bloomberg-on-uber-capping-agentic-coding-tool-spend-at-1-500-month-per-e"
-date = 2026-06-03T19:48:00+05:30
+date = 2026-06-03
 [taxonomies]
-tags = ["agents", "developer-tools"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2062143151184465964"
 source_type = "x-post"

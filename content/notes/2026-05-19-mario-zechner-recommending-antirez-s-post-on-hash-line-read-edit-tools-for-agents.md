@@ -1,9 +1,9 @@
 +++
 title = "Mario Zechner recommending antirez’s post on hash-line read/edit tools for agents"
 slug = "2026-05-19-mario-zechner-recommending-antirez-s-post-on-hash-line-read-edit-tools-for-agents"
-date = 2026-05-19T00:06:00+05:30
+date = 2026-05-19
 [taxonomies]
-tags = ["agents", "developer-tools"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2056696881221124100"
 source_type = "x-post"

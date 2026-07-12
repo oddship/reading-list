@@ -1,9 +1,9 @@
 +++
 title = "Dynamo and the Computer"
 slug = "2026-06-09-dynamo-and-the-computer"
-date = 2026-06-09T01:54:00+05:30
+date = 2026-06-09
 [taxonomies]
-tags = ["agents", "developer-tools", "org-design", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2064088872494194753"
 source_type = "x-post"

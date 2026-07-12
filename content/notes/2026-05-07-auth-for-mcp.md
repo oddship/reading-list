@@ -1,9 +1,9 @@
 +++
 title = "Auth for MCP"
 slug = "2026-05-07-auth-for-mcp"
-date = 2026-05-07T00:09:00+05:30
+date = 2026-05-07
 [taxonomies]
-tags = ["agents", "security", "developer-tools"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2052138238111068277"
 source_type = "x-post"

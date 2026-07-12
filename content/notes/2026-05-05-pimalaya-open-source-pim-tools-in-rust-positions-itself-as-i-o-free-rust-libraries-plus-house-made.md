@@ -1,9 +1,9 @@
 +++
 title = "Pimalaya: open-source PIM tools in Rust; positions itself as I/O-free Rust libraries plus house-made applic..."
 slug = "2026-05-05-pimalaya-open-source-pim-tools-in-rust-positions-itself-as-i-o-free-rust-libraries-plus-house-made"
-date = 2026-05-05T00:03:00+05:30
+date = 2026-05-05
 [taxonomies]
-tags = ["agents", "security", "developer-tools"]
+tags = ["reading-log", "article", "pimalaya-org", "historical-backfill", "agents", "security", "developer-tools"]
 [extra]
 source_url = "https://pimalaya.org/ and https://github.com/pimalaya/himalaya"
 source_type = "article"

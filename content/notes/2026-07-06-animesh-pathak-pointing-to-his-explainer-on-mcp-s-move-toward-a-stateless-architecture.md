@@ -1,9 +1,9 @@
 +++
 title = "Animesh Pathak pointing to his explainer on MCP’s move toward a stateless architecture"
 slug = "2026-07-06-animesh-pathak-pointing-to-his-explainer-on-mcp-s-move-toward-a-stateless-architecture"
-date = 2026-07-06T00:09:00+05:30
+date = 2026-07-06
 [taxonomies]
-tags = ["agents", "ai-infra"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2073987273327247775"
 source_type = "x-post"

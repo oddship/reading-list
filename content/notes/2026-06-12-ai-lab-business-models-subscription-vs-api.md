@@ -1,9 +1,9 @@
 +++
 title = "AI lab business models: subscription vs API"
 slug = "2026-06-12-ai-lab-business-models-subscription-vs-api"
-date = 2026-06-12T10:51:00+05:30
+date = 2026-06-12
 [taxonomies]
-tags = ["llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/SemiAnalysis_/status/2064815044085318040"
 source_type = "x-post"

@@ -1,9 +1,9 @@
 +++
 title = "just use loops"
 slug = "2026-06-08-just-use-loops"
-date = 2026-06-08T02:13:00+05:30
+date = 2026-06-08
 [taxonomies]
-tags = ["agents", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2063997292290474066"
 source_type = "x-post"

@@ -1,9 +1,9 @@
 +++
 title = "Prateek describing an AI SRE workflow built with SigNoz by a 3-person team at Alien Intelligence"
 slug = "2026-07-01-prateek-describing-an-ai-sre-workflow-built-with-signoz-by-a-3-person-team-at-alien-intelligence"
-date = 2026-07-01T19:40:00+05:30
+date = 2026-07-01
 [taxonomies]
-tags = ["agents", "org-design"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2072305334736003419"
 source_type = "x-post"

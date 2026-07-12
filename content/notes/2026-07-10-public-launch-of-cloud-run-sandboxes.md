@@ -1,9 +1,9 @@
 +++
 title = "public launch of Cloud Run sandboxes"
 slug = "2026-07-10-public-launch-of-cloud-run-sandboxes"
-date = 2026-07-10T00:04:00+05:30
+date = 2026-07-10
 [taxonomies]
-tags = ["agents", "ai-infra"]
+tags = ["reading-log", "x-post", "agents", "ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2075248370587697213"
 source_type = "x-post"

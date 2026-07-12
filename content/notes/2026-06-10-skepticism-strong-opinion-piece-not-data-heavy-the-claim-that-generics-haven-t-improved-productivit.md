@@ -1,9 +1,9 @@
 +++
 title = "skepticism: strong opinion piece, not data-heavy; the claim that generics haven’t improved productivity is..."
 slug = "2026-06-10-skepticism-strong-opinion-piece-not-data-heavy-the-claim-that-generics-haven-t-improved-productivit"
-date = 2026-06-10T10:03:00+05:30
+date = 2026-06-10
 [taxonomies]
-tags = []
+tags = ["reading-log", "x-post", "itnext-io", "historical-backfill"]
 [extra]
 source_url = "https://itnext.io/go-evolves-in-the-wrong-direction-7dfda8a1a620"
 source_type = "x-post"

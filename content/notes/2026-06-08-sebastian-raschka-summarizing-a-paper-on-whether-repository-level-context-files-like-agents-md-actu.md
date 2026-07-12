@@ -1,9 +1,9 @@
 +++
 title = "Sebastian Raschka summarizing a paper on whether repository-level context files like AGENTS.md actually hel..."
 slug = "2026-06-08-sebastian-raschka-summarizing-a-paper-on-whether-repository-level-context-files-like-agents-md-actu"
-date = 2026-06-08T14:17:00+05:30
+date = 2026-06-08
 [taxonomies]
-tags = ["agents", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]
 [extra]
 source_url = "https://x.com/rasbt/status/2063649136323252397"
 source_type = "x-post"

@@ -1,9 +1,9 @@
 +++
 title = "Liminality"
 slug = "2026-07-10-liminality"
-date = 2026-07-10T11:06:00+05:30
+date = 2026-07-10
 [taxonomies]
-tags = ["org-design"]
+tags = ["reading-log", "article", "geohot-github-io", "org-design"]
 [extra]
 source_url = "https://geohot.github.io/blog/jekyll/update/2026/06/23/liminality.html"
 source_type = "article"

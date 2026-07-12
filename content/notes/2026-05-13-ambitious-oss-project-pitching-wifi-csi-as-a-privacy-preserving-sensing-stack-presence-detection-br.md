@@ -1,9 +1,9 @@
 +++
 title = "Ambitious OSS project pitching WiFi CSI as a privacy-preserving sensing stack: presence detection, breathin..."
 slug = "2026-05-13-ambitious-oss-project-pitching-wifi-csi-as-a-privacy-preserving-sensing-stack-presence-detection-br"
-date = 2026-05-13T00:02:00+05:30
+date = 2026-05-13
 [taxonomies]
-tags = ["ai-infra", "security", "developer-tools", "llm-research"]
+tags = ["reading-log", "article", "github-com", "historical-backfill", "ai-infra", "security", "developer-tools", "llm-research"]
 [extra]
 source_url = "https://github.com/ruvnet/RuView"
 source_type = "article"

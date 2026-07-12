@@ -1,9 +1,9 @@
 +++
 title = "Open Generative UI"
 slug = "2026-05-07-open-generative-ui"
-date = 2026-05-07T00:05:00+05:30
+date = 2026-05-07
 [taxonomies]
-tags = ["agents", "ai-infra"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2052299884817240444"
 source_type = "x-post"

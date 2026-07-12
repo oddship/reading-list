@@ -1,9 +1,9 @@
 +++
 title = "Robot Privilege and the Jetson Delusion"
 slug = "2026-07-02-robot-privilege-and-the-jetson-delusion"
-date = 2026-07-02T11:03:00+05:30
+date = 2026-07-02
 [taxonomies]
-tags = ["security"]
+tags = ["reading-log", "x-post", "historical-backfill", "security"]
 [extra]
 source_url = "https://x.com/i/status/2072550217203986457"
 source_type = "x-post"

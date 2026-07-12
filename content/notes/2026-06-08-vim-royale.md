@@ -1,9 +1,9 @@
 +++
 title = "vim_royale"
 slug = "2026-06-08-vim-royale"
-date = 2026-06-08T01:15:00+05:30
+date = 2026-06-08
 [taxonomies]
-tags = []
+tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2062015232743198849"
 source_type = "x-post"

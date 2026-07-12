@@ -1,9 +1,9 @@
 +++
 title = "Some new agentic patterns"
 slug = "2026-07-08-some-new-agentic-patterns"
-date = 2026-07-08T22:40:00+05:30
+date = 2026-07-08
 [taxonomies]
-tags = ["agents", "org-design", "llm-research"]
+tags = ["reading-log", "x-post", "primeradiant-com", "agents", "org-design", "llm-research"]
 [extra]
 source_url = "https://primeradiant.com/blog/2026/new-agentic-patterns.html"
 source_type = "x-post"

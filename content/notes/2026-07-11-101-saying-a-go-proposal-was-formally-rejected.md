@@ -1,11 +1,11 @@
 +++
-title = "Go function-to-one-method-interface proposal rejected"
-slug = "2026-07-11-go-function-to-one-method-interface-proposal-rejected"
-date = 2026-07-11T01:16:00+05:30
+title = "101 saying a Go proposal was formally rejected"
+slug = "2026-07-11-101-saying-a-go-proposal-was-formally-rejected"
+date = 2026-07-11
 [taxonomies]
-tags = ["developer-tools", "systems"]
+tags = ["reading-log", "x-post"]
 [extra]
-source_url = "https://github.com/golang/go/issues/47487"
+source_url = "https://x.com/i/status/2075631967262155119"
 source_type = "x-post"
 newsletter_candidate = true
 why_it_matters = "Useful small datapoint in Go language evolution: another reminder that the bar for adding convenience features to core Go remains high, especially where ambiguity or language-surface complexity is involved."
@@ -19,4 +19,4 @@ saved_link = "https://x.com/i/status/2075631967262155119"
 
 **Newsletter angle:** Useful small datapoint in Go language evolution: another reminder that the bar for adding convenience features to core Go remains high, especially where ambiguity or language-surface complexity is involved.
 
-**Note:** Grounded from the X post plus the quoted earlier post linking GitHub issue `golang/go#47487`.
+**Retrieval note:** Grounded from the X post plus the quoted earlier post linking GitHub issue `golang/go#47487`.

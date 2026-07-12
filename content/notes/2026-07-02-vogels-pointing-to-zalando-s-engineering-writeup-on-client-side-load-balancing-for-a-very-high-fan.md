@@ -1,9 +1,9 @@
 +++
 title = "Vogels pointing to Zalando’s engineering writeup on client-side load balancing for a very high fan-out API..."
 slug = "2026-07-02-vogels-pointing-to-zalando-s-engineering-writeup-on-client-side-load-balancing-for-a-very-high-fan"
-date = 2026-07-02T19:46:00+05:30
+date = 2026-07-02
 [taxonomies]
-tags = ["ai-infra", "developer-tools", "systems"]
+tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "developer-tools", "systems"]
 [extra]
 source_url = "https://x.com/i/status/2072652797603176572"
 source_type = "x-post"

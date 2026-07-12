@@ -1,9 +1,9 @@
 +++
 title = "Nithin Kamath on Zerodha’s operating culture"
 slug = "2026-07-06-nithin-kamath-on-zerodha-s-operating-culture"
-date = 2026-07-06T00:05:00+05:30
+date = 2026-07-06
 [taxonomies]
-tags = ["org-design", "llm-research"]
+tags = ["reading-log", "article", "nithinkamath-me", "historical-backfill", "org-design", "llm-research"]
 [extra]
 source_url = "https://nithinkamath.me/blog/why-a-nice-place-to-work-doesnt-just-happen/"
 source_type = "article"

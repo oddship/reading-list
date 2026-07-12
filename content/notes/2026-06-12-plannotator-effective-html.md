@@ -1,9 +1,9 @@
 +++
 title = "plannotator/effective-html"
 slug = "2026-06-12-plannotator-effective-html"
-date = 2026-06-12T00:50:00+05:30
+date = 2026-06-12
 [taxonomies]
-tags = ["agents", "developer-tools"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2065479594023829619"
 source_type = "x-post"

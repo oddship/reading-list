@@ -1,9 +1,9 @@
 +++
 title = "Harness Engineering for Self-Improvement"
 slug = "2026-07-06-harness-engineering-for-self-improvement"
-date = 2026-07-06T00:11:00+05:30
+date = 2026-07-06
 [taxonomies]
-tags = ["agents", "ai-infra", "org-design", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/lilianweng/status/2074372369213428144?s=20"
 source_type = "x-post"

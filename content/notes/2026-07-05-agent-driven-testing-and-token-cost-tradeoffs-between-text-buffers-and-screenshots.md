@@ -1,9 +1,9 @@
 +++
 title = "agent-driven testing and token cost tradeoffs between text buffers and screenshots"
 slug = "2026-07-05-agent-driven-testing-and-token-cost-tradeoffs-between-text-buffers-and-screenshots"
-date = 2026-07-05T18:00:00+05:30
+date = 2026-07-05
 [taxonomies]
-tags = ["agents", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2073454451474481193"
 source_type = "x-post"

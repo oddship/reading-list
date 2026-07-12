@@ -1,9 +1,9 @@
 +++
 title = "Miguel Ángel Pastor linking Zalando’s engineering post on client-side load balancing at a million requests..."
 slug = "2026-07-06-miguel-ngel-pastor-linking-zalando-s-engineering-post-on-client-side-load-balancing-at-a-million-re"
-date = 2026-07-06T00:07:00+05:30
+date = 2026-07-06
 [taxonomies]
-tags = ["developer-tools", "systems"]
+tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "systems"]
 [extra]
 source_url = "https://x.com/i/status/2073796043230052472"
 source_type = "x-post"

@@ -1,9 +1,9 @@
 +++
 title = "Ponnappa sharing a Realfast blog post by Harsh Jain"
 slug = "2026-07-01-ponnappa-sharing-a-realfast-blog-post-by-harsh-jain"
-date = 2026-07-01T19:39:00+05:30
+date = 2026-07-01
 [taxonomies]
-tags = ["llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2072173324835389729"
 source_type = "x-post"

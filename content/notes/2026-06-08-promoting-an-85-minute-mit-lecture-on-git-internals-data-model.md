@@ -1,9 +1,9 @@
 +++
 title = "promoting an 85-minute MIT lecture on Git internals / data model"
 slug = "2026-06-08-promoting-an-85-minute-mit-lecture-on-git-internals-data-model"
-date = 2026-06-08T12:47:00+05:30
+date = 2026-06-08
 [taxonomies]
-tags = ["agents", "developer-tools", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "llm-research"]
 [extra]
 source_url = "https://x.com/slash1sol/status/2063762157339132084?s=20"
 source_type = "x-post"

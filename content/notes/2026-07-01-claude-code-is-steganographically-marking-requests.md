@@ -1,9 +1,9 @@
 +++
 title = "Claude Code Is Steganographically Marking Requests"
 slug = "2026-07-01-claude-code-is-steganographically-marking-requests"
-date = 2026-07-01T19:35:00+05:30
+date = 2026-07-01
 [taxonomies]
-tags = ["agents", "security"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "security"]
 [extra]
 source_url = "https://x.com/i/status/2072254199614562569"
 source_type = "x-post"

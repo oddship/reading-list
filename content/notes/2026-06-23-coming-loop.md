@@ -3,7 +3,7 @@ title = "Coming Loop"
 slug = "2026-06-23-coming-loop"
 date = 2026-06-23
 [taxonomies]
-tags = ["agents", "security", "org-design", "llm-research"]
+tags = ["reading-log", "x-post", "lucumr-pocoo-org", "historical-backfill", "agents", "security", "org-design", "llm-research"]
 [extra]
 source_url = "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/"
 source_type = "x-post"

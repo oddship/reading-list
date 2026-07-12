@@ -1,9 +1,9 @@
 +++
 title = "cursed code"
 slug = "2026-06-26-cursed-code"
-date = 2026-06-26T19:23:00+05:30
+date = 2026-06-26
 [taxonomies]
-tags = []
+tags = ["reading-log", "x-post", "historical-backfill"]
 [extra]
 source_url = "https://x.com/i/status/2070308475603951723"
 source_type = "x-post"

@@ -1,9 +1,9 @@
 +++
 title = "antirez on alternatives to the standard EDIT tool for LLM agents; links to a short blog note"
 slug = "2026-05-19-antirez-on-alternatives-to-the-standard-edit-tool-for-llm-agents-links-to-a-short-blog-note"
-date = 2026-05-19T00:03:00+05:30
+date = 2026-05-19
 [taxonomies]
-tags = ["agents", "developer-tools", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "llm-research"]
 [extra]
 source_url = "https://x.com/antirez/status/2056638930406044131"
 source_type = "x-post"

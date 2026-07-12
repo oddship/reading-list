@@ -1,9 +1,9 @@
 +++
 title = "How I use LLMs as a staff engineer in 2026"
 slug = "2026-06-26-how-i-use-llms-as-a-staff-engineer-in-2026"
-date = 2026-06-26T19:24:00+05:30
+date = 2026-06-26
 [taxonomies]
-tags = ["agents", "ai-infra", "org-design", "llm-research"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/bibryam/status/2070467106412626035?s=20"
 source_type = "x-post"

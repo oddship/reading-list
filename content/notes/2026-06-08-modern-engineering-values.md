@@ -1,9 +1,9 @@
 +++
 title = "Modern Engineering Values"
 slug = "2026-06-08-modern-engineering-values"
-date = 2026-06-08T07:30:00+05:30
+date = 2026-06-08
 [taxonomies]
-tags = ["agents", "org-design"]
+tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2063751016718418024"
 source_type = "x-post"

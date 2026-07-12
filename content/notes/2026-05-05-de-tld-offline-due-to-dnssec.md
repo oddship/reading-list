@@ -1,9 +1,9 @@
 +++
 title = "de TLD offline due to DNSSEC?"
 slug = "2026-05-05-de-tld-offline-due-to-dnssec"
-date = 2026-05-05T00:05:00+05:30
+date = 2026-05-05
 [taxonomies]
-tags = ["ai-infra", "systems"]
+tags = ["reading-log", "article", "captnemo-in", "news-ycombinator-com", "historical-backfill", "ai-infra", "systems"]
 [extra]
 source_url = "https://captnemo.in/blog/2026/05/05/namecheap-whois/"
 source_type = "article"

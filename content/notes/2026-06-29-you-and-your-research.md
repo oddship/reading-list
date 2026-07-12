@@ -3,7 +3,7 @@ title = "You and Your Research"
 slug = "2026-06-29-you-and-your-research"
 date = 2026-06-29
 [taxonomies]
-tags = []
+tags = ["reading-log", "article", "cs-utexas-edu", "historical-backfill"]
 [extra]
 source_url = "https://www.cs.utexas.edu/~dahlin/bookshelf/hamming.html"
 source_type = "article"
