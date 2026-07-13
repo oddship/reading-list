@@ -15,6 +15,6 @@ saved_link = "https://x.com/i/status/2076290513896968574"
 
 **What it is:** X post by Mario Zechner adding nuance to antirez’s AI-code ownership point
 
-**Gist:** Zechner agrees with the importance of control, but sharpens it into a practical rule: own the types and interfaces, and force the model to stay inside them. His warning is that current models still invent bad abstractions that fight your architecture, so keeping ownership sometimes means reading generated code and beating it back into shape.
+**Gist:** Zechner’s nuance is more specific than a general plea for control: if you control the types and interfaces, the rest often falls into place well enough. But current models still love to introduce bad abstractions that work against those boundaries, so in practice you sometimes have to read generated code and beat it back into submission.
 
-**Newsletter angle:** Useful follow-on to the "own the mental model" debate because it grounds the abstraction in a concrete engineering control surface: types, interfaces, and the discipline to reject model-invented structure.
+**Newsletter angle:** Useful follow-on to the "own the mental model" debate because it turns the abstraction into an engineering rule of thumb: own the types and interfaces, and do not let the model quietly redefine them underneath you.
