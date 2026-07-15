@@ -1,4 +1,4 @@
-name: Deploy Zola site to GitHub Pages
+name: Deploy via s3site
 
 on:
   push:
@@ -7,19 +7,24 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: deploy-reading-list-s3site
   cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@ba0dd844c9180cbf77aa72a116d6fbc515d0e87b # v27
+        with:
+          nix_path: nixpkgs=channel:nixos-unstable
+          extra_nix_config: |
+            experimental-features = nix-command flakes
 
       - name: Install Zola
         uses: taiki-e/install-action@v2
@@ -29,18 +34,36 @@ jobs:
       - name: Build site
         run: zola build
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+      - name: Create site archive
+        run: tar czf reading-list.oddship.net.tar.gz -C public .
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@306e68a486fd2350f2bfc3b19fcd143891a4a2d8 # v4
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:gh-ci
+          ping: rhnvrm-private
+
+      - name: Upload archive to Garage
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.S3SITE_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.S3SITE_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: garage
+          AWS_EC2_METADATA_DISABLED: true
+          S3SITE_BUCKET: static-sites
+          S3SITE_ENDPOINT: http://rhnvrm-private:3900
+          S3SITE_KEY: sites/reading-list.oddship.net.tar.gz
+        run: |
+          set -euo pipefail
+          nix shell nixpkgs#awscli2 -c aws \
+            --endpoint-url "${S3SITE_ENDPOINT}" \
+            s3api put-object \
+            --bucket "${S3SITE_BUCKET}" \
+            --key "${S3SITE_KEY}" \
+            --body reading-list.oddship.net.tar.gz >/dev/null
+          nix shell nixpkgs#awscli2 -c aws \
+            --endpoint-url "${S3SITE_ENDPOINT}" \
+            s3api head-object \
+            --bucket "${S3SITE_BUCKET}" \
+            --key "${S3SITE_KEY}" >/dev/null
