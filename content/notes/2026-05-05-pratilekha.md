@@ -3,7 +3,7 @@ title = "Pratilekha"
 slug = "2026-05-05-pratilekha"
 date = 2026-05-05
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "ai-infra", "llm-research"]
+tags = ["ai-infra", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2051675299428143565"
 source_type = "x-post"

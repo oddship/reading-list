@@ -3,7 +3,7 @@ title = "Course/site on harness engineering for AI coding agents, synthesizing O
 slug = "2026-05-13-course-site-on-harness-engineering-for-ai-coding-agents-synthesizing-openai-anthropic-guidance-into"
 date = 2026-05-13
 [taxonomies]
-tags = ["reading-log", "article", "walkinglabs-github-io", "historical-backfill", "agents", "org-design", "llm-research"]
+tags = ["agents", "org-design", "llm-research"]
 [extra]
 source_url = "https://walkinglabs.github.io/learn-harness-engineering/en/"
 source_type = "article"

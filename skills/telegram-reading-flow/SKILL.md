@@ -47,7 +47,7 @@ Do not use when:
 
 4. Promote every useful item to the public site.
    - Convert useful items into `content/notes/*.md` with tags, source URL, a short why-it-matters field, and preserve `logged at IST` when available.
-   - Tag thoughtfully: prefer reusing existing topical tags before inventing new ones, keep source-mechanics tags (`x-post`, `article`, `historical-backfill`) separate from topic tags, and only create a new topic tag when several future notes are likely to benefit from the same bucket.
+   - Tag thoughtfully: use only the compact public topic vocabulary (`agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`) unless a genuinely reusable new category is needed. Keep source mechanics, import state, digest grouping, and host/domain labels in metadata, never in `taxonomies.tags`.
    - Avoid host/domain tags unless the source itself is the story or the host is a meaningful recurring lens.
    - Completion criterion: the Zola note is concise, grounded, tagged deliberately, and committed to the repo without waiting for a separate publish decision.
 
@@ -70,8 +70,9 @@ Do not use when:
 
 ## Tagging guidance
 
-- Reuse existing topic tags whenever they fit cleanly. Prefer a stable small vocabulary over one-off novelty tags.
-- Treat `reading-log`, `x-post`, `article`, and `historical-backfill` as mechanics/provenance tags, not the main topical taxonomy.
+- Use only the current public topic vocabulary by default: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`.
+- Reuse one of those tags whenever it fits cleanly. Prefer a stable small vocabulary over one-off novelty tags.
+- Never put `reading-log`, `x-post`, `article`, `historical-backfill`, `digest`, `weekly-reading`, or host/domain slugs in `taxonomies.tags`.
 - Prefer at most 2 to 4 meaningful topical tags per note.
 - Create a new topical tag only when it is likely to group several current or future notes in a way a reader would actually browse.
 - Avoid host/domain tags unless the publisher or product itself is the point of the note and is likely to recur.

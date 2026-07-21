@@ -3,7 +3,7 @@ title = "Satya/Microsoft framing: firms need to redesign work around agentic sys
 slug = "2026-05-06-satya-microsoft-framing-firms-need-to-redesign-work-around-agentic-systems-with-ai-taking-more-exec"
 date = 2026-05-06
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "org-design", "llm-research"]
+tags = ["agents", "developer-tools", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2051787232043020719"
 source_type = "x-post"

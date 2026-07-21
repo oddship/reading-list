@@ -3,7 +3,7 @@ title = "Adithya Venkatesan sharing Alter Magazine’s piece on designing ice cr
 slug = "2026-06-26-adithya-venkatesan-sharing-alter-magazine-s-piece-on-designing-ice-cream-for-indian-conditions"
 date = 2026-06-26
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "developer-tools"]
+tags = ["developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2070384048464347183"
 source_type = "x-post"

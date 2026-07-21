@@ -3,7 +3,7 @@ title = "Building Software Is Learning"
 slug = "2026-06-04-building-software-is-learning"
 date = 2026-06-04
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "org-design"]
+tags = ["org-design"]
 [extra]
 source_url = "https://x.com/i/status/2061834267240583185"
 source_type = "x-post"

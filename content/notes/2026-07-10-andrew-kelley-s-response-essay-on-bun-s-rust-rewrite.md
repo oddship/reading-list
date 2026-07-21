@@ -3,7 +3,7 @@ title = "Andrew Kelley’s response essay on Bun’s Rust rewrite"
 slug = "2026-07-10-andrew-kelley-s-response-essay-on-bun-s-rust-rewrite"
 date = 2026-07-10
 [taxonomies]
-tags = ["reading-log", "article", "andrewkelley-me", "developer-tools", "org-design"]
+tags = ["developer-tools", "org-design"]
 [extra]
 source_url = "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html"
 source_type = "article"

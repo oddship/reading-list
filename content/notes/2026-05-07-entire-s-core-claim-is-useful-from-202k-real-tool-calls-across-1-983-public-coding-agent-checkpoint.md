@@ -3,7 +3,7 @@ title = "Entire's core claim is useful: from ~202k real tool calls across ~1,983
 slug = "2026-05-07-entire-s-core-claim-is-useful-from-202k-real-tool-calls-across-1-983-public-coding-agent-checkpoint"
 date = 2026-05-07
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "ai-infra", "developer-tools", "llm-research"]
+tags = ["agents", "ai-infra", "developer-tools", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2052437618416025846"
 source_type = "x-post"

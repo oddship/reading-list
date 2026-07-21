@@ -3,7 +3,7 @@ title = "Simon Willison pointing to Bloomberg on Uber capping agentic coding-too
 slug = "2026-06-03-simon-willison-pointing-to-bloomberg-on-uber-capping-agentic-coding-tool-spend-at-1-500-month-per-e"
 date = 2026-06-03
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools"]
+tags = ["agents", "developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2062143151184465964"
 source_type = "x-post"

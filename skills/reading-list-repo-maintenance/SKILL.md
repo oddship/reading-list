@@ -41,7 +41,8 @@ Do not use when:
 
 3. Preserve stable note URLs and keep tags coherent.
    - When importer-driven historical notes are regenerated, keep explicit slugs in frontmatter so title cleanup does not create Zola path collisions or unstable permalinks.
-   - Reuse existing tags before inventing new ones, and keep topic tags more important than host/domain trivia.
+   - Use only the compact public topic vocabulary by default: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`.
+   - Keep source type, import state, digest grouping, and host/domain labels out of `taxonomies.tags`; put them in `[extra]` metadata instead.
    - Completion criterion: Zola builds without path-collision errors and the tag vocabulary stays compact and intentional.
 
 4. Keep hosting context straight.
@@ -53,9 +54,10 @@ Do not use when:
    - Use Conventional Commit messages, push to `main`, inspect the latest GitHub Actions run, and check the live page.
    - Completion criterion: the latest deploy workflow succeeded and the rendered page reflects the change.
 
-6. Keep homepage and archive UX intentional.
+6. Keep homepage, archive UX, and feeds intentional.
    - Notes pagination, digest listing, and homepage summaries should keep working after content-shape changes.
-   - Completion criterion: homepage, `/notes/`, and `/digests/` render the expected cards and navigation.
+   - Keep tiered feeds live: all-site `/rss.xml`, notes `/notes/rss.xml`, digests `/digests/rss.xml`, and per-tag `/tags/<tag>/rss.xml`.
+   - Completion criterion: homepage, `/notes/`, `/digests/`, `/tags/`, and representative feeds render the expected content.
 
 7. Run a humanizer pass before every commit.
    - Remove AI-sounding phrasing where practical, and specifically eliminate em dashes from user-facing prose unless the user asked for them.

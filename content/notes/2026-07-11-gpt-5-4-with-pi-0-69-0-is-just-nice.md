@@ -3,7 +3,7 @@ title = "GPT-5.4 with Pi 0.69.0 is just nice"
 slug = "2026-07-11-gpt-5-4-with-pi-0-69-0-is-just-nice"
 date = 2026-07-11
 [taxonomies]
-tags = ["reading-log", "x-post", "rohanverma-net", "agents", "developer-tools", "llm-research"]
+tags = ["agents", "developer-tools", "llm-research"]
 [extra]
 source_url = "https://rohanverma.net/blog/2026/07/10/gpt-5-4-with-pi-0-69-0-is-just-nice/"
 source_type = "x-post"

@@ -2,7 +2,7 @@
 title = "Things I read this week"
 date = 2026-05-10
 [taxonomies]
-tags = ["digest", "newsletter", "historical-backfill"]
+tags = []
 [extra]
 source_file = "/root/.openclaw/workspace-rohan-work/tmp/newsletter-draft-2026-05-10-weekly.md"
 +++

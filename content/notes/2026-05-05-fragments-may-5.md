@@ -3,7 +3,7 @@ title = "Fragments: May 5"
 slug = "2026-05-05-fragments-may-5"
 date = 2026-05-05
 [taxonomies]
-tags = ["reading-log", "x-post", "martinfowler-com", "historical-backfill", "llm-research"]
+tags = ["llm-research"]
 [extra]
 source_url = "https://martinfowler.com/fragments/2026-05-05.html"
 source_type = "x-post"

@@ -3,7 +3,7 @@ title = "Harness Engineering for Self-Improvement"
 slug = "2026-07-11-harness-engineering-for-self-improvement"
 date = 2026-07-11
 [taxonomies]
-tags = ["reading-log", "article", "lilianweng-github-io", "agents", "ai-infra", "org-design", "llm-research"]
+tags = ["agents", "ai-infra", "org-design", "llm-research"]
 [extra]
 source_url = "https://lilianweng.github.io/posts/2026-07-04-harness/"
 source_type = "article"

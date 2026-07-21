@@ -3,7 +3,7 @@ title = "Ben Holmes says switching from TipTap/ProseMirror to Slate made a rich-
 slug = "2026-05-06-ben-holmes-says-switching-from-tiptap-prosemirror-to-slate-made-a-rich-text-bulleted-list-interacti"
 date = 2026-05-06
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "developer-tools", "llm-research"]
+tags = ["developer-tools", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2051492921430384656"
 source_type = "x-post"

@@ -1,10 +1,14 @@
 {% extends "base.html" %}
-{% block title %}{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %} · {{ config.title }}{% endblock title %}
+{% block title %}{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% elif term.name == 'developer-tools' %}Developer Tools{% elif term.name == 'org-design' %}Org Design{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %} · {{ config.title }}{% endblock title %}
 {% block content %}
   <section class="hero">
     <p class="kicker">Tag</p>
-    <h1>{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %}</h1>
-    <p class="hero-copy">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %} collected under this theme.</p>
+    <h1>{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% elif term.name == 'developer-tools' %}Developer Tools{% elif term.name == 'org-design' %}Org Design{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %}</h1>
+    <p class="hero-copy">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %} in this recurring theme.</p>
+    <div class="hero-actions">
+      <a href="{{ term.permalink }}rss.xml" class="button">RSS for this tag</a>
+      <a href="{{ get_url(path='tags') }}" class="button outline">All tags</a>
+    </div>
   </section>
 
   <section class="magazine-section">
@@ -13,7 +17,6 @@
         <p class="kicker">Archive</p>
         <h2>Notes in this tag</h2>
       </div>
-      <a href="{{ get_url(path='tags') }}" class="button outline small">All tags</a>
     </div>
 
     <div class="story-list">

@@ -3,7 +3,7 @@ title = "Vim of Coding Agents"
 slug = "2026-07-12-vim-of-coding-agents"
 date = 2026-07-12
 [taxonomies]
-tags = ["reading-log", "x-post", "rasyidanaf-com", "agents", "developer-tools", "systems"]
+tags = ["agents", "developer-tools", "systems"]
 [extra]
 source_url = "https://rasyidanaf.com/blog/vim-of-coding-agents/"
 source_type = "x-post"

@@ -3,7 +3,7 @@ title = "Our fears about AI are really fears about capitalism"
 slug = "2026-06-09-our-fears-about-ai-are-really-fears-about-capitalism"
 date = 2026-06-09
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-research"]
+tags = ["org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2064411874788307020"
 source_type = "x-post"

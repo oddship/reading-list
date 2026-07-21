@@ -3,7 +3,7 @@ title = "Visible standouts: The Second Half; Eugene Yan on eval process; Han-Chu
 slug = "2026-06-24-visible-standouts-the-second-half-eugene-yan-on-eval-process-han-chung-lee-on-agent-eval-infra-hame"
 date = 2026-06-24
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "developer-tools", "llm-research"]
+tags = ["agents", "developer-tools", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2069693133093568812"
 source_type = "x-post"

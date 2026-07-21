@@ -3,7 +3,7 @@ title = "agent principal-agent problem"
 slug = "2026-05-07-agent-principal-agent-problem"
 date = 2026-05-07
 [taxonomies]
-tags = ["reading-log", "article", "crawshaw-io", "historical-backfill", "agents", "org-design", "llm-research"]
+tags = ["agents", "org-design", "llm-research"]
 [extra]
 source_url = "https://crawshaw.io/blog/agent-principal-agent"
 source_type = "article"

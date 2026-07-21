@@ -20,10 +20,12 @@
     <div class="hero-actions">
       {% if section.title == "Notes" %}
         <a href="{{ get_url(path='tags') }}" class="button">Browse tags</a>
-        <a href="{{ get_url(path='rss.xml') }}" class="button outline">RSS</a>
+        <a href="{{ get_url(path='notes/rss.xml') }}" class="button outline">Notes RSS</a>
+        <a href="{{ get_url(path='rss.xml') }}" class="button outline">All RSS</a>
       {% elif section.title == "Digests" %}
         <a href="{{ get_url(path='@/digests/_index.md') }}" class="button">Latest digest</a>
-        <a href="{{ get_url(path='rss.xml') }}" class="button outline">RSS</a>
+        <a href="{{ get_url(path='digests/rss.xml') }}" class="button outline">Digests RSS</a>
+        <a href="{{ get_url(path='rss.xml') }}" class="button outline">All RSS</a>
       {% endif %}
     </div>
     {% if section.title == "Digests" %}
@@ -55,8 +57,8 @@
             <a href="{{ page.permalink }}" class="button small">Read note</a>
             {% if page.taxonomies.tags %}
               {% for tag in page.taxonomies.tags %}
-                {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 3 %}
-                  <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
+                {% if loop.index <= 3 %}
+                  <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{% if tag == 'ai-infra' %}AI Infra{% elif tag == 'llm-research' %}LLM Research{% elif tag == 'developer-tools' %}Developer Tools{% elif tag == 'org-design' %}Org Design{% else %}{{ tag | replace(from='-', to=' ') | title }}{% endif %}</a>
                 {% endif %}
               {% endfor %}
             {% endif %}

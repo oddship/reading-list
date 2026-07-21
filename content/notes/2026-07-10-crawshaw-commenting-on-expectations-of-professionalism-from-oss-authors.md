@@ -3,7 +3,7 @@ title = "Crawshaw commenting on expectations of professionalism from OSS authors
 slug = "2026-07-10-crawshaw-commenting-on-expectations-of-professionalism-from-oss-authors"
 date = 2026-07-10
 [taxonomies]
-tags = ["reading-log", "x-post", "security"]
+tags = ["security"]
 [extra]
 source_url = "https://x.com/i/status/2075601329473646916"
 source_type = "x-post"

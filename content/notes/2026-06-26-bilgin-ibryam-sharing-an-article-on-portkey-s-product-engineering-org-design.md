@@ -3,7 +3,7 @@ title = "Bilgin Ibryam sharing an article on Portkey’s product-engineering org
 slug = "2026-06-26-bilgin-ibryam-sharing-an-article-on-portkey-s-product-engineering-org-design"
 date = 2026-06-26
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "org-design", "llm-research"]
+tags = ["org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2070218468021223619"
 source_type = "x-post"

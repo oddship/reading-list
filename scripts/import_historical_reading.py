@@ -222,16 +222,9 @@ def choose_why(entry: dict) -> str:
 
 
 def tags_for(entry: dict, source_url: str, title: str, why: str) -> list[str]:
-    saved = entry['saved_link']
-    source_type = 'x-post' if ('x.com/' in saved or 'twitter.com/' in saved) else 'article'
-    tags = ['reading-log', source_type]
-    for url in [source_url, saved]:
-        tag = host_tag(url)
-        if tag and tag not in {'x-com'}:
-            tags.append(tag)
-    if entry['date'] < '2026-07-08':
-        tags.append('historical-backfill')
-
+    # Public tags are reader-facing topic lanes only. Source type, host,
+    # reading-log provenance, and historical import state belong in [extra].
+    tags = []
     blob = ' '.join([
         title,
         why,
@@ -472,7 +465,7 @@ def write_digests() -> int:
             f'title = "{escape_toml(title)}"',
             f'date = {date}',
             '[taxonomies]',
-            f'tags = ["digest", "{kind}", "historical-backfill"]',
+            'tags = []',
             '[extra]',
             f'source_file = "{escape_toml(str(src))}"',
             '+++',

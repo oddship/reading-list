@@ -3,7 +3,7 @@ title = "Gaslighting Openness"
 slug = "2026-06-10-gaslighting-openness"
 date = 2026-06-10
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "systems"]
+tags = ["systems"]
 [extra]
 source_url = "https://x.com/i/status/2064735590432608409"
 source_type = "x-post"

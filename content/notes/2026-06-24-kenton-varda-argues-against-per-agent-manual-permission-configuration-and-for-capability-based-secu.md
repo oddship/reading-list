@@ -3,7 +3,7 @@ title = "Kenton Varda argues against per-agent manual permission configuration a
 slug = "2026-06-24-kenton-varda-argues-against-per-agent-manual-permission-configuration-and-for-capability-based-secu"
 date = 2026-06-24
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design", "llm-research"]
+tags = ["agents", "security", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2069765917018382568"
 source_type = "x-post"

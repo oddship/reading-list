@@ -50,12 +50,19 @@ If only the X post text was accessible, keep the X URL and say so in a retrieval
 
 ## Tagging guidance
 
-- Reuse existing topic tags before creating new ones.
+- Reuse the current public topic tags before creating new ones: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`.
 - Keep mechanics/provenance tags out of the public taxonomy and store that information in metadata instead.
-- Prefer a compact recurring vocabulary over highly specific one-off labels.
+- Do not put `reading-log`, `x-post`, `article`, `historical-backfill`, `digest`, `weekly-reading`, or host/domain labels in `taxonomies.tags`.
 - Create a new tag only when it is likely to organize multiple notes meaningfully.
-- Avoid tagging by source domain unless the domain itself is part of why the note matters.
 - When in doubt, fewer but more reliable tags are better.
+
+## Feed conventions
+
+- The site has an all-site feed at `/rss.xml` and `/atom.xml`.
+- The notes section should keep its own feeds at `/notes/rss.xml` and `/notes/atom.xml`.
+- The digests section should keep its own feeds at `/digests/rss.xml` and `/digests/atom.xml`.
+- Each public tag should expose tag feeds at `/tags/<tag>/rss.xml` and `/tags/<tag>/atom.xml`.
+- If feeds disappear after a template/config change, check `generate_feeds = true` on section `_index.md` files and `feed = true` on the tag taxonomy in `config.toml`.
 
 ## Publishing conventions
 

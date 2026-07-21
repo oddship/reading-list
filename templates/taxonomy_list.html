@@ -2,27 +2,43 @@
 {% block title %}Tags · {{ config.title }}{% endblock title %}
 {% block content %}
   <section class="hero">
-    <p class="kicker">Tag index</p>
+    <p class="kicker">Topic index</p>
     <h1>Tags</h1>
-    <p class="hero-copy">A small topical index for browsing the archive. These are intentionally sparse and biased toward recurring themes, not source mechanics.</p>
+    <p class="hero-copy">A small set of recurring themes. Tags are for browsing, not provenance. Source type, import history, and domains belong in note metadata, not here.</p>
+    <div class="hero-actions">
+      <a href="{{ get_url(path='rss.xml') }}" class="button outline">All RSS</a>
+      <a href="{{ get_url(path='notes/rss.xml') }}" class="button outline">Notes RSS</a>
+      <a href="{{ get_url(path='digests/rss.xml') }}" class="button outline">Digests RSS</a>
+    </div>
   </section>
 
   <section class="magazine-section">
     <div class="section-head">
       <div>
-        <p class="kicker">Topics</p>
+        <p class="kicker">Seven lanes</p>
         <h2>Browse by theme</h2>
-        <p>Only the recurring topical tags are listed here. Source type and provenance live in note metadata, not in the public taxonomy.</p>
+        <p>The taxonomy is intentionally small. A new tag should earn its place by grouping several notes a reader would actually browse.</p>
       </div>
     </div>
 
     <div class="story-list">
       {% for term in terms %}
-        <article class="story">
-          <p class="story-meta">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %}</p>
-          <h3><a href="{{ term.permalink }}">{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %}</a></h3>
-          <p class="story-summary">A clustered view of notes tagged around {% if term.name == 'ai-infra' %}AI infra{% elif term.name == 'llm-research' %}LLM research{% else %}{{ term.name | replace(from='-', to=' ') }}{% endif %}.</p>
-        </article>
+        {% if term.name == 'agents' or term.name == 'ai-infra' or term.name == 'developer-tools' or term.name == 'llm-research' or term.name == 'org-design' or term.name == 'security' or term.name == 'systems' %}
+          <article class="story">
+            <p class="story-meta">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %} · <a href="{{ term.permalink }}rss.xml">RSS</a></p>
+            <h3><a href="{{ term.permalink }}">{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% elif term.name == 'developer-tools' %}Developer Tools{% elif term.name == 'org-design' %}Org Design{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %}</a></h3>
+            <p class="story-summary">
+              {% if term.name == 'agents' %}Agent workflows, harnesses, memory, delegation, and the surrounding product patterns.
+              {% elif term.name == 'ai-infra' %}Serving, routing, GPU economics, model deployment, open weights, and execution substrates.
+              {% elif term.name == 'developer-tools' %}Languages, CLIs, editors, CI, DSLs, and tools that change how software gets built.
+              {% elif term.name == 'llm-research' %}Model architecture, training, evaluation, alignment, and research claims worth tracking.
+              {% elif term.name == 'org-design' %}Engineering culture, incentives, management systems, team practice, and institutional adaptation.
+              {% elif term.name == 'security' %}Trust boundaries, supply chain risk, isolation, privacy, abuse, and failure modes.
+              {% elif term.name == 'systems' %}Databases, runtimes, distributed systems, performance, kernels, and infrastructure mechanics.
+              {% endif %}
+            </p>
+          </article>
+        {% endif %}
       {% endfor %}
     </div>
   </section>

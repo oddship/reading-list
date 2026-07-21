@@ -3,7 +3,7 @@ title = "Andrej Jovanović announcing the Red Queen Gödel Machine (arXiv:2606.2
 slug = "2026-07-06-andrej-jovanovi-announcing-the-red-queen-g-del-machine-arxiv-2606-26294"
 date = 2026-07-06
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]
+tags = ["agents", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2073907718151426302"
 source_type = "x-post"

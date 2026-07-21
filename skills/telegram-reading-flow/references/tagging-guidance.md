@@ -12,24 +12,30 @@ Keep the note taxonomy compact, reusable, and browseable.
 - Avoid host/domain tags unless the publisher or product is itself the subject.
 - If a tag will only ever apply to one note, it is probably too narrow.
 
-## Current mechanics tags
+## Public topic tags
+
+Use exactly these stable public tags unless several current or future notes clearly demand a new reader-facing category:
+
+- `agents`
+- `ai-infra`
+- `developer-tools`
+- `llm-research`
+- `org-design`
+- `security`
+- `systems`
+
+## Not public tags
+
+Never put mechanics, provenance, source type, or one-off host labels in `taxonomies.tags`.
+
+Do not use tags like:
 
 - `reading-log`
 - `x-post`
 - `article`
 - `historical-backfill`
+- `digest`
+- `weekly-reading`
+- host/domain slugs such as `example-com`
 
-These are provenance/mechanics markers, not the main reader-facing taxonomy.
-
-## Candidate topic families
-
-Use these families as stable defaults when they fit:
-- `agents`
-- `ai-infra`
-- `security`
-- `developer-tools`
-- `org-design`
-- `llm-research`
-- `systems`
-
-Only expand this set when repeated notes clearly demand a new bucket.
+Put that information in `[extra]` fields such as `source_type`, `source_url`, `saved_link`, or digest section metadata instead.

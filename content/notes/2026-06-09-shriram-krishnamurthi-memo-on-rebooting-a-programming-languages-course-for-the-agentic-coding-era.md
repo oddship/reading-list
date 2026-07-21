@@ -3,7 +3,7 @@ title = "Shriram Krishnamurthi memo on rebooting a programming languages course 
 slug = "2026-06-09-shriram-krishnamurthi-memo-on-rebooting-a-programming-languages-course-for-the-agentic-coding-era"
 date = 2026-06-09
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "llm-research"]
+tags = ["agents", "security", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2064353133908643905"
 source_type = "x-post"

@@ -3,7 +3,7 @@ title = "Why AI Agents Fail in Production"
 slug = "2026-06-04-why-ai-agents-fail-in-production"
 date = 2026-06-04
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "security", "org-design", "llm-research"]
+tags = ["agents", "security", "org-design", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2062438877269258566"
 source_type = "x-post"

@@ -3,7 +3,7 @@ title = "translation layer"
 slug = "2026-05-12-translation-layer"
 date = 2026-05-12
 [taxonomies]
-tags = ["reading-log", "article", "ajeygore-in", "historical-backfill", "agents", "org-design", "llm-research"]
+tags = ["agents", "org-design", "llm-research"]
 [extra]
 source_url = "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org"
 source_type = "article"

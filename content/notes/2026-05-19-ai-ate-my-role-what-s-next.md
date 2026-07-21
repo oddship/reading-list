@@ -3,7 +3,7 @@ title = "AI ate my role! What's next?"
 slug = "2026-05-19-ai-ate-my-role-what-s-next"
 date = 2026-05-19
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "org-design"]
+tags = ["agents", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2056594589126135984"
 source_type = "x-post"

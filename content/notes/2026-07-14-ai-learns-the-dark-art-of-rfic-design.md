@@ -3,7 +3,7 @@ title = "AI learns the dark art of RFIC design"
 slug = "2026-07-14-ai-learns-the-dark-art-of-rfic-design"
 date = 2026-07-14T19:29:00+05:30
 [taxonomies]
-tags = ["ai-infra", "semiconductors", "systems"]
+tags = ["ai-infra", "systems"]
 [extra]
 source_url = "https://spectrum.ieee.org/ai-radio-chip-design"
 source_type = "article"

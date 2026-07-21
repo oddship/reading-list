@@ -3,7 +3,7 @@ title = "Hashimoto on side-by-side Sol xhigh versus Ultra runs"
 slug = "2026-07-11-hashimoto-on-side-by-side-sol-xhigh-versus-ultra-runs"
 date = 2026-07-11
 [taxonomies]
-tags = ["reading-log", "x-post", "agents", "llm-research"]
+tags = ["agents", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2075644892211196392"
 source_type = "x-post"

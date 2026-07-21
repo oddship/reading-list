@@ -3,7 +3,7 @@ title = "Goel summarizing Deep SWE 1.1 model-cost comparisons"
 slug = "2026-07-11-goel-summarizing-deep-swe-1-1-model-cost-comparisons"
 date = 2026-07-11
 [taxonomies]
-tags = ["reading-log", "x-post", "agents", "llm-research"]
+tags = ["agents", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2075616481547870230"
 source_type = "x-post"

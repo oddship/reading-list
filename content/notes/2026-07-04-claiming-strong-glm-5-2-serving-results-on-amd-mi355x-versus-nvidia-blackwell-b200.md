@@ -3,7 +3,7 @@ title = "claiming strong GLM 5.2 serving results on AMD MI355X versus Nvidia Bla
 slug = "2026-07-04-claiming-strong-glm-5-2-serving-results-on-amd-mi355x-versus-nvidia-blackwell-b200"
 date = 2026-07-04
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "ai-infra"]
+tags = ["ai-infra"]
 [extra]
 source_url = "https://x.com/i/status/2073155792182907085"
 source_type = "x-post"

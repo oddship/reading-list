@@ -3,7 +3,7 @@ title = "Cloudflare blog post introducing Meerkat, a new global consensus servic
 slug = "2026-07-09-cloudflare-blog-post-introducing-meerkat-a-new-global-consensus-service-built-on-the-quepaxa-algori"
 date = 2026-07-09
 [taxonomies]
-tags = ["reading-log", "article", "blog-cloudflare-com", "ai-infra", "llm-research", "systems"]
+tags = ["ai-infra", "llm-research", "systems"]
 [extra]
 source_url = "https://blog.cloudflare.com/meerkat-introduction/"
 source_type = "article"

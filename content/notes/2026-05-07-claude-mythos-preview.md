@@ -3,7 +3,7 @@ title = "Claude Mythos Preview"
 slug = "2026-05-07-claude-mythos-preview"
 date = 2026-05-07
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "security", "org-design"]
+tags = ["security", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2052468573516513762"
 source_type = "x-post"

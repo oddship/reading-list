@@ -3,7 +3,7 @@ title = "Great Divergence in Software Engineering"
 slug = "2026-07-10-great-divergence-in-software-engineering"
 date = 2026-07-10
 [taxonomies]
-tags = ["reading-log", "x-post", "stack72-dev", "agents", "developer-tools", "org-design", "llm-research"]
+tags = ["agents", "developer-tools", "org-design", "llm-research"]
 [extra]
 source_url = "https://stack72.dev/the-great-divergence-in-software-engineering/"
 source_type = "x-post"

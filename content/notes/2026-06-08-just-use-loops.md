@@ -3,7 +3,7 @@ title = "just use loops"
 slug = "2026-06-08-just-use-loops"
 date = 2026-06-08
 [taxonomies]
-tags = ["reading-log", "x-post", "historical-backfill", "agents", "llm-research"]
+tags = ["agents", "llm-research"]
 [extra]
 source_url = "https://x.com/i/status/2063997292290474066"
 source_type = "x-post"
