@@ -47,7 +47,7 @@ Do not use when:
 
 4. Promote every useful item to the public site.
    - Convert useful items into `content/notes/*.md` with tags, source URL, a short why-it-matters field, and preserve `logged at IST` when available.
-   - Tag thoughtfully: use only the compact public topic vocabulary (`agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`) unless a genuinely reusable new category is needed. Keep source mechanics, import state, digest grouping, and host/domain labels in metadata, never in `taxonomies.tags`.
+   - Tag thoughtfully: use only the compact public topic vocabulary (`agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`, `other`) unless a genuinely reusable new category is needed. Keep source mechanics, import state, digest grouping, and host/domain labels in metadata, never in `taxonomies.tags`. Use `other` only when none of the stable lanes fits, and audit it once it passes 20 notes.
    - Avoid host/domain tags unless the source itself is the story or the host is a meaningful recurring lens.
    - Completion criterion: the Zola note is concise, grounded, tagged deliberately, and committed to the repo without waiting for a separate publish decision.
 
@@ -70,8 +70,9 @@ Do not use when:
 
 ## Tagging guidance
 
-- Use only the current public topic vocabulary by default: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`.
+- Use only the current public topic vocabulary by default: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`, `other`.
 - Reuse one of those tags whenever it fits cleanly. Prefer a stable small vocabulary over one-off novelty tags.
+- Use `other` only when none of the stable lanes fits. When `other` grows past 20 notes, audit it and either refile items into existing tags or introduce a genuinely reusable new category.
 - Never put `reading-log`, `x-post`, `article`, `historical-backfill`, `digest`, `weekly-reading`, or host/domain slugs in `taxonomies.tags`.
 - Prefer at most 2 to 4 meaningful topical tags per note.
 - Create a new topical tag only when it is likely to group several current or future notes in a way a reader would actually browse.

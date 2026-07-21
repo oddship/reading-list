@@ -22,6 +22,7 @@ var allowed = map[string]bool{
     "org-design":      true,
     "security":        true,
     "systems":         true,
+    "other":           true,
 }
 
 func main() {
@@ -75,6 +76,10 @@ func main() {
     })
     for _, row := range rows {
         fmt.Printf("%3d  %s\n", row.Count, row.Tag)
+    }
+
+    if counts["other"] > 20 {
+        invalid["other-threshold"] = []string{fmt.Sprintf("other has %d notes; audit and refile or create a reusable new tag", counts["other"])}
     }
 
     if len(invalid) > 0 {

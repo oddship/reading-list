@@ -41,7 +41,8 @@ Do not use when:
 
 3. Preserve stable note URLs and keep tags coherent.
    - When importer-driven historical notes are regenerated, keep explicit slugs in frontmatter so title cleanup does not create Zola path collisions or unstable permalinks.
-   - Use only the compact public topic vocabulary by default: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`.
+   - Use only the compact public topic vocabulary by default: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`, `other`.
+   - Use `other` only as a temporary holding lane; if it grows past 20 notes, refile items or introduce a genuinely reusable new category.
    - Keep source type, import state, digest grouping, and host/domain labels out of `taxonomies.tags`; put them in `[extra]` metadata instead.
    - Completion criterion: Zola builds without path-collision errors and the tag vocabulary stays compact and intentional.
 

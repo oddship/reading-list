@@ -235,6 +235,8 @@ def tags_for(entry: dict, source_url: str, title: str, why: str) -> list[str]:
     for tag, needles in TOPIC_RULES:
         if any(n in blob for n in needles):
             tags.append(tag)
+    if not tags:
+        tags.append('other')
     return list(dict.fromkeys(tags))
 
 

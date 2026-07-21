@@ -50,7 +50,9 @@ If only the X post text was accessible, keep the X URL and say so in a retrieval
 
 ## Tagging guidance
 
-- Reuse the current public topic tags before creating new ones: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`.
+- Reuse the current public topic tags before creating new ones: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`, `other`.
+- Use `other` only as a temporary holding lane for worthwhile notes that do not fit the stable taxonomy.
+- When `other` grows past 20 notes, audit it and either refile items into existing tags or introduce a genuinely reusable new category.
 - Keep mechanics/provenance tags out of the public taxonomy and store that information in metadata instead.
 - Do not put `reading-log`, `x-post`, `article`, `historical-backfill`, `digest`, `weekly-reading`, or host/domain labels in `taxonomies.tags`.
 - Create a new tag only when it is likely to organize multiple notes meaningfully.

@@ -15,15 +15,15 @@
   <section class="magazine-section">
     <div class="section-head">
       <div>
-        <p class="kicker">Seven lanes</p>
+        <p class="kicker">Eight lanes</p>
         <h2>Browse by theme</h2>
-        <p>The taxonomy is intentionally small. A new tag should earn its place by grouping several notes a reader would actually browse.</p>
+        <p>The taxonomy is intentionally small. `Other` is a holding lane for items that do not fit yet; if it grows past 20 notes, it should be audited for a new reusable category or refiling into existing tags.</p>
       </div>
     </div>
 
     <div class="story-list">
       {% for term in terms %}
-        {% if term.name == 'agents' or term.name == 'ai-infra' or term.name == 'developer-tools' or term.name == 'llm-research' or term.name == 'org-design' or term.name == 'security' or term.name == 'systems' %}
+        {% if term.name == 'agents' or term.name == 'ai-infra' or term.name == 'developer-tools' or term.name == 'llm-research' or term.name == 'org-design' or term.name == 'security' or term.name == 'systems' or term.name == 'other' %}
           <article class="story">
             <p class="story-meta">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %} · <a href="{{ term.permalink }}rss.xml">RSS</a></p>
             <h3><a href="{{ term.permalink }}">{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% elif term.name == 'developer-tools' %}Developer Tools{% elif term.name == 'org-design' %}Org Design{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %}</a></h3>
@@ -35,6 +35,7 @@
               {% elif term.name == 'org-design' %}Engineering culture, incentives, management systems, team practice, and institutional adaptation.
               {% elif term.name == 'security' %}Trust boundaries, supply chain risk, isolation, privacy, abuse, and failure modes.
               {% elif term.name == 'systems' %}Databases, runtimes, distributed systems, performance, kernels, and infrastructure mechanics.
+              {% elif term.name == 'other' %}A temporary holding lane for worthwhile notes that do not fit the stable taxonomy yet. Audit this when it passes 20 notes.
               {% endif %}
             </p>
           </article>

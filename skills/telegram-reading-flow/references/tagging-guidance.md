@@ -10,11 +10,13 @@ Keep the note taxonomy compact, reusable, and browseable.
 - Keep mechanics and source provenance in `extra.source_type` / `extra.source_url`, not in the public tag taxonomy.
 - Prefer 2 to 4 meaningful topic tags per note.
 - Avoid host/domain tags unless the publisher or product is itself the subject.
-- If a tag will only ever apply to one note, it is probably too narrow.
+- If a note genuinely does not fit the stable lanes, use `other` instead of inventing a one-off tag.
+- When `other` grows past 20 notes, audit it and either refile items into existing tags or introduce a genuinely reusable new category.
+- If a new tag would only ever apply to one note, it is probably too narrow.
 
 ## Public topic tags
 
-Use exactly these stable public tags unless several current or future notes clearly demand a new reader-facing category:
+Use exactly these stable public tags unless several current or future notes clearly demand a new reader-facing category. Use `other` as a temporary holding lane when none of the stable topical lanes fits:
 
 - `agents`
 - `ai-infra`
@@ -23,6 +25,7 @@ Use exactly these stable public tags unless several current or future notes clea
 - `org-design`
 - `security`
 - `systems`
+- `other`
 
 ## Not public tags
 
