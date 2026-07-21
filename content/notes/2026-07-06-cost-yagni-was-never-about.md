@@ -3,7 +3,7 @@ title = "Cost YAGNI Was Never About"
 slug = "2026-07-06-cost-yagni-was-never-about"
 date = 2026-07-06
 [taxonomies]
-tags = []
+tags = ["agents", "developer-tools", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2073694372122730715"
 source_type = "x-post"

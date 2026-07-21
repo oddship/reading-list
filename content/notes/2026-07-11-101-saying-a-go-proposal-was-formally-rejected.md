@@ -3,7 +3,7 @@ title = "101 saying a Go proposal was formally rejected"
 slug = "2026-07-11-101-saying-a-go-proposal-was-formally-rejected"
 date = 2026-07-11
 [taxonomies]
-tags = []
+tags = ["developer-tools"]
 [extra]
 source_url = "https://x.com/i/status/2075631967262155119"
 source_type = "x-post"

@@ -3,7 +3,7 @@ title = "building a cloud"
 slug = "2026-05-19-building-a-cloud"
 date = 2026-05-19
 [taxonomies]
-tags = []
+tags = ["ai-infra", "systems"]
 [extra]
 source_url = "https://x.com/i/status/2056514048649490605"
 source_type = "x-post"

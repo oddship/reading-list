@@ -3,7 +3,7 @@ title = "Lines of Code Got a Better Publicist"
 slug = "2026-06-11-lines-of-code-got-a-better-publicist"
 date = 2026-06-11
 [taxonomies]
-tags = []
+tags = ["agents", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2065135794927419867"
 source_type = "x-post"

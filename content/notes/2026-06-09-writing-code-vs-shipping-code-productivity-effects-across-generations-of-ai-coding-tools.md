@@ -3,7 +3,7 @@ title = "Writing Code vs. Shipping Code: Productivity Effects Across Generations
 slug = "2026-06-09-writing-code-vs-shipping-code-productivity-effects-across-generations-of-ai-coding-tools"
 date = 2026-06-09
 [taxonomies]
-tags = []
+tags = ["agents", "developer-tools", "org-design"]
 [extra]
 source_url = "https://x.com/i/status/2064199095992860864"
 source_type = "x-post"

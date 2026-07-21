@@ -3,7 +3,7 @@ title = "Soria Parra criticizing Andrew Kelley’s tone toward Jarred Sumner"
 slug = "2026-07-10-soria-parra-criticizing-andrew-kelley-s-tone-toward-jarred-sumner"
 date = 2026-07-10
 [taxonomies]
-tags = []
+tags = ["org-design"]
 [extra]
 source_url = "https://x.com/i/status/2075544039781192033"
 source_type = "x-post"

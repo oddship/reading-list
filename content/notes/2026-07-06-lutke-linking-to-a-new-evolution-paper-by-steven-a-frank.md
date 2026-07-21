@@ -3,7 +3,7 @@ title = "lutke linking to a new Evolution paper by Steven A. Frank"
 slug = "2026-07-06-lutke-linking-to-a-new-evolution-paper-by-steven-a-frank"
 date = 2026-07-06
 [taxonomies]
-tags = []
+tags = ["llm-research", "systems"]
 [extra]
 source_url = "https://x.com/i/status/2073776496859082949"
 source_type = "x-post"

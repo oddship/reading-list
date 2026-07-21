@@ -3,7 +3,7 @@ title = "News: Dell and Lenovo became premier sponsors of LVFS (Linux Vendor Fir
 slug = "2026-05-06-news-dell-and-lenovo-became-premier-sponsors-of-lvfs-linux-vendor-firmware-service-the-fwupd-backed"
 date = 2026-05-06
 [taxonomies]
-tags = []
+tags = ["systems"]
 [extra]
 source_url = "https://x.com/i/status/2052013565373026679"
 source_type = "x-post"
