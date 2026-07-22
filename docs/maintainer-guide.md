@@ -15,7 +15,10 @@ This repo is the source of truth for `reading-list.oddship.net` / `oddship.githu
 1. Links arrive in Telegram.
 2. Bosun reads the source when feasible and logs a compact grounded entry in `/root/work-wiki/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
 3. Every useful item is backported or promoted into `content/notes/*.md` right away.
-4. Push to `main` triggers GitHub Pages deploy.
+4. Push to `main` triggers deploy.
+5. The workflow is not complete until the deploy succeeds and the live page, or at least `/notes/`, reflects the update.
+
+Routine work-thread link drops are publish-by-default. Do not wait for a separate publish instruction unless the user clearly asks for backlog-only/private capture or the source grounding is too weak for a public note.
 
 ## Historical import sources
 
@@ -29,6 +32,10 @@ When backfilling old reading history, prefer this order:
 Current repo helper:
 
 - `scripts/import_historical_reading.py`
+
+Operational playbooks:
+
+- `docs/link-drop-playbook.md`, publish-by-default checklist for normal work-thread link drops
 
 It regenerates historical `content/notes/` and `content/digests/` from the local sources above.
 
@@ -74,6 +81,22 @@ If only the X post text was accessible, keep the X URL and say so in a retrieval
 - Keep speculation separate from grounded source claims.
 - Prefer stable explicit slugs in note frontmatter when importer-generated titles may collide.
 
+## Link-drop completion contract
+
+For a normal useful link dropped in the work thread, complete this whole path before replying:
+
+1. Read the strongest accessible source, following linked articles/blogs/papers when feasible.
+2. Append the compact grounded entry to `/root/work-wiki/reading-log/YYYY-MM-DD.md` using an IST timestamp.
+3. Dedupe against existing notes by source URL and likely title.
+4. Create or update `content/notes/*.md` with full IST datetime frontmatter, approved public tags, source metadata, and concise public-facing prose.
+5. Run `python3 scripts/humanize_repo_content.py`.
+6. Build with Zola. If `zola` is missing globally, use an available release binary or the same build path CI uses.
+7. Commit with a Conventional Commit and push to `main`.
+8. Check the deploy run for the pushed `HEAD` SHA.
+9. Verify the live note or `/notes/` page on `https://reading-list.oddship.net/`.
+
+If blocked, report the precise partial state: `logged but not published`, `note written but build failed`, `pushed but deploy failed`, or `deploy passed but live verification blocked`.
+
 ## GitHub Pages notes
 
 - During GitHub Pages hosting, `config.toml` should use:
@@ -92,9 +115,11 @@ If only the X post text was accessible, keep the X URL and say so in a retrieval
 
 1. Modify or add note files
 2. Check nav/base URL assumptions if deployment target changed
-3. Commit with a Conventional Commit message
-4. Run a humanizer pass over user-facing prose before the commit lands
-5. Push to `main`
-6. Verify the Pages workflow run succeeded
-7. Check the live rendered page, not just the git push
-8. For site-shape changes, verify homepage, `/notes/`, pagination, and `/digests/`
+3. Run a humanizer pass over user-facing prose before the commit lands
+4. Build with Zola
+5. Commit with a Conventional Commit message
+6. Push to `main`
+7. Verify the deploy workflow run succeeded
+8. Check the live rendered page, not just the git push
+9. For site-shape changes, verify homepage, `/notes/`, pagination, and `/digests/`
+10. When the workflow itself changes, update `skills/` and this guide in the same commit, then sync the matching local Hermes skill if needed

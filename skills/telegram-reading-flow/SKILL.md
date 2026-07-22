@@ -17,6 +17,8 @@ metadata:
 This skill captures the operating model for the Telegram-to-reading-list pipeline.
 Links arrive in Telegram first, get grounded against the actual source when feasible, are logged compactly in the work reading log, and every useful item is then promoted into the public site.
 
+This is a publish-by-default workflow. A useful link drop is not complete when it is only saved to `/root/work-wiki/reading-log/`; it is complete only after the repo note exists, the site builds, the change is pushed, the deploy succeeds, and the live site is checked when feasible. Leave an item log-only only when the user clearly asks for private/backlog-only capture, or when source access is too weak to publish a grounded public note.
+
 ## When to Use
 
 Use when:
@@ -49,7 +51,8 @@ Do not use when:
    - Convert useful items into `content/notes/*.md` with tags, source URL, a short why-it-matters field, and preserve `logged at IST` when available.
    - Tag thoughtfully: use only the compact public topic vocabulary (`agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`, `other`) unless a genuinely reusable new category is needed. Keep source mechanics, import state, digest grouping, and host/domain labels in metadata, never in `taxonomies.tags`. Use `other` only when none of the stable lanes fits, and audit it once it passes 20 notes.
    - Avoid host/domain tags unless the source itself is the story or the host is a meaningful recurring lens.
-   - Completion criterion: the Zola note is concise, grounded, tagged deliberately, and committed to the repo without waiting for a separate publish decision.
+   - Do not wait for a separate "publish" instruction for routine work-thread link drops. Rohan has delegated this repo upkeep.
+   - Completion criterion: the Zola note is concise, grounded, tagged deliberately, committed, pushed, deployed, and visible on the live site without waiting for a separate publish decision.
 
 5. Preserve the distinction between capture and heavier synthesis.
    - The reading log is still the intake layer, but useful notes should move into the repo by default.
@@ -66,7 +69,26 @@ Do not use when:
 
 8. Keep the local and repo-local workflow skills aligned.
    - When this workflow changes, patch the local `~/.hermes/skills/openclaw-imports/work-reading-dropbox/SKILL.md` too unless the difference is intentionally repo-specific.
+   - Also sync durable playbook changes into `docs/maintainer-guide.md` and this repo's local skills in the same commit.
    - Completion criterion: Bosun does not carry conflicting versions of the same reading workflow across local and repo contexts.
+
+## Link-drop completion contract
+
+The short repo playbook lives at `docs/link-drop-playbook.md`; keep it synced with this section.
+
+For a normal useful work-thread link drop, finish all of these before replying:
+
+1. Read the strongest accessible source, including linked articles/blogs/papers when feasible.
+2. Append the grounded compact entry to `/root/work-wiki/reading-log/YYYY-MM-DD.md` using the IST timestamp.
+3. Dedupe against existing `content/notes/` by source URL and likely title.
+4. Create or update the Zola note with full IST datetime frontmatter, approved public tags, `source_url`, `source_type`, `saved_link`, `why_it_matters`, and concise body copy.
+5. Run `python3 scripts/humanize_repo_content.py`.
+6. Build with Zola. If `zola` is not installed globally, use a downloaded release binary or the repo's available build path instead of skipping verification.
+7. Commit with a Conventional Commit and push to `main`.
+8. Check the deploy run for the pushed `HEAD` SHA.
+9. Verify the live note or `/notes/` page on `https://reading-list.oddship.net/`.
+
+If any step is blocked, report the exact unfinished state, for example: `logged but not published`, `committed but deploy failed`, or `deployed but live verification is stale/blocked`.
 
 ## Tagging guidance
 
@@ -90,6 +112,7 @@ Do not use when:
 4. Writing verbose notes that are hard to scan later.
 5. Letting imported historical titles stay too raw when a small editorial cleanup would make the site much more readable.
 6. Committing user-facing prose without a humanizer pass, especially when it leaves AI-ish phrasing or em dashes the user dislikes.
+7. Stopping after the local reading log and saying "logged" when the expected deliverable is a live public note.
 
 ## Verification Checklist
 
@@ -100,3 +123,6 @@ Do not use when:
 - [ ] Useful items were promoted to the repo without waiting for a separate publish prompt
 - [ ] Historical imports preserve provenance and do not overstate what was actually read
 - [ ] Humanizer pass completed before commit
+- [ ] Zola build passed
+- [ ] Commit pushed and deploy succeeded
+- [ ] Live note or `/notes/` page verified

@@ -16,6 +16,7 @@ This repo is both:
 - `templates/`, Zola templates
 - `scripts/import_historical_reading.py`, repeatable historical importer/backfill script
 - `docs/maintainer-guide.md`, repo and workflow operating notes
+- `docs/link-drop-playbook.md`, exact publish-by-default checklist for Telegram link drops
 - `skills/`, repo-local agent skills for maintenance and Telegram ingest flow
 
 ## Content model
@@ -34,7 +35,8 @@ Each note carries frontmatter plus a short body. Useful fields in `[extra]` incl
 2. Bosun reads the strongest available source and logs a compact grounded entry under `/root/work-wiki/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
 3. Every useful item is promoted into `content/notes/` without waiting for a separate publish decision.
 4. Weekly writeups become `content/digests/`.
-5. Pushes to `main` deploy to GitHub Pages.
+5. Pushes to `main` deploy the site.
+6. A normal work-thread link drop is not done until the deploy succeeds and the live note, or at least `/notes/`, reflects the update.
 
 ## Historical backfill
 

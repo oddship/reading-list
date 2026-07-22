@@ -16,6 +16,7 @@ metadata:
 
 This skill is for working inside the `oddship/reading-list` repo that powers the reading-list site.
 It assumes the repo is a Zola site deployed through GitHub Pages and that content updates are made by editing markdown files and pushing to `main`.
+For routine useful links dropped in Rohan's work Telegram thread, publishing to this repo is delegated and expected. Do not stop at the local reading log or wait for a separate publish prompt.
 
 ## When to Use
 
@@ -53,6 +54,7 @@ Do not use when:
 
 5. Push and verify, not just commit.
    - Use Conventional Commit messages, push to `main`, inspect the latest GitHub Actions run, and check the live page.
+   - For work-thread link drops, this is part of the default completion path, not an optional follow-up.
    - Completion criterion: the latest deploy workflow succeeded and the rendered page reflects the change.
 
 6. Keep homepage, archive UX, and feeds intentional.
@@ -73,6 +75,10 @@ Do not use when:
    - If the local `work-reading-dropbox` skill also changed, sync it in the same pass unless the difference is intentionally local-only.
    - Completion criterion: the repo remains a trustworthy upstream source for the workflow it describes.
 
+10. Report partial states precisely.
+   - If a workflow is blocked, name the exact boundary: `logged but not published`, `note written but build failed`, `pushed but deploy failed`, or `deploy passed but live verification blocked`.
+   - Completion criterion: chat never implies a public update is complete unless the live site was checked or the blocker is explicit.
+
 ## Common Pitfalls
 
 1. Forgetting that `base_url` controls generated links.
@@ -81,6 +87,7 @@ Do not use when:
 4. Mixing private reading-log concerns with public note rendering concerns.
 5. Cleaning up titles without preserving slug stability, causing Zola path collisions.
 6. Committing user-facing prose without a humanizer pass.
+7. Treating `content/notes/` promotion as a later weekend task for normal useful work-thread link drops.
 
 ## Verification Checklist
 
@@ -88,6 +95,7 @@ Do not use when:
 - [ ] `base_url` matches current hosting target
 - [ ] Historical note slugs remain stable and collision-free
 - [ ] User-facing prose got a humanizer pass
+- [ ] Zola build passed
 - [ ] Changes committed and pushed
 - [ ] Latest Pages workflow succeeded
 - [ ] Live page matches the expected output
