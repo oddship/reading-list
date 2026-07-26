@@ -12,6 +12,8 @@ Only keep an item log-only when:
 - source access is too weak for a grounded public note
 - publishing would require an unusual public, destructive, or high-risk change
 
+For historical/importer runs, keep the importer incremental: add missing pages, but do not delete/rebuild existing curated notes or digests. Title-only blocked entries should stay log-only until there is enough source grounding for a public note.
+
 ## Required path
 
 1. Read the strongest accessible source.

@@ -33,11 +33,13 @@ Current repo helper:
 
 - `scripts/import_historical_reading.py`
 
+The importer is incremental. It should add missing notes/digests from local history, not delete and rebuild the whole `content/notes/` or `content/digests/` tree. Preserve editorially cleaned titles and stable slugs. If an entry is title-only because the source was blocked and no gist was extracted, keep it in the local log rather than publishing a public note from title-only evidence.
+
 Operational playbooks:
 
 - `docs/link-drop-playbook.md`, publish-by-default checklist for normal work-thread link drops
 
-It regenerates historical `content/notes/` and `content/digests/` from the local sources above.
+It imports historical `content/notes/` and `content/digests/` from the local sources above without overwriting already curated pages.
 
 ## Content conventions
 

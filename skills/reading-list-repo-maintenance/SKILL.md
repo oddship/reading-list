@@ -42,6 +42,8 @@ Do not use when:
 
 3. Preserve stable note URLs and keep tags coherent.
    - When importer-driven historical notes are regenerated, keep explicit slugs in frontmatter so title cleanup does not create Zola path collisions or unstable permalinks.
+   - Treat `scripts/import_historical_reading.py` as an incremental importer. It should add missing pages from the work log, not delete and rebuild curated note or digest trees.
+   - Skip public-note creation for title-only blocked entries where no gist/source body was extracted; keep those in the local log until grounded.
    - Use only the compact public topic vocabulary by default: `agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`, `other`.
    - Use `other` only as a temporary holding lane; if it grows past 20 notes, refile items or introduce a genuinely reusable new category.
    - Keep source type, import state, digest grouping, and host/domain labels out of `taxonomies.tags`; put them in `[extra]` metadata instead.

@@ -61,6 +61,8 @@ Do not use when:
 6. Treat historical imports differently from live curation.
    - For older OpenClaw or Drive-era backfills, prefer local work-reading logs first, then missing OpenClaw memory files, then weekly draft markdowns for digest pages.
    - Preserve provenance when the historical wording is imported as-is.
+   - Keep importer runs incremental: add missing pages, but do not delete/rebuild already curated public notes or digests because that churns stable URLs.
+   - If a historical entry is title-only because access was blocked and no gist was extracted, leave it log-only rather than publishing a public note from title-only evidence.
    - Completion criterion: old material is recoverable in the site without pretending every item was freshly curated by hand.
 
 7. Run a humanizer pass before committing public-facing prose.
