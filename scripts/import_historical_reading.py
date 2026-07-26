@@ -375,9 +375,15 @@ def rebuild_index() -> None:
 
 
 def write_notes() -> int:
+    # Incremental import only. The public site has editorially cleaned titles and
+    # stable slugs; do not delete/rebuild the whole notes tree from logs because
+    # that churns URLs and can remove hand-edited digest/note pages.
+    existing_links = set()
     for p in NOTES_DIR.glob('*.md'):
-        if p.name != '_index.md':
-            p.unlink()
+        if p.name == '_index.md':
+            continue
+        text = p.read_text()
+        existing_links.update(re.findall(r'^(?:source_url|saved_link) = "([^"]+)"', text, flags=re.M))
     count = 0
     slug_counts = Counter()
     for date_file in sorted(p for p in READING_LOG.glob('2026-*.md') if p.name != 'INDEX.md'):
@@ -385,6 +391,10 @@ def write_notes() -> int:
         for idx, entry in enumerate(entries, start=1):
             title = pick_title(entry, idx)
             source_url = choose_source_url(entry)
+            if entry['saved_link'] in existing_links or source_url in existing_links:
+                continue
+            if not entry.get('gist') and 'did not extract' in entry_value(entry, 'retrieval note').lower():
+                continue
             why = choose_why(entry)
             tags = tags_for(entry, source_url, title, why)
             base_slug = slugify(f"{entry['date']}-{title}")[:110].strip('-')
@@ -409,6 +419,8 @@ def write_notes() -> int:
                 '',
             ]
             (NOTES_DIR / f'{slug}.md').write_text('\n'.join(frontmatter) + body)
+            existing_links.add(entry['saved_link'])
+            existing_links.add(source_url)
             count += 1
     return count
 
@@ -444,9 +456,8 @@ def _normalize_digest_body(body: str) -> str:
 
 
 def write_digests() -> int:
-    for p in DIGESTS_DIR.glob('*.md'):
-        if p.name != '_index.md':
-            p.unlink()
+    # Historical drafts are seed material only. Keep existing digest pages in
+    # place so weekly editorial cleanups and stable URLs are preserved.
     count = 0
     for name in DIGEST_FILES:
         src = OLD_TMP / name
@@ -473,7 +484,10 @@ def write_digests() -> int:
             '+++',
             '',
         ]
-        (DIGESTS_DIR / f'{slug}.md').write_text('\n'.join(frontmatter) + body)
+        target = DIGESTS_DIR / f'{slug}.md'
+        if target.exists():
+            continue
+        target.write_text('\n'.join(frontmatter) + body)
         count += 1
     return count
 
