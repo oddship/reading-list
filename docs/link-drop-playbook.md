@@ -17,8 +17,9 @@ For historical/importer runs, keep the importer incremental: add missing pages, 
 ## Required path
 
 1. Read the strongest accessible source.
-   - For X posts, inspect the post and attached media.
-   - If the post points to an article, blog, paper, repo, or video, follow that source when feasible.
+   - Treat X/Twitter as the discovery/provenance layer, not automatically as the source.
+   - For X posts, inspect the post, attached media, cards, and expanded URLs.
+   - If the post points to an article, blog, paper, repo, video, or product page, follow that destination and ground the note in the actual website when feasible.
    - Preserve retrieval blockers instead of pretending the source was read.
 2. Append the compact entry to `/root/work-wiki/reading-log/YYYY-MM-DD.md` using the IST date and timestamp.
 3. Dedupe against existing `content/notes/` by source URL, saved link, and likely title.
@@ -30,6 +31,9 @@ For historical/importer runs, keep the importer incremental: add missing pages, 
    - `[extra].newsletter_candidate`
    - `[extra].why_it_matters`
    - `[extra].saved_link`
+   - `[extra].related_url` when the saved X post differs from the actual source URL
+   - optional `[extra].source_archive_url` / `[extra].saved_archive_url` when an archive was created or found
+   - `[extra].retrieval_note` when source access relied on mirrors, screenshots, X cards, or partial reads
 5. Run `python3 scripts/humanize_repo_content.py`.
 6. Build the site with Zola. If `zola` is not globally installed, use an available release binary or the CI-equivalent build path.
 7. Commit with a Conventional Commit.
@@ -48,6 +52,15 @@ Use precise states in chat:
 - `deploy passed but live verification blocked` when the deploy succeeded but the live fetch/browser check failed
 
 Do not say only "logged" for a useful work-thread link unless it was intentionally backlog-only.
+
+## Link durability
+
+The public page should not depend on a tweet staying live.
+
+- If a tweet points to an external website, set `source_url` to the actual destination and keep the tweet as `saved_link` or `related_url`.
+- The rendered note page exposes all distinct source links: original source, shared post, related link, and optional archive links.
+- Capture enough context in the log/body/retrieval note that the item remains intelligible if the tweet disappears: who posted it, what it was pointing at, the operative claim, and any source-access caveat.
+- If the tweet itself is the only source, preserve the post text or a close description in the note/log and add a retrieval note. Do not summarize from tweet metadata alone when a real linked source exists but was not read.
 
 ## Skill sync rule
 

@@ -38,6 +38,7 @@ Do not use when:
 
 2. Make the smallest correct repo change.
    - Prefer compact markdown notes and minimal template edits.
+   - For note pages, preserve and render source provenance: the actual source URL, the saved/shared post, any related canonical URL, and optional archive URLs should remain distinct instead of being collapsed into one generic link.
    - Completion criterion: the repo reflects the intended user-visible change.
 
 3. Preserve stable note URLs and keep tags coherent.
@@ -90,6 +91,7 @@ Do not use when:
 5. Cleaning up titles without preserving slug stability, causing Zola path collisions.
 6. Committing user-facing prose without a humanizer pass.
 7. Treating `content/notes/` promotion as a later weekend task for normal useful work-thread link drops.
+8. Rendering only a tweet link when the note was actually grounded in a linked website, which makes the page fragile if the tweet disappears.
 
 ## Verification Checklist
 

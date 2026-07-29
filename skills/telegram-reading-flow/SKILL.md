@@ -38,8 +38,10 @@ Do not use when:
    - Completion criterion: each shared link is classified.
 
 2. Read the strongest available source.
-   - If an X post mainly points to an external article, follow the destination and read that when feasible.
-   - If only the X post text is accessible, say so explicitly.
+   - Treat X/Twitter as discovery and provenance, not automatically as the source.
+   - If an X post mainly points to an external article, blog, paper, repo, product page, or video, expand the URL/card and read that destination when feasible.
+   - If only the X post text is accessible, preserve the post text or a close description and say so explicitly in the retrieval note.
+   - Do not publish from tweet-card/title metadata alone when a real linked website exists but was not read.
    - Completion criterion: the gist is grounded in retrieved source material or the blocker is clearly recorded.
 
 3. Log to the work reading dropbox first.
@@ -49,6 +51,7 @@ Do not use when:
 
 4. Promote every useful item to the public site.
    - Convert useful items into `content/notes/*.md` with tags, source URL, a short why-it-matters field, and preserve `logged at IST` when available.
+   - For X-linked destinations, set `source_url` to the actual website that was read, keep the incoming tweet as `saved_link`, add the canonical tweet as `related_url` when distinct, and add archive fields when available (`source_archive_url`, `saved_archive_url`).
    - Tag thoughtfully: use only the compact public topic vocabulary (`agents`, `ai-infra`, `developer-tools`, `llm-research`, `org-design`, `security`, `systems`, `other`) unless a genuinely reusable new category is needed. Keep source mechanics, import state, digest grouping, and host/domain labels in metadata, never in `taxonomies.tags`. Use `other` only when none of the stable lanes fits, and audit it once it passes 20 notes.
    - Avoid host/domain tags unless the source itself is the story or the host is a meaningful recurring lens.
    - Do not wait for a separate "publish" instruction for routine work-thread link drops. Rohan has delegated this repo upkeep.
@@ -80,10 +83,11 @@ The short repo playbook lives at `docs/link-drop-playbook.md`; keep it synced wi
 
 For a normal useful work-thread link drop, finish all of these before replying:
 
-1. Read the strongest accessible source, including linked articles/blogs/papers when feasible.
+1. Read the strongest accessible source, including linked articles/blogs/papers/repos/product pages when feasible. For X links, expand and read the actual destination unless the tweet itself is the source.
 2. Append the grounded compact entry to `/root/work-wiki/reading-log/YYYY-MM-DD.md` using the IST timestamp.
 3. Dedupe against existing `content/notes/` by source URL and likely title.
 4. Create or update the Zola note with full IST datetime frontmatter, approved public tags, `source_url`, `source_type`, `saved_link`, `why_it_matters`, and concise body copy.
+   - The public page renders distinct source links, so preserve `saved_link`, `related_url`, and optional archive URLs rather than collapsing everything into a single X link.
 5. Run `python3 scripts/humanize_repo_content.py`.
 6. Build with Zola. If `zola` is not installed globally, use a downloaded release binary or the repo's available build path instead of skipping verification.
 7. Commit with a Conventional Commit and push to `main`.
@@ -115,6 +119,7 @@ If any step is blocked, report the exact unfinished state, for example: `logged 
 5. Letting imported historical titles stay too raw when a small editorial cleanup would make the site much more readable.
 6. Committing user-facing prose without a humanizer pass, especially when it leaves AI-ish phrasing or em dashes the user dislikes.
 7. Stopping after the local reading log and saying "logged" when the expected deliverable is a live public note.
+8. Letting a public note depend on a tweet staying live instead of preserving the actual destination link and enough context for link rot.
 
 ## Verification Checklist
 

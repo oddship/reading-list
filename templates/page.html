@@ -13,7 +13,22 @@
       <p class="hero-copy">{{ page.extra.why_it_matters }}</p>
     {% endif %}
     {% if page.extra and page.extra.source_url %}
-      <p><a href="{{ page.extra.source_url }}">Original source</a></p>
+      <p class="source-links">
+        <strong>Links:</strong>
+        <a href="{{ page.extra.source_url }}">Original source</a>
+        {% if page.extra.saved_link and page.extra.saved_link != page.extra.source_url %}
+          · <a href="{{ page.extra.saved_link }}">Shared post</a>
+        {% endif %}
+        {% if page.extra.related_url and page.extra.related_url != page.extra.source_url and page.extra.related_url != page.extra.saved_link %}
+          · <a href="{{ page.extra.related_url }}">Related link</a>
+        {% endif %}
+        {% if page.extra.source_archive_url %}
+          · <a href="{{ page.extra.source_archive_url }}">Archived source</a>
+        {% endif %}
+        {% if page.extra.saved_archive_url %}
+          · <a href="{{ page.extra.saved_archive_url }}">Archived post</a>
+        {% endif %}
+      </p>
     {% endif %}
     {% if page.taxonomies.tags %}
       <div class="story-footer">

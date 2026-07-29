@@ -54,8 +54,13 @@ Each note should include:
 - `extra.why_it_matters`
 - `logged at IST` in the body when the log captured the original arrival time
 
-For X posts that primarily point somewhere else, prefer the linked article/blog/paper as `source_url` when it was actually read.
-If only the X post text was accessible, keep the X URL and say so in a retrieval note.
+For X posts that primarily point somewhere else, treat the post as the saved/shared link and the destination as the source.
+
+- Prefer the linked article/blog/paper/repo/product page as `source_url` when it was actually read.
+- Keep the original X URL as `extra.saved_link` and add the canonical X status as `extra.related_url` when it differs.
+- Add `extra.source_archive_url` or `extra.saved_archive_url` when an archive was created or found.
+- If only the X post text was accessible, keep the X URL as `source_url`, preserve the post text or close description in the note/log, and say so in `retrieval_note`.
+- Do not publish a note from tweet-card/title metadata alone when the real linked website was not read.
 
 ## Tagging guidance
 
@@ -87,7 +92,7 @@ If only the X post text was accessible, keep the X URL and say so in a retrieval
 
 For a normal useful link dropped in the work thread, complete this whole path before replying:
 
-1. Read the strongest accessible source, following linked articles/blogs/papers when feasible.
+1. Read the strongest accessible source, following linked articles/blogs/papers/repos/product pages when feasible. For X links, expand the card/URLs and ground the note in the destination website unless the tweet itself is the only source.
 2. Append the compact grounded entry to `/root/work-wiki/reading-log/YYYY-MM-DD.md` using an IST timestamp.
 3. Dedupe against existing notes by source URL and likely title.
 4. Create or update `content/notes/*.md` with full IST datetime frontmatter, approved public tags, source metadata, and concise public-facing prose.
