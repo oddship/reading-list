@@ -22,6 +22,13 @@
         {% if page.extra.related_url and page.extra.related_url != page.extra.source_url and page.extra.related_url != page.extra.saved_link %}
           · <a href="{{ page.extra.related_url }}">Related link</a>
         {% endif %}
+        {% if page.extra.related_urls %}
+          {% for related in page.extra.related_urls %}
+            {% if related != page.extra.source_url and related != page.extra.saved_link and related != page.extra.related_url %}
+              · <a href="{{ related }}">Related link {{ loop.index }}</a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
         {% if page.extra.source_archive_url %}
           · <a href="{{ page.extra.source_archive_url }}">Archived source</a>
         {% endif %}
