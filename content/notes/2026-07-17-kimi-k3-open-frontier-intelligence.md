@@ -11,10 +11,14 @@ newsletter_candidate = true
 why_it_matters = "Important open-model release because it combines frontier scale with a much more systems-heavy deployment story than most launch posts, and because it treats agent harness compatibility and inference architecture as first-class product concerns."
 saved_link = "https://www.kimi.com/blog/kimi-k3"
 related_url = "https://x.com/i/status/2081760186235289764"
+related_urls = ["https://x.com/pipenetwork/status/2081910870083285198", "https://github.com/PipeNetwork/kimi-k3-mlx", "https://huggingface.co/moonshotai/Kimi-K3", "https://github.com/MoonshotAI/Kimi-K3/blob/master/k3_tech_report.pdf"]
 model_url = "https://huggingface.co/moonshotai/Kimi-K3"
 report_url = "https://github.com/MoonshotAI/Kimi-K3/blob/master/k3_tech_report.pdf"
+retrieval_note = "Read the Kimi launch blog, Hugging Face model card, Pipe Network MLX repo, and relevant X posts directly or through FXTwitter/oEmbed fallbacks."
 +++
 **Logged at IST:** 2026-07-17 01:55 IST
+
+**Update, 2026-07-29:** Pipe Network has published an MLX port of Kimi K3 that makes the deployment story more concrete, but also corrects the tweet-sized claim. The repo says nothing runs on a single Mac as-is: the smallest published tier is about 870 GB against Apple Silicon’s current 512 GB ceiling. The useful systems work is the path toward local/Apple deployment: a streaming converter that avoids materializing the full model, bit-exact MXFP4 handling, MLX-compatible text/vision wrappers, and REAP expert pruning that produces published 451 GB and 350 GB tiers by keeping only workload-relevant experts.
 
 **Update, 2026-07-27:** Moonshot has now released the Kimi K3 model weights and technical report. The release post describes K3 as a 2.8T MoE model with 104B activated parameters, native visual understanding, and a 1M-token context window. The report and model card add the concrete architecture: 93 layers, 69 KDA plus 24 Gated MLA attention layers, 896 routed experts with 16 selected per token, 160K vocabulary, MoonViT-V2 vision encoder, and MXFP4 weights with MXFP8 activations from quantization-aware training.
 
