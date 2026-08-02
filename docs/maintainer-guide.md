@@ -38,6 +38,7 @@ The importer is incremental. It should add missing notes/digests from local hist
 Operational playbooks:
 
 - `docs/link-drop-playbook.md`, publish-by-default checklist for normal work-thread link drops
+- `scripts/link_digest_notes.py`, idempotent helper that links digest source URLs back to matching public note pages
 
 It imports historical `content/notes/` and `content/digests/` from the local sources above without overwriting already curated pages.
 
@@ -87,6 +88,7 @@ For X posts that primarily point somewhere else, treat the post as the saved/sha
 - Preserve the strongest claim and why it matters.
 - Keep speculation separate from grounded source claims.
 - Prefer stable explicit slugs in note frontmatter when importer-generated titles may collide.
+- Digest entries should not be dead-end source roundups. After editing or backfilling digests, run `python3 scripts/link_digest_notes.py` so cited URLs that match note metadata get compact `Reading note(s)` backlinks.
 
 ## Link-drop completion contract
 
@@ -96,11 +98,12 @@ For a normal useful link dropped in the work thread, complete this whole path be
 2. Append the compact grounded entry to `/root/work-wiki/reading-log/YYYY-MM-DD.md` using an IST timestamp.
 3. Dedupe against existing notes by source URL and likely title.
 4. Create or update `content/notes/*.md` with full IST datetime frontmatter, approved public tags, source metadata, and concise public-facing prose.
-5. Run `python3 scripts/humanize_repo_content.py`.
-6. Build with Zola. If `zola` is missing globally, use an available release binary or the same build path CI uses.
-7. Commit with a Conventional Commit and push to `main`.
-8. Check the deploy run for the pushed `HEAD` SHA.
-9. Verify the live note or `/notes/` page on `https://reading-list.oddship.net/`.
+5. If a digest mentions the item, run `python3 scripts/link_digest_notes.py` so the digest links to the note entry.
+6. Run `python3 scripts/humanize_repo_content.py`.
+7. Build with Zola. If `zola` is missing globally, use an available release binary or the same build path CI uses.
+8. Commit with a Conventional Commit and push to `main`.
+9. Check the deploy run for the pushed `HEAD` SHA.
+10. Verify the live note or `/notes/` page on `https://reading-list.oddship.net/`.
 
 If blocked, report the precise partial state: `logged but not published`, `note written but build failed`, `pushed but deploy failed`, or `deploy passed but live verification blocked`.
 

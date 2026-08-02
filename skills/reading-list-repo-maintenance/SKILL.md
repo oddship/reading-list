@@ -62,6 +62,7 @@ Do not use when:
 
 6. Keep homepage, archive UX, and feeds intentional.
    - Notes pagination, digest listing, and homepage summaries should keep working after content-shape changes.
+   - Digest pages should link back to the underlying reading-note entries when a cited source URL maps to `content/notes/` metadata. Use `python3 scripts/link_digest_notes.py` after digest edits or backfills; it is idempotent and adds compact `Reading note(s)` links from `extra.source_url`, `extra.saved_link`, and related URLs.
    - Keep tiered feeds live: all-site `/rss.xml`, notes `/notes/rss.xml`, digests `/digests/rss.xml`, and per-tag `/tags/<tag>/rss.xml`.
    - Completion criterion: homepage, `/notes/`, `/digests/`, `/tags/`, and representative feeds render the expected content.
 
@@ -92,6 +93,7 @@ Do not use when:
 6. Committing user-facing prose without a humanizer pass.
 7. Treating `content/notes/` promotion as a later weekend task for normal useful work-thread link drops.
 8. Rendering only a tweet link when the note was actually grounded in a linked website, which makes the page fragile if the tweet disappears.
+9. Publishing digests as source-only roundups without links back to the richer reading-note entries.
 
 ## Verification Checklist
 

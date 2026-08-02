@@ -24,6 +24,7 @@ Below are the pieces that felt most worth paying attention to.
 
 The best thing I read in this whole batch was antirez's write-up on building Redis Array:
 <https://antirez.com/news/164>
+_Reading note: [Mitchell Hashimoto post praising antirez's write-up on developing Redis Array support as a good example of...](/notes/2026-05-05-mitchell-hashimoto-post-praising-antirez-s-write-up-on-developing-redis-array-support-as-a-good-exa/)_
 
 Mitchell Hashimoto highlighted it, and rightly so. The article is useful partly because it cuts through both the boosterism and the reflexive anti-LLM posture. Redis Array still took antirez around four months. AI did not magically collapse that into a weekend. What it seems to have done instead is raise the ambition ceiling while helping with spec iteration, implementation, review, testing, rewrites, and follow-on tooling work.
 
@@ -31,6 +32,7 @@ That is much closer to the pattern I keep seeing in practice: the value is not "
 
 That same theme shows up in Mitchell Hashimoto's separate point about "AI slop":
 <https://x.com/i/status/2052397933522506079>
+_Reading note: [AI slop](/notes/2026-05-07-ai-slop/)_
 
 The phrase is provocative, but the argument is more precise than it sounds. Low-quality generated code can still be economically useful when the thing you are optimizing for is reversible exploration. Rough alpha frontends, disposable plugins, quick API-surface experiments, temporary scaffolding: these are all places where regeneration may be cheaper than careful maintenance.
 
@@ -38,11 +40,13 @@ The important thing is that this does *not* generalize to "ship garbage everywhe
 
 A third datapoint in the same family: Anthropic's claim that Firefox fixed more security bugs in April 2026, with help from Claude Mythos Preview, than in the previous fifteen months combined:
 <https://x.com/i/status/2052468573516513762>
+_Reading note: [Claude Mythos Preview](/notes/2026-05-07-claude-mythos-preview/)_
 
 Even with caveats around methodology, this is interesting because security backlog demolition is exactly the kind of work where AI might become persuasive before greenfield hero demos do. Large amounts of repetitive, reviewable, bounded maintenance work are a much better proving ground than "I asked an agent to build my startup."
 
 The counterweight here is David Crawshaw's essay on the agent principal-agent problem:
 <https://crawshaw.io/blog/agent-principal-agent>
+_Reading note: [agent principal-agent problem](/notes/2026-05-07-agent-principal-agent-problem/)_
 
 This is one of the clearest arguments I have seen for why agent gains may accrue unevenly. In small, high-trust teams, the person driving the agent can also absorb the consequences and collapse the review loop. In larger, lower-trust organizations, the reviewer becomes the bottleneck and low-effort agent output creates a new load-bearing problem rather than removing one.
 
@@ -61,6 +65,7 @@ A lot of recent launches look different on the surface, but they are all converg
 
 Anthropic's managed-agents update is probably the cleanest example:
 <https://claude.com/blog/new-in-claude-managed-agents>
+_Reading note: [dreaming](/notes/2026-05-06-dreaming/)_
 
 The three notable additions were:
 
@@ -72,6 +77,7 @@ What is interesting is not any one feature. It is the direction of travel. Memor
 
 That same pattern appears in Rach's thread connecting Meta's Autodata framing to software agents:
 <https://x.com/i/status/2052209530801668262>
+_Reading note: [Autodata](/notes/2026-05-07-autodata/)_
 
 The strongest idea there is that the durable unit of work is not the prompt. It is the loop:
 
@@ -86,6 +92,7 @@ That pattern spans synthetic-data generation, evals, and software workflows like
 
 This also lines up well with Frank's MetaSKILLs post:
 <https://swival.dev/pages/metaskills.html>
+_Reading note: [Frank/jedisct1: SKILL.md is fine for static instructions. But many useful agent workflows are not just inst...](/notes/2026-05-05-frank-jedisct1-skill-md-is-fine-for-static-instructions-but-many-useful-agent-workflows-are-not-jus/)_
 
 Static instructions are useful, but many valuable workflows are really executable loops with state, checkpoints, and retries. That is very close to how I have come to think about harness engineering more broadly: the boring glue matters more than clever prompting.
 
@@ -93,10 +100,10 @@ There is also a visible tooling wave forming around this layer.
 
 A few examples:
 
-- **Hunk** as a review-first diff interface for agent-authored changesets: <https://x.com/i/status/2052128048288567617>
-- **Mirage** as a unified virtual filesystem for agents across S3, Drive, Slack, Gmail, GitHub, Notion, databases, and SSH: <https://x.com/i/status/2052105012172792061>
-- **Printing Press** as a factory for agent-native CLIs, skills, and MCP servers: <https://x.com/i/status/2052422567181611010>
-- **Auth for MCP** from Auth0, which is exactly the kind of boring enterprise layer you expect once a protocol starts trying to become real infrastructure: <https://x.com/i/status/2052138238111068277>
+- **Hunk** as a review-first diff interface for agent-authored changesets: <https://x.com/i/status/2052128048288567617> _Reading note: [Hunk](/notes/2026-05-07-hunk/)_
+- **Mirage** as a unified virtual filesystem for agents across S3, Drive, Slack, Gmail, GitHub, Notion, databases, and SSH: <https://x.com/i/status/2052105012172792061> _Reading note: [Mirage](/notes/2026-05-07-mirage/)_
+- **Printing Press** as a factory for agent-native CLIs, skills, and MCP servers: <https://x.com/i/status/2052422567181611010> _Reading note: [Printing Press](/notes/2026-05-07-printing-press/)_
+- **Auth for MCP** from Auth0, which is exactly the kind of boring enterprise layer you expect once a protocol starts trying to become real infrastructure: <https://x.com/i/status/2052138238111068277> _Reading note: [Auth for MCP](/notes/2026-05-07-auth-for-mcp/)_
 
 What I like about these projects is that they are all implicitly opinionated about the same thing: raw API access is not enough. Agents need legible surfaces.
 
@@ -108,6 +115,7 @@ That is also why I think the interface war for agents may be less about API vs M
 
 One of my favorite pieces from this batch was Entire's work on agentic search, amplified by Mario Zechner:
 <https://x.com/i/status/2052437618416025846>
+_Reading note: [Entire's core claim is useful: from ~202k real tool calls across ~1,983 public coding-agent checkpoints, ab...](/notes/2026-05-07-entire-s-core-claim-is-useful-from-202k-real-tool-calls-across-1-983-public-coding-agent-checkpoint/)_
 
 The useful finding was not just that search accounted for a huge fraction of coding-agent tool calls. It was that dramatically faster search did not improve end-to-end runs nearly as much as better ranking did.
 
@@ -121,9 +129,11 @@ The same "do not confuse the demo metric for the actual bottleneck" warning show
 
 First there was the flashy hype post:
 <https://x.com/i/status/2051663268704636937>
+_Reading note: [SubQ](/notes/2026-05-05-subq/)_
 
 Then Mario Zechner's skepticism:
 <https://x.com/badlogicgames/status/2051936321610842245>
+_Reading note: [does not approximate attention](/notes/2026-05-06-does-not-approximate-attention/)_
 
 His question is the right one: if you are selectively dropping query-key relationships, how exactly do you know the dropped ones were irrelevant? If that selection is imperfect, then "this is not an approximation" starts sounding more like marketing than analysis.
 
@@ -131,11 +141,13 @@ I am not dismissing the underlying line of work. Long-context efficiency is obvi
 
 Another related signal is the rise of open speculative-decoding infrastructure such as DFlash:
 <https://x.com/i/status/2051900751673467097>
+_Reading note: [DFlash](/notes/2026-05-07-dflash/)_
 
 What is notable there is not just one model getting faster. It is the fact that acceleration is becoming an ecosystem layer: open models, draft models, backend support, integrations across inference stacks. The inference stack is hardening in the same way the workflow layer is hardening.
 
 And then there was a smaller but delightful reminder from Sam Rose that intuition around wire formats can be very wrong once compression enters the picture:
 <https://x.com/i/status/2051977984148467890>
+_Reading note: [34kb](/notes/2026-05-07-34kb/)_
 
 JSON was larger than protobuf raw, but after compression it often ended up slightly smaller in his example. Again: the obvious benchmark is not always the one that matters in the actual system.
 
@@ -143,6 +155,7 @@ JSON was larger than protobuf raw, but after compression it often ended up sligh
 
 Satya Nadella and Microsoft's Work Trend Index framing is worth reading mostly for the parts that survive the corporate packaging:
 <https://x.com/i/status/2051787232043020719>
+_Reading note: [Satya/Microsoft framing: firms need to redesign work around agentic systems, with AI taking more execution...](/notes/2026-05-06-satya-microsoft-framing-firms-need-to-redesign-work-around-agentic-systems-with-ai-taking-more-exec/)_
 
 The useful claim is that AI impact depends less on whether individuals have access to the model and more on whether organizations actually redesign workflows, management expectations, and evaluation around it.
 
@@ -160,6 +173,7 @@ Not everything worth noticing was about agents writing code.
 
 One of the best projects in the pile was ParliamentWatch:
 <https://x.com/i/status/2052264995787079900>
+_Reading note: [ParliamentWatch](/notes/2026-05-07-parliamentwatch/)_
 
 It takes a buried but important public corpus -- Indian parliamentary standing committee reports -- and turns it into something searchable, exportable, summarizable, and monitorable.
 
@@ -167,6 +181,7 @@ This is the kind of AI application I find much more compelling than generic chat
 
 That same instinct is why I am watching projects like Pratilekha too:
 <https://x.com/i/status/2051675299428143565>
+_Reading note: [Pratilekha](/notes/2026-05-05-pratilekha/)_
 
 I do not yet know how technically differentiated it is, but I think multilingual infra in India is one of the more interesting places where actual product depth could emerge instead of just model-wrapper theater.
 
@@ -178,24 +193,27 @@ A few of the most important links were reminders that the AI story is also becom
 
 Simon Willison's notes on the xAI/Anthropic data-center deal are a good example:
 <https://x.com/i/status/2052436629365948920>
+_Reading note: [Colossus 1](/notes/2026-05-07-colossus-1/)_
 
 The interesting part is not gossip about who rented whose cluster. It is the supply-chain shape of the arrangement: environmental externalities, dependency on infrastructure controlled by a competitor, and reclaim-risk from the supplier side. This is starting to look less like pure software competition and more like cloud capacity politics.
 
 Kyle Chan's pointer to the Chinese gray market for Claude access is another version of the same thing:
 <https://x.com/i/status/2052023116348469608>
+_Reading note: [transfer station](/notes/2026-05-06-transfer-station/)_
 
 If every provider control adds another evasion layer, then access policy does not just block users. It also creates a shadow stack of intermediaries, proxying, payments, identity abuse, and fraud. That is a governance story, not just a pricing story.
 
 Even the Chrome/Gemini Nano silent-install complaint fits the pattern:
 <https://x.com/i/status/2051630929622311250>
+_Reading note: [Simone/evilsocket amplifying claim that Chrome silently installs a 4 GB Gemini Nano model on user devices,...](/notes/2026-05-05-simone-evilsocket-amplifying-claim-that-chrome-silently-installs-a-4-gb-gemini-nano-model-on-user-d/)_
 
 On-device AI is increasingly shipping as platform behavior rather than explicit user choice. The operational questions there are basic but real: consent, storage, bandwidth, visibility, and the quiet normalization of large AI payloads appearing on personal devices.
 
 And finally, outside AI proper but still very much in the same systems mindset, I found the recent ccTLD / DNSSEC cluster worth paying attention to:
 
-- `.de` outage / DNSSEC discussion: <https://news.ycombinator.com/item?id=48027897>
-- Thomas Ptacek resurfacing *Against DNSSEC*: <https://sockpuppet.org/blog/2015/01/15/against-dnssec/>
-- Nemo on the `.in` suspension and Namecheap WHOIS bug: <https://captnemo.in/blog/2026/05/05/namecheap-whois/>
+- `.de` outage / DNSSEC discussion: <https://news.ycombinator.com/item?id=48027897> _Reading note: [de TLD offline due to DNSSEC?](/notes/2026-05-05-de-tld-offline-due-to-dnssec/)_
+- Thomas Ptacek resurfacing *Against DNSSEC*: <https://sockpuppet.org/blog/2015/01/15/against-dnssec/> _Reading note: [tqbf](/notes/2026-05-06-tqbf/)_
+- Nemo on the `.in` suspension and Namecheap WHOIS bug: <https://captnemo.in/blog/2026/05/05/namecheap-whois/> _Reading note: [de TLD offline due to DNSSEC?](/notes/2026-05-05-de-tld-offline-due-to-dnssec/)_
 
 This is not "AI news," but it rhymes with the broader theme of invisible infrastructure layers carrying more fragility than people assume. Convenience abstractions are great until the hidden control plane has a bad day.
 
@@ -229,35 +247,35 @@ The loop is.
 ## Also worth saving
 
 ### AI coding / engineering
-- antirez on Redis Array: <https://antirez.com/news/164>
-- Mitchell Hashimoto on Redis Array: <https://x.com/i/status/2051684321732530680>
-- Mitchell Hashimoto on "AI slop": <https://x.com/i/status/2052397933522506079>
-- Firefox security bug-fix chart: <https://x.com/i/status/2052468573516513762>
-- David Crawshaw on the agent principal-agent problem: <https://crawshaw.io/blog/agent-principal-agent>
+- antirez on Redis Array: <https://antirez.com/news/164> _Reading note: [Mitchell Hashimoto post praising antirez's write-up on developing Redis Array support as a good example of...](/notes/2026-05-05-mitchell-hashimoto-post-praising-antirez-s-write-up-on-developing-redis-array-support-as-a-good-exa/)_
+- Mitchell Hashimoto on Redis Array: <https://x.com/i/status/2051684321732530680> _Reading note: [Mitchell Hashimoto post praising antirez's write-up on developing Redis Array support as a good example of...](/notes/2026-05-05-mitchell-hashimoto-post-praising-antirez-s-write-up-on-developing-redis-array-support-as-a-good-exa/)_
+- Mitchell Hashimoto on "AI slop": <https://x.com/i/status/2052397933522506079> _Reading note: [AI slop](/notes/2026-05-07-ai-slop/)_
+- Firefox security bug-fix chart: <https://x.com/i/status/2052468573516513762> _Reading note: [Claude Mythos Preview](/notes/2026-05-07-claude-mythos-preview/)_
+- David Crawshaw on the agent principal-agent problem: <https://crawshaw.io/blog/agent-principal-agent> _Reading note: [agent principal-agent problem](/notes/2026-05-07-agent-principal-agent-problem/)_
 
 ### Harness / workflow infrastructure
-- Anthropic managed agents: <https://claude.com/blog/new-in-claude-managed-agents>
-- Meta RAM Autodata / devswarm thread: <https://x.com/i/status/2052209530801668262>
-- MetaSKILLs: <https://swival.dev/pages/metaskills.html>
-- Hunk diff viewer: <https://x.com/i/status/2052128048288567617>
-- Mirage virtual filesystem: <https://x.com/i/status/2052105012172792061>
-- Printing Press: <https://x.com/i/status/2052422567181611010>
-- Auth for MCP: <https://x.com/i/status/2052138238111068277>
+- Anthropic managed agents: <https://claude.com/blog/new-in-claude-managed-agents> _Reading note: [dreaming](/notes/2026-05-06-dreaming/)_
+- Meta RAM Autodata / devswarm thread: <https://x.com/i/status/2052209530801668262> _Reading note: [Autodata](/notes/2026-05-07-autodata/)_
+- MetaSKILLs: <https://swival.dev/pages/metaskills.html> _Reading note: [Frank/jedisct1: SKILL.md is fine for static instructions. But many useful agent workflows are not just inst...](/notes/2026-05-05-frank-jedisct1-skill-md-is-fine-for-static-instructions-but-many-useful-agent-workflows-are-not-jus/)_
+- Hunk diff viewer: <https://x.com/i/status/2052128048288567617> _Reading note: [Hunk](/notes/2026-05-07-hunk/)_
+- Mirage virtual filesystem: <https://x.com/i/status/2052105012172792061> _Reading note: [Mirage](/notes/2026-05-07-mirage/)_
+- Printing Press: <https://x.com/i/status/2052422567181611010> _Reading note: [Printing Press](/notes/2026-05-07-printing-press/)_
+- Auth for MCP: <https://x.com/i/status/2052138238111068277> _Reading note: [Auth for MCP](/notes/2026-05-07-auth-for-mcp/)_
 
 ### Search / inference / technical skepticism
-- Entire on agentic search: <https://x.com/i/status/2052437618416025846>
-- SubQ hype post: <https://x.com/i/status/2051663268704636937>
-- Mario Zechner on SubQ skepticism: <https://x.com/badlogicgames/status/2051936321610842245>
-- DFlash speculative decoding: <https://x.com/i/status/2051900751673467097>
-- JSON vs protobuf after compression: <https://x.com/i/status/2051977984148467890>
+- Entire on agentic search: <https://x.com/i/status/2052437618416025846> _Reading note: [Entire's core claim is useful: from ~202k real tool calls across ~1,983 public coding-agent checkpoints, ab...](/notes/2026-05-07-entire-s-core-claim-is-useful-from-202k-real-tool-calls-across-1-983-public-coding-agent-checkpoint/)_
+- SubQ hype post: <https://x.com/i/status/2051663268704636937> _Reading note: [SubQ](/notes/2026-05-05-subq/)_
+- Mario Zechner on SubQ skepticism: <https://x.com/badlogicgames/status/2051936321610842245> _Reading note: [does not approximate attention](/notes/2026-05-06-does-not-approximate-attention/)_
+- DFlash speculative decoding: <https://x.com/i/status/2051900751673467097> _Reading note: [DFlash](/notes/2026-05-07-dflash/)_
+- JSON vs protobuf after compression: <https://x.com/i/status/2051977984148467890> _Reading note: [34kb](/notes/2026-05-07-34kb/)_
 
 ### Organization / policy / infrastructure
-- Microsoft Work Trend Index / agentic org redesign: <https://x.com/i/status/2051787232043020719>
-- ParliamentWatch: <https://x.com/i/status/2052264995787079900>
-- Pratilekha: <https://x.com/i/status/2051675299428143565>
-- Simon Willison on xAI/Anthropic infrastructure deal: <https://x.com/i/status/2052436629365948920>
-- China gray market for Claude access: <https://x.com/i/status/2052023116348469608>
-- Chrome Gemini Nano silent install: <https://x.com/i/status/2051630929622311250>
-- HN on `.de` / DNSSEC: <https://news.ycombinator.com/item?id=48027897>
-- Thomas Ptacek's *Against DNSSEC*: <https://sockpuppet.org/blog/2015/01/15/against-dnssec/>
-- Nemo on `.in` / Namecheap WHOIS bug: <https://captnemo.in/blog/2026/05/05/namecheap-whois/>
+- Microsoft Work Trend Index / agentic org redesign: <https://x.com/i/status/2051787232043020719> _Reading note: [Satya/Microsoft framing: firms need to redesign work around agentic systems, with AI taking more execution...](/notes/2026-05-06-satya-microsoft-framing-firms-need-to-redesign-work-around-agentic-systems-with-ai-taking-more-exec/)_
+- ParliamentWatch: <https://x.com/i/status/2052264995787079900> _Reading note: [ParliamentWatch](/notes/2026-05-07-parliamentwatch/)_
+- Pratilekha: <https://x.com/i/status/2051675299428143565> _Reading note: [Pratilekha](/notes/2026-05-05-pratilekha/)_
+- Simon Willison on xAI/Anthropic infrastructure deal: <https://x.com/i/status/2052436629365948920> _Reading note: [Colossus 1](/notes/2026-05-07-colossus-1/)_
+- China gray market for Claude access: <https://x.com/i/status/2052023116348469608> _Reading note: [transfer station](/notes/2026-05-06-transfer-station/)_
+- Chrome Gemini Nano silent install: <https://x.com/i/status/2051630929622311250> _Reading note: [Simone/evilsocket amplifying claim that Chrome silently installs a 4 GB Gemini Nano model on user devices,...](/notes/2026-05-05-simone-evilsocket-amplifying-claim-that-chrome-silently-installs-a-4-gb-gemini-nano-model-on-user-d/)_
+- HN on `.de` / DNSSEC: <https://news.ycombinator.com/item?id=48027897> _Reading note: [de TLD offline due to DNSSEC?](/notes/2026-05-05-de-tld-offline-due-to-dnssec/)_
+- Thomas Ptacek's *Against DNSSEC*: <https://sockpuppet.org/blog/2015/01/15/against-dnssec/> _Reading note: [tqbf](/notes/2026-05-06-tqbf/)_
+- Nemo on `.in` / Namecheap WHOIS bug: <https://captnemo.in/blog/2026/05/05/namecheap-whois/> _Reading note: [de TLD offline due to DNSSEC?](/notes/2026-05-05-de-tld-offline-due-to-dnssec/)_

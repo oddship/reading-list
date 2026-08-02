@@ -65,6 +65,7 @@ Do not use when:
    - For older OpenClaw or Drive-era backfills, prefer local work-reading logs first, then missing OpenClaw memory files, then weekly draft markdowns for digest pages.
    - Preserve provenance when the historical wording is imported as-is.
    - Keep importer runs incremental: add missing pages, but do not delete/rebuild already curated public notes or digests because that churns stable URLs.
+   - When adding or backfilling digest pages, run `python3 scripts/link_digest_notes.py` so digest source URLs link back to the relevant public note entries.
    - If a historical entry is title-only because access was blocked and no gist was extracted, leave it log-only rather than publishing a public note from title-only evidence.
    - Completion criterion: old material is recoverable in the site without pretending every item was freshly curated by hand.
 
@@ -88,11 +89,12 @@ For a normal useful work-thread link drop, finish all of these before replying:
 3. Dedupe against existing `content/notes/` by source URL and likely title.
 4. Create or update the Zola note with full IST datetime frontmatter, approved public tags, `source_url`, `source_type`, `saved_link`, `why_it_matters`, and concise body copy.
    - The public page renders distinct source links, so preserve `saved_link`, `related_url`, and optional archive URLs rather than collapsing everything into a single X link.
-5. Run `python3 scripts/humanize_repo_content.py`.
-6. Build with Zola. If `zola` is not installed globally, use a downloaded release binary or the repo's available build path instead of skipping verification.
-7. Commit with a Conventional Commit and push to `main`.
-8. Check the deploy run for the pushed `HEAD` SHA.
-9. Verify the live note or `/notes/` page on `https://reading-list.oddship.net/`.
+5. If the item is folded into a digest, run `python3 scripts/link_digest_notes.py` so the digest points back to the note entry.
+6. Run `python3 scripts/humanize_repo_content.py`.
+7. Build with Zola. If `zola` is not installed globally, use a downloaded release binary or the repo's available build path instead of skipping verification.
+8. Commit with a Conventional Commit and push to `main`.
+9. Check the deploy run for the pushed `HEAD` SHA.
+10. Verify the live note or `/notes/` page on `https://reading-list.oddship.net/`.
 
 If any step is blocked, report the exact unfinished state, for example: `logged but not published`, `committed but deploy failed`, or `deployed but live verification is stale/blocked`.
 
