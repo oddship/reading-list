@@ -280,7 +280,8 @@ def parse_date_file(path: Path) -> list[dict]:
     structured = False
     known_keys = {
         'what it is', 'what', 'source', 'gist', 'why it matters', 'newsletter angle',
-        'retrieval note', 'note', 'notes', 'notable line', 'source read', 'retrieval', 'follow-up', 'logged at ist'
+        'retrieval note', 'note', 'notes', 'notable line', 'source read', 'retrieval', 'follow-up', 'logged at ist',
+        'public note', 'related existing note updated'
     }
     for raw in lines:
         if raw.startswith('- ') and re.search(r'\b(?:saved link|saved):\s*', raw, flags=re.I):
@@ -389,6 +390,16 @@ def write_notes() -> int:
     for date_file in sorted(p for p in READING_LOG.glob('2026-*.md') if p.name != 'INDEX.md'):
         entries = parse_date_file(date_file)
         for idx, entry in enumerate(entries, start=1):
+            skip_text = ' '.join([entry_value(entry, 'retrieval note'), ' '.join(entry.get('body_lines', []))]).lower()
+            if (
+                entry.get('public note')
+                or entry.get('related existing note updated')
+                or 'public note updated' in skip_text
+                or 'existing note updated' in skip_text
+            ):
+                # The daily log explicitly says this item was folded into an
+                # existing curated page. Do not create a duplicate imported note.
+                continue
             title = pick_title(entry, idx)
             source_url = choose_source_url(entry)
             if entry['saved_link'] in existing_links or source_url in existing_links:
