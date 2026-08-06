@@ -13,32 +13,27 @@
       <p class="hero-copy">{{ page.extra.why_it_matters }}</p>
     {% endif %}
     {% if page.extra and page.extra.source_url %}
-      {% set source_url = page.extra.source_url | default(value="") %}
-      {% set saved_link = page.extra.saved_link | default(value="") %}
-      {% set related_url = page.extra.related_url | default(value="") %}
-      {% set source_archive_url = page.extra.source_archive_url | default(value="") %}
-      {% set saved_archive_url = page.extra.saved_archive_url | default(value="") %}
       <p class="source-links">
         <strong>Links:</strong>
-        <a href="{{ source_url }}">Original source</a>
-        {% if saved_link and saved_link != source_url %}
-          · <a href="{{ saved_link }}">Shared link</a>
+        <a href="{{ page.extra.source_url }}">Original source</a>
+        {% if page.extra.saved_link is defined and page.extra.saved_link != page.extra.source_url %}
+          · <a href="{{ page.extra.saved_link }}">Shared link</a>
         {% endif %}
-        {% if related_url and related_url != source_url and related_url != saved_link %}
-          · <a href="{{ related_url }}">Related link</a>
+        {% if page.extra.related_url is defined and page.extra.related_url != page.extra.source_url and (page.extra.saved_link is not defined or page.extra.related_url != page.extra.saved_link) %}
+          · <a href="{{ page.extra.related_url }}">Related link</a>
         {% endif %}
-        {% if page.extra.related_urls %}
+        {% if page.extra.related_urls is defined %}
           {% for related in page.extra.related_urls %}
-            {% if related != source_url and related != saved_link and related != related_url %}
+            {% if related != page.extra.source_url and (page.extra.saved_link is not defined or related != page.extra.saved_link) and (page.extra.related_url is not defined or related != page.extra.related_url) %}
               · <a href="{{ related }}">Related link {{ loop.index }}</a>
             {% endif %}
           {% endfor %}
         {% endif %}
-        {% if source_archive_url %}
-          · <a href="{{ source_archive_url }}">Archived source</a>
+        {% if page.extra.source_archive_url is defined %}
+          · <a href="{{ page.extra.source_archive_url }}">Archived source</a>
         {% endif %}
-        {% if saved_archive_url %}
-          · <a href="{{ saved_archive_url }}">Archived post</a>
+        {% if page.extra.saved_archive_url is defined %}
+          · <a href="{{ page.extra.saved_archive_url }}">Archived post</a>
         {% endif %}
       </p>
     {% endif %}
