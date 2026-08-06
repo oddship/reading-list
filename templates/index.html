@@ -53,26 +53,28 @@
       <a href="{{ get_url(path='@/notes/_index.md') }}" class="button outline small">All notes</a>
     </div>
     <div class="story-list">
-      {% for page in notes.pages | slice(end=6) %}
-        <article class="story">
-          <p class="story-meta">{{ page.date }}</p>
-          <h3><a href="{{ page.permalink }}">{{ page.title | truncate(length=72) }}</a></h3>
-          {% if page.extra and page.extra.why_it_matters %}
-            <p class="story-summary">{{ page.extra.why_it_matters | truncate(length=180) }}</p>
-          {% else %}
-            <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=180))) }}</p>
-          {% endif %}
-          <div class="story-footer">
-            <a href="{{ page.permalink }}" class="button small">Read note</a>
-            {% if page.taxonomies.tags %}
-              {% for tag in page.taxonomies.tags %}
-                {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 2 %}
-                  <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
-                {% endif %}
-              {% endfor %}
+      {% for page in notes.pages %}
+        {% if loop.index <= 6 %}
+          <article class="story">
+            <p class="story-meta">{{ page.date }}</p>
+            <h3><a href="{{ page.permalink }}">{{ page.title | truncate(length=72) }}</a></h3>
+            {% if page.extra and page.extra.why_it_matters %}
+              <p class="story-summary">{{ page.extra.why_it_matters | truncate(length=180) }}</p>
+            {% else %}
+              <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=180))) }}</p>
             {% endif %}
-          </div>
-        </article>
+            <div class="story-footer">
+              <a href="{{ page.permalink }}" class="button small">Read note</a>
+              {% if page.taxonomies.tags %}
+                {% for tag in page.taxonomies.tags %}
+                  {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 2 %}
+                    <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            </div>
+          </article>
+        {% endif %}
       {% endfor %}
     </div>
   </section>
