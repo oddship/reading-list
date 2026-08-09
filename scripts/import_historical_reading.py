@@ -406,6 +406,18 @@ def write_notes() -> int:
                 continue
             if not entry.get('gist') and 'did not extract' in entry_value(entry, 'retrieval note').lower():
                 continue
+            source_blob = f"{entry['saved_link']} {source_url}".lower()
+            if (
+                ('youtube.com/' in source_blob or 'youtu.be/' in source_blob)
+                and (
+                    'source grounding is weak' in skip_text
+                    or 'not yet source-grounded' in skip_text
+                    or ('transcript' in skip_text and ('blocked' in skip_text or 'bot confirmation' in skip_text))
+                )
+            ):
+                # Weak YouTube metadata-only entries stay log-only until a
+                # transcript or equivalent source grounding is available.
+                continue
             why = choose_why(entry)
             tags = tags_for(entry, source_url, title, why)
             base_slug = slugify(f"{entry['date']}-{title}")[:110].strip('-')
