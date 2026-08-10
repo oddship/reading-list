@@ -1,5 +1,30 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
+{% block social_meta %}
+  {% if page.extra and page.extra.why_it_matters %}
+    {% set social_description = page.extra.why_it_matters | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+  {% elif page.summary %}
+    {% set social_description = page.summary | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+  {% elif page.description %}
+    {% set social_description = page.description | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+  {% else %}
+    {% set social_description = page.content | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+  {% endif %}
+  <meta name="description" content="{{ social_description }}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="{{ config.title }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ social_description }}">
+  <meta property="og:url" content="{{ page.permalink | safe }}">
+  <meta property="og:image" content="{{ get_url(path='social-card.png') }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  {% if page.date %}<meta property="article:published_time" content="{{ page.date }}">{% endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ social_description }}">
+  <meta name="twitter:image" content="{{ get_url(path='social-card.png') }}">
+{% endblock social_meta %}
 {% block content %}
   <article class="feature">
     {% if page.date %}

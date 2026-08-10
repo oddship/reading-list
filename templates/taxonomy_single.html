@@ -1,5 +1,23 @@
 {% extends "base.html" %}
 {% block title %}{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% elif term.name == 'developer-tools' %}Developer Tools{% elif term.name == 'org-design' %}Org Design{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %} · {{ config.title }}{% endblock title %}
+{% block social_meta %}
+  {% if term.name == 'ai-infra' %}{% set tag_title = 'AI Infra' %}{% elif term.name == 'llm-research' %}{% set tag_title = 'LLM Research' %}{% elif term.name == 'developer-tools' %}{% set tag_title = 'Developer Tools' %}{% elif term.name == 'org-design' %}{% set tag_title = 'Org Design' %}{% else %}{% set tag_title = term.name | replace(from='-', to=' ') | title %}{% endif %}
+  {% set social_title = tag_title ~ " · " ~ config.title %}
+  {% set social_description = "Reading notes in the " ~ tag_title ~ " theme." %}
+  <meta name="description" content="{{ social_description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ config.title }}">
+  <meta property="og:title" content="{{ social_title }}">
+  <meta property="og:description" content="{{ social_description }}">
+  <meta property="og:url" content="{{ term.permalink | safe }}">
+  <meta property="og:image" content="{{ get_url(path='social-card.png') }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ social_title }}">
+  <meta name="twitter:description" content="{{ social_description }}">
+  <meta name="twitter:image" content="{{ get_url(path='social-card.png') }}">
+{% endblock social_meta %}
 {% block content %}
   <section class="hero">
     <p class="kicker">Tag</p>
