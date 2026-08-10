@@ -2,13 +2,13 @@
 {% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
 {% block social_meta %}
   {% if page.extra and page.extra.why_it_matters %}
-    {% set social_description = page.extra.why_it_matters | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+    {% set social_description = page.extra.why_it_matters | striptags | trim | replace(from="\n", to=" ") | truncate(length=190) %}
   {% elif page.summary %}
-    {% set social_description = page.summary | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+    {% set social_description = page.summary | striptags | trim | replace(from="\n", to=" ") | truncate(length=190) %}
   {% elif page.description %}
-    {% set social_description = page.description | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+    {% set social_description = page.description | striptags | trim | replace(from="\n", to=" ") | truncate(length=190) %}
   {% else %}
-    {% set social_description = page.content | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+    {% set social_description = page.content | striptags | trim | replace(from="\n", to=" ") | truncate(length=190) %}
   {% endif %}
   <meta name="description" content="{{ social_description }}">
   <meta property="og:type" content="article">

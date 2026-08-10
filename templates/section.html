@@ -3,9 +3,9 @@
 {% block social_meta %}
   {% set social_title = section.title ~ " · " ~ config.title %}
   {% if section.description %}
-    {% set social_description = section.description | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+    {% set social_description = section.description | striptags | trim | replace(from="\n", to=" ") | truncate(length=190) %}
   {% elif section.content %}
-    {% set social_description = section.content | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+    {% set social_description = section.content | striptags | trim | replace(from="\n", to=" ") | truncate(length=190) %}
   {% else %}
     {% set social_description = config.description %}
   {% endif %}

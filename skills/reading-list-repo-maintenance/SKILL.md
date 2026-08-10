@@ -60,11 +60,12 @@ Do not use when:
    - For work-thread link drops, this is part of the default completion path, not an optional follow-up.
    - Completion criterion: the latest deploy workflow succeeded and the rendered page reflects the change.
 
-6. Keep homepage, archive UX, and feeds intentional.
+6. Keep homepage, archive UX, feeds, and social previews intentional.
    - Notes pagination, digest listing, and homepage summaries should keep working after content-shape changes.
    - Digest pages should link back to the underlying reading-note entries when a cited source URL maps to `content/notes/` metadata. Use `python3 scripts/link_digest_notes.py` after digest edits or backfills; it is idempotent and adds compact `Reading note(s)` links from `extra.source_url`, `extra.saved_link`, and related URLs.
    - Keep tiered feeds live: all-site `/rss.xml`, notes `/notes/rss.xml`, digests `/digests/rss.xml`, and per-tag `/tags/<tag>/rss.xml`.
-   - Completion criterion: homepage, `/notes/`, `/digests/`, `/tags/`, and representative feeds render the expected content.
+   - Keep X/Twitter preview descriptions under 200 characters; use `truncate(length=190)` for generated OG/Twitter descriptions to leave room for the ellipsis character.
+   - Completion criterion: homepage, `/notes/`, `/digests/`, `/tags/`, representative feeds, and representative social metadata render the expected content.
 
 7. Run a humanizer pass before every commit.
    - Remove AI-sounding phrasing where practical, and specifically eliminate em dashes from user-facing prose unless the user asked for them.

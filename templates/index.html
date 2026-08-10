@@ -2,7 +2,7 @@
 {% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
 {% block social_meta %}
   {% set social_title = config.title %}
-  {% set social_description = section.content | striptags | trim | replace(from="\n", to=" ") | truncate(length=240) %}
+  {% set social_description = section.content | striptags | trim | replace(from="\n", to=" ") | truncate(length=190) %}
   <meta name="description" content="{{ social_description }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ config.title }}">
