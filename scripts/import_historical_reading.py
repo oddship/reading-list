@@ -384,7 +384,9 @@ def write_notes() -> int:
         if p.name == '_index.md':
             continue
         text = p.read_text()
-        existing_links.update(re.findall(r'^(?:source_url|saved_link) = "([^"]+)"', text, flags=re.M))
+        existing_links.update(re.findall(r'^(?:source_url|saved_link|related_url) = "([^"]+)"', text, flags=re.M))
+        for array_body in re.findall(r'^related_urls = \[(.*?)\]', text, flags=re.M):
+            existing_links.update(re.findall(r'"([^"]+)"', array_body))
     count = 0
     slug_counts = Counter()
     for date_file in sorted(p for p in READING_LOG.glob('2026-*.md') if p.name != 'INDEX.md'):
@@ -396,6 +398,10 @@ def write_notes() -> int:
                 or entry.get('related existing note updated')
                 or 'public note updated' in skip_text
                 or 'existing note updated' in skip_text
+                or 'existing note enriched' in skip_text
+                or 'existing go article note enriched' in skip_text
+                or 'folded into the existing' in skip_text
+                or 'folded into an existing' in skip_text
             ):
                 # The daily log explicitly says this item was folded into an
                 # existing curated page. Do not create a duplicate imported note.
