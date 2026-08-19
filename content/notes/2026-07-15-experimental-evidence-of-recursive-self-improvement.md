@@ -20,3 +20,7 @@ saved_link = "https://x.com/zhengyaojiang/status/2077079778793042425?s=20"
 **Newsletter angle:** Potentially notable if the evidence holds up, because it frames RSI less as dramatic self-rewriting and more as automated harness optimization that outperforms long human iteration.
 
 **Retrieval note:** This note is grounded from the opening X post only. The fetched metadata in this pass did not include a linked longform source.
+
+## Embedded source
+
+{{<tweet id="2077079778793042425" url="https://x.com/zhengyaojiang/status/2077079778793042425?s=20"/>}}

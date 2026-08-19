@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064735590432608409"
 **Newsletter angle:** “control is being rebranded as safety” or “open ecosystems are being politically and commercially squeezed.”
 
 **Note:** extracted via FXTwitter card metadata; the actual substance lives in the linked essay: https://lucumr.pocoo.org/2026/6/10/gaslighting/
+
+## Embedded source
+
+{{<tweet id="2064735590432608409" url="https://x.com/i/status/2064735590432608409"/>}}

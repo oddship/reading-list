@@ -28,3 +28,7 @@ The practical point is that a Go project can pin and invoke `tsgo` through Go’
 **Newsletter angle:** Small developer-tools item, but a nice one: language tooling is becoming portable across package-manager boundaries. TypeScript-as-a-Go-tool makes TS checking feel like normal Go project infrastructure instead of a separate Node/npm island.
 
 **Retrieval note:** Grounded from FXTwitter text, attached screenshot OCR, and the public `microsoft/typescript-go` repository metadata/go.mod.
+
+## Embedded source
+
+{{<tweet id="2081963692300612066" url="https://x.com/its_bvisness/status/2081963692300612066"/>}}

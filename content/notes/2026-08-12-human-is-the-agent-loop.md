@@ -22,3 +22,7 @@ retrieval_note = "Tweet extracted via FXTwitter; linked Brent Fitzgerald article
 The post is especially sharp on “maximizing use of the tools by applying them to the task of maximizing use of the tools,” which is a good name for a lot of agent productivity ouroboros. Fitzgerald still gives a positive example: narrowly constraining an agent to search messy codebases, wikis, schemas, and conversations for a work project, with clear context and output expectations. The agent is not there to 10x him or produce the final answer; it is there to surface gaps and free him up for human work like writing, reflection, and judgment.
 
 **Newsletter angle:** Strong human-in-the-loop correction for agent adoption: the human should not be trapped inside the agent loop. The human is the loop, and agents should be tagged in occasionally, boundedly, and intentionally.
+
+## Embedded source
+
+{{<tweet id="2087548807399547114" url="https://x.com/i/status/2087548807399547114"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2062438877269258566"
 **Newsletter angle:** the production gap for agents looks a lot like the early microservices gap, the winning layer may be the platform that makes agent workflows restartable, attributable, observable, and cost-bounded.
 
 **Note:** extracted via FXTwitter API; direct web fetch failed due to site rendering, so the article was recovered via browser snapshot.
+
+## Embedded source
+
+{{<tweet id="2062438877269258566" url="https://x.com/i/status/2062438877269258566"/>}}

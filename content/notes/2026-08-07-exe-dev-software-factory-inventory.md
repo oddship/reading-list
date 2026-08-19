@@ -25,3 +25,7 @@ The more interesting entries are about company workflow, not just infrastructure
 There is a security caveat baked into the post: agents that read untrusted data while holding private context and external communication tools are in Simon Willison’s “lethal trifecta” danger zone. exe.dev’s answer is to isolate these loops in VMs and sharply limit what their tools can do.
 
 **Newsletter angle:** Good concrete inventory for what “agentic internal tooling” looks like after the demo phase. The pattern is not one giant autonomous engineer. It is a patchwork of narrowly scoped loops around security, observability, CI, deploys, publishing, and reporting, with isolation and tool limits as part of the operating model.
+
+## Embedded source
+
+{{<tweet id="2085567322606178476" url="https://x.com/i/status/2085567322606178476"/>}}

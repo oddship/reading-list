@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2077023024155422927"
 **Gist:** The article’s core claim is that LLMs become much more reliable when they are constrained by domain abstractions and DSLs instead of being asked to directly generate unconstrained general-purpose code. The deeper point is that DSLs do double duty: they help teams discover and stabilize a semantic model during design, and then they become a natural-language target that LLMs can generate against, validate, and repair with much tighter feedback loops.
 
 **Newsletter angle:** Strong articulation of a recurring pattern in good AI engineering: move effort from reviewing arbitrary generated code toward building better vocabularies, abstractions, and validators that make generation reliable by construction.
+
+## Embedded source
+
+{{<tweet id="2077023024155422927" url="https://x.com/i/status/2077023024155422927"/>}}

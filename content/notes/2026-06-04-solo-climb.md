@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2062397480323682557"
 **Newsletter angle:** “100x teams” are mostly a harness story, AI leverage scales only when trust, eval, and rollback systems become the new team structure.
 
 **Note:** extracted via FXTwitter API and linked article; article read partially via web fetch due to truncation, but core thesis was clear.
+
+## Embedded source
+
+{{<tweet id="2062397480323682557" url="https://x.com/i/status/2062397480323682557"/>}}

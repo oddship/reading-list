@@ -25,3 +25,7 @@ The useful diagnosis is that teams may not have too many pull requests. They may
 **Newsletter angle:** Strong agents and developer-tools item because it turns the “AI makes too many PRs” complaint into a process diagnosis: the problem is too many bad PRs, not too many PRs.
 
 **Retrieval note:** Grounded from the FXTwitter API article payload attached to the X post.
+
+## Embedded source
+
+{{<tweet id="2081058573556306030" url="https://x.com/i/status/2081058573556306030"/>}}

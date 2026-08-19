@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2074781610558345703"
 **Gist:** Describes production-ish internal agent patterns built around an "agentic user in the loop" model, with agents in Slack handling intake, ticketing, wiki updates, EA-style assistance, and subagent/container-backed workflows.
 
 **Newsletter angle:** Concrete patterns for embedding agents into team operations without pretending they are fully autonomous replacements.
+
+## Embedded source
+
+{{<tweet id="2074781610558345703" url="https://x.com/i/status/2074781610558345703"/>}}

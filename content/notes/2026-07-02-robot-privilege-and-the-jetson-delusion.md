@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2072550217203986457"
 **Newsletter angle:** “the domestic robot is a privacy and form-factor story, not just an autonomy story” or “human touch becomes luxury as cognition gets cheaper.”
 
 **Retrieval note:** X post extracted via FXTwitter API; linked Substack article fetched directly and partially read successfully.
+
+## Embedded source
+
+{{<tweet id="2072550217203986457" url="https://x.com/i/status/2072550217203986457"/>}}

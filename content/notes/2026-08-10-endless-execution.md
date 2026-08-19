@@ -22,3 +22,7 @@ retrieval_note = "Tweet extracted via FXTwitter; linked HEY World article read d
 The useful signal is not that agents are perfect or risk-free. It is that the interface between imagination and execution has changed. For people with a surplus of ideas, agents reduce the cost of trying things so much that computing feels newly magical.
 
 **Newsletter angle:** Useful as a high-signal expression of the emotional and product shift around agents: the new thing is not only speed, but near-zero execution friction.
+
+## Embedded source
+
+{{<tweet id="2086552183298727943" url="https://x.com/i/status/2086552183298727943"/>}}

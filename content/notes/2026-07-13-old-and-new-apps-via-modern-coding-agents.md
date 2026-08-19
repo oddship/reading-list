@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2076367981802573954"
 **Gist:** Tao describes using modern coding agents to port his old Java applets to JavaScript and revive them quickly, with surprisingly low bug overhead, then goes further and uses the same workflow to build new math visualization tools he had wanted for decades. The interesting point is not just vibe coding as novelty, but coding agents as leverage for software archaeology, maintenance, and low-risk supplementary tooling.
 
 **Newsletter angle:** Strong datapoint for coding agents as practical infrastructure for porting legacy code and building non-mission-critical research tools, even in domains far outside mainstream software product work.
+
+## Embedded source
+
+{{<tweet id="2076367981802573954" url="https://x.com/i/status/2076367981802573954"/>}}

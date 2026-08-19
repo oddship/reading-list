@@ -23,3 +23,7 @@ The new guidance is to simplify. Let Claude use judgement instead of hard rules 
 **Newsletter angle:** Strong agents and developer-tools item because it directly updates context-engineering practice for stronger models: simplify durable context, move details behind selective loading, and encode taste or constraints where they are most actionable.
 
 **Retrieval note:** Grounded from the FXTwitter API article payload attached to the X post.
+
+## Embedded source
+
+{{<tweet id="2080710971228918066" url="https://x.com/i/status/2080710971228918066"/>}}

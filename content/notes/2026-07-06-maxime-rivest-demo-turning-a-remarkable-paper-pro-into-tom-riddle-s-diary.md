@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2073544461473169432"
 **Newsletter angle:** narrative interfaces; AI gets more compelling when wrapped in a strong object metaphor
 
 **Retrieval note:** X media post grounded in the linked GitHub repo/README (`MaximeRivest/riddle`)
+
+## Embedded source
+
+{{<tweet id="2073544461473169432" url="https://x.com/i/status/2073544461473169432"/>}}

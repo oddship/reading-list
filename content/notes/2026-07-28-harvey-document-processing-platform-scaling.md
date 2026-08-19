@@ -23,3 +23,7 @@ The architectural move was to stop treating this as one broad pipeline. Harvey s
 **Newsletter angle:** Good systems read on the point where ingestion becomes product infrastructure. The interesting bit is not “we scaled a queue,” but that each stage started behaving like a different system with its own capacity model.
 
 **Retrieval note:** Grounded from the public X post and X Article rendered in the browser. `xurl` was unavailable in this environment.
+
+## Embedded source
+
+{{<tweet id="2081787028891394186" url="https://x.com/i/status/2081787028891394186"/>}}

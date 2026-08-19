@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2056514048649490605"
 **Newsletter angle:** "what an ex-Tailscale CTO would redesign about the cloud stack in the agent era".
 
 **Note:** extracted via FXTwitter API + crawshaw.io article.
+
+## Embedded source
+
+{{<tweet id="2056514048649490605" url="https://x.com/i/status/2056514048649490605"/>}}

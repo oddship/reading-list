@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Repo framing broadens it beyond one demo: CopilotKit positions generative UI as three patterns (`controlled`, `declarative`, `open-ended`) across AG-UI, A2UI/Open-JSON-UI, and MCP Apps, with OpenGenerativeUI as the high-freedom showcase.
 - Why it matters: this is a good signal that `agent UX` is shifting from text-plus-tools toward runtime-generated interfaces, with skills/specs becoming the control layer over unconstrained visual output.
 - Good angle: `artifacts are escaping proprietary chat apps and turning into an open protocol/framework battle around agent-native UI`.
+
+## Embedded source
+
+{{<tweet id="2052299884817240444" url="https://x.com/i/status/2052299884817240444"/>}}

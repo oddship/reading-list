@@ -16,3 +16,7 @@ Imported from historical reading log.
 - Martin Fowler `Fragments: May 5` roundup linking: open-source framework for prompting patterns, musician suing Google for defamation, Apple rethinking AI spend, running LLMs locally, and whether `The Genie` gets caught in the tar pit.
 - Link target: https://martinfowler.com/fragments/2026-05-05.html
 - Likely useful as a curated bundle rather than a single thesis; good source to revisit for one or two standout downstream links.
+
+## Embedded source
+
+{{<tweet id="2051700087496093774" url="https://x.com/i/status/2051700087496093774"/>}}

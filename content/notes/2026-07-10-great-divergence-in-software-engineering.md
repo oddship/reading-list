@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2075347173378859307"
 **Gist:** Argues that the gap between teams effectively using AI and teams still piloting or rejecting it is no longer a simple lead but a compounding divergence, driven by retooling workflows, encoding automation, and treating bad AI output as an engineering problem instead of a veto.
 
 **Newsletter angle:** Strong framing for AI-native engineering orgs versus incumbents stuck in evaluation loops; good organizational/process lens.
+
+## Embedded source
+
+{{<tweet id="2075347173378859307" url="https://x.com/i/status/2075347173378859307"/>}}

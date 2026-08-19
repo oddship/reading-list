@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2076634907049164891"
 **Gist:** antirez extends the earlier X-thread argument into a full workflow claim: if you own the ideas, design, testing, and QA of a system, then line-by-line review of generated code is increasingly the wrong bottleneck. He argues that models are already better at many local code checks than humans, and that the higher-leverage work is controlling the mental model, writing human-readable design docs, and spending time on quality and new ideas instead of staring at implementation details.
 
 **Newsletter angle:** Important articulation of the strongest serious case against code-centric AI resistance: move human effort up the stack from code review toward design ownership, QA, and explicit idea capture.
+
+## Embedded source
+
+{{<tweet id="2076634907049164891" url="https://x.com/i/status/2076634907049164891"/>}}

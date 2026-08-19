@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2070417322842747145"
 **Gist:** author built an OpenAI-compatible reverse proxy (“Tamga”) that scans prompts for PII, secrets, and prompt-injection patterns before forwarding to providers; key engineering lesson is a hybrid scan pipeline where cheap CPU-bound detectors run sequentially while slower network/model-backed scanners run in parallel, because goroutine orchestration overhead dominated when everything fanned out
 
 **Newsletter angle:** concrete infra pattern for “LLM middleware” that is more about latency budgets and data residency than model eval hype
+
+## Embedded source
+
+{{<tweet id="2070417322842747145" url="https://x.com/i/status/2070417322842747145"/>}}

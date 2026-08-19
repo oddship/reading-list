@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064380248532398384"
 **Newsletter angle:** “engineering values didn’t disappear; they got more expensive and more leveraged” or “agents amplify ownership, taste, and guardrails.”
 
 **Note:** extracted tweet via FXTwitter and fetched linked post; fetch truncated near the end but captured workflow details and main values list.
+
+## Embedded source
+
+{{<tweet id="2064380248532398384" url="https://x.com/i/status/2064380248532398384"/>}}

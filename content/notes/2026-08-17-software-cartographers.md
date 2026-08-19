@@ -24,3 +24,7 @@ The practical claim is that missing maps make systems harder to change. Product 
 Craven's proposed direction is not more static documentation for its own sake. It is a low-friction cartography process using architecture, flow, and domain diagrams that stay synchronized with the system, so more people can reason about the codebase at a useful abstraction level.
 
 **Newsletter angle:** Good software-process piece for the recurring theme that engineering leverage comes from shared, maintained context, not only faster execution or smarter individuals.
+
+## Embedded source
+
+{{<tweet id="2089017104221479093" url="https://x.com/i/status/2089017104221479093"/>}}

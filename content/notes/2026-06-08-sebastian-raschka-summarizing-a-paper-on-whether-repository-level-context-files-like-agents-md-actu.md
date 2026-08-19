@@ -18,3 +18,7 @@ saved_link = "https://x.com/rasbt/status/2063649136323252397"
 **Newsletter angle:** more agent context is not automatically better, extra instructions can increase exploration cost without improving task success.
 
 **Note:** extracted from the FXTwitter API `article` body; links to arXiv paper `2602.11988`.
+
+## Embedded source
+
+{{<tweet id="2063649136323252397" url="https://x.com/rasbt/status/2063649136323252397"/>}}

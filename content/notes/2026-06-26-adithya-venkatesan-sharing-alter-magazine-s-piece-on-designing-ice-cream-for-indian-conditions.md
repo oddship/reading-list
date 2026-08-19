@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2070384048464347183"
 **Gist:** frames ice cream as a four-phase material, ice crystals, unfrozen sugar syrup, churned-in air, and a fat network, and argues Indian heat + weak cold-chain conditions make conventional formulations degrade fast; points to adaptations like denser kulfi-ish formulations, freezing at serve time, and rebalancing protein/fibre vs sugar/fat for stability
 
 **Newsletter angle:** “designing for India” through thermodynamics/material science rather than just pricing or distribution
+
+## Embedded source
+
+{{<tweet id="2070384048464347183" url="https://x.com/i/status/2070384048464347183"/>}}

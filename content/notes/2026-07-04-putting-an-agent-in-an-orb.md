@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2073455827235541273"
 **Newsletter angle:** the useful shift is from “smart model” to “legible environment”, paved paths, observability, and anti-guessing ergonomics matter as much as model quality.
 
 **Retrieval note:** extracted via FXTwitter API + fetched linked article directly.
+
+## Embedded source
+
+{{<tweet id="2073455827235541273" url="https://x.com/i/status/2073455827235541273"/>}}

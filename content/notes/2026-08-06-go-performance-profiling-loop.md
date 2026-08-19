@@ -27,3 +27,13 @@ Valialkin’s final answer is the useful part: optimize from production evidence
 The supporting docs line up with that framing. Go’s `runtime/pprof` writes runtime profiling data in the pprof format, `go test` has standard `-cpuprofile` and `-memprofile` paths, and the Go pprof blog uses profiling to turn a slow program into one that is much faster and uses far less memory. VictoriaMetrics’ own docs expose `/debug/pprof/heap` and `/debug/pprof/profile` endpoints for memory and CPU profiling.
 
 **Newsletter angle:** Useful antidote to language-war benchmarking. The better question is not “which language is faster in the abstract?” but “which stack makes it cheap to observe the real production bottleneck, change the hot path, rebuild, and repeat?”
+
+## Embedded source
+
+{{<tweet id="2085328770383106104" url="https://x.com/valyala/status/2085328770383106104"/>}}
+
+{{<tweet id="2084981019422150709" url="https://x.com/valyala/status/2084981019422150709"/>}}
+
+{{<tweet id="2085005610970652917" url="https://x.com/vasilios_s/status/2085005610970652917"/>}}
+
+{{<tweet id="2085235687826100644" url="https://x.com/Sebishogun10/status/2085235687826100644"/>}}

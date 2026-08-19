@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2078785166143582611"
 **Gist:** The article argues that the agentic era intensifies long-running open-source sustainability problems. It separates zero marginal distribution cost from real maintenance labor, then adds two AI-era pressures: low-effort generated pull requests that turn maintainers into unpaid reviewers, and a degraded trust landscape where stars, recency, and apparent activity are easier to manipulate. It also frames permissive licensing as part of an extraction economy, while acknowledging that restrictive or dual licensing creates adoption, enforcement, and procurement problems.
 
 **Newsletter angle:** Strong org-design and supply-chain piece because it turns AI-generated code from a productivity story into a maintainer-incentive and trust-model problem.
+
+## Embedded source
+
+{{<tweet id="2078785166143582611" url="https://x.com/i/status/2078785166143582611"/>}}

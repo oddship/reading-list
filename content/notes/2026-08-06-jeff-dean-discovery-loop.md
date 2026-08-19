@@ -25,3 +25,7 @@ The new company is Discovery Loop. Its site describes the mission as automating 
 The interesting part is not just the personnel move. It is the thesis: the same people who built Google-scale compute, data systems, ML infrastructure, and foundation-model products are now aiming that stack at the process of discovery itself. Discovery Loop’s own language is explicitly full-stack: chips, hardware infrastructure, software infrastructure, ML models, and products, applied first to ML automation and later to broader National Academy of Engineering-style grand challenges.
 
 **Newsletter angle:** Good marker for a larger shift from “AI helps researchers write code” to “AI systems operate the experimental loop.” The talent history makes it worth tracking, but the durable idea is the productization of discovery infrastructure.
+
+## Embedded source
+
+{{<tweet id="2085083442669318443" url="https://x.com/i/status/2085083442669318443"/>}}

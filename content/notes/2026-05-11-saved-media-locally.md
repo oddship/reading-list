@@ -16,5 +16,11 @@ Imported from historical reading log.
 - Saved media locally:
 - Dax reframes coding-agent usage: not like 3D printing one committed layer at a time, but like progressive rendering, start with a blurry whole, then make repeated full passes that sharpen the entire shape.
 - Follow-up reply worth keeping with it: https://x.com/thdxr/status/2053566249351754193, he says this is actually counter to how his brain naturally imagines construction, which makes the metaphor more interesting as an adopted workflow rather than an obvious intuition.
+
+{{<tweet id="2053566249351754193" url="https://x.com/thdxr/status/2053566249351754193"/>}}
 - Notable context: he says this clicked for him with GPT 5.5 plus voice prompting, which suggests a workflow shift as much as a model shift.
 - Newsletter angle: compact metaphor for iterative agent-assisted building; pairs well with the more skeptical architecture/control links in this week's batch.
+
+## Embedded source
+
+{{<tweet id="2053564545000407053" url="https://x.com/thdxr/status/2053564545000407053"/>}}

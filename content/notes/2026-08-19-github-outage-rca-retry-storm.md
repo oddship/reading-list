@@ -24,3 +24,7 @@ The immediate cause was load-balancer saturation in Central US. An Istio sidecar
 The recovery story is the interesting part. Optimistic gateway retries overloaded internal load balancers. A latent VS Code retry bug then amplified Copilot Token Service traffic by roughly 10x, from a normal 7-9K RPS to 70-100K RPS. GitHub mitigated by reducing gateway retries, blocking retry-triggering token requests at load balancers, and gradually ramping traffic back per site.
 
 **Newsletter angle:** Good reliability write-up for the theme that autoscaling, retries, and failover are one coupled system. Capacity accounting has to include sidecars and service-mesh limits, and client retry behavior can dominate recovery once the first failure is fixed.
+
+## Embedded source
+
+{{<tweet id="2089797401196290203" url="https://x.com/i/status/2089797401196290203"/>}}

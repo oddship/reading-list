@@ -24,3 +24,7 @@ The current stack stores each project filesystem in Durable Object SQLite, with 
 The tradeoff is explicit capability design. Without bash, the agent can only do what camelAI has provided methods for: file reads/writes/edits, grep/glob, deploys, builds, notebooks, and similar platform actions. Builds and notebooks still use short-lived Linux containers because they genuinely need that environment. The upside is lower cost, lower latency, less infrastructure, controlled credentials, and a smaller action space that cheaper models can handle better.
 
 **Newsletter angle:** Strong agent-infra item because it pushes against the default “coding agent equals Linux sandbox” architecture. The interesting product lesson is that removing open-ended bash can be a feature if it forces capabilities into explicit, safer, cheaper platform methods.
+
+## Embedded source
+
+{{<tweet id="2082138839888589200" url="https://x.com/i/status/2082138839888589200"/>}}

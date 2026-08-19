@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2068006275888115814"
 **Newsletter angle:** “SSH as zero-install distribution” / terminals as a deliberate product surface, not just a dev tool.
 
 **Notes:** extracted via FXTwitter API + blog post (partial long-form read, enough for gist).
+
+## Embedded source
+
+{{<tweet id="2068006275888115814" url="https://x.com/i/status/2068006275888115814"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2077460395279692197"
 **Gist:** The core claim is that the old highest-leverage engineering move, turning recurring work into infrastructure, matters even more with agents. Better lint rules, CI steps, tests, routines, and DevX speed up both humans and agent swarms. More importantly, domain knowledge that used to live in people’s heads now needs to be encoded as machine-usable infrastructure so newcomers, non-engineers, and agents can contribute productively without hidden tribal context.
 
 **Newsletter angle:** Good articulation of why agent readiness is less about prompting tricks and more about operationalizing team knowledge into executable or at least machine-readable scaffolding.
+
+## Embedded source
+
+{{<tweet id="2077460395279692197" url="https://x.com/i/status/2077460395279692197"/>}}

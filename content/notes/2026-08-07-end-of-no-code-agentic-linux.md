@@ -27,3 +27,7 @@ The useful part is the lock-in argument. A Linux VM with code and data can move 
 There is also an operational stance embedded here: build small internal tools “right there in prod” with a coding agent, iterate until usable, let coworkers sand down edges, and only graduate to heavier software-development ceremony when a tool becomes truly business-critical. The essay is partly an exe.dev product argument, but the broader thesis is clear: the low floor is no longer a proprietary builder. It is an agent on a Linux machine.
 
 **Newsletter angle:** Useful post-no-code framing. Not “everyone becomes a software engineer,” but “custom internal software stops needing a bespoke platform to be viable.” If agents can safely operate on boring infrastructure, the new no-code may be agent-assisted Linux with a database, auth, cron/systemd, backups, and a browser loop.
+
+## Embedded source
+
+{{<tweet id="2085394068771893725" url="https://x.com/i/status/2085394068771893725"/>}}

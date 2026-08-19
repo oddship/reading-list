@@ -23,3 +23,7 @@ Affected versions listed by the advisory: `<= 6.8.5` is not affected; `6.9.0` th
 **Newsletter angle:** Worth tracking as a security item because the advisory is intentionally light on exploit details but strong on operational urgency: stock install, anonymous pre-authentication RCE, patch immediately.
 
 **Retrieval note:** Grounded from the X post and Searchlight Cyber advisory. Technical exploit details were intentionally withheld by the advisory, so this note summarizes impact, affected versions, and mitigation only.
+
+## Embedded source
+
+{{<tweet id="2078253959018648050" url="https://x.com/i/status/2078253959018648050"/>}}

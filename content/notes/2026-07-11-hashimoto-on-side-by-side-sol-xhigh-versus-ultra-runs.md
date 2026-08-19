@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2075644892211196392"
 **Newsletter angle:** Good practitioner datapoint on frontier-model tiering: users may see visible cost and execution differences before they see reliable quality separation in real coding workflows.
 
 **Retrieval note:** Grounded from the X post text itself; no linked article in the post.
+
+## Embedded source
+
+{{<tweet id="2075644892211196392" url="https://x.com/i/status/2075644892211196392"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2075676756724633708"
 **Gist:** Argues that an agent harness stack getting boring is a success condition, not a failure. The post frames Pi 0.69.0 + GPT-5.4 + Bosun/Zero Agent as having crossed from fragile novelty into dependable daily tooling, where the interesting result is not frontier-model hype but the fact that the stack stopped demanding constant maintenance to remain useful.
 
 **Newsletter angle:** Strong firsthand writeup on harness maturity: the real milestone is when the agent stack stops feeling like a project car and starts feeling boringly dependable.
+
+## Embedded source
+
+{{<tweet id="2075676756724633708" url="https://x.com/i/status/2075676756724633708"/>}}

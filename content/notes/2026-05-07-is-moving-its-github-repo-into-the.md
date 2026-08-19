@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Breaking edge: extensions switched to `@earendil-works` will stop working on older `pi` versions after today's release.
 - Why it matters: this is an ecosystem/ownership cleanup move, but it deliberately forces extension authors to choose between forward compatibility and backward compatibility.
 - Good angle: `agent-tooling ecosystems are hitting the boring-but-real package-namespace migration phase, and extension authors absorb the breakage`.
+
+## Embedded source
+
+{{<tweet id="2052337097315381517" url="https://x.com/i/status/2052337097315381517"/>}}

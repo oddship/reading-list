@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2062143151184465964"
 **Newsletter angle:** coding-agent PMF is now visible through finance policy; spend caps as a clearer signal than hype.
 
 **Note:** extracted via FXTwitter API plus Simon’s linked post for added context.
+
+## Embedded source
+
+{{<tweet id="2062143151184465964" url="https://x.com/i/status/2062143151184465964"/>}}

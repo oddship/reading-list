@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064802267983946135"
 **Newsletter angle:** “agent engineering is consolidating into recognizable patterns” or “the field is moving from demos to reusable design playbooks.”
 
 **Note:** extracted via FXTwitter; actual content is in the guide: https://simonwillison.net/guides/agentic-engineering-patterns/
+
+## Embedded source
+
+{{<tweet id="2064802267983946135" url="https://x.com/i/status/2064802267983946135"/>}}

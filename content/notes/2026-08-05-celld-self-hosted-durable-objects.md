@@ -25,3 +25,7 @@ The tweet's shape is deliberately concrete: V8 + S3 + SQLite + LTX + Tokio, prog
 The attached charts make the cost argument. Dahl compares monthly cost against resident fleet size, showing `celld` staying flat at small fleet sizes and much cheaper at larger resident-cell counts than Cloudflare Durable Objects in the shown model. The characteristics table lists one epoch-fenced writer per cell, zero acknowledged writes lost on kill, about 90 ms region-local durable write latency, about 20 s failover after node loss with no lost writes, 0.2 / 0.3 ms warm stateless p50 / p99, about 94k req/s per worker thread, about 4 ms to wake a hibernated cell, 1,000 resident cells per 8 GB node, and about $0.05 per resident cell-month.
 
 **Newsletter angle:** This is an important systems counterpoint to managed serverless primitives: the Durable Objects model may be escaping Cloudflare as a self-hostable architecture, with object storage as the coordination and durability substrate.
+
+## Embedded source
+
+{{<tweet id="2085001943693549887" url="https://x.com/i/status/2085001943693549887"/>}}

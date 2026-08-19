@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2070374692406309213"
 **Gist:** PHerc. 1667 was virtually unwrapped end-to-end using high-res X-ray scans, geometry reconstruction, and ML ink detection; ~1.4m of papyrus / ~22 Greek columns recovered, apparently a Stoic ethics text tied to Aristocreon, with data + code released openly
 
 **Newsletter angle:** non-hype example of ML creating new archaeological/scientific access, not just speeding up existing workflows
+
+## Embedded source
+
+{{<tweet id="2070374692406309213" url="https://x.com/i/status/2070374692406309213"/>}}

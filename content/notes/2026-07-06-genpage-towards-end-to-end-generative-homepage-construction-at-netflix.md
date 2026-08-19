@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2073864662068932752"
 **Newsletter angle:** richer user context and simpler end-to-end generation can beat a stack of specialized personalization stages
 
 **Retrieval note:** X post extracted via FXTwitter API; article grounded via Netflix TechBlog metadata/description page fetch
+
+## Embedded source
+
+{{<tweet id="2073864662068932752" url="https://x.com/i/status/2073864662068932752"/>}}

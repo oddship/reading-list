@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2078136419521048905"
 **Gist:** The paper asks whether networks can learn competitively while respecting Dale’s principle, where each neuron is either excitatory or inhibitory, and without backprop’s biologically implausible weight transport. Their method extends Error Diffusion with modulo error routing for multi-class settings, splitting layers into excitatory and inhibitory streams with non-negative weights. The results show Dale-constrained networks can still learn on image classification and reinforcement-learning tasks, including MNIST, CIFAR-10, PPO on Brax continuous-control tasks, and Craftax.
 
 **Newsletter angle:** Interesting biologically plausible learning result because it treats credit assignment as an architecture-and-routing problem rather than assuming backprop’s exact weight transport is the only path to useful learning.
+
+## Embedded source
+
+{{<tweet id="2078136419521048905" url="https://x.com/i/status/2078136419521048905"/>}}

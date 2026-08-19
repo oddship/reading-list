@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2073768099182960888"
 **Newsletter angle:** infra edge signals, observability economics, protocolized agents, and security boundaries around agent tooling
 
 **Retrieval note:** roundup page fetched directly from devopsish.com
+
+## Embedded source
+
+{{<tweet id="2073768099182960888" url="https://x.com/i/status/2073768099182960888"/>}}

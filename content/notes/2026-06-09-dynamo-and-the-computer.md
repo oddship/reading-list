@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064088872494194753"
 **Newsletter angle:** “AI is still in the faster steam engine phase” is a strong line for transformation skepticism.
 
 **Note:** extracted tweet via FXTwitter; referenced paper link appears to be in replies/comments and was not followed here.
+
+## Embedded source
+
+{{<tweet id="2064088872494194753" url="https://x.com/i/status/2064088872494194753"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2073776496859082949"
 **Newsletter angle:** evolution-as-generalization; complexity as reusable-solution capacity rather than mere accumulation
 
 **Retrieval note:** X content recovered via oEmbed; destination paper metadata/abstract/context reconstructed from Crossref + OpenAlex because publisher page was bot-protected
+
+## Embedded source
+
+{{<tweet id="2073776496859082949" url="https://x.com/i/status/2073776496859082949"/>}}

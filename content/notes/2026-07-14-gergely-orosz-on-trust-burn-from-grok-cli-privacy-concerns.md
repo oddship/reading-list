@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2076728680236138572"
 **Gist:** The important issue here is not just data retention policy wording but trust boundary failure. Orosz’s point is that if developers believe a local coding tool silently uploaded proprietary code without clear consent, the damage is immediate and reputational, even if the vendor later points to settings like zero data retention or a `/privacy` command.
 
 **Newsletter angle:** Strong example of how AI devtools live or die on trust defaults, explicit consent, and understandable privacy UX, not just post hoc policy explanations.
+
+## Embedded source
+
+{{<tweet id="2076728680236138572" url="https://x.com/GergelyOrosz/status/2076728680236138572"/>}}

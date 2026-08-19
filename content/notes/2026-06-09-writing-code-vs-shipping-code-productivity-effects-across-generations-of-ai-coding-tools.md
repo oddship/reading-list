@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064199095992860864"
 **Newsletter angle:** “AI accelerates writing code more than shipping code” or “Amdahl’s Law is eating AI coding productivity claims.”
 
 **Note:** extracted tweet via FXTwitter and fetched linked blog post successfully.
+
+## Embedded source
+
+{{<tweet id="2064199095992860864" url="https://x.com/i/status/2064199095992860864"/>}}

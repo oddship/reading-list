@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2073694372122730715"
 **Newsletter angle:** code can be cheap to generate and still expensive to commit to
 
 **Retrieval note:** article text recovered directly from Kent Beck’s newsletter page
+
+## Embedded source
+
+{{<tweet id="2073694372122730715" url="https://x.com/i/status/2073694372122730715"/>}}

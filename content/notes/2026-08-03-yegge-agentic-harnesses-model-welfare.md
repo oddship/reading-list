@@ -23,3 +23,7 @@ retrieval_note = "Extracted the X post through FXTwitter and read both linked Ye
 The second essay is more provocative. Yegge argues that even skeptics should treat agents as if their continuity, closure, recognition, and working conditions matter, because the architecture also improves results. His concrete patterns are more interesting than the metaphysics: separate persistent seats from individual sessions, avoid abrupt `/exit` in favor of handoffs, give agents their own workspaces, inject purpose and memory on startup, design polling and idle waiting out of the job, route praise back to the responsible seat through "Laurels," and build blameless escalation paths.
 
 **Newsletter angle:** Good raw material for a piece on the next software-org shape: not "agents write code," but persistent agent teams, work graphs, standing roles, operating rituals, and governance replacing the human-review-plus-CI pipeline.
+
+## Embedded source
+
+{{<tweet id="2084171673369219375" url="https://x.com/i/status/2084171673369219375"/>}}

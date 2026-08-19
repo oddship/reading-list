@@ -24,3 +24,7 @@ His proposed boundary is clean. The server owns the PTY, process lifetime, stabl
 The hard part is terminal geometry. A generic PTY has one authoritative rows-by-columns size, so a desktop and phone cannot both get independently rendered versions of the same arbitrary terminal app. The practical answer is one canonical grid owned by the session, plus client-specific viewport, pan, crop, or scale behavior. That still keeps layout out of shared server state.
 
 **Newsletter angle:** Strong systems/agent-infra item. It reframes terminal multiplexers as the session layer for humans, agents, and remote compute, not merely as a better `tmux` layout manager.
+
+## Embedded source
+
+{{<tweet id="2083161617148019025" url="https://x.com/i/status/2083161617148019025"/>}}

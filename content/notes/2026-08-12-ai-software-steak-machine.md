@@ -22,3 +22,7 @@ retrieval_note = "Tweet extracted via FXTwitter; linked Yurii Sydorets blog post
 The sharper point is that outsourcing to a premium tool, agency, or framework may still leave you with the same burnt steak if everyone is using the same underlying AI cook. Acceptable software may pass for many users, but if you care about the result, you still need the judgment to notice when something is technically correct but wrong in the ways that matter.
 
 **Newsletter angle:** Good companion to the recent “coding is still hard” note: AI reduces execution friction, but it increases the value of taste, judgment, and the ability to evaluate outputs rather than merely request them.
+
+## Embedded source
+
+{{<tweet id="2087328411458900424" url="https://x.com/i/status/2087328411458900424"/>}}

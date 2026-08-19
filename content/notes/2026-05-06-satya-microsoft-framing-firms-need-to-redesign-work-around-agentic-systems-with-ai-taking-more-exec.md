@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Key vocabulary from the report: `Frontier Professionals` / `Frontier Firms`, plus a `Transformation Paradox` where employees are ready to reinvent work with AI but incentives and norms still reward the old model.
 - Feels like classic Microsoft enterprise packaging of a real point: AI value depends less on raw model access and more on whether organizations actually redesign workflows, management, and evaluation.
 - Good newsletter angle: `AI adoption is becoming operating-model redesign, not just tooling rollout`.
+
+## Embedded source
+
+{{<tweet id="2051787232043020719" url="https://x.com/i/status/2051787232043020719"/>}}

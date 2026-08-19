@@ -25,3 +25,7 @@ The App Store boundary is the key design line. HypeApps argues that markup which
 The developer experience is the interesting direction: HTML-like tags, Tailwind-style utility classes, Alpine-style reactivity such as `@click` and bindings, htmx-like partial swaps, and no day-to-day Dart, JavaScript bundler, Metro, or Xcode loop. The playground lets you write HAM in the browser, publish it to a five-letter code, then run that screen in the Hype Apps phone app. The app can also show the HAM behind screens by pressing and holding, turning the runtime into a learning surface.
 
 **Newsletter angle:** Nice direction for markup rendering on Flutter. It is not trying to make mobile apps into WebViews; it is trying to make the native binary an interpreter for a safe, fixed UI vocabulary. That is the useful design space: web-shaped authoring ergonomics, native rendering, and SDUI iteration, with App Store compliance preserved by keeping platform capabilities in the shipped binary.
+
+## Embedded source
+
+{{<youtube id="N6b8EnDOLcE" url="https://youtu.be/N6b8EnDOLcE"/>}}

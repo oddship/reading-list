@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064353133908643905"
 **Newsletter angle:** “AI makes PL more about guarantees than syntax” + course design as a forecast of curriculum shifts.
 
 **Note:** extracted tweet via FXTwitter, then fetched linked public Google Doc; captured substantive sections including motivation and course structure.
+
+## Embedded source
+
+{{<tweet id="2064353133908643905" url="https://x.com/i/status/2064353133908643905"/>}}

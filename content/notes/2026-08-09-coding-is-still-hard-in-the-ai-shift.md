@@ -25,3 +25,7 @@ The essay also rejects the opposite cope, that code is pure human art that canno
 The closing advice is the part worth saving for the AI tooling conversation: do not outsource understanding, judgment, empathy, or taste to AI. The work changes, but responsibility does not.
 
 **Newsletter angle:** Good companion for AI-agent adoption notes. The durable work is not only orchestration or prompting, it is maintaining deep understanding of systems and users as the tools change.
+
+## Embedded source
+
+{{<tweet id="2086189428012093655" url="https://x.com/i/status/2086189428012093655"/>}}

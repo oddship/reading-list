@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Why it matters: this is quiet but important ecosystem maturation, big OEMs are not just consuming Linux firmware-update plumbing, but funding the shared infrastructure behind it.
 - Nice signal for Linux desktop/server credibility: LVFS has shipped more than `145M` firmware updates, so this looks like core-maintenance money flowing into proven open-source infra.
 - Good angle: `boring but consequential open-source infrastructure finally getting OEM money`.
+
+## Embedded source
+
+{{<tweet id="2052013565373026679" url="https://x.com/i/status/2052013565373026679"/>}}

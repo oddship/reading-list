@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2067222629421895939"
 **Newsletter angle:** “frontier inference without a datacenter” / distributed serving as systems engineering rather than centralized infra.
 
 **Notes:** extracted via FXTwitter API + GitHub README.
+
+## Embedded source
+
+{{<tweet id="2067222629421895939" url="https://x.com/i/status/2067222629421895939"/>}}

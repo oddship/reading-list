@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2075544039781192033"
 **Newsletter angle:** Useful counterpoint within the same Bun/Andrew/Jarred discourse because it states the strongest community-leadership case against Andrew’s tone, even if the underlying technical critique may still have merit.
 
 **Retrieval note:** Grounded from the X post text itself, including the quoted Charlie Marsh post and the direct summary in Soria Parra’s text.
+
+## Embedded source
+
+{{<tweet id="2075544039781192033" url="https://x.com/i/status/2075544039781192033"/>}}

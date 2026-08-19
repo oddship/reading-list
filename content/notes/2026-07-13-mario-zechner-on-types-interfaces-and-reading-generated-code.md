@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2076290513896968574"
 **Gist:** Zechner’s point is narrower and more practical than a general plea for control: if you control the types and interfaces, the rest often falls into place well enough. But current models still love to introduce bad abstractions that work against those boundaries, so in practice you sometimes have to read generated code and beat it back into submission instead of letting it stomp over the structure you intended.
 
 **Newsletter angle:** Useful follow-on to the "own the mental model" debate because it turns the abstraction into a concrete engineering rule: own the types and interfaces, and do not let the model stomp over them with bad abstractions.
+
+## Embedded source
+
+{{<tweet id="2076290513896968574" url="https://x.com/badlogicgames/status/2076290513896968574"/>}}

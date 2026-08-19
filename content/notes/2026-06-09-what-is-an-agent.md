@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064383324077044074"
 **Newsletter angle:** “agent = looped tool use inside a harness” is a concise definitional anchor for broader agent discussions.
 
 **Note:** extracted tweet via FXTwitter and fetched linked Substack article successfully.
+
+## Embedded source
+
+{{<tweet id="2064383324077044074" url="https://x.com/i/status/2064383324077044074"/>}}

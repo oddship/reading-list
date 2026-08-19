@@ -23,3 +23,9 @@ retrieval_note = "Extracted the Arena X post and quoted Qwen launch post through
 The Qwen launch is broader than a leaderboard post. Qwen says Qwen3.8-Max is its first Max-class model whose weights will be opened, with open weights planned for the following week and Qwen3.8-27B also going open-weight. The headline coding evidence is very agentic: a 10+ day autonomous run that built the `oh-my-cli` repo, a five-day paper reproduction and improvement loop with about 7,600 lines of code, more than 1,100 actions, and 33 GPU-training rounds, and a 24-hour contest run that reportedly beat 458 of 526 human teams.
 
 **Newsletter angle:** This is less about one more code leaderboard score and more about where launch narratives are moving: long-horizon autonomous work traces, frontend/visual evaluation, and open-weight frontier-class models as a distribution strategy.
+
+## Embedded source
+
+{{<tweet id="2084108703729615026" url="https://x.com/i/status/2084108703729615026"/>}}
+
+{{<tweet id="2084100707423289643" url="https://x.com/Alibaba_Qwen/status/2084100707423289643"/>}}

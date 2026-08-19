@@ -22,3 +22,7 @@ retrieval_note = "Tweet extracted via FXTwitter. Attached image inspected direct
 The early orders from IIT Kharagpur and IIT Madras gave credibility, but the Premier Mills win against DCM DP is the sharper operating lesson: small teams can sometimes beat larger incumbents when they combine technical conviction, customer education, and a willingness to knock on doors before the market is ready.
 
 **Newsletter angle:** A compact India-tech-history item about constraints shaping company formation: licensing, no VC, scarce customer awareness, and still enough founder-sales energy to create a durable computing company.
+
+## Embedded source
+
+{{<tweet id="2087165768584536534" url="https://x.com/AjaiChowdhry/status/2087165768584536534"/>}}

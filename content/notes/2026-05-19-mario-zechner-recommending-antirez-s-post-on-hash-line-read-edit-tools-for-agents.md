@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2056696881221124100"
 **Newsletter angle:** maybe bundle with the original antirez item as a small "agent tooling design" thread rather than a standalone item.
 
 **Note:** extracted via FXTwitter API; quotes the previously logged antirez post and adds no new linked material.
+
+## Embedded source
+
+{{<tweet id="2056696881221124100" url="https://x.com/i/status/2056696881221124100"/>}}

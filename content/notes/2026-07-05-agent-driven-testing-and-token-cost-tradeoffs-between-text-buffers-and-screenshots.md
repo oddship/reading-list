@@ -17,3 +17,7 @@ Imported from historical reading log.
 - Why it matters: useful for designing UI/testing agents without assuming vision is prohibitively expensive.
 - Newsletter angle: “vision for agentic testing may already be economically viable, depending on model choice.”
 - Retrieval note: extracted post via FXTwitter API; fetched linked token-count comparison page for supporting numbers/context.
+
+## Embedded source
+
+{{<tweet id="2073454451474481193" url="https://x.com/i/status/2073454451474481193"/>}}

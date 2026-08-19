@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2073796043230052472"
 **Retrieval note:** extracted cleanly via FXTwitter API; card points to the Zalando engineering article
 
 **Note:** overlaps with the same Zalando piece already logged earlier via Werner Vogels on 2026-07-02, but this direct share is now recorded too
+
+## Embedded source
+
+{{<tweet id="2073796043230052472" url="https://x.com/i/status/2073796043230052472"/>}}

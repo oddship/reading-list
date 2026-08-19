@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2075248370587697213"
 **Newsletter angle:** Worth tracking as managed sandbox/runtime infrastructure for agent execution or bursty isolated workloads.
 
 **Retrieval note:** I could read the X post metadata/text, but the linked t.co URL resolved back to the same X post here rather than exposing a separate launch article.
+
+## Embedded source
+
+{{<tweet id="2075248370587697213" url="https://x.com/i/status/2075248370587697213"/>}}

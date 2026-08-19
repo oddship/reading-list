@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2078436234519847247"
 **Gist:** This is not a second factual report of the launch so much as the industry-context layer around it. Caleb frames the arc from pre-2020 India, when private players could not launch rockets, through Skyroot’s founding in 2018, liberalisation in 2020, and the Vikram-1 orbital launch roughly six years later. The operative claim is that Skyroot did not just launch a rocket; it made India’s private space era feel real, with a young team executing an orbital mission on the first try.
 
 **Newsletter angle:** Useful companion to the earlier Vikram-1 note because it captures the ecosystem shift: policy liberalisation plus private execution turning Indian spacetech from aspiration into demonstrated orbital capability.
+
+## Embedded source
+
+{{<tweet id="2078436234519847247" url="https://x.com/i/status/2078436234519847247"/>}}

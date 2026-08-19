@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2062521505146175851"
 **Newsletter angle:** frontier AI competition may increasingly hinge on release quality and organizational judgment, not just the ceiling of the underlying model.
 
 **Note:** extracted via FXTwitter API; standalone opinion tweet, no linked article.
+
+## Embedded source
+
+{{<tweet id="2062521505146175851" url="https://x.com/i/status/2062521505146175851"/>}}

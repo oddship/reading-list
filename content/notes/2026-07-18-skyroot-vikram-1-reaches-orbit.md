@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2078372300534252029"
 **Follow-up context:** Caleb Friesen’s reflection adds the industry-history layer: when Skyroot was founded in 2018, Indian private companies still could not launch rockets. Liberalisation in 2020 made private launch vehicles possible, and Vikram-1 now marks the point where that policy shift turns into demonstrated orbital execution by a young private team. That makes the milestone feel less like a single launch and more like proof that India’s private spacetech market has crossed from permission into capability.
 
 **Newsletter angle:** Important India/private-space milestone because the line crossed is orbital insertion by a privately developed rocket, which moves the story from startup promise to demonstrated launch capability.
+
+## Embedded source
+
+{{<tweet id="2078372300534252029" url="https://x.com/i/status/2078372300534252029"/>}}

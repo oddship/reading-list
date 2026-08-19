@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2079442194449232227"
 **Gist:** Osmani argues that agentic software factories are not bigger agents, but many harnessed loops fed by queues and drained through review gates. The dark version removes human reading from the floor and lets agents scope, build, verify, and ship with only machine checks. That creates apparent throughput while accumulating comprehension debt: code expands faster than any human understands it, with tests green until the late cost arrives. The lit version keeps humans in the high-cost judgment positions, especially product, design, architecture, verification, and review gates.
 
 **Newsletter angle:** Strong agent-systems and engineering-management piece because it names the real bottleneck as verification and judgment, not generation. Autonomy should expand only as far as the team can cheaply and reliably check it.
+
+## Embedded source
+
+{{<tweet id="2079442194449232227" url="https://x.com/i/status/2079442194449232227"/>}}

@@ -22,3 +22,7 @@ retrieval_note = "Tweet extracted via FXTwitter; linked Stratechery article fetc
 The essay argues that hyperscalers have already moved beyond free-cash-flow-funded CapEx into large debt issuance, while Google has even tapped equity. Nvidia’s new partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR go one step further: create financing platforms for AI factories so third-party capital can fund Nvidia-based infrastructure. That may preserve Nvidia margins and lower customer capital costs, but Nvidia is also backstopping some residual-value risk, which Thompson reads as an implicit pressure on the Nvidia model.
 
 **Newsletter angle:** Strong ai-infra/finance item. The question is shifting from “is there enough AI demand?” to “who is actually carrying the financing risk if compute buildout outruns near-term cash flows?”
+
+## Embedded source
+
+{{<tweet id="2087211370240422256" url="https://x.com/i/status/2087211370240422256"/>}}

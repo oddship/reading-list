@@ -22,3 +22,7 @@ retrieval_note = "Tweet extracted via FXTwitter; linked essay read directly; att
 The important distinction is that Cassandra should not be a generic devil’s advocate. She needs independent context, memory, and restraint: competitor docs, support tickets, failed deals, postmortems, previous predictions, and enough distance from the company line to notice when consensus is missing something. The failure mode is also clear: humans cannot outsource dissent to the bot. The agent should start better disagreements, not replace them.
 
 **Newsletter angle:** Good framing for agents as missing organizational cognitive functions, not just extra labor. The interesting question is which useful ways of thinking are too awkward, tiring, or politically costly for a person to perform continuously.
+
+## Embedded source
+
+{{<tweet id="2086564029766533490" url="https://x.com/threepointone/status/2086564029766533490?s=20"/>}}

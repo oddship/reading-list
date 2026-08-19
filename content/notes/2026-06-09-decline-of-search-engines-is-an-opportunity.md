@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064231781419872472"
 **Newsletter angle:** “search decay revives the links page” is a clean thesis with nice historical texture.
 
 **Note:** extracted tweet via FXTwitter and fetched linked blog post successfully.
+
+## Embedded source
+
+{{<tweet id="2064231781419872472" url="https://x.com/i/status/2064231781419872472"/>}}

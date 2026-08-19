@@ -25,3 +25,7 @@ The researchers show how to turn ordinary video into a higher-rate signal by fil
 The important caveat is that the LED is the leak path, not the root cryptographic bug. Their FAQ says the demonstrated attacks rely on vulnerable cryptographic libraries, while the LED provides a visual way to exploit the underlying timing side channel.
 
 **Newsletter angle:** Good security/systems example for the theme that operational signals, LEDs, logs, metrics, timing, can become attack surfaces when they correlate with secrets.
+
+## Embedded source
+
+{{<tweet id="2089470651505512727" url="https://x.com/i/status/2089470651505512727"/>}}

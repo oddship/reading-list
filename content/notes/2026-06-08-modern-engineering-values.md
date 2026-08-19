@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2063751016718418024"
 **Newsletter angle:** engineering values are shifting from raw implementation throughput toward judgment, verification, and context placement.
 
 **Note:** extracted via FXTwitter API and linked article fetch; this overlaps with earlier saves on the same essay but is still a useful direct pointer.
+
+## Embedded source
+
+{{<tweet id="2063751016718418024" url="https://x.com/i/status/2063751016718418024"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/SemiAnalysis_/status/2064815044085318040"
 **Newsletter angle:** “AI subscriptions are much more generous than API-pricing intuition suggests” + what that means for lab business models.
 
 **Retrieval note:** extracted via FXTwitter API; captured thread opener + linked 2/4 post, and read the attached comparison image separately.
+
+## Embedded source
+
+{{<tweet id="2064815044085318040" url="https://x.com/SemiAnalysis_/status/2064815044085318040"/>}}

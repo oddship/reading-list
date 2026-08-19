@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2063977235145486496"
 **Newsletter angle:** “is Go trading away simplicity for feature creep?” or “the real Go split may be readability-first vs expressiveness-first.”
 
 **Note:** direct article read via browser/source fallback after standard fetch failed.
+
+## Embedded source
+
+{{<tweet id="2063977235145486496" url="https://x.com/i/status/2063977235145486496"/>}}

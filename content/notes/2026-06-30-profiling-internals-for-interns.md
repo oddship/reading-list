@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2071530061727949272"
 **Newsletter angle:** “pprof is one file format over three collection strategies” is a clean framing hook.
 
 **Retrieval note:** extracted via FXTwitter API + linked article fetch.
+
+## Embedded source
+
+{{<tweet id="2071530061727949272" url="https://x.com/i/status/2071530061727949272"/>}}

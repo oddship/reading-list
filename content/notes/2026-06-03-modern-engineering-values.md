@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2062169846901846421"
 **Newsletter angle:** engineering values are being redefined around ownership, taste, guardrails, and context placement rather than raw coding throughput.
 
 **Note:** extracted via FXTwitter API and linked post; article body was truncated after the management section but the main values sections were captured.
+
+## Embedded source
+
+{{<tweet id="2062169846901846421" url="https://x.com/i/status/2062169846901846421"/>}}

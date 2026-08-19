@@ -24,3 +24,7 @@ His example is Terence Tao using ChatGPT on the Jacobian Conjecture. The visible
 The software version is familiar: if you have a strong theory of the codebase, you can say "this should be simpler," "don't we already do X?", or "can we express it in these familiar terms?" Without that knowledge, the model can still help you get something. With it, you can steer the model much harder.
 
 **Newsletter angle:** Good material for a piece on the rising return to expertise in agentic work: the model may contain the information, but the human's domain model still determines how much of it gets usefully extracted.
+
+## Embedded source
+
+{{<tweet id="2084399057095594414" url="https://x.com/i/status/2084399057095594414"/>}}

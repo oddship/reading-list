@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2069765917018382568"
 **Newsletter angle:** capability security as the missing abstraction for practical agent authorization; good counterpoint to broad workspace-level agent identity models.
 
 **Retrieval note:** extracted via FXTwitter API note tweet text; linked post references Anthropic’s agent identity access model.
+
+## Embedded source
+
+{{<tweet id="2069765917018382568" url="https://x.com/i/status/2069765917018382568"/>}}

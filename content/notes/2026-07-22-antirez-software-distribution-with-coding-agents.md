@@ -19,3 +19,7 @@ related_url = "https://x.com/antirez/status/2079942787173106048"
 **Gist:** antirez argues that AI changes not only how software is developed, but how it can be distributed and used. If users have coding agents, a repository can be more than a polished stable artifact: it can be a template, a set of rails, and a collection of experimental branches that users adapt to their hardware, models, and requirements. His Redis and DwarfStar examples point toward more fluid release practices where 95%-ready branches, agent-readable docs, and exemplar implementations let capable users and communities explore before something is merged.
 
 **Newsletter angle:** Strong developer-tools and open-source item because it reframes release engineering for a world where downstream users can safely modify code with agents, so projects may need to publish more useful intermediate states instead of only stable and unstable branches.
+
+## Embedded source
+
+{{<tweet id="2079942787173106048" url="https://x.com/i/status/2079942787173106048"/>}}

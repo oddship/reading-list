@@ -25,3 +25,13 @@ Franke’s later analysis argues the root cause is not ripgrep and probably not 
 The AI-tooling angle is why the X posts matter. Franke says OpenAI’s cybersecurity classifier made it painful to get help even for reproducing and diagnosing a legitimate segfault, while Z.ai and Kimi/Moonshot models helped without blocking. Metzger’s summary makes the broader point: safety filtering that cannot distinguish exploit development from low-level debugging can push systems engineers toward models with fewer restrictions, even when the actual task is finding a non-security kernel bug.
 
 **Newsletter angle:** Strong developer-tools and AI-infra item because it connects two usually separate problems: production systems debugging still needs models that can talk concretely about crashes, repro loops, binaries, cores, and kernel internals; blunt safety classifiers can reduce the usefulness of otherwise strong coding agents exactly where expert users need precision.
+
+## Embedded source
+
+{{<tweet id="2081427794114801820" url="https://x.com/dfranke/status/2081427794114801820"/>}}
+
+{{<tweet id="2082100398706307191" url="https://x.com/dfranke/status/2082100398706307191"/>}}
+
+{{<tweet id="2082101472053927995" url="https://x.com/dfranke/status/2082101472053927995"/>}}
+
+{{<tweet id="2082104866613219441" url="https://x.com/perrymetzger/status/2082104866613219441"/>}}

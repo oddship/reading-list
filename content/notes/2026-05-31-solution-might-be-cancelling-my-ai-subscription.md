@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Why it matters: good counterweight to "more agent throughput = better work" narratives; frames AI as an attention-management and meaning-allocation problem, not just a capability story.
 - Newsletter angle: friction, focus, and why AI tooling may be optimizing for the wrong thing.
 - Retrieval note: FXTwitter API for post text; linked article fetched directly via `web_fetch`.
+
+## Embedded source
+
+{{<tweet id="2061104408201412903" url="https://x.com/i/status/2061104408201412903"/>}}

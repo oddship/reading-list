@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2065032543724785924"
 **Newsletter angle:** “AI writes more code, but that’s not the same as replacing engineers” + sandwich model / anti-AI-washing thesis.
 
 **Retrieval note:** extracted via FXTwitter API; followed linked Normal Tech essay for fuller argument (article fetch truncated near the end, but core thesis and evidence were captured).
+
+## Embedded source
+
+{{<tweet id="2065032543724785924" url="https://x.com/i/status/2065032543724785924"/>}}

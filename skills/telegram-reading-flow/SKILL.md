@@ -89,6 +89,7 @@ For a normal useful work-thread link drop, finish all of these before replying:
 3. Dedupe against existing `content/notes/` by source URL and likely title.
 4. Create or update the Zola note with full IST datetime frontmatter, approved public tags, `source_url`, `source_type`, `saved_link`, `why_it_matters`, and concise body copy.
    - The public page renders distinct source links, so preserve `saved_link`, `related_url`, and optional archive URLs rather than collapsing everything into a single X link.
+   - If tweet or YouTube links appear in the body, include the repo's Zola/Tera components `{{<tweet id="..." url="..."/>}}` or `{{<youtube id="..." url="..."/>}}` near the source link. X embeds must stay opt-in via the site's local placeholder and browser `localStorage` consent. For broad backfills, run `python3 scripts/backfill_social_embeds.py`.
 5. If the item is folded into a digest, run `python3 scripts/link_digest_notes.py` so the digest points back to the note entry.
 6. Run `python3 scripts/humanize_repo_content.py`.
 7. Build with Zola. If `zola` is not installed globally, use a downloaded release binary or the repo's available build path instead of skipping verification.

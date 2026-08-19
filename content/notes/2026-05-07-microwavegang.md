@@ -17,3 +17,7 @@ Imported from historical reading log.
 - The screenshot is funny but the underlying lesson is serious: weird narrow-distribution junk data can create visible optimization pathologies, and simple data cleaning can remove dramatic training instability.
 - Why it matters: this is a vivid, shareable example of `data quality showing up directly in loss curves`, which is often easier to remember than abstract warnings about web-scale corpora.
 - Good angle: `sometimes model progress is not smarter optimization but just deleting the internet's microwave noises from the batch`.
+
+## Embedded source
+
+{{<tweet id="2051873677998956851" url="https://x.com/i/status/2051873677998956851"/>}}

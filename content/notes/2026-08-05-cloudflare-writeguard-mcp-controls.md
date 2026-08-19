@@ -26,3 +26,7 @@ The useful design choice is keeping human identity primary while adding agent co
 Cloudflare's GitLab example makes the model concrete: `get_merge_request` passes through as read-only, `create_mr_note` is a contained write with attribution added to the note, and `merge_mr` is critical and blocked unless the policy allows it.
 
 **Newsletter angle:** This is the MCP governance story getting real. The interesting move is centralizing write policy, attribution, and audit at the MCP portal layer instead of hoping every agent client, prompt, or individual server implements the same safety model.
+
+## Embedded source
+
+{{<tweet id="2085018146868469815" url="https://x.com/i/status/2085018146868469815"/>}}

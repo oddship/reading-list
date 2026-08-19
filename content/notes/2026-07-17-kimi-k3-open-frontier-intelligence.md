@@ -31,3 +31,11 @@ retrieval_note = "Read the Kimi launch blog, Hugging Face model card, Pipe Netwo
 The technical report also sharpens the systems angle: Kimi claims roughly 2.5x better scaling efficiency over Kimi K2 from KDA, AttnRes, Stable LatentMoE, and training/data recipe changes; MoonEP-style balanced expert-parallel execution with static shapes and zero-copy communication; and million-token agentic RL with persistent rollout and sandbox state. This is less a simple model-card launch and more a full-stack frontier-model release: weights, report, attention kernels, MoE communication, and agent-environment infrastructure.
 
 **Newsletter angle:** Important open-model release because it combines frontier scale with a much more systems-heavy deployment story than most launch posts, and because it treats agent harness compatibility and inference architecture as first-class product concerns.
+
+## Embedded source
+
+{{<tweet id="2081760186235289764" url="https://x.com/i/status/2081760186235289764"/>}}
+
+{{<tweet id="2081910870083285198" url="https://x.com/pipenetwork/status/2081910870083285198"/>}}
+
+{{<tweet id="2082463988953367031" url="https://x.com/UnslothAI/status/2082463988953367031"/>}}

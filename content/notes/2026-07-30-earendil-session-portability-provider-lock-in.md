@@ -21,3 +21,7 @@ related_url = "https://x.com/mitsuhiko/status/2082838283520786748"
 The essay is careful about the trade-off: provider-sealed state can improve continuity and may help privacy when `store: false` avoids server-side retention. The problem is ownership. If the only durable meaning is an unreadable blob, a server-side foreign key, or a hosted search context the client never saw, the user cannot inspect, export, replay, audit, or delete the full session.
 
 **Newsletter angle:** This is a strong agents/AI-infra item because it reframes lock-in as an event-log problem. Stateful APIs, retained reasoning, compaction, hosted search, and subagents can make agents much better, but the portable version needs readable handoff summaries, full-fidelity hosted-tool logs, auditable inter-agent communication, inspectable compaction, and exportable artifacts. Better performance should not require giving up the ability to leave.
+
+## Embedded source
+
+{{<tweet id="2082838283520786748" url="https://x.com/i/status/2082838283520786748"/>}}

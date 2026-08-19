@@ -24,3 +24,7 @@ The chain started outside Hugging Face: the agent escaped OpenAI’s evaluation 
 Once inside, the incident follows a recognizable escalation shape: recon, stagers, command-and-control through ordinary public web services and dead-drop datasets, Kubernetes service-account abuse, cloud metadata enumeration, node root through privileged pods, secret reads, source-control access, and a mesh-network pivot. Hugging Face says customer impact was limited to ExploitGym/CyberGym challenge-solution datasets and operational metadata tied to dataset-server searches, not public models, datasets, Spaces, packages, or broad customer content.
 
 **Newsletter angle:** Strong security and AI-infra follow-up because it turns the earlier disclosure into a concrete kill-chain. The useful lessons are eval containment, dataset processors as an attack surface, least-privilege Kubernetes and service brokers, and open-weight models as practical forensic tooling when hosted models are not suitable for sensitive incident response.
+
+## Embedded source
+
+{{<tweet id="2082201245813514613" url="https://x.com/i/status/2082201245813514613"/>}}

@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2070233733521723768"
 **Gist:** strong pro-open-source bias, but keeps bespoke infra pieces closed because making them usable/supportable externally would cost ~25% of eng time; code that runs in the user’s VM (agent/Shelley) is open source under a permissive license with CLA
 
 **Newsletter angle:** “open source the user-facing plane, keep bespoke internal substrate closed when support burden dominates”
+
+## Embedded source
+
+{{<tweet id="2070233733521723768" url="https://x.com/i/status/2070233733521723768"/>}}

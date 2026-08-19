@@ -25,3 +25,9 @@ The chart places it on the Pareto frontier alongside much more expensive models:
 The quoted DeepSeek launch post adds the product angle: V4-Flash is in public beta, has upgraded agent capabilities, supports the Responses API format, and is adapted for Codex. DeepSeek's own benchmark image shows V4-Flash-0731 beating V4-Flash-Preview and V4-Pro-Preview on several agent/code benchmarks, including Terminal Bench 2.1, NL2Repo, Cybergym, DeepSWE, Toolathlon-Verified, AutomationBench, and DSBench variants, though Opus 4.8 still leads several rows.
 
 **Newsletter angle:** Useful model-economics item. The durable signal is a cheap coding/agent model moving the price-performance frontier, especially if the Responses API/Codex compatibility makes it easy to drop into existing coding-agent harnesses.
+
+## Embedded source
+
+{{<tweet id="2083348755559207047" url="https://x.com/arena/status/2083348755559207047"/>}}
+
+{{<tweet id="2083084415157022911" url="https://x.com/deepseek_ai/status/2083084415157022911"/>}}

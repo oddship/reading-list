@@ -27,3 +27,9 @@ Shantanu's `incus-manager` repo is a concrete version of that pattern. It provis
 The security posture is the useful part. Projects and restricted devices are the boundary, code is copied or cloned into `/workspace`, credentials are authenticated inside the container, and the README explicitly says not to mount `~/.ssh`, cloud config, the home directory, Docker socket, or an Incus socket. Snapshots also preserve credentials, so the suggested baseline snapshot happens before agent logins.
 
 **Newsletter angle:** This is a good agent-infra note: as agents get more autonomous, the sandbox wants to look less like a stateless Docker container and more like a persistent, snapshotable OS workspace with narrow host access and separate credentials.
+
+## Embedded source
+
+{{<tweet id="2086061269522739695" url="https://x.com/shantanugoel/status/2086061269522739695"/>}}
+
+{{<tweet id="2085737841301299494" url="https://x.com/shantanugoel/status/2085737841301299494"/>}}

@@ -24,3 +24,7 @@ The measured deltas are the useful part: startup went from 207.6ms to 11.1ms, in
 The Go-versus-Rust rationale is pragmatic rather than ideological. Appwrite says both languages would have solved the ~200ms startup cost, but Go fit because the CLI mostly does parallel network operations, the first-party Appwrite Go SDK already comes from the same generator, GOOS/GOARCH covers their six release targets, and community contributors can ramp quickly. They kept the TypeScript CLI installable for at least one minor cycle and used parity tests to compare the two implementations command by command.
 
 **Newsletter angle:** Useful developer-tools systems item: CLIs are part of product latency and dependency surface. Rewrites are risky, but generated parity tests plus API-spec-derived commands make this a cleaner example than a generic "rewrite in Go" victory lap.
+
+## Embedded source
+
+{{<tweet id="2087622396769657336" url="https://x.com/i/status/2087622396769657336"/>}}

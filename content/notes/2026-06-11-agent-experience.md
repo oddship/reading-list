@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2064734639634440622"
 **Newsletter angle:** “AX as the new DX” + practical checklist for repo/runtime/review design.
 
 **Retrieval note:** extracted via FXTwitter API; followed linked Builder article for full gist.
+
+## Embedded source
+
+{{<tweet id="2064734639634440622" url="https://x.com/i/status/2064734639634440622"/>}}

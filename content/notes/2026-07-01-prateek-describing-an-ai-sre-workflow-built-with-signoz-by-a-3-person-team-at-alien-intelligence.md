@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2072305334736003419"
 **Newsletter angle:** “AI as first-line SRE” with telemetry/context fusion instead of generic chatbot alerting.
 
 **Retrieval note:** extracted via FXTwitter API; the tweet says the actual blog link is in a reply, so the deeper writeup is not yet captured.
+
+## Embedded source
+
+{{<tweet id="2072305334736003419" url="https://x.com/i/status/2072305334736003419"/>}}

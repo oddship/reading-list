@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2069693133093568812"
 **Newsletter angle:** compact “best evals reading list” / why eval practice is shifting from static benchmarks to systems-level agent evaluation.
 
 **Retrieval note:** extracted via FXTwitter API + image OCR from screenshot.
+
+## Embedded source
+
+{{<tweet id="2069693133093568812" url="https://x.com/i/status/2069693133093568812"/>}}

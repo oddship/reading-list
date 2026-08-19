@@ -17,3 +17,7 @@ Imported from historical reading log.
 - The notable implementation details are support for `CIMD` client registration, `OBO` token exchange for downstream APIs, and MCP-style resource identifiers instead of plain OAuth audience handling.
 - Why it matters: MCP is quickly moving from demo protocol to real integration surface, and this is a sign the surrounding auth/governance stack is hardening in parallel.
 - Good angle: `the boring enterprise layer is arriving for MCP, which is probably what makes it real`.
+
+## Embedded source
+
+{{<tweet id="2052138238111068277" url="https://x.com/i/status/2052138238111068277"/>}}

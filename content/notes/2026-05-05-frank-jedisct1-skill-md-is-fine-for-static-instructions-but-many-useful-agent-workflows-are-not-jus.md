@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Relevance to `https://rohanverma.net/pages/harness-engineering/`: strong fit with the site’s emphasis on harnesses as loops, feedback systems, progressive knowledge, and infrastructure around the model rather than the model alone.
 - Especially adjacent to sections on Skills, Meta-Skills, The Loop, The Daemon, Q the Task Agent, and the review/feedback loop.
 - Good follow-up angle: contrast static skill documents vs executable/dynamic workflow programs inside a harness.
+
+## Embedded source
+
+{{<tweet id="2051613998861193424" url="https://x.com/i/status/2051613998861193424"/>}}

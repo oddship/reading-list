@@ -25,3 +25,7 @@ The attached benchmark tables make the compression story sharp. In Qwen's own nu
 The caveat matters. These are vendor-reported benchmark tables, with Qwen-specific harness choices and some in-house benchmarks. Opus4.6 Max still leads visible rows such as Terminal Bench, NL2Repo-Bench, GPQA Diamond, and HLE. The model card's linked Qwen Cloud overview also was not live yet when checked. Treat this as a strong release signal and a candidate for independent eval follow-up, not as settled leaderboard truth.
 
 **Newsletter angle:** Good open-model watch item: frontier-ish agentic and multimodal claims are getting compressed into smaller self-hostable models, but the honest framing is vendor-claimed capability-per-parameter until third-party evals catch up.
+
+## Embedded source
+
+{{<tweet id="2088280043759780324" url="https://x.com/i/status/2088280043759780324"/>}}

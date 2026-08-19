@@ -27,3 +27,9 @@ The reported result is typical speedups of 6-20x, with up to two orders of magni
 Startin's follow-up is the next step: `SliceZ` is a Z-layout bit-sliced index for unsorted numeric data. It supports equality, ranges, `between`, `in`, counts, sums, means, and top/bottom-k queries, with persistence and memory mapping. He describes it as usually faster than `RangeBitmap` and as carrying the same filter-pushdown direction that made the Yandex use case work.
 
 **Newsletter angle:** Good systems/data-structures piece. It shows bitmap indexes as a way to add logical time segmentation and filter pushdown to an observability metadata path without rebuilding the physical storage model.
+
+## Embedded source
+
+{{<tweet id="2089847854953103434" url="https://x.com/richardstartin/status/2089847854953103434?s=20"/>}}
+
+{{<tweet id="2089849607945654683" url="https://x.com/richardstartin/status/2089849607945654683"/>}}

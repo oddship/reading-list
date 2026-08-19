@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064127981161959567"
 **Newsletter angle:** “prompting is becoming loop design” + compare Codex/Claude primitives to the same orchestration pattern.
 
 **Note:** extracted via FXTwitter API article payload; content partially truncated in fetch but core thesis and list were captured.
+
+## Embedded source
+
+{{<tweet id="2064127981161959567" url="https://x.com/i/status/2064127981161959567"/>}}

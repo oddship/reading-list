@@ -18,3 +18,7 @@ Imported from historical reading log.
 - The linked SubQ write-up claims `content-dependent selection` routes attention only to positions that carry signal, yielding linear scaling and large prefill speedups at long context lengths.
 - Useful counterweight to the earlier SubQ hype post: the key technical question is not just benchmark wins, but whether the selection mechanism preserves retrieval quality without hiding approximation debt.
 - Good angle: `skeptic check on flashy sparse-attention claims`.
+
+## Embedded source
+
+{{<tweet id="2051936321610842245" url="https://x.com/badlogicgames/status/2051936321610842245"/>}}

@@ -25,3 +25,7 @@ The linked GitHub repo is useful context because it shows the loop around the vi
 That makes this more interesting than a one-off "AI plays a game" demo. It is a small agent evaluation harness: generate scripts, run them in a real environment, observe outcomes, and iterate.
 
 **Newsletter angle:** Good agent-systems example for the theme that AI coding gets more powerful when paired with executable environments and feedback loops, even messy ones.
+
+## Embedded source
+
+{{<youtube id="ZBdAe3ZwKds" url="https://www.youtube.com/watch?v=ZBdAe3ZwKds"/>}}

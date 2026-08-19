@@ -25,3 +25,9 @@ The final numbers are strong but honestly caveated: 97/100 one-life stochastic c
 The quoted post adds the practical experiment bill: a laptop RTX 3070m, 3.5 days and nights of experiments, about $6.58 of DeepSeek V4 Flash tokens through OpenRouter, and roughly 187M LLM-side tokens across the workspace while iterating.
 
 **Newsletter angle:** Good agent-systems item: clean demo results hide a lot of harness work, reward design, observation choices, evaluation modes, seed sensitivity, and checkpoint curation.
+
+## Embedded source
+
+{{<tweet id="2087529937272267261" url="https://x.com/i/status/2087529937272267261"/>}}
+
+{{<tweet id="2087452030000615560" url="https://x.com/shantanugoel/status/2087452030000615560"/>}}

@@ -16,3 +16,7 @@ saved_link = "https://x.com/bibryam/status/2070467106412626035?s=20"
 **Gist:** the notable shift versus 2025 is treating agents as default collaborators for nearly every code change, bug investigation, codebase research, testing, and local setup, while still keeping humans responsible for review, judgment, PR descriptions, ADRs/messages, and UI evaluation; especially strong on the idea that current agents are now good enough to generate full PRs and chase bugs across repos, but still need selection, steering, and rejection by an experienced engineer
 
 **Newsletter angle:** probably one of the cleaner descriptions of the real 2026 boundary between agent labor and human judgment
+
+## Embedded source
+
+{{<tweet id="2070467106412626035" url="https://x.com/bibryam/status/2070467106412626035?s=20"/>}}

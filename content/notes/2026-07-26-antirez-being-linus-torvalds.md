@@ -23,3 +23,7 @@ He maps that role onto AI-assisted programming. Expert programmers using agents 
 **Newsletter angle:** Strong agents and software-craft item because it frames AI programming as project leadership and taste, not prompt-and-forget code generation.
 
 **Retrieval note:** Grounded from the antirez blog post linked from the X post.
+
+## Embedded source
+
+{{<tweet id="2080980201178063059" url="https://x.com/i/status/2080980201178063059"/>}}

@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2071966840801185811"
 **Newsletter angle:** “microVMs as the unit of CI isolation, with NixOS as workflow-defined machine config” is a solid hook.
 
 **Retrieval note:** extracted via FXTwitter API + linked article fetch.
+
+## Embedded source
+
+{{<tweet id="2071966840801185811" url="https://x.com/i/status/2071966840801185811"/>}}

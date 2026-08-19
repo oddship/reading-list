@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064519826333397149"
 **Newsletter angle:** “capability shock is becoming a product-management problem” or “the frontier discourse is shifting from whether to how fast.”
 
 **Note:** extracted tweet via FXTwitter; no linked source bundle in the post itself, so this is saved as a claims summary rather than a verified deep read.
+
+## Embedded source
+
+{{<tweet id="2064519826333397149" url="https://x.com/i/status/2064519826333397149"/>}}

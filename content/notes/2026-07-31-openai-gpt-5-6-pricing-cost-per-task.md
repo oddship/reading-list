@@ -20,3 +20,7 @@ retrieval_note = "X post extracted through FXTwitter/oEmbed and browser metadata
 **Gist:** OpenAI says GPT-5.6 Luna pricing is dropping by 80%, GPT-5.6 Terra by 20%, and GPT-5.6 Sol is getting a faster API option. The attached chart frames Luna as the highest-scoring model on Artificial Analysis Intelligence Index v4.1 while being much cheaper per task than other frontier models in the chart. The product detail that matters is not just API sticker price: OpenAI says the lower Luna and Terra prices also change how usage is counted in Codex and ChatGPT Work, so existing quotas stretch further.
 
 **Newsletter angle:** Useful AI-infra/pricing item because the frontier-model race is increasingly about cost-per-task, latency, and quota mechanics, not only benchmark position. That matters for agent workflows where small differences in per-task economics quickly turn into large product and infrastructure tradeoffs.
+
+## Embedded source
+
+{{<tweet id="2082878156483219672" url="https://x.com/OpenAI/status/2082878156483219672"/>}}

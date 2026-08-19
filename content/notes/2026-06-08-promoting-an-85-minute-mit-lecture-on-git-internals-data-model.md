@@ -18,3 +18,7 @@ saved_link = "https://x.com/slash1sol/status/2063762157339132084?s=20"
 **Newsletter angle:** “Git literacy as leverage”, understanding the object graph matters more when agents are branching/rewriting history at speed.
 
 **Note:** extracted via FXTwitter API; saved from the post text only, lecture content itself not yet reviewed.
+
+## Embedded source
+
+{{<tweet id="2063762157339132084" url="https://x.com/slash1sol/status/2063762157339132084?s=20"/>}}

@@ -22,3 +22,7 @@ retrieval_note = "X post grounded via oEmbed, FXTwitter, and browser; story read
 The story’s best move is that it refuses to turn the future into a clean technical diagram. The narrator keeps looking for mechanism, governance, criteria, and the familiar engineering loop of intend, act, measure, adjust. Bengaluru answers in a different grammar: aunties, errands, lake weather, local moral logistics, Kannada phrases, and city-scale forms of attention. The speculative premise is post-Singularity, but the felt subject is culture as infrastructure.
 
 **Newsletter angle:** Good culture/SF counterpoint for the reading list. It is useful alongside technical AI-infra links precisely because it imagines technology not as a product surface or benchmark curve, but as something civic, mythic, multilingual, and lived inside a city.
+
+## Embedded source
+
+{{<tweet id="2082213765102305366" url="https://x.com/i/status/2082213765102305366"/>}}

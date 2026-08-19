@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064411874788307020"
 **Newsletter angle:** “AI fear is often misdirected systems fear” or “alignment problems are organizational too, not just model-level.”
 
 **Note:** extracted tweet via FXTwitter; direct article fetch was blocked by Fast Company anti-bot checks, so gist is based on the linked title/description and quoted line in the post.
+
+## Embedded source
+
+{{<tweet id="2064411874788307020" url="https://x.com/i/status/2064411874788307020"/>}}

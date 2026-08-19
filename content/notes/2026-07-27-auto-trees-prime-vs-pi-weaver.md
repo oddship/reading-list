@@ -30,3 +30,7 @@ So Auto Trees preserves a good branch compactly. Pi-weaver deliberately discards
 **Newsletter angle:** Strong agent-harness note because it draws a useful control-surface distinction: human-triggered clean context boundaries versus model-triggered branch pruning.
 
 **Retrieval note:** Grounded from the X post, screenshot, Auto Trees source at commit `341cab6`, package metadata for `@howaboua/pi-auto-trees` v0.1.10, Rohan's pi-weaver write-up, and `oddship/bosun/packages/pi-weaver` source at commit `f857b23`.
+
+## Embedded source
+
+{{<tweet id="2081329769069572363" url="https://x.com/i/status/2081329769069572363"/>}}

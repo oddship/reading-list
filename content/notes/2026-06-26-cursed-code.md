@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2070308475603951723"
 **Gist:** the linked repo, `uellenberg/Insert`, is a small language for self-modifying code; programs can access their own source as string fragments, overwrite marked values, print the next version of themselves, and in the Pong demo each run emits the source for the next frame before recompiling
 
 **Newsletter angle:** “playful programming systems” / self-modifying code as art rather than anti-pattern
+
+## Embedded source
+
+{{<tweet id="2070308475603951723" url="https://x.com/i/status/2070308475603951723"/>}}

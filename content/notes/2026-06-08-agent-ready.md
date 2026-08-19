@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2059678645531062683"
 **Newsletter angle:** “agent-ready ≠ scrapable” is a strong hook for the coming split between human web UX and agent-facing capability layers.
 
 **Note:** extracted via FXTwitter API; linked demo/domain mentioned is `webmcp.cool`.
+
+## Embedded source
+
+{{<tweet id="2059678645531062683" url="https://x.com/i/status/2059678645531062683"/>}}

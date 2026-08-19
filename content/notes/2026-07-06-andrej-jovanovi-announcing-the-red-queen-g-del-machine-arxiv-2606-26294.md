@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2073907718151426302"
 **Newsletter angle:** smarter agents need smarter judges; the judge is becoming part of the frontier
 
 **Retrieval note:** metadata/abstract pulled from arXiv; early reproduction repo found at `ianyac/red-queen-godel-machine`
+
+## Embedded source
+
+{{<tweet id="2073907718151426302" url="https://x.com/i/status/2073907718151426302"/>}}

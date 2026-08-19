@@ -25,3 +25,7 @@ The most useful claim is not simply that Go is easier for LLMs. It is that langu
 **Newsletter angle:** Good programming-language item for the agent era: as agents produce more code, boring platform constraints become leverage. Go’s pitch is that readability and integrated tooling are not aesthetic preferences, they are operating controls for high-volume AI-generated changes.
 
 **HN discussion note:** The Hacker News thread mostly turns the claim into a Go/Rust/TypeScript comparison. The most useful comments sharpen the original point: Go’s agent-friendly value is less about syntax alone and more about tooling, fast compile/test loops, standard library defaults, readability for human review, and lint/coverage guardrails. The Rust counterpoint is also clear: a stricter compiler and borrow checker can force agents to resolve more correctness issues up front, but may raise the human readability burden for reviewers who are not fluent in Rust.
+
+## Embedded source
+
+{{<tweet id="2087220792836665451" url="https://x.com/i/status/2087220792836665451"/>}}

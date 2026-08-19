@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2059162275014173014"
 **Newsletter angle:** “cache-first AI browser testing” as practical infra for regression pipelines.
 
 **Retrieval note:** tweet extracted via FXTwitter API; attached screenshot shows the GitHub repo tagline mentioning intelligent caching, authentication, and multi-model verification.
+
+## Embedded source
+
+{{<tweet id="2059162275014173014" url="https://x.com/i/status/2059162275014173014"/>}}

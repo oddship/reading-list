@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2061941296932004175"
 **Newsletter angle:** “durable dynamic workflows” / generated harnesses as the control plane for agent systems.
 
 **Note:** extracted via FXTwitter API; article body only partially available from quoted-tweet article metadata.
+
+## Embedded source
+
+{{<tweet id="2061941296932004175" url="https://x.com/i/status/2061941296932004175"/>}}

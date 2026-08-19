@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064234293644448084"
 **Newsletter angle:** “the agent stack is becoming systems engineering” or “the real unit of progress is the harness, not the prompt.”
 
 **Note:** read via arXiv abstract + HTML version; enough to capture structure, core claims, and open problems even though PDF text extraction wasn’t available locally.
+
+## Embedded source
+
+{{<tweet id="2064234293644448084" url="https://x.com/i/status/2064234293644448084"/>}}

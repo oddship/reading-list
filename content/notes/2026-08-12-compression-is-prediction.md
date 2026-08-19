@@ -24,3 +24,7 @@ The useful bridge to LLMs is that language models are also next-token probabilit
 The caveat is operational, not mathematical. LLMs are excellent predictors, but using a multi-gigabyte model to compress HTTP payloads is absurd once model size, CPU/GPU cost, memory, and latency are counted. Ordinary gzip/Brotli-style compressors win in practice because their models and decoders are tiny and fast enough for the job.
 
 **Newsletter angle:** Good foundations item for LLM intuition: cross-entropy training, next-token prediction, and lossless compression are all different faces of the same “assign better probabilities to what comes next” problem.
+
+## Embedded source
+
+{{<tweet id="2087523924351369599" url="https://x.com/i/status/2087523924351369599"/>}}

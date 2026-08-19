@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2063997292290474066"
 **Newsletter angle:** the real constraint on agent autonomy may be economics, not just capability.
 
 **Note:** extracted via FXTwitter API from the tweet text only.
+
+## Embedded source
+
+{{<tweet id="2063997292290474066" url="https://x.com/i/status/2063997292290474066"/>}}

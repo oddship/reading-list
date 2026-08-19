@@ -17,3 +17,7 @@ Imported from historical reading log.
 - Why it matters: clean distinction between fiction as imagination engine vs fiction as policy/analysis substrate.
 - Newsletter angle: “stop using sci-fi as AI governance shorthand” / tension between imagination’s value and analogy overreach.
 - Retrieval note: extracted post via FXTwitter API; fetched linked Guardian article for surrounding quote/context.
+
+## Embedded source
+
+{{<tweet id="2073515510851854688" url="https://x.com/i/status/2073515510851854688"/>}}

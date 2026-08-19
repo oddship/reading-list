@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2072522251300409556"
 **Newsletter angle:** “understanding is the new bottleneck” as a useful lens for evaluating coding-agent workflows and developer tooling.
 
 **Retrieval note:** root post text was readable directly via X/FXTwitter and the attached slide was OCR’d; full thread body beyond the opener is still not captured.
+
+## Embedded source
+
+{{<tweet id="2072522251300409556" url="https://x.com/i/status/2072522251300409556"/>}}

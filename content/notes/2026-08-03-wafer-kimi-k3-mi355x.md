@@ -24,3 +24,7 @@ retrieval_note = "Read the Wafer article directly, extracted the shared X post t
 The engineering details are the useful part. Speculative decoding needed a ROCm fix for `top_k_renorm_prob`, which Wafer handled with a small PyTorch top-k renormalization path rather than a custom kernel; that reportedly gave about 2.2x single-stream performance, 1.7x at moderate load, and 18% higher peak aggregate. Prefill remained a separate bottleneck: a 172k-token cold prefill was about 51s on MI355X versus 23s on B300 until they got the AITER MLA prefill path working by padding K3's 12 attention heads per rank to a 16-head shape.
 
 **Newsletter angle:** This is a better "CUDA moat" datapoint than a raw benchmark chart because the claimed win comes from capacity-driven topology plus boring software fixes, not from pretending AMD kernels are magically caught up everywhere.
+
+## Embedded source
+
+{{<tweet id="2084000214281822637" url="https://x.com/i/status/2084000214281822637"/>}}

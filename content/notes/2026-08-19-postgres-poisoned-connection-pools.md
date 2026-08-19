@@ -24,3 +24,7 @@ The concrete example is read-only state. Application code used `SET SESSION CHAR
 The immediate antidote is to reset affected pooled connections with `DISCARD ALL` or kill/reset the pooler sessions. The durable fix is in application behavior: avoid session-level flags through PgBouncer, prefer transaction-scoped read-only settings with strict cleanup and timeouts, or route read traffic to replicas instead.
 
 **Newsletter angle:** Useful database reliability story. Connection pools are not transparent plumbing; they preserve enough state that bugs in transaction boundaries, cleanup paths, and ORM behavior can escape one request and poison the next.
+
+## Embedded source
+
+{{<tweet id="2089776662791786675" url="https://x.com/i/status/2089776662791786675"/>}}

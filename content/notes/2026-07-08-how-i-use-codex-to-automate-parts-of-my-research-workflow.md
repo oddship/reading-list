@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2074729038619512960"
 **Gist:** A pragmatic writeup on using Codex to reduce friction in AI safety research by offloading search, organization, setup, checking, and memory, while keeping human judgment and publication responsibility firmly in the loop.
 
 **Newsletter angle:** Good example of disciplined, scoped agent adoption for research workflows rather than full autonomy theater.
+
+## Embedded source
+
+{{<tweet id="2074729038619512960" url="https://x.com/i/status/2074729038619512960"/>}}

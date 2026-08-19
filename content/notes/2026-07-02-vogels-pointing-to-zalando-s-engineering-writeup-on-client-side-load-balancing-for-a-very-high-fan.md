@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2072652797603176572"
 **Newsletter angle:** “own the routing decision in-process” or “occupancy beats request-rate for bounded load” as the memorable lesson.
 
 **Retrieval note:** X post extracted via FXTwitter API; linked Zalando article fetched directly and partially read successfully.
+
+## Embedded source
+
+{{<tweet id="2072652797603176572" url="https://x.com/i/status/2072652797603176572"/>}}

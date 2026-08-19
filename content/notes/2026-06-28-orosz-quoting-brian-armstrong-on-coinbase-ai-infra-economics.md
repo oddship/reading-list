@@ -14,3 +14,7 @@ saved_link = "https://x.com/i/status/2070735111226847242"
 **Gist:** Coinbase reportedly cut AI spend nearly in half while token usage kept growing by changing defaults to cheaper open-weight models (GLM 5.2, Kimi 2.7), adding smarter routing, aggressively using caching, and keeping context lean instead of tightening caps.
 
 **Newsletter angle:** “AI cost control is becoming a systems problem, not a policy problem.”
+
+## Embedded source
+
+{{<tweet id="2070735111226847242" url="https://x.com/i/status/2070735111226847242"/>}}

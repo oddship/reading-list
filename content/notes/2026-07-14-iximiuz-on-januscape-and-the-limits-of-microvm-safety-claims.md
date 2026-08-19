@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2076674329694150780"
 **Newsletter angle:** Useful corrective to simplistic "microVMs are always safer" narratives, because the real boundary depends on what kernel and hardware virtualization surfaces you expose.
 
 **Supporting source:** Canonical also published mitigation guidance: `https://canonical.com/blog/januscape-linux-vulnerability-mitigations-available`
+
+## Embedded source
+
+{{<tweet id="2076674329694150780" url="https://x.com/i/status/2076674329694150780"/>}}

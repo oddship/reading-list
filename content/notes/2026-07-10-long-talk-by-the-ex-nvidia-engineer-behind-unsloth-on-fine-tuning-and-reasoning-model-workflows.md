@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2075240393419936189"
 **Newsletter angle:** Useful pointer for the current small team / single GPU post-training stack around Unsloth, Triton, quantization, and RLHF-style methods.
 
 **Retrieval note:** I could ground this from the X post text itself, but the linked t.co URL resolved back to the same X post here rather than a separate article/video page.
+
+## Embedded source
+
+{{<tweet id="2075240393419936189" url="https://x.com/i/status/2075240393419936189"/>}}

@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2073508346607661235"
 **Newsletter angle:** “read more sci-fi” is the visible conclusion, but the sharper claim is that fiction supplies vocab and priors for handling agentic weirdness without naive hype or naive panic.
 
 **Retrieval note:** extracted via FXTwitter API + fetched linked article directly.
+
+## Embedded source
+
+{{<tweet id="2073508346607661235" url="https://x.com/i/status/2073508346607661235"/>}}

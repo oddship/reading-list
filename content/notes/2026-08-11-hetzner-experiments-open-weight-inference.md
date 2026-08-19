@@ -23,3 +23,7 @@ retrieval_note = "Tweet extracted via FXTwitter; linked short URL resolved to He
 The linked site resolves to `experiments.hetzner.com`; the app exposes an `AI Inference · Hetzner Experiments` area, API-token creation, docs links, and an inference endpoint at `https://inference.hetzner.com/api/v1`. The unauthenticated `/models` endpoint returns `401 unauthorized`, so the actual model list was not visible without a token.
 
 **Newsletter angle:** Good ai-infra item: a traditional hosting provider is testing LLM inference as a managed API, not just selling GPU servers. The cautious `free, no SLA, maybe not permanent` framing makes it useful market signal rather than a finished product launch.
+
+## Embedded source
+
+{{<tweet id="2087099126760501364" url="https://x.com/i/status/2087099126760501364"/>}}

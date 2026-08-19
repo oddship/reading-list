@@ -22,3 +22,9 @@ retrieval_note = "YouTube oEmbed/watch metadata and LangChain's official X post 
 I could not retrieve the full YouTube transcript from this environment: YouTube blocked transcript access on IP/bot checks, and `yt-dlp` also required sign-in. So this is a lighter pointer note, grounded in YouTube metadata plus LangChain's official companion post, not a full talk summary.
 
 **Newsletter angle:** Useful enterprise-agent case study. The interesting part is the product shape: domain-specific agents become valuable when they combine proprietary corpora, expert feedback loops, and operational guardrails rather than only a generic chat UI.
+
+## Embedded source
+
+{{<youtube id="lXZb21CfeIY" url="https://www.youtube.com/watch?v=lXZb21CfeIY"/>}}
+
+{{<tweet id="2080638722349908266" url="https://x.com/LangChain/status/2080638722349908266"/>}}

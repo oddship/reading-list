@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2062015232743198849"
 **Gist:** lightweight launch/amplification post rather than a deep technical thread; the linked card describes the project very tersely as “Realtime multiplayer Vim battles.”
 
 **Newsletter angle:** playful developer-product idea / “tools culture as game mechanic.”
+
+## Embedded source
+
+{{<tweet id="2062015232743198849" url="https://x.com/i/status/2062015232743198849"/>}}

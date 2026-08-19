@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2074973674332123157"
 **Gist:** Explains why Bun is being rewritten from Zig to Rust, positioning the move around long-term stability and maintainability as the project scales, even though Zig was instrumental in making the original ambitious build possible.
 
 **Newsletter angle:** Another data point on language/runtime rewrites in core developer tooling, especially where scaling and reliability start to dominate raw early-stage velocity.
+
+## Embedded source
+
+{{<tweet id="2074973674332123157" url="https://x.com/i/status/2074973674332123157"/>}}

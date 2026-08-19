@@ -265,6 +265,97 @@
     .prose h3 {
       margin-top: 1.5rem;
     }
+    .embed-card {
+      max-width: min(42rem, 100%);
+      margin: 1.1rem 0 1.35rem;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 1.1rem;
+      background: var(--card);
+      box-shadow: 0 0.45rem 1.4rem color-mix(in srgb, var(--foreground) 7%, transparent);
+      overflow: hidden;
+    }
+    .embed-card figcaption {
+      margin-top: 0.55rem;
+      color: var(--muted-foreground);
+      font-size: 0.88rem;
+      line-height: 1.35;
+    }
+    .embed-consent {
+      box-sizing: border-box;
+      display: grid;
+      gap: 0.25rem;
+      width: 100%;
+      padding: 0.95rem;
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      background: var(--secondary);
+      color: inherit;
+      text-align: left;
+      white-space: normal;
+      cursor: pointer;
+    }
+    .embed-consent:hover {
+      border-color: color-mix(in srgb, var(--primary) 45%, var(--border));
+      background: color-mix(in srgb, var(--secondary) 80%, var(--primary) 8%);
+    }
+    .embed-consent strong {
+      color: var(--foreground);
+      font-size: 1rem;
+    }
+    .embed-consent span:last-child {
+      color: var(--muted-foreground);
+      font-size: 0.88rem;
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+    }
+    .embed-fallback__kicker {
+      color: var(--muted-foreground);
+      font-size: 0.76rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .embed-card__plain-link {
+      margin: 0.55rem 0 0;
+      color: var(--muted-foreground);
+      font-size: 0.88rem;
+    }
+    .embed-card--tweet {
+      max-width: min(34rem, 100%);
+    }
+    .embed-card--tweet .twitter-tweet {
+      margin: 0 !important;
+    }
+    .embed-card--tweet iframe {
+      max-width: 100% !important;
+      min-width: 0 !important;
+    }
+    .embed-card--tweet[data-x-loaded="true"] .embed-consent,
+    .embed-card--tweet[data-x-loaded="true"] .embed-card__plain-link {
+      display: none;
+    }
+    .embed-card--tweet[data-x-loaded="true"] {
+      overflow: visible;
+    }
+    .embed-card__frame {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 0.75rem;
+      background: #000;
+    }
+    .embed-card__frame iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .twitter-tweet {
+      margin: 0 !important;
+    }
     footer.site-footer {
       margin-top: 3rem;
       padding-top: 1rem;
@@ -315,7 +406,47 @@
       localStorage.setItem('theme', next);
       syncThemeButton();
     }
-    document.addEventListener('DOMContentLoaded', syncThemeButton);
+    function loadXEmbeds() {
+      var cards = document.querySelectorAll('[data-x-embed]');
+      if (!cards.length) return;
+      cards.forEach(function(card) {
+        if (card.getAttribute('data-x-loaded') === 'true') return;
+        var id = card.getAttribute('data-tweet-id');
+        var url = card.getAttribute('data-tweet-url');
+        if (!id || !url) return;
+        var blockquote = document.createElement('blockquote');
+        blockquote.className = 'twitter-tweet';
+        blockquote.setAttribute('data-dnt', 'true');
+        blockquote.setAttribute('data-conversation', 'none');
+        blockquote.innerHTML = '<p lang="en" dir="ltr"><a href="' + url + '">View this post on X</a></p>';
+        card.appendChild(blockquote);
+        card.setAttribute('data-x-loaded', 'true');
+      });
+      if (!document.getElementById('twitter-wjs')) {
+        var script = document.createElement('script');
+        script.id = 'twitter-wjs';
+        script.async = true;
+        script.defer = true;
+        script.src = 'https://platform.x.com/widgets.js';
+        script.charset = 'utf-8';
+        document.body.appendChild(script);
+      } else if (window.twttr && window.twttr.widgets) {
+        window.twttr.widgets.load();
+      }
+    }
+    function enableXEmbeds() {
+      localStorage.setItem('x-embeds-consent', 'true');
+      loadXEmbeds();
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      syncThemeButton();
+      if (localStorage.getItem('x-embeds-consent') === 'true') {
+        loadXEmbeds();
+      }
+      document.querySelectorAll('[data-x-consent-button]').forEach(function(button) {
+        button.addEventListener('click', enableXEmbeds);
+      });
+    });
   </script>
 </head>
 <body>

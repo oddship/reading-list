@@ -24,3 +24,7 @@ Zhiyanov walks through a simple unbuffered-channel example, then compares three 
 The useful distinction is test-time versus runtime detection. `synctest` helps make leak checks part of ordinary tests. The pprof profile helps diagnose leaks in deployed or long-running systems.
 
 **Newsletter angle:** Good Go/concurrency testing note for the broader theme that reliability work improves when failure modes become observable and testable by default.
+
+## Embedded source
+
+{{<tweet id="2089355447778046064" url="https://x.com/i/status/2089355447778046064"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2074591768603980121"
 **Gist:** Argues the TypeScript team’s Go rewrite is a broader signal that agentic software stacks increasingly benefit from compiled, readable, operationally sturdy languages rather than scripting-first ones.
 
 **Newsletter angle:** Strong take on language/runtime choices for AI-assisted and agent-heavy developer workflows.
+
+## Embedded source
+
+{{<tweet id="2074591768603980121" url="https://x.com/i/status/2074591768603980121"/>}}

@@ -18,3 +18,9 @@ saved_link = "https://x.com/i/status/2079636607049896174"
 **Gist:** Monk argues that AI lowering the barrier to software creation also lowers quality unless people aim at quality deliberately. His definition is intentionally plain: quality software does not break, does not demand attention, knows its limits, and fixes fast. The AI-specific point is that “slop” is not new, but AI produces it faster, and the rush to “be agentic” can make companies forget why users chose the software in the first place. His sharpest boundary is that agents may build software, but writing humans are expected to read should remain human-written.
 
 **Newsletter angle:** Strong developer-tools and org-design item because it ties software quality to restraint, user respect, attention, and clear boundaries around AI-generated work.
+
+## Embedded source
+
+{{<tweet id="2079461952577802549" url="https://x.com/almonk/status/2079461952577802549"/>}}
+
+{{<tweet id="2079636607049896174" url="https://x.com/i/status/2079636607049896174"/>}}

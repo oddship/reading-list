@@ -20,3 +20,7 @@ saved_link = "https://www.youtube.com/watch?v=FH4eS0oi4uE"
 **Newsletter angle:** Interesting computer-vision / spatial-reconstruction demo that fits the broader pattern of fast prototyping with modern models plus commodity sensors.
 
 **Retrieval note:** I could read page metadata and the visible on-page description, but transcript extraction was blocked by YouTube IP restrictions from this environment, so this note is not grounded in a full transcript.
+
+## Embedded source
+
+{{<youtube id="FH4eS0oi4uE" url="https://www.youtube.com/watch?v=FH4eS0oi4uE"/>}}

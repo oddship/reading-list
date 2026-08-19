@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2078789580678152526"
 **Retrieval note:** I could read the X post and quoted post metadata/text, but the promised YouTube link was not exposed in the fetched post or public browser snapshot, so this is not grounded in the full episode transcript/video.
 
 **Newsletter angle:** Useful local/India AI research-community signal because it treats frontier progress as an architecture-search problem, not only a compute-scaling race.
+
+## Embedded source
+
+{{<tweet id="2078789580678152526" url="https://x.com/i/status/2078789580678152526"/>}}

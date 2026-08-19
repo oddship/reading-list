@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Mario's gloss is the punchline: there is still low-hanging fruit in `agentic search` if builders remember older information-retrieval lessons instead of treating the problem as just faster grep.
 - Why it matters: this is a strong correction to the instinct that agent tooling wins mainly through lower tool latency; the bigger win may be reducing search thrash by improving first-query usefulness.
 - Good angle: `agent search looks less like a systems-speed problem and more like a ranking/IR problem from 2004 wearing an LLM hat`.
+
+## Embedded source
+
+{{<tweet id="2052437618416025846" url="https://x.com/i/status/2052437618416025846"/>}}

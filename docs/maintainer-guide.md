@@ -39,6 +39,7 @@ Operational playbooks:
 
 - `docs/link-drop-playbook.md`, publish-by-default checklist for normal work-thread link drops
 - `scripts/link_digest_notes.py`, idempotent helper that links digest source URLs back to matching public note pages
+- `scripts/backfill_social_embeds.py`, idempotent helper that adds tweet/YouTube component embeds after matching links in existing notes and digests
 
 It imports historical `content/notes/` and `content/digests/` from the local sources above without overwriting already curated pages.
 

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064418523192136110"
 **Newsletter angle:** “automate the loop, but not your taste” / “agent slop is what happens when evals become the whole target.”
 
 **Note:** extracted via FXTwitter article payload; fetch was truncated but core argument and key terms were captured.
+
+## Embedded source
+
+{{<tweet id="2064418523192136110" url="https://x.com/i/status/2064418523192136110"/>}}

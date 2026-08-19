@@ -16,3 +16,7 @@ Imported from historical reading log.
 - Mario Zechner recommends a post arguing that AI is good at shipping features but bad at preserving architecture unless humans impose explicit invariants.
 - Strong concrete examples from a 7-month rewrite of a GPU-aware Kubernetes TUI: god object drift, per-view state leakage, flat key-dispatch sprawl, and the need to write architecture rules in AGENTS.md/CLAUDE.md up front.
 - Newsletter angle: one of the better anti-vibecoding-without-constraints field reports; useful counterweight to pure speed/demo narratives.
+
+## Embedded source
+
+{{<tweet id="2053747834696995181" url="https://x.com/badlogicgames/status/2053747834696995181"/>}}

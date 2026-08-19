@@ -23,3 +23,7 @@ retrieval_note = "Tweet extracted via FXTwitter; linked Xirp product page fetche
 The product page says Xirp connects to Spotify Portal so agents and engineers share a context layer: services, owners, dependencies, architectural decisions, work items, sessions, and generated living documentation. Spotify says more than 1,300 Spotify engineers already use it, and the public beta gives teams their own Portal-backed instance.
 
 **Newsletter angle:** Strong agent-infra item. The interesting move is from `better coding assistant` to `org-aware agentic development environment`: a wrapper where context capture, session handoff, docs, and vendor neutrality become the product.
+
+## Embedded source
+
+{{<tweet id="2086795659651191106" url="https://x.com/i/status/2086795659651191106"/>}}

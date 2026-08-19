@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2073987273327247775"
 **Newsletter angle:** MCP is maturing from a convenient developer protocol into something shaped by real distributed-systems constraints
 
 **Retrieval note:** X post extracted via FXTwitter API; linked article read directly from sonichigo.com
+
+## Embedded source
+
+{{<tweet id="2073987273327247775" url="https://x.com/i/status/2073987273327247775"/>}}

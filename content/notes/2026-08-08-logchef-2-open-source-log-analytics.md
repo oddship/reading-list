@@ -27,3 +27,7 @@ The 2.0 additions are mostly about making that control plane complete: VictoriaL
 There is also an agent angle. The site explicitly pitches the CLI and MCP server as ways for coding agents and assistants to investigate logs through a schema-aware interface. That is a useful pattern: give agents stable query tools, scoped tokens, JSON/JSONL output, and version-matched skill instructions instead of expecting them to scrape dashboards.
 
 **Newsletter angle:** Nice systems/tooling example of the "control plane over existing infrastructure" pattern. It also fits the agent-infra thread: operational tools are starting to expose first-class CLI and MCP surfaces, not just human dashboards.
+
+## Embedded source
+
+{{<tweet id="2086066533286183137" url="https://x.com/i/status/2086066533286183137"/>}}

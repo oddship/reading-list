@@ -37,3 +37,17 @@ This is a cleaner third-party benchmark anchor than the circulating WeChat scree
 The second Arena chart makes the price/performance story explicit. It marks `deepseek-v4-pro-max-20260813` as DeepSeek/MIT, score 1607, at about $0.76/M blended tokens using a 3:1 ratio, while the tweet cites $0.435/M input and $0.87/M output. Arena claims it outperforms models beyond its price tier, including Opus 4.8 at $5/$25 and GLM-5.2 at $1.4/$4.4. The caveat matters: this is early AutoEval, where a reward model trained on Arena human-preference data casts automatic votes, so the score may move as live human votes arrive.
 
 **Newsletter angle:** Combine the DeepSeek Pro threads as an agentic-model-economics watch item: official pricing plus early third-party benchmark posts suggest an important capability-per-dollar shift. The emerging story is not "DeepSeek tops every leaderboard". It is that an open-weight model is repeatedly landing close enough to expensive frontier coding and agent models to change routing, evaluation, and cost assumptions.
+
+## Embedded source
+
+{{<tweet id="2087568202452926622" url="https://x.com/i/status/2087568202452926622"/>}}
+
+{{<tweet id="2087565280457461917" url="https://x.com/AndrewCurran_/status/2087565280457461917"/>}}
+
+{{<tweet id="2087691659953815783" url="https://x.com/pilvar222/status/2087691659953815783"/>}}
+
+{{<tweet id="2087697657301279220" url="https://x.com/ValsAI/status/2087697657301279220"/>}}
+
+{{<tweet id="2087784211642192332" url="https://x.com/arena/status/2087784211642192332"/>}}
+
+{{<tweet id="2087767198974533648" url="https://x.com/arena/status/2087767198974533648"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2076323181154230284"
 **Gist:** Nadella argues that AI flips Arrow’s classic information paradox: enterprises now pay not only with money for intelligence, but also with proprietary knowledge, prompts, traces, evals, and corrections required to make that intelligence useful. His answer is a hard enterprise trust boundary around models, data, memory, traces, evals, orchestration, and the right to retain and reuse the learning generated inside the firm.
 
 **Newsletter angle:** Strong enterprise AI thesis about who owns the learning loop, with a useful framing around prompts, traces, feedback, and institutional know-how as compounding capital rather than disposable exhaust.
+
+## Embedded source
+
+{{<tweet id="2076323181154230284" url="https://x.com/satyanadella/status/2076323181154230284"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064462744125128851"
 **Newsletter angle:** “better agents need better loops, not just better models” or “independent verification beats self-critique.”
 
 **Note:** extracted via FXTwitter quote/article payload; content was partially truncated near the end, but core sections on self-correction loops, verifier sub-agents, and memory were captured.
+
+## Embedded source
+
+{{<tweet id="2064462744125128851" url="https://x.com/i/status/2064462744125128851"/>}}

@@ -23,3 +23,7 @@ The implementation matches that framing. Workflow modules export a handler and o
 **Newsletter angle:** Useful agent-infra item because it makes the control boundary explicit: code owns deterministic orchestration, while models are replaceable judgment calls inside that structure.
 
 **Retrieval note:** Grounded from the X post, project landing page, repository README, API docs, and selected source files at `deerwork-ai/deer-workflow` commit `db77223`.
+
+## Embedded source
+
+{{<tweet id="2081313440573137291" url="https://x.com/i/status/2081313440573137291"/>}}

@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2070393923504091649"
 **Gist:** straightforward practitioner complaint that worktrees remain awkward even after repeated attempts; useful mainly as a prompt for workflow/tooling patterns rather than as a claim-heavy post
 
 **Newsletter angle:** “great primitive, bad default ergonomics” as a recurring pattern in developer tools
+
+## Embedded source
+
+{{<tweet id="2070393923504091649" url="https://x.com/i/status/2070393923504091649"/>}}

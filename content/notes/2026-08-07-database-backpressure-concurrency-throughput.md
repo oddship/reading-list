@@ -27,3 +27,7 @@ The post frames this with Little’s Law and Gunther’s Universal Scalability L
 The fix was intentionally boring: reduce the Vitess transaction pool size back toward the old thread-pool scale, and queue at the pool with a bounded timeout instead of admitting everything or erroring immediately. In a later burst, the pool saw tens of thousands of slot requests per second while keeping MySQL execution concurrency under a few hundred statements, no meaningful error spike, and steady query throughput.
 
 **Newsletter angle:** Strong backpressure example. For contended workloads with hot rows, long transactions, `SELECT ... FOR UPDATE`, counters, balances, or queues, the answer is not always “raise the limit.” Sometimes the fastest way to make a busy database do more total work is to let less happen at once.
+
+## Embedded source
+
+{{<tweet id="2085748307322909157" url="https://x.com/i/status/2085748307322909157"/>}}

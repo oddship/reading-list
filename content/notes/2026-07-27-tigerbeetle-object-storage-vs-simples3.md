@@ -28,3 +28,7 @@ The concrete gap is not “custom S3 client” versus “SDK.” It is applicati
 **Newsletter angle:** Good systems note on a spectrum: dependency-light application library at one end, deterministic runtime-integrated cloud client at the other.
 
 **Retrieval note:** Grounded from the X thread metadata, visible YouTube page metadata/chapter list, and `rhnvrm/simples3` source at commit `57fa0ec`. Full YouTube transcript extraction was blocked by YouTube bot/cloud-IP checks, so this is not a transcript-grounded video summary.
+
+## Embedded source
+
+{{<tweet id="2080684469099401247" url="https://x.com/TigerBeetleDB/status/2080684469099401247"/>}}

@@ -19,3 +19,7 @@ related_url = "https://x.com/mitchellh/status/2079992025261424803"
 **Gist:** Hashimoto argues that everyday SIMD should not feel scary: the common “process N values at a time” case follows a repeatable five-step shape: broadcast constants, loop one vector-width chunk at a time, do the parallel operation, reduce or store the vector result, then finish with the scalar tail. His Ghostty example turns a scalar codepoint scan into generic Zig vector code, yielding up to 4x, 8x, or 16x lane-level throughput depending on NEON, AVX2, or AVX-512, and about a 5x real end-to-end speedup on his AVX2 desktop.
 
 **Newsletter angle:** Strong systems and developer-tools item because it makes SIMD approachable as a practical hot-loop pattern, not a specialist-only bag of CPU-specific tricks.
+
+## Embedded source
+
+{{<tweet id="2079992025261424803" url="https://x.com/i/status/2079992025261424803"/>}}

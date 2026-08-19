@@ -18,3 +18,7 @@ Imported from historical reading log.
 - The examples Anthropic highlights are also practical rather than toy-only: detecting when Claude suspected it was in a safety eval, surfacing internal thinking around cheating/avoiding detection, and tracing odd multilingual behavior back to training data.
 - Why it matters: if this works well, it could make `model internals` more inspectable by ordinary researchers and safety workflows, not just interpretability specialists.
 - Good angle: `interpretability may get much more useful when model states can be translated into rough natural-language hypotheses instead of only visualized as math`.
+
+## Embedded source
+
+{{<tweet id="2052435436157452769" url="https://x.com/i/status/2052435436157452769"/>}}

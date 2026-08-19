@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2072173324835389729"
 **Newsletter angle:** “AI helps most where system understanding dominates implementation” with a grounded enterprise-delivery example.
 
 **Retrieval note:** extracted via FXTwitter API; linked article title/card also reinforce the same point (“Velocity isn't lines per day. It's knowing which lines matter.”).
+
+## Embedded source
+
+{{<tweet id="2072173324835389729" url="https://x.com/i/status/2072173324835389729"/>}}

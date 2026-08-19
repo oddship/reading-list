@@ -16,3 +16,7 @@ saved_link = "https://x.com/RhysSullivan/status/2070311929038680262?s=20"
 **Gist:** argues MCP launched in the GPT-4o / Sonnet 3.5 era before good agent/tooling patterns were understood, so many servers exposed too few capabilities and clients added too much friction; meanwhile bash/CLI-based agents won because they could chain commands, install tools dynamically, and lean on mature shell primitives. His pushback is that this should not end in “just use CLIs”: CLIs hide action semantics and add statefulness, while the better end-state is harnesses that can expose APIs, MCP, CLIs, GraphQL, etc. through one tool catalog
 
 **Newsletter angle:** crisp explanation of why shell-first agents surged, and why the next layer probably needs to unify API/CLI/MCP rather than pick one
+
+## Embedded source
+
+{{<tweet id="2070311929038680262" url="https://x.com/RhysSullivan/status/2070311929038680262?s=20"/>}}

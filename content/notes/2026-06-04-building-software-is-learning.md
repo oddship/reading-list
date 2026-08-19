@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2061834267240583185"
 **Newsletter angle:** if agents compress implementation time, then the winning org habit is compressing learning cycles rather than just shipping more code.
 
 **Note:** extracted via FXTwitter API and linked Substack post.
+
+## Embedded source
+
+{{<tweet id="2061834267240583185" url="https://x.com/i/status/2061834267240583185"/>}}

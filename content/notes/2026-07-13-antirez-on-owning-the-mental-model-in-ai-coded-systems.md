@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2076288988655083863"
 **Gist:** He distinguishes between two very different ways an AI-coded codebase can come into existence: one where the human still controls the main ideas and keeps a coherent mental model of the system, and one where the human brute-forces prompts until something works. The point is that these may look similar from the outside but carry very different implications for understanding, maintainability, and trust.
 
 **Newsletter angle:** Sharp framing for a real fault line in AI-assisted software work: the key variable is not just whether AI wrote code, but whether the builder still owns the architecture and mental model.
+
+## Embedded source
+
+{{<tweet id="2076288988655083863" url="https://x.com/antirez/status/2076288988655083863"/>}}

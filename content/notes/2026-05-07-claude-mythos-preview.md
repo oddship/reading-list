@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Caveat worth keeping in mind: the chart is labeled `All Sources · All Severities`, so this is broader than just critical vulns, and the post does not explain methodology beyond the attribution to Claude assistance.
 - Why it matters: even with caveats, this is a striking datapoint for AI-assisted security triage/fix throughput in a real major codebase.
 - Good angle: `the first widely persuasive AI coding wins may come from backlog demolition in security and maintenance work, not greenfield feature building`.
+
+## Embedded source
+
+{{<tweet id="2052468573516513762" url="https://x.com/i/status/2052468573516513762"/>}}

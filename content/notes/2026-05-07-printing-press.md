@@ -18,3 +18,7 @@ Imported from historical reading log.
 - The examples are intentionally ambitious and eclectic, Linear, flights, contacts, sports, recipes, commerce, suggesting a bet that many agent integrations should collapse into local, queryable command surfaces rather than remote per-call tool chatter.
 - Why it matters: this is another strong signal that people are converging on `agent-native CLI` as a serious abstraction layer, not just a hacker preference.
 - Good angle: `the interface war for agents may be less API vs MCP than remote protocol vs local denormalized command surface`.
+
+## Embedded source
+
+{{<tweet id="2052422567181611010" url="https://x.com/i/status/2052422567181611010"/>}}

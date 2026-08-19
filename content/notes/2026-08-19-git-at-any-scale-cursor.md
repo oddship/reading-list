@@ -24,3 +24,7 @@ The post walks through prior approaches. Object-level distributed stores map nic
 Cursor's Continuity keeps the good part, normal Git repositories on fast local disks, but moves truth into an S3-backed write-ahead log. Pushes are persisted as WAL entries before acknowledgement, visibility is controlled through a WAL index, and any node can materialize a repository from the WAL. Local repositories become warm cache rather than pets. S3 compare-and-swap gives linearizable pushes, while fully consistent replicas scale read-heavy Git operations, API reads, UI interactions, and agent workflows.
 
 **Newsletter angle:** Strong systems design read on treating source control like a database: WAL as truth, local disk as cache, linearizable writes, compaction as part of replication, and AI-agent traffic changing both the floor and ceiling of Git infrastructure.
+
+## Embedded source
+
+{{<tweet id="2089758713183613266" url="https://x.com/i/status/2089758713183613266"/>}}

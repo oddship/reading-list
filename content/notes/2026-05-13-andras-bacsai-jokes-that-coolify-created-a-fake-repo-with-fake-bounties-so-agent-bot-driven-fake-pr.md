@@ -16,3 +16,7 @@ Imported from historical reading log.
 - Useful as a sharp anecdote about the emerging spam/credibility problem around bounty-chasing coding agents: once PR generation gets cheap, maintainers start building honeypots and authenticity filters.
 - Newsletter angle: strong, funny hook for a piece on anti-spam countermeasures in the age of agentic OSS contribution.
 - Retrieval note: extracted via api.fxtwitter.com; gist comes from the post text, without inspecting replies.
+
+## Embedded source
+
+{{<tweet id="2054512710017298463" url="https://x.com/i/status/2054512710017298463"/>}}

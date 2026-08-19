@@ -25,3 +25,7 @@ repo_url = "https://github.com/block/buzz"
 The public site and repo make the implementation framing concrete: Buzz is a self-hostable Nostr-relay workspace where every message, reaction, workflow step, review approval, and git event is a signed event in one log. The repo describes a Rust relay with Postgres, Redis, S3/MinIO media storage, full-text search, a hash-chain audit log, YAML workflows, `buzz-cli`, ACP harnesses for Goose/Codex/Claude Code, MCP tooling, NIP-34 git events, and a desktop app. The key product bet is not "agents in chat" but agents as signed workspace members with channels, memberships, tools, workflows, and audit trails.
 
 **Newsletter angle:** Strong AI-infra and developer-tools item for the shift from single-user agent harnesses to shared, auditable, protocol-backed agent workspaces.
+
+## Embedded source
+
+{{<tweet id="2081748938219192648" url="https://x.com/i/status/2081748938219192648"/>}}

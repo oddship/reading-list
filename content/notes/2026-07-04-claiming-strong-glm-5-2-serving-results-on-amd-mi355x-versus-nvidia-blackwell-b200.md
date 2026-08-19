@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2073155792182907085"
 **Newsletter angle:** “AMD is no longer just the cheap alternative” framing, with the real story likely in compiler/kernel/serving-stack optimization rather than raw silicon alone.
 
 **Retrieval note:** extracted via FXTwitter API; inspected attached image for visible metrics; full reply-thread write-up not retrieved.
+
+## Embedded source
+
+{{<tweet id="2073155792182907085" url="https://x.com/i/status/2073155792182907085"/>}}

@@ -27,3 +27,9 @@ The piece also makes a spend-management point. If 10% of the organization burns 
 The proposed alternative is to split strategy by user type. Train everyone partly as diagnosis, give power users somewhere to publish and rank reusable skills, and for everyone else put automation into the background of systems of record. The board-level metric should shift from "adoption" to what share of work is manual, hybrid, or fully automated.
 
 **Newsletter angle:** Good companion to the agent/tooling notes. It says the hard enterprise problem is not merely access to a model, but changing work design and measurement so AI does useful work without requiring every employee to become an AI-native power user.
+
+## Embedded source
+
+{{<tweet id="2085806422072418632" url="https://x.com/vasuman/status/2085806422072418632"/>}}
+
+{{<tweet id="2086006259795263824" url="https://x.com/badlogicgames/status/2086006259795263824?s=20"/>}}

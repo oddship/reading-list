@@ -22,3 +22,7 @@ retrieval_note = "Tweet extracted via FXTwitter; attached benchmark image inspec
 The chart's other reported figures are Prime Agent at 62.5% pass, $0.045, 242s; Deep Agents at 53.3%, $0.018, 187s; and Hermes Agent at 50.0%, $0.017, 176s. Treat this as vendor-published eval signal rather than an independent benchmark, but it is still useful because it frames the harness itself as a material variable in agent performance.
 
 **Newsletter angle:** Good short item for the agent-infra lane: model evals are increasingly runtime evals too, and cost/pass-rate/time can move based on the surrounding agent harness.
+
+## Embedded source
+
+{{<tweet id="2086814488162972027" url="https://x.com/composio/status/2086814488162972027"/>}}

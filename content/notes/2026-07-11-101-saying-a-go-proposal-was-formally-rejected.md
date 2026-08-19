@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2075631967262155119"
 **Newsletter angle:** Useful small datapoint in Go language evolution: another reminder that the bar for adding convenience features to core Go remains high, especially where ambiguity or language-surface complexity is involved.
 
 **Retrieval note:** Grounded from the X post plus the quoted earlier post linking GitHub issue `golang/go#47487`.
+
+## Embedded source
+
+{{<tweet id="2075631967262155119" url="https://x.com/i/status/2075631967262155119"/>}}

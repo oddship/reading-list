@@ -25,3 +25,7 @@ The essay uses two external cases. In Databricks' internal benchmark on real wor
 The Shopify case is about extensibility. Shopify's pi-autoresearch work was built as a Pi extension, not as a feature Pi shipped by default. Earendil presents this as evidence that minimal does not have to mean inflexible: the harness can stay small while letting teams build autonomous loops, experiments, and workflow-specific tools on top.
 
 **Newsletter angle:** Useful agent-infra framing. Once frontier models understand terminal-style environments well, the winning harness may be the one with the cleanest primitives and least context waste, not the one with the largest default orchestration layer.
+
+## Embedded source
+
+{{<tweet id="2084602752143954030" url="https://x.com/i/status/2084602752143954030"/>}}

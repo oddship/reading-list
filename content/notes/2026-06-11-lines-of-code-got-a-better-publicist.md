@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2065135794927419867"
 **Newsletter angle:** pair with the Narayanan piece, anti-AI-washing on layoffs plus anti-vanity-metrics on productivity claims.
 
 **Retrieval note:** extracted via FXTwitter API; followed linked essay for full gist.
+
+## Embedded source
+
+{{<tweet id="2065135794927419867" url="https://x.com/i/status/2065135794927419867"/>}}

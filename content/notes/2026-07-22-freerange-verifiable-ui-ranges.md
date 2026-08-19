@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2079373785824932297"
 **Gist:** Freerange aims to turn vibe coding toward proof engineering by automatically deducing numerical ranges in code. Lou says it can statically prove that TypeScript layouts obey specified sizing, avoid NaN and Infinity, and keep array indices within bounds, with no browser or runtime execution. He also positions the approach as RL-friendly for ML workflows.
 
 **Newsletter angle:** Useful developer-tools item because it makes UI correctness concrete: static range proofs over generated or hand-written UI code, rather than post-hoc visual testing alone.
+
+## Embedded source
+
+{{<tweet id="2079373785824932297" url="https://x.com/_chenglou/status/2079373785824932297"/>}}

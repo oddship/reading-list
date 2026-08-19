@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2065479594023829619"
 **Newsletter angle:** “HTML as agent output surface” / better human-review loops for plans and diagrams.
 
 **Retrieval note:** extracted via FXTwitter API; followed the linked GitHub repo page for the core description.
+
+## Embedded source
+
+{{<tweet id="2065479594023829619" url="https://x.com/i/status/2065479594023829619"/>}}

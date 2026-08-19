@@ -18,3 +18,7 @@ saved_link = "https://x.com/Cloudflare/status/2056360412510060748"
 **Newsletter angle:** "offensive AI doesn't just speed up vuln discovery, it forces a redesign of the architecture around triage, coverage, and exploit validation".
 
 **Note:** extracted via FXTwitter API + Cloudflare blog; article fetch was partial/truncated but the central thesis and main sections were clear.
+
+## Embedded source
+
+{{<tweet id="2056360412510060748" url="https://x.com/Cloudflare/status/2056360412510060748"/>}}

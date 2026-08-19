@@ -22,3 +22,7 @@ retrieval_note = "Tweet extracted via FXTwitter and source article fetched direc
 That compressed instruction worked. Sivers tested out of six semesters of requirements, then taught himself other courses and graduated early. The lasting lesson was not just study faster. It was that the standard pace is usually designed so most people can keep up. For someone unusually motivated, that pace can be a floor rather than a ceiling.
 
 **Newsletter angle:** Good work-culture item: high expectations and fast feedback can change the shape of someone's ambition, especially when the default process has quietly trained them to move at the average pace.
+
+## Embedded source
+
+{{<tweet id="2088877675494408526" url="https://x.com/i/status/2088877675494408526"/>}}

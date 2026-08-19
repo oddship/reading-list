@@ -16,3 +16,7 @@ Imported from historical reading log.
 - Linked article: https://antirez.com/news/164
 - Read/stored gist of antirez article `Redis array type: short story of a long development`:
 - Related PR/use-cases link: https://github.com/redis/redis/pull/15162
+
+## Embedded source
+
+{{<tweet id="2051684321732530680" url="https://x.com/i/status/2051684321732530680"/>}}

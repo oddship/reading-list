@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2073177018351440267"
 **Newsletter angle:** counterintuitive interface hack + deeper architectural question about whether text should sometimes ride the vision path.
 
 **Retrieval note:** extracted via FXTwitter API + fetched linked article directly.
+
+## Embedded source
+
+{{<tweet id="2073177018351440267" url="https://x.com/i/status/2073177018351440267"/>}}

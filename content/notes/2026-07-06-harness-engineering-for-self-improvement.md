@@ -18,3 +18,7 @@ saved_link = "https://x.com/lilianweng/status/2074372369213428144?s=20"
 **Newsletter angle:** the real frontier in RSI may be the software system around the model, not just the model weights themselves
 
 **Retrieval note:** X post extracted via FXTwitter API; linked Lil'Log article read directly and grounded via article body metadata in page HTML
+
+## Embedded source
+
+{{<tweet id="2074372369213428144" url="https://x.com/lilianweng/status/2074372369213428144?s=20"/>}}

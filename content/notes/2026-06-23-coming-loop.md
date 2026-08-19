@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2069371901583954275"
 **Newsletter angle:** “The harness is the product” / why durable task loops are both inevitable and dangerous.
 
 **Note:** extracted via FXTwitter API + article fetch; article body fetched successfully but truncated near the ending in web extract.
+
+## Embedded source
+
+{{<tweet id="2069371901583954275" url="https://x.com/i/status/2069371901583954275"/>}}

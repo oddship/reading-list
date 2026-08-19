@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2075616481547870230"
 **Newsletter angle:** Useful datapoint for coding-model market structure: if these Deep SWE 1.1 comparisons hold up, the story is not just capability but a sharp shift in price-performance for SWE-oriented model tiers.
 
 **Retrieval note:** Grounded from the X post text itself; the supporting benchmark details appear to be in the attached image, which I have not OCRed here.
+
+## Embedded source
+
+{{<tweet id="2075616481547870230" url="https://x.com/i/status/2075616481547870230"/>}}

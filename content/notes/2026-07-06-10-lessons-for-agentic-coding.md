@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2074272583441338710"
 **Newsletter angle:** the durable agentic-coding playbook is shifting from code production to taste, contracts, and operational discipline
 
 **Retrieval note:** X post extracted via FXTwitter API; linked article read directly from dbreunig.com
+
+## Embedded source
+
+{{<tweet id="2074272583441338710" url="https://x.com/i/status/2074272583441338710"/>}}

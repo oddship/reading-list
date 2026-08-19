@@ -20,3 +20,7 @@ saved_link = "https://x.com/i/status/2075601329473646916"
 **Newsletter angle:** Good side-thread in the Andrew/Jarred/Bun discourse because it reframes part of the conflict as a mismatch between startup/company expectations and the norms of independent open-source authorship.
 
 **Retrieval note:** Grounded from the X post text itself; no linked article in the post.
+
+## Embedded source
+
+{{<tweet id="2075601329473646916" url="https://x.com/i/status/2075601329473646916"/>}}

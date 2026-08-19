@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2077208966820712893"
 **Gist:** Razorpay moved from expensive full-refresh fact generation toward incremental fact maintenance by treating each denormalized fact as a dependency graph. They pair change-driven processing with secondary indexes on the lake, graph traversal to discover affected ancestors and descendants, and selective runtime joins for high-cardinality dimensions. The result is much faster warehouse refreshes with lower compute cost, restored historical coverage, and less dependency on the warm store.
 
 **Newsletter angle:** Strong data-infra example of reframing materialized-table refresh as graph maintenance, plus a nice case for batch-plus-incremental beating naive streaming when stateful joins get too expensive.
+
+## Embedded source
+
+{{<tweet id="2077208966820712893" url="https://x.com/i/status/2077208966820712893"/>}}

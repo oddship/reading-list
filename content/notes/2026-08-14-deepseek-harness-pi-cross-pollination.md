@@ -25,3 +25,9 @@ The underlying source confirms why that exchange matters. DeepSeek Harness is a 
 The deeper theme is runtime seams. DSH records what the model sees in an append-only session log, with trace, replay, fork, resume, and search deriving from the same event stream. It exposes multiple runtime modes: standard, code mode, minimal benchmarking mode, and creator mode for composing new presets. Its LLM package docs list `llm-pi-ai` as a multi-provider Pi AI adapter registered on the LLM seam, which grounds Tianyi's comment about reusing Pi's adapter layer.
 
 **Newsletter angle:** Strong agent-infra item: open-source agent harnesses are starting to borrow each other's runtime seams and adapters, not just visible UX ideas. That is usually when a category starts turning from demos into shared infrastructure.
+
+## Embedded source
+
+{{<tweet id="2088306143772946499" url="https://x.com/i/status/2088306143772946499"/>}}
+
+{{<tweet id="2088189145952731317" url="https://x.com/mitsuhiko/status/2088189145952731317"/>}}

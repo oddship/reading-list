@@ -17,3 +17,7 @@ Imported from historical reading log.
 - Not really a deep technical claim, but it is a compact cultural artifact of the old PC internet stack: torrents, optical media, disk images, cracks, antivirus false alarms, and the weird literacy that desktop computing once required.
 - Why it matters: useful more as `internet culture memory` than newsletter substance.
 - Light angle if ever used: `the old internet demanded operational competence from normal users in a way today's app stores mostly erase`.
+
+## Embedded source
+
+{{<tweet id="2052026217751089616" url="https://x.com/i/status/2052026217751089616"/>}}

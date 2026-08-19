@@ -16,3 +16,7 @@ saved_link = "https://x.com/antirez/status/2056638930406044131"
 **Newsletter angle:** "a lighter-weight edit primitive for coding agents: line tags vs full old-text CAS".
 
 **Note:** extracted via FXTwitter API + antirez.com post.
+
+## Embedded source
+
+{{<tweet id="2056638930406044131" url="https://x.com/antirez/status/2056638930406044131"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2062173649222656006"
 **Newsletter angle:** open source maintainers are reaching for agents not as ideology but as capacity amplification under adversarial workload.
 
 **Note:** extracted via FXTwitter API and linked Medium post.
+
+## Embedded source
+
+{{<tweet id="2062173649222656006" url="https://x.com/i/status/2062173649222656006"/>}}

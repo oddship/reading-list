@@ -24,3 +24,7 @@ His proposed counterweight is deliberately old-fashioned: write in your own word
 He is not arguing against agents. The footnote says he routinely uses six or seven agent sessions on one task: exploration, multiple implementations, review, manual testing. The warning is that some engineering problems, especially large refactors in complicated codebases, still require taste and sustained thought. Current models can often make changes without many errors, but they cannot reliably do them tastefully.
 
 **Newsletter angle:** Strong companion to the “human is the loop” item: if agent work pushes us toward fast triage, engineers need explicit practices for keeping slow thought alive outside the agent loop.
+
+## Embedded source
+
+{{<tweet id="2087566390873948266" url="https://x.com/i/status/2087566390873948266"/>}}

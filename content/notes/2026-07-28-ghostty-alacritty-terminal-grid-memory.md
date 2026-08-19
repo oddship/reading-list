@@ -26,3 +26,9 @@ For text content, Ghostty stores single codepoints inline and moves multi-codepo
 **Newsletter angle:** Good systems note on making the hot representation fit the domain. The win is not just compression, it is avoiding persistent per-cell costs for rare styles and rare grapheme cases.
 
 **Retrieval note:** Grounded from FXTwitter text for the post and quoted context. The quoted post says Ghostty's scrollback compression is on by default, the benchmark uses the same Rust binary to compare libghostty and Alacritty terminal state, and a longer blog post may follow.
+
+## Embedded source
+
+{{<tweet id="2081833183835013618" url="https://x.com/mitchellh/status/2081833183835013618"/>}}
+
+{{<tweet id="2081788657078505732" url="https://x.com/mitchellh/status/2081788657078505732"/>}}

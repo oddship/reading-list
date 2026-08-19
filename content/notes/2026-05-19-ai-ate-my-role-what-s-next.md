@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2056594589126135984"
 **Newsletter angle:** "AI won't eat jobs evenly, it compresses translation work and amplifies judgment owners".
 
 **Note:** extracted via FXTwitter API + Ajey Gore article; article fetch was partial/truncated but core thesis was clear.
+
+## Embedded source
+
+{{<tweet id="2056594589126135984" url="https://x.com/i/status/2056594589126135984"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2061568882331312445"
 **Newsletter angle:** “local-first deep research” / small models + harness design beating expensive frontier calls for the reconnaissance phase.
 
 **Note:** extracted via FXTwitter API.
+
+## Embedded source
+
+{{<tweet id="2061568882331312445" url="https://x.com/i/status/2061568882331312445"/>}}

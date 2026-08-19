@@ -16,3 +16,7 @@ saved_link = "https://x.com/GeoffreyHuntley/status/2056492484029788342"
 **Newsletter angle:** possible round-up item if the talk yields stronger quotable claims after a proper watch/transcript pull.
 
 **Note:** extracted via FXTwitter API; YouTube fetch only surfaced page metadata/title, not a usable transcript.
+
+## Embedded source
+
+{{<tweet id="2056492484029788342" url="https://x.com/GeoffreyHuntley/status/2056492484029788342"/>}}

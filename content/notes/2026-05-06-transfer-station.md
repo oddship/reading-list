@@ -18,3 +18,7 @@ Imported from historical reading log.
 - Most important insight is governance-related, not the mechanics: each added provider control layer (geoblocking, phone verification, cards, KYC) appears to generate a matching evasion market, with spillovers into fraud, identity abuse, and loss of provider traceability.
 - Price angle from the piece: proxy markets can undercut official pricing dramatically, suggesting logs/abuse/arbitrage may be part of the business model rather than simple pass-through resale.
 - Strong newsletter angle: `AI access controls are creating gray-market infrastructure with safety and fraud externalities`.
+
+## Embedded source
+
+{{<tweet id="2052023116348469608" url="https://x.com/i/status/2052023116348469608"/>}}

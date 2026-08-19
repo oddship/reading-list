@@ -16,3 +16,7 @@ saved_link = "https://x.com/i/status/2072307451982958925"
 **Newsletter angle:** “stateless MCP lands July 28” plus what SDK v2 means for tool/server implementers.
 
 **Retrieval note:** extracted via FXTwitter API; linked GitHub release URLs were present in the tweet body.
+
+## Embedded source
+
+{{<tweet id="2072307451982958925" url="https://x.com/i/status/2072307451982958925"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064234290511331676"
 **Newsletter angle:** “the important unit of agent capability is the harness, not the prompt” or “code is becoming the runtime substrate for agent reasoning.”
 
 **Note:** extracted via FXTwitter note-tweet payload; saved as a secondary summary/interpretation of the paper rather than a direct read of the paper itself.
+
+## Embedded source
+
+{{<tweet id="2064234290511331676" url="https://x.com/i/status/2064234290511331676"/>}}

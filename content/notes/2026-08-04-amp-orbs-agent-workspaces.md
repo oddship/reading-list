@@ -24,3 +24,7 @@ The concrete shift is that he now spawns many more agents. A papercut can become
 The useful claim is not just "cloud dev environment." It is that agents can run elsewhere for 10, 20, or 30 minutes, consume their own sandbox, and return proof instead of handing the human a pile of code and review anxiety. Ball frames this as the next large shift: more agents, more ambitious tasks, lighter review load, and more shipping because the agent owns more of the verification loop.
 
 **Newsletter angle:** Strong agent-workflow material. Orbs make verification an agent-owned deliverable rather than a local bottleneck, which changes both concurrency and how review feels.
+
+## Embedded source
+
+{{<tweet id="2084540293362098513" url="https://x.com/i/status/2084540293362098513"/>}}

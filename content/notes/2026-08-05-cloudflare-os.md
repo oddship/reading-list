@@ -29,3 +29,7 @@ The generated app part is the most interesting systems angle. A workspace can as
 Cloudflare is also making governance part of the product shape. Organizations can route inference through AI Gateway, pick different models for different jobs, attribute requests to people or teams, and set budgets or rate limits. Gatekeepers provide narrow introductions to resources, logs, and human approval flows, including simulated outcomes so an agent can keep working before the human approves or rejects side effects in bulk.
 
 **Newsletter angle:** Agent platforms are turning into enterprise work operating systems: permissioned tools, reusable institutional context, generated internal apps, and model-cost controls bundled together instead of bolted on later. The Sandstorm lineage makes the more interesting claim: AI may revive per-user modifiable software because users can now change their own app instances safely.
+
+## Embedded source
+
+{{<tweet id="2084990137180590572" url="https://x.com/i/status/2084990137180590572"/>}}

@@ -18,3 +18,7 @@ saved_link = "https://x.com/i/status/2064060467975520341"
 **Newsletter angle:** repo-local agent instructions are becoming both a productivity primitive and a new software supply-chain/security surface.
 
 **Note:** extracted via FXTwitter API from the tweet’s article body; points to GitHub issue `earendil-works/pi#5514` for feedback.
+
+## Embedded source
+
+{{<tweet id="2064060467975520341" url="https://x.com/i/status/2064060467975520341"/>}}

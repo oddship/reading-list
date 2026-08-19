@@ -1,0 +1,25 @@
+{% component tweet(id: string, url: string) %}
+<figure class="embed-card embed-card--tweet" data-x-embed data-tweet-id="{{ id | safe }}" data-tweet-url="{{ url | safe }}">
+  <button class="embed-consent" type="button" data-x-consent-button>
+    <span class="embed-fallback__kicker">X / Twitter post</span>
+    <strong>Show embedded post</strong>
+    <span>X embeds can let X track your visit. Click once to load X embeds on this site; this choice is remembered in this browser.</span>
+  </button>
+  <p class="embed-card__plain-link"><a href="{{ url | safe }}">Open post on X instead</a></p>
+  <noscript><p class="embed-card__plain-link"><a href="{{ url | safe }}">Open post on X</a></p></noscript>
+</figure>
+{% endcomponent tweet %}
+
+{% component youtube(id: string, url: string = "") %}
+<figure class="embed-card embed-card--youtube">
+  <div class="embed-card__frame">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/{{ id | safe }}"
+      title="YouTube video player"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  {% if url %}<figcaption><a href="{{ url | safe }}">Open video on YouTube</a></figcaption>{% endif %}
+</figure>
+{% endcomponent youtube %}
