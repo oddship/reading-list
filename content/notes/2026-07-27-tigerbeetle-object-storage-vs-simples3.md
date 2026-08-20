@@ -31,4 +31,4 @@ The concrete gap is not “custom S3 client” versus “SDK.” It is applicati
 
 ## Embedded source
 
-{{< tweet id="2080684469099401247" url="https://x.com/TigerBeetleDB/status/2080684469099401247" >}}
+{{ tweet(id="2080684469099401247", url="https://x.com/TigerBeetleDB/status/2080684469099401247") }}

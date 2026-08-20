@@ -28,4 +28,4 @@ There is a security caveat baked into the post: agents that read untrusted data 
 
 ## Embedded source
 
-{{< tweet id="2085567322606178476" url="https://x.com/i/status/2085567322606178476" >}}
+{{ tweet(id="2085567322606178476", url="https://x.com/i/status/2085567322606178476") }}

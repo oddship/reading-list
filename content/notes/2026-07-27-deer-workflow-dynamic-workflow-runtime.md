@@ -26,4 +26,4 @@ The implementation matches that framing. Workflow modules export a handler and o
 
 ## Embedded source
 
-{{< tweet id="2081313440573137291" url="https://x.com/i/status/2081313440573137291" >}}
+{{ tweet(id="2081313440573137291", url="https://x.com/i/status/2081313440573137291") }}

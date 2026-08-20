@@ -24,4 +24,4 @@ The essay is careful about the trade-off: provider-sealed state can improve cont
 
 ## Embedded source
 
-{{< tweet id="2082838283520786748" url="https://x.com/i/status/2082838283520786748" >}}
+{{ tweet(id="2082838283520786748", url="https://x.com/i/status/2082838283520786748") }}

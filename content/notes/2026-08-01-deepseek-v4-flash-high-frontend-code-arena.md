@@ -28,6 +28,6 @@ The quoted DeepSeek launch post adds the product angle: V4-Flash is in public be
 
 ## Embedded source
 
-{{< tweet id="2083348755559207047" url="https://x.com/arena/status/2083348755559207047" >}}
+{{ tweet(id="2083348755559207047", url="https://x.com/arena/status/2083348755559207047") }}
 
-{{< tweet id="2083084415157022911" url="https://x.com/deepseek_ai/status/2083084415157022911" >}}
+{{ tweet(id="2083084415157022911", url="https://x.com/deepseek_ai/status/2083084415157022911") }}

@@ -40,14 +40,14 @@ The second Arena chart makes the price/performance story explicit. It marks `dee
 
 ## Embedded source
 
-{{< tweet id="2087568202452926622" url="https://x.com/i/status/2087568202452926622" >}}
+{{ tweet(id="2087568202452926622", url="https://x.com/i/status/2087568202452926622") }}
 
-{{< tweet id="2087565280457461917" url="https://x.com/AndrewCurran_/status/2087565280457461917" >}}
+{{ tweet(id="2087565280457461917", url="https://x.com/AndrewCurran_/status/2087565280457461917") }}
 
-{{< tweet id="2087691659953815783" url="https://x.com/pilvar222/status/2087691659953815783" >}}
+{{ tweet(id="2087691659953815783", url="https://x.com/pilvar222/status/2087691659953815783") }}
 
-{{< tweet id="2087697657301279220" url="https://x.com/ValsAI/status/2087697657301279220" >}}
+{{ tweet(id="2087697657301279220", url="https://x.com/ValsAI/status/2087697657301279220") }}
 
-{{< tweet id="2087784211642192332" url="https://x.com/arena/status/2087784211642192332" >}}
+{{ tweet(id="2087784211642192332", url="https://x.com/arena/status/2087784211642192332") }}
 
-{{< tweet id="2087767198974533648" url="https://x.com/arena/status/2087767198974533648" >}}
+{{ tweet(id="2087767198974533648", url="https://x.com/arena/status/2087767198974533648") }}

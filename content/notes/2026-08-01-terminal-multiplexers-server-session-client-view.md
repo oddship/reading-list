@@ -27,4 +27,4 @@ The hard part is terminal geometry. A generic PTY has one authoritative rows-by-
 
 ## Embedded source
 
-{{< tweet id="2083161617148019025" url="https://x.com/i/status/2083161617148019025" >}}
+{{ tweet(id="2083161617148019025", url="https://x.com/i/status/2083161617148019025") }}

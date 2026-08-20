@@ -28,4 +28,4 @@ The public site and repo make the implementation framing concrete: Buzz is a sel
 
 ## Embedded source
 
-{{< tweet id="2081748938219192648" url="https://x.com/i/status/2081748938219192648" >}}
+{{ tweet(id="2081748938219192648", url="https://x.com/i/status/2081748938219192648") }}

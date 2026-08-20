@@ -27,4 +27,4 @@ Craven's proposed direction is not more static documentation for its own sake. I
 
 ## Embedded source
 
-{{< tweet id="2089017104221479093" url="https://x.com/i/status/2089017104221479093" >}}
+{{ tweet(id="2089017104221479093", url="https://x.com/i/status/2089017104221479093") }}

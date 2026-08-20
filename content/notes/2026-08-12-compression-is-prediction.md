@@ -27,4 +27,4 @@ The caveat is operational, not mathematical. LLMs are excellent predictors, but 
 
 ## Embedded source
 
-{{< tweet id="2087523924351369599" url="https://x.com/i/status/2087523924351369599" >}}
+{{ tweet(id="2087523924351369599", url="https://x.com/i/status/2087523924351369599") }}

@@ -26,7 +26,7 @@ For historical/importer runs, keep the importer incremental: add missing pages, 
 4. Create or update a note under `content/notes/` with:
    - full IST datetime in `date`
    - approved public tags only
-   - tweet and YouTube links rendered with Zola shortcodes, `{{< tweet id="..." url="..." >}}` or `{{< youtube id="..." url="..." >}}`, when they appear in the body. X embeds must remain opt-in: render a local placeholder first, store consent in browser `localStorage`, and only load `platform.x.com/widgets.js` after the reader clicks to enable X embeds
+   - tweet and YouTube links rendered with Zola shortcodes, `{{ tweet(id="...", url="...") }}` or `{{ youtube(id="...", url="...") }}`, when they appear in the body. X embeds must remain opt-in: render a local placeholder first, store consent in browser `localStorage`, and only load `platform.x.com/widgets.js` after the reader clicks to enable X embeds
    - `[extra].source_url`
    - `[extra].source_type`
    - `[extra].newsletter_candidate`

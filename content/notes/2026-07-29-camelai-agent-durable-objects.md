@@ -27,4 +27,4 @@ The tradeoff is explicit capability design. Without bash, the agent can only do 
 
 ## Embedded source
 
-{{< tweet id="2082138839888589200" url="https://x.com/i/status/2082138839888589200" >}}
+{{ tweet(id="2082138839888589200", url="https://x.com/i/status/2082138839888589200") }}

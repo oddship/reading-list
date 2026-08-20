@@ -30,4 +30,4 @@ The fix was intentionally boring: reduce the Vitess transaction pool size back t
 
 ## Embedded source
 
-{{< tweet id="2085748307322909157" url="https://x.com/i/status/2085748307322909157" >}}
+{{ tweet(id="2085748307322909157", url="https://x.com/i/status/2085748307322909157") }}

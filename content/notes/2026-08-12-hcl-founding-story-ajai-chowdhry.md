@@ -25,4 +25,4 @@ The early orders from IIT Kharagpur and IIT Madras gave credibility, but the Pre
 
 ## Embedded source
 
-{{< tweet id="2087165768584536534" url="https://x.com/AjaiChowdhry/status/2087165768584536534" >}}
+{{ tweet(id="2087165768584536534", url="https://x.com/AjaiChowdhry/status/2087165768584536534") }}

@@ -33,4 +33,4 @@ So Auto Trees preserves a good branch compactly. Pi-weaver deliberately discards
 
 ## Embedded source
 
-{{< tweet id="2081329769069572363" url="https://x.com/i/status/2081329769069572363" >}}
+{{ tweet(id="2081329769069572363", url="https://x.com/i/status/2081329769069572363") }}

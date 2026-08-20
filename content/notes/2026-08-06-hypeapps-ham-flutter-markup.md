@@ -28,4 +28,4 @@ The developer experience is the interesting direction: HTML-like tags, Tailwind-
 
 ## Embedded source
 
-{{< youtube id="N6b8EnDOLcE" url="https://youtu.be/N6b8EnDOLcE" >}}
+{{ youtube(id="N6b8EnDOLcE", url="https://youtu.be/N6b8EnDOLcE") }}

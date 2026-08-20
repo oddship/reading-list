@@ -25,4 +25,4 @@ That compressed instruction worked. Sivers tested out of six semesters of requir
 
 ## Embedded source
 
-{{< tweet id="2088877675494408526" url="https://x.com/i/status/2088877675494408526" >}}
+{{ tweet(id="2088877675494408526", url="https://x.com/i/status/2088877675494408526") }}

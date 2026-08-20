@@ -30,6 +30,6 @@ The security posture is the useful part. Projects and restricted devices are the
 
 ## Embedded source
 
-{{< tweet id="2086061269522739695" url="https://x.com/shantanugoel/status/2086061269522739695" >}}
+{{ tweet(id="2086061269522739695", url="https://x.com/shantanugoel/status/2086061269522739695") }}
 
-{{< tweet id="2085737841301299494" url="https://x.com/shantanugoel/status/2085737841301299494" >}}
+{{ tweet(id="2085737841301299494", url="https://x.com/shantanugoel/status/2085737841301299494") }}

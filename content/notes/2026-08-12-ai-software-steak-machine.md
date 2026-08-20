@@ -25,4 +25,4 @@ The sharper point is that outsourcing to a premium tool, agency, or framework ma
 
 ## Embedded source
 
-{{< tweet id="2087328411458900424" url="https://x.com/i/status/2087328411458900424" >}}
+{{ tweet(id="2087328411458900424", url="https://x.com/i/status/2087328411458900424") }}

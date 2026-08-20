@@ -26,4 +26,4 @@ The architectural move was to stop treating this as one broad pipeline. Harvey s
 
 ## Embedded source
 
-{{< tweet id="2081787028891394186" url="https://x.com/i/status/2081787028891394186" >}}
+{{ tweet(id="2081787028891394186", url="https://x.com/i/status/2081787028891394186") }}

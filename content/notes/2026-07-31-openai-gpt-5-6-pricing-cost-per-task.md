@@ -23,4 +23,4 @@ retrieval_note = "X post extracted through FXTwitter/oEmbed and browser metadata
 
 ## Embedded source
 
-{{< tweet id="2082878156483219672" url="https://x.com/OpenAI/status/2082878156483219672" >}}
+{{ tweet(id="2082878156483219672", url="https://x.com/OpenAI/status/2082878156483219672") }}

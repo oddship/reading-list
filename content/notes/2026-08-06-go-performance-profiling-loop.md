@@ -30,10 +30,10 @@ The supporting docs line up with that framing. Go’s `runtime/pprof` writes run
 
 ## Embedded source
 
-{{< tweet id="2085328770383106104" url="https://x.com/valyala/status/2085328770383106104" >}}
+{{ tweet(id="2085328770383106104", url="https://x.com/valyala/status/2085328770383106104") }}
 
-{{< tweet id="2084981019422150709" url="https://x.com/valyala/status/2084981019422150709" >}}
+{{ tweet(id="2084981019422150709", url="https://x.com/valyala/status/2084981019422150709") }}
 
-{{< tweet id="2085005610970652917" url="https://x.com/vasilios_s/status/2085005610970652917" >}}
+{{ tweet(id="2085005610970652917", url="https://x.com/vasilios_s/status/2085005610970652917") }}
 
-{{< tweet id="2085235687826100644" url="https://x.com/Sebishogun10/status/2085235687826100644" >}}
+{{ tweet(id="2085235687826100644", url="https://x.com/Sebishogun10/status/2085235687826100644") }}

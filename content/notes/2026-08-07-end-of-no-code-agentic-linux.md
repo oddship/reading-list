@@ -30,4 +30,4 @@ There is also an operational stance embedded here: build small internal tools â€
 
 ## Embedded source
 
-{{< tweet id="2085394068771893725" url="https://x.com/i/status/2085394068771893725" >}}
+{{ tweet(id="2085394068771893725", url="https://x.com/i/status/2085394068771893725") }}

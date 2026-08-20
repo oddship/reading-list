@@ -25,4 +25,4 @@ The important distinction is that Cassandra should not be a generic devil’s ad
 
 ## Embedded source
 
-{{< tweet id="2086564029766533490" url="https://x.com/threepointone/status/2086564029766533490?s=20" >}}
+{{ tweet(id="2086564029766533490", url="https://x.com/threepointone/status/2086564029766533490?s=20") }}

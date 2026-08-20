@@ -27,4 +27,4 @@ He is not arguing against agents. The footnote says he routinely uses six or sev
 
 ## Embedded source
 
-{{< tweet id="2087566390873948266" url="https://x.com/i/status/2087566390873948266" >}}
+{{ tweet(id="2087566390873948266", url="https://x.com/i/status/2087566390873948266") }}

@@ -25,4 +25,4 @@ The essay argues that hyperscalers have already moved beyond free-cash-flow-fund
 
 ## Embedded source
 
-{{< tweet id="2087211370240422256" url="https://x.com/i/status/2087211370240422256" >}}
+{{ tweet(id="2087211370240422256", url="https://x.com/i/status/2087211370240422256") }}

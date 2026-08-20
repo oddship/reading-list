@@ -28,4 +28,4 @@ The most useful claim is not simply that Go is easier for LLMs. It is that langu
 
 ## Embedded source
 
-{{< tweet id="2087220792836665451" url="https://x.com/i/status/2087220792836665451" >}}
+{{ tweet(id="2087220792836665451", url="https://x.com/i/status/2087220792836665451") }}

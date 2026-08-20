@@ -28,4 +28,4 @@ The useful diagnosis is that teams may not have too many pull requests. They may
 
 ## Embedded source
 
-{{< tweet id="2081058573556306030" url="https://x.com/i/status/2081058573556306030" >}}
+{{ tweet(id="2081058573556306030", url="https://x.com/i/status/2081058573556306030") }}

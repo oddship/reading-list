@@ -27,4 +27,4 @@ Cursor's Continuity keeps the good part, normal Git repositories on fast local d
 
 ## Embedded source
 
-{{< tweet id="2089758713183613266" url="https://x.com/i/status/2089758713183613266" >}}
+{{ tweet(id="2089758713183613266", url="https://x.com/i/status/2089758713183613266") }}

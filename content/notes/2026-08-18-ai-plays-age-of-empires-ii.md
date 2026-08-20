@@ -28,4 +28,4 @@ That makes this more interesting than a one-off "AI plays a game" demo. It is a 
 
 ## Embedded source
 
-{{< youtube id="ZBdAe3ZwKds" url="https://www.youtube.com/watch?v=ZBdAe3ZwKds" >}}
+{{ youtube(id="ZBdAe3ZwKds", url="https://www.youtube.com/watch?v=ZBdAe3ZwKds") }}

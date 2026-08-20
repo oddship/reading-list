@@ -31,4 +31,4 @@ The practical point is that a Go project can pin and invoke `tsgo` through Go’
 
 ## Embedded source
 
-{{< tweet id="2081963692300612066" url="https://x.com/its_bvisness/status/2081963692300612066" >}}
+{{ tweet(id="2081963692300612066", url="https://x.com/its_bvisness/status/2081963692300612066") }}

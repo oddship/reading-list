@@ -26,4 +26,4 @@ He maps that role onto AI-assisted programming. Expert programmers using agents 
 
 ## Embedded source
 
-{{< tweet id="2080980201178063059" url="https://x.com/i/status/2080980201178063059" >}}
+{{ tweet(id="2080980201178063059", url="https://x.com/i/status/2080980201178063059") }}

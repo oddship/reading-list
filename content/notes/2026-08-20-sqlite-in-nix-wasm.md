@@ -27,4 +27,4 @@ The punchline is practical rather than triumphalist: `importNative` is fastest, 
 
 **Newsletter angle:** Good systems/developer-tools item on Nix evaluator extensibility, deterministic Wasm as a safer escape hatch, and the mundane performance trade-offs that decide whether elegant infrastructure ideas actually ship.
 
-{{< tweet id="2090300767148396570" url="https://x.com/fmzakari/status/2090300767148396570" >}}
+{{ tweet(id="2090300767148396570", url="https://x.com/fmzakari/status/2090300767148396570") }}

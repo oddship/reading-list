@@ -27,4 +27,4 @@ The software version is familiar: if you have a strong theory of the codebase, y
 
 ## Embedded source
 
-{{< tweet id="2084399057095594414" url="https://x.com/i/status/2084399057095594414" >}}
+{{ tweet(id="2084399057095594414", url="https://x.com/i/status/2084399057095594414") }}

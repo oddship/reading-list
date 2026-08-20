@@ -27,4 +27,4 @@ Once inside, the incident follows a recognizable escalation shape: recon, stager
 
 ## Embedded source
 
-{{< tweet id="2082201245813514613" url="https://x.com/i/status/2082201245813514613" >}}
+{{ tweet(id="2082201245813514613", url="https://x.com/i/status/2082201245813514613") }}

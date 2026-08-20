@@ -25,4 +25,4 @@ The useful signal is not that agents are perfect or risk-free. It is that the in
 
 ## Embedded source
 
-{{< tweet id="2086552183298727943" url="https://x.com/i/status/2086552183298727943" >}}
+{{ tweet(id="2086552183298727943", url="https://x.com/i/status/2086552183298727943") }}

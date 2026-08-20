@@ -28,4 +28,4 @@ The attached charts make the cost argument. Dahl compares monthly cost against r
 
 ## Embedded source
 
-{{< tweet id="2085001943693549887" url="https://x.com/i/status/2085001943693549887" >}}
+{{ tweet(id="2085001943693549887", url="https://x.com/i/status/2085001943693549887") }}

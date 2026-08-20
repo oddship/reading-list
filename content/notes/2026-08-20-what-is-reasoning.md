@@ -25,4 +25,4 @@ Ronacher's useful warning is that “don't think” is often mechanical. Some sy
 
 **Newsletter angle:** Good explainer for reasoning-model infrastructure: hidden CoT, KV-cache behavior, prompt-controlled effort levels, and why channel routing is a product/security boundary.
 
-{{< tweet id="2090123772149797347" url="https://x.com/mitsuhiko/status/2090123772149797347" >}}
+{{ tweet(id="2090123772149797347", url="https://x.com/mitsuhiko/status/2090123772149797347") }}

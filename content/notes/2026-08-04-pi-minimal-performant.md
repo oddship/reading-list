@@ -28,4 +28,4 @@ The Shopify case is about extensibility. Shopify's pi-autoresearch work was buil
 
 ## Embedded source
 
-{{< tweet id="2084602752143954030" url="https://x.com/i/status/2084602752143954030" >}}
+{{ tweet(id="2084602752143954030", url="https://x.com/i/status/2084602752143954030") }}

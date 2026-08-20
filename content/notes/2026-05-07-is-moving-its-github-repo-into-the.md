@@ -21,4 +21,4 @@ Imported from historical reading log.
 
 ## Embedded source
 
-{{< tweet id="2052337097315381517" url="https://x.com/i/status/2052337097315381517" >}}
+{{ tweet(id="2052337097315381517", url="https://x.com/i/status/2052337097315381517") }}

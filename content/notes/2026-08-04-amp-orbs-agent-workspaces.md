@@ -27,4 +27,4 @@ The useful claim is not just "cloud dev environment." It is that agents can run 
 
 ## Embedded source
 
-{{< tweet id="2084540293362098513" url="https://x.com/i/status/2084540293362098513" >}}
+{{ tweet(id="2084540293362098513", url="https://x.com/i/status/2084540293362098513") }}

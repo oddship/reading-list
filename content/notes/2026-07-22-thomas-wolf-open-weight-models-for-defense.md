@@ -22,4 +22,4 @@ related_source = "https://openai.com/index/hugging-face-model-evaluation-securit
 
 ## Embedded source
 
-{{< tweet id="2079675541280411927" url="https://x.com/Thom_Wolf/status/2079675541280411927" >}}
+{{ tweet(id="2079675541280411927", url="https://x.com/Thom_Wolf/status/2079675541280411927") }}
