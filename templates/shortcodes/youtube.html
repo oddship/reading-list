@@ -1,0 +1,11 @@
+<figure class="embed-card embed-card--youtube">
+  <div class="embed-card__frame">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/{{ id | safe }}"
+      title="YouTube video player"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+  {% if url %}<figcaption><a href="{{ url | safe }}">Open video on YouTube</a></figcaption>{% endif %}
+</figure>
