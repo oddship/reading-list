@@ -28,4 +28,4 @@ The closing advice is the part worth saving for the AI tooling conversation: do 
 
 ## Embedded source
 
-{{<tweet id="2086189428012093655" url="https://x.com/i/status/2086189428012093655"/>}}
+{{< tweet id="2086189428012093655" url="https://x.com/i/status/2086189428012093655" >}}

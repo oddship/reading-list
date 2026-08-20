@@ -25,6 +25,6 @@ I could not retrieve the full YouTube transcript from this environment: YouTube 
 
 ## Embedded source
 
-{{<youtube id="lXZb21CfeIY" url="https://www.youtube.com/watch?v=lXZb21CfeIY"/>}}
+{{< youtube id="lXZb21CfeIY" url="https://www.youtube.com/watch?v=lXZb21CfeIY" >}}
 
-{{<tweet id="2080638722349908266" url="https://x.com/LangChain/status/2080638722349908266"/>}}
+{{< tweet id="2080638722349908266" url="https://x.com/LangChain/status/2080638722349908266" >}}

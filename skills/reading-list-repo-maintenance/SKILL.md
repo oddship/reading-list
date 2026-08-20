@@ -39,7 +39,7 @@ Do not use when:
 2. Make the smallest correct repo change.
    - Prefer compact markdown notes and minimal template edits.
    - For note pages, preserve and render source provenance: the actual source URL, the saved/shared post, any related canonical URL, and optional archive URLs should remain distinct instead of being collapsed into one generic link.
-   - When tweet or YouTube links appear in note/digest bodies, render them with the repo's Zola shortcodes: `{{<tweet id="..." url="..."/>}}` and `{{<youtube id="..." url="..."/>}}`. X embeds are opt-in because X can track visitors: show a local placeholder by default, remember consent in browser `localStorage`, and only load `platform.x.com/widgets.js` after click. Run `python3 scripts/backfill_social_embeds.py` after broad imports or historical backfills; it is idempotent and dedupes canonical/shared URLs.
+   - When tweet or YouTube links appear in note/digest bodies, render them with the repo's Zola shortcodes: `{{< tweet id="..." url="..." >}}` and `{{< youtube id="..." url="..." >}}`. X embeds are opt-in because X can track visitors: show a local placeholder by default, remember consent in browser `localStorage`, and only load `platform.x.com/widgets.js` after click. Run `python3 scripts/backfill_social_embeds.py` after broad imports or historical backfills; it is idempotent and dedupes canonical/shared URLs.
    - Completion criterion: the repo reflects the intended user-visible change.
 
 3. Preserve stable note URLs and keep tags coherent.

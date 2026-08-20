@@ -28,6 +28,6 @@ The deeper theme is runtime seams. DSH records what the model sees in an append-
 
 ## Embedded source
 
-{{<tweet id="2088306143772946499" url="https://x.com/i/status/2088306143772946499"/>}}
+{{< tweet id="2088306143772946499" url="https://x.com/i/status/2088306143772946499" >}}
 
-{{<tweet id="2088189145952731317" url="https://x.com/mitsuhiko/status/2088189145952731317"/>}}
+{{< tweet id="2088189145952731317" url="https://x.com/mitsuhiko/status/2088189145952731317" >}}

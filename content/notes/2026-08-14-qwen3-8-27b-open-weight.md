@@ -28,4 +28,4 @@ The caveat matters. These are vendor-reported benchmark tables, with Qwen-specif
 
 ## Embedded source
 
-{{<tweet id="2088280043759780324" url="https://x.com/i/status/2088280043759780324"/>}}
+{{< tweet id="2088280043759780324" url="https://x.com/i/status/2088280043759780324" >}}

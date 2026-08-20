@@ -30,6 +30,6 @@ The proposed alternative is to split strategy by user type. Train everyone partl
 
 ## Embedded source
 
-{{<tweet id="2085806422072418632" url="https://x.com/vasuman/status/2085806422072418632"/>}}
+{{< tweet id="2085806422072418632" url="https://x.com/vasuman/status/2085806422072418632" >}}
 
-{{<tweet id="2086006259795263824" url="https://x.com/badlogicgames/status/2086006259795263824?s=20"/>}}
+{{< tweet id="2086006259795263824" url="https://x.com/badlogicgames/status/2086006259795263824?s=20" >}}

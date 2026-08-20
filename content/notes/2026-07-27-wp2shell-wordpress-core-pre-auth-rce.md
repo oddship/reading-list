@@ -26,4 +26,4 @@ Affected versions listed by the advisory: `<= 6.8.5` is not affected; `6.9.0` th
 
 ## Embedded source
 
-{{<tweet id="2078253959018648050" url="https://x.com/i/status/2078253959018648050"/>}}
+{{< tweet id="2078253959018648050" url="https://x.com/i/status/2078253959018648050" >}}

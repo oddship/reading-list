@@ -25,4 +25,4 @@ The chart's other reported figures are Prime Agent at 62.5% pass, $0.045, 242s; 
 
 ## Embedded source
 
-{{<tweet id="2086814488162972027" url="https://x.com/composio/status/2086814488162972027"/>}}
+{{< tweet id="2086814488162972027" url="https://x.com/composio/status/2086814488162972027" >}}

@@ -28,4 +28,4 @@ The interesting part is not just the personnel move. It is the thesis: the same 
 
 ## Embedded source
 
-{{<tweet id="2085083442669318443" url="https://x.com/i/status/2085083442669318443"/>}}
+{{< tweet id="2085083442669318443" url="https://x.com/i/status/2085083442669318443" >}}

@@ -29,6 +29,6 @@ For text content, Ghostty stores single codepoints inline and moves multi-codepo
 
 ## Embedded source
 
-{{<tweet id="2081833183835013618" url="https://x.com/mitchellh/status/2081833183835013618"/>}}
+{{< tweet id="2081833183835013618" url="https://x.com/mitchellh/status/2081833183835013618" >}}
 
-{{<tweet id="2081788657078505732" url="https://x.com/mitchellh/status/2081788657078505732"/>}}
+{{< tweet id="2081788657078505732" url="https://x.com/mitchellh/status/2081788657078505732" >}}

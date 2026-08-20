@@ -27,4 +27,4 @@ The recovery story is the interesting part. Optimistic gateway retries overloade
 
 ## Embedded source
 
-{{<tweet id="2089797401196290203" url="https://x.com/i/status/2089797401196290203"/>}}
+{{< tweet id="2089797401196290203" url="https://x.com/i/status/2089797401196290203" >}}

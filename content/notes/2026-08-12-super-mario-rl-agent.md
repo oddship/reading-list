@@ -28,6 +28,6 @@ The quoted post adds the practical experiment bill: a laptop RTX 3070m, 3.5 days
 
 ## Embedded source
 
-{{<tweet id="2087529937272267261" url="https://x.com/i/status/2087529937272267261"/>}}
+{{< tweet id="2087529937272267261" url="https://x.com/i/status/2087529937272267261" >}}
 
-{{<tweet id="2087452030000615560" url="https://x.com/shantanugoel/status/2087452030000615560"/>}}
+{{< tweet id="2087452030000615560" url="https://x.com/shantanugoel/status/2087452030000615560" >}}

@@ -32,4 +32,4 @@ Cloudflare is also making governance part of the product shape. Organizations ca
 
 ## Embedded source
 
-{{<tweet id="2084990137180590572" url="https://x.com/i/status/2084990137180590572"/>}}
+{{< tweet id="2084990137180590572" url="https://x.com/i/status/2084990137180590572" >}}

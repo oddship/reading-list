@@ -28,4 +28,4 @@ The important caveat is that the LED is the leak path, not the root cryptographi
 
 ## Embedded source
 
-{{<tweet id="2089470651505512727" url="https://x.com/i/status/2089470651505512727"/>}}
+{{< tweet id="2089470651505512727" url="https://x.com/i/status/2089470651505512727" >}}

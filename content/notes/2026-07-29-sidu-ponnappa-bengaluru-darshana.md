@@ -25,4 +25,4 @@ The story’s best move is that it refuses to turn the future into a clean techn
 
 ## Embedded source
 
-{{<tweet id="2082213765102305366" url="https://x.com/i/status/2082213765102305366"/>}}
+{{< tweet id="2082213765102305366" url="https://x.com/i/status/2082213765102305366" >}}

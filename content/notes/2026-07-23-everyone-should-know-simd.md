@@ -22,4 +22,4 @@ related_url = "https://x.com/mitchellh/status/2079992025261424803"
 
 ## Embedded source
 
-{{<tweet id="2079992025261424803" url="https://x.com/i/status/2079992025261424803"/>}}
+{{< tweet id="2079992025261424803" url="https://x.com/i/status/2079992025261424803" >}}

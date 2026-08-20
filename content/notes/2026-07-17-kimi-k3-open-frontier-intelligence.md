@@ -34,8 +34,8 @@ The technical report also sharpens the systems angle: Kimi claims roughly 2.5x b
 
 ## Embedded source
 
-{{<tweet id="2081760186235289764" url="https://x.com/i/status/2081760186235289764"/>}}
+{{< tweet id="2081760186235289764" url="https://x.com/i/status/2081760186235289764" >}}
 
-{{<tweet id="2081910870083285198" url="https://x.com/pipenetwork/status/2081910870083285198"/>}}
+{{< tweet id="2081910870083285198" url="https://x.com/pipenetwork/status/2081910870083285198" >}}
 
-{{<tweet id="2082463988953367031" url="https://x.com/UnslothAI/status/2082463988953367031"/>}}
+{{< tweet id="2082463988953367031" url="https://x.com/UnslothAI/status/2082463988953367031" >}}

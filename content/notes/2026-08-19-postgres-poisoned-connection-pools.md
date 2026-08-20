@@ -27,4 +27,4 @@ The immediate antidote is to reset affected pooled connections with `DISCARD ALL
 
 ## Embedded source
 
-{{<tweet id="2089776662791786675" url="https://x.com/i/status/2089776662791786675"/>}}
+{{< tweet id="2089776662791786675" url="https://x.com/i/status/2089776662791786675" >}}

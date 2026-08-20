@@ -18,4 +18,4 @@ Imported from historical reading log.
 - Useful because it adds a plausible technical explanation to the broader ccTLD-risk theme, not just anecdotal frustration.
 - Follow-up source from Nemo: https://x.com/i/status/2051756854275964996 linking blog post https://captnemo.in/blog/2026/05/05/namecheap-whois/
 
-{{<tweet id="2051756854275964996" url="https://x.com/i/status/2051756854275964996"/>}}
+{{< tweet id="2051756854275964996" url="https://x.com/i/status/2051756854275964996" >}}

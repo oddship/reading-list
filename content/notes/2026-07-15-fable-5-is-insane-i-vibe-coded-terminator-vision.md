@@ -23,4 +23,4 @@ saved_link = "https://www.youtube.com/watch?v=FH4eS0oi4uE"
 
 ## Embedded source
 
-{{<youtube id="FH4eS0oi4uE" url="https://www.youtube.com/watch?v=FH4eS0oi4uE"/>}}
+{{< youtube id="FH4eS0oi4uE" url="https://www.youtube.com/watch?v=FH4eS0oi4uE" >}}

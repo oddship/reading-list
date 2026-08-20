@@ -27,4 +27,4 @@ The engineering details are the useful part. Speculative decoding needed a ROCm 
 
 ## Embedded source
 
-{{<tweet id="2084000214281822637" url="https://x.com/i/status/2084000214281822637"/>}}
+{{< tweet id="2084000214281822637" url="https://x.com/i/status/2084000214281822637" >}}

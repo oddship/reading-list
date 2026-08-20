@@ -28,10 +28,10 @@ The AI-tooling angle is why the X posts matter. Franke says OpenAI’s cybersecu
 
 ## Embedded source
 
-{{<tweet id="2081427794114801820" url="https://x.com/dfranke/status/2081427794114801820"/>}}
+{{< tweet id="2081427794114801820" url="https://x.com/dfranke/status/2081427794114801820" >}}
 
-{{<tweet id="2082100398706307191" url="https://x.com/dfranke/status/2082100398706307191"/>}}
+{{< tweet id="2082100398706307191" url="https://x.com/dfranke/status/2082100398706307191" >}}
 
-{{<tweet id="2082101472053927995" url="https://x.com/dfranke/status/2082101472053927995"/>}}
+{{< tweet id="2082101472053927995" url="https://x.com/dfranke/status/2082101472053927995" >}}
 
-{{<tweet id="2082104866613219441" url="https://x.com/perrymetzger/status/2082104866613219441"/>}}
+{{< tweet id="2082104866613219441" url="https://x.com/perrymetzger/status/2082104866613219441" >}}

@@ -27,4 +27,4 @@ The Go-versus-Rust rationale is pragmatic rather than ideological. Appwrite says
 
 ## Embedded source
 
-{{<tweet id="2087622396769657336" url="https://x.com/i/status/2087622396769657336"/>}}
+{{< tweet id="2087622396769657336" url="https://x.com/i/status/2087622396769657336" >}}

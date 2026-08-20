@@ -30,6 +30,6 @@ Startin's follow-up is the next step: `SliceZ` is a Z-layout bit-sliced index fo
 
 ## Embedded source
 
-{{<tweet id="2089847854953103434" url="https://x.com/richardstartin/status/2089847854953103434?s=20"/>}}
+{{< tweet id="2089847854953103434" url="https://x.com/richardstartin/status/2089847854953103434?s=20" >}}
 
-{{<tweet id="2089849607945654683" url="https://x.com/richardstartin/status/2089849607945654683"/>}}
+{{< tweet id="2089849607945654683" url="https://x.com/richardstartin/status/2089849607945654683" >}}

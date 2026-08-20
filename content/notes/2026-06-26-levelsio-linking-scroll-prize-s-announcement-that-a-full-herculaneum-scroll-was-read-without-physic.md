@@ -19,4 +19,4 @@ saved_link = "https://x.com/i/status/2070374692406309213"
 
 ## Embedded source
 
-{{<tweet id="2070374692406309213" url="https://x.com/i/status/2070374692406309213"/>}}
+{{< tweet id="2070374692406309213" url="https://x.com/i/status/2070374692406309213" >}}

@@ -26,4 +26,4 @@ The linked site resolves to `experiments.hetzner.com`; the app exposes an `AI In
 
 ## Embedded source
 
-{{<tweet id="2087099126760501364" url="https://x.com/i/status/2087099126760501364"/>}}
+{{< tweet id="2087099126760501364" url="https://x.com/i/status/2087099126760501364" >}}

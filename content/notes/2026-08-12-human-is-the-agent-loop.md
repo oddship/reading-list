@@ -25,4 +25,4 @@ The post is especially sharp on “maximizing use of the tools by applying them 
 
 ## Embedded source
 
-{{<tweet id="2087548807399547114" url="https://x.com/i/status/2087548807399547114"/>}}
+{{< tweet id="2087548807399547114" url="https://x.com/i/status/2087548807399547114" >}}

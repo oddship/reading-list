@@ -30,4 +30,4 @@ There is also an agent angle. The site explicitly pitches the CLI and MCP server
 
 ## Embedded source
 
-{{<tweet id="2086066533286183137" url="https://x.com/i/status/2086066533286183137"/>}}
+{{< tweet id="2086066533286183137" url="https://x.com/i/status/2086066533286183137" >}}

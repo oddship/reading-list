@@ -29,4 +29,4 @@ Cloudflare's GitLab example makes the model concrete: `get_merge_request` passes
 
 ## Embedded source
 
-{{<tweet id="2085018146868469815" url="https://x.com/i/status/2085018146868469815"/>}}
+{{< tweet id="2085018146868469815" url="https://x.com/i/status/2085018146868469815" >}}

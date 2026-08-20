@@ -26,4 +26,4 @@ The new guidance is to simplify. Let Claude use judgement instead of hard rules 
 
 ## Embedded source
 
-{{<tweet id="2080710971228918066" url="https://x.com/i/status/2080710971228918066"/>}}
+{{< tweet id="2080710971228918066" url="https://x.com/i/status/2080710971228918066" >}}

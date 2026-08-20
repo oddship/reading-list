@@ -26,4 +26,4 @@ The product page says Xirp connects to Spotify Portal so agents and engineers sh
 
 ## Embedded source
 
-{{<tweet id="2086795659651191106" url="https://x.com/i/status/2086795659651191106"/>}}
+{{< tweet id="2086795659651191106" url="https://x.com/i/status/2086795659651191106" >}}

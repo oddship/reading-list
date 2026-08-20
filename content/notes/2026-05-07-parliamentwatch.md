@@ -20,4 +20,4 @@ Imported from historical reading log.
 
 ## Embedded source
 
-{{<tweet id="2052264995787079900" url="https://x.com/i/status/2052264995787079900"/>}}
+{{< tweet id="2052264995787079900" url="https://x.com/i/status/2052264995787079900" >}}

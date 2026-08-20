@@ -26,6 +26,6 @@ The Qwen launch is broader than a leaderboard post. Qwen says Qwen3.8-Max is its
 
 ## Embedded source
 
-{{<tweet id="2084108703729615026" url="https://x.com/i/status/2084108703729615026"/>}}
+{{< tweet id="2084108703729615026" url="https://x.com/i/status/2084108703729615026" >}}
 
-{{<tweet id="2084100707423289643" url="https://x.com/Alibaba_Qwen/status/2084100707423289643"/>}}
+{{< tweet id="2084100707423289643" url="https://x.com/Alibaba_Qwen/status/2084100707423289643" >}}

@@ -27,4 +27,4 @@ The useful distinction is test-time versus runtime detection. `synctest` helps m
 
 ## Embedded source
 
-{{<tweet id="2089355447778046064" url="https://x.com/i/status/2089355447778046064"/>}}
+{{< tweet id="2089355447778046064" url="https://x.com/i/status/2089355447778046064" >}}

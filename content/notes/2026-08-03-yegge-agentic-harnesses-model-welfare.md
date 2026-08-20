@@ -26,4 +26,4 @@ The second essay is more provocative. Yegge argues that even skeptics should tre
 
 ## Embedded source
 
-{{<tweet id="2084171673369219375" url="https://x.com/i/status/2084171673369219375"/>}}
+{{< tweet id="2084171673369219375" url="https://x.com/i/status/2084171673369219375" >}}
