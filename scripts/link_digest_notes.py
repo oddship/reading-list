@@ -127,7 +127,8 @@ def main() -> None:
     args = parser.parse_args()
 
     url_to_note = load_note_map()
-    paths = args.paths or sorted(DIGESTS_DIR.glob("*.md"))
+    raw_paths = args.paths or sorted(DIGESTS_DIR.glob("*.md"))
+    paths = [(path if path.is_absolute() else ROOT / path) for path in raw_paths]
     changed = []
     for path in paths:
         if path.name == "_index.md":
