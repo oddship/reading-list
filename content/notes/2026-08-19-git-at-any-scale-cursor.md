@@ -11,7 +11,8 @@ newsletter_candidate = true
 why_it_matters = "Git hosting is becoming AI infrastructure: agents create more repositories, pushes, clones, and CI pressure, so version-control storage needs database-like durability and scaling properties."
 saved_link = "https://x.com/i/status/2089758713183613266"
 related_url = "https://x.com/cursor_ai/status/2089758713183613266"
-retrieval_note = "X post extracted via FXTwitter. The linked Cursor article HTML was read directly."
+related_urls = ["https://x.com/vmg/status/2091925258101981652", "https://github.com/tobi/walgit", "https://gitwal.io/", "https://gitwal.io/architecture", "https://gitwal.io/blog/introducing-narwal", "https://gitwal.io/blog/what-the-load-tests-found", "https://research.google/pubs/the-tail-at-scale/", "https://www.barroso.org/publications/TheTailAtScale.pdf", "https://www.eclipse.org/lists/jgit-dev/msg01189.html"]
+retrieval_note = "Original X post extracted via FXTwitter and the linked Cursor article HTML was read directly. 2026-08-24 follow-up tweet extracted via FXTwitter; attached screenshot was OCR'd; Tobi Lütke's walgit README, Scott Chacon's gitwal site/architecture/blog, Google's Tail at Scale publication page/PDF, and Shawn Pearce's JGit-on-DHT mailing-list post were read directly."
 +++
 **Logged at IST:** 2026-08-19 09:51 IST
 
@@ -24,6 +25,10 @@ The post walks through prior approaches. Object-level distributed stores map nic
 Cursor's Continuity keeps the good part, normal Git repositories on fast local disks, but moves truth into an S3-backed write-ahead log. Pushes are persisted as WAL entries before acknowledgement, visibility is controlled through a WAL index, and any node can materialize a repository from the WAL. Local repositories become warm cache rather than pets. S3 compare-and-swap gives linearizable pushes, while fully consistent replicas scale read-heavy Git operations, API reads, UI interactions, and agent workflows.
 
 **Newsletter angle:** Strong systems design read on treating source control like a database: WAL as truth, local disk as cache, linearizable writes, compaction as part of replication, and AI-agent traffic changing both the floor and ceiling of Git infrastructure.
+
+**Update, 2026-08-24:** Vicent Martí pointed out that Tobi Lütke and Scott Chacon both spent a weekend implementing the Continuity shape. Tobi's [walgit](https://github.com/tobi/walgit) is a Rust Git server in front of S3/GCS with no database, no leader, and disposable local cache nodes; it adds practical pieces like bundle-uri clones, Git LFS, push policy, webhooks, remote readers for repositories larger than the machine, and history packs. Chacon's [gitwal](https://gitwal.io/) is a live accountless Git host where S3 holds the WAL, local disk is cache, names are claimed by first valid push, and the architecture page walks through the compare-and-swap commit point, routing, fetch, and rebuild path.
+
+The closest “original paper” in this cluster is still Martí's Cursor design essay itself, not an academic paper. The academic paper explicitly linked from the design is Dean and Barroso's [The Tail at Scale](https://research.google/pubs/the-tail-at-scale/) ([PDF](https://www.barroso.org/publications/TheTailAtScale.pdf)), which supplies the latency-tail framing behind the “more replicas can make tail behavior worse” point. A useful older precursor is Shawn Pearce's 2011 [JGit on DHT](https://www.eclipse.org/lists/jgit-dev/msg01189.html) update: he describes abandoning object-level DHT storage for Git after clone/read traffic proved too expensive, and moving toward native pack/index files over an S3-like storage layer.
 
 ## Embedded source
 
