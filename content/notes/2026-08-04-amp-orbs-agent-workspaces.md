@@ -11,7 +11,8 @@ newsletter_candidate = true
 why_it_matters = "Remote sandboxed workspaces change agent usage by removing local-environment friction and making long-running verification cheap enough to ask for by default."
 saved_link = "https://x.com/i/status/2084540293362098513"
 related_url = "https://x.com/thorstenball/status/2084540293362098513"
-retrieval_note = "Extracted the X post through FXTwitter and read Thorsten Ball's Amp note directly from the source page."
+related_urls = ["https://ampcode.com/notes/orbs-explained", "https://x.com/thorstenball/status/2092253247725572127"]
+retrieval_note = "Extracted the original X post through FXTwitter and read Thorsten Ball's Amp note directly from the source page. Updated on 2026-08-25 after reading Amp's 'Orbs, Explained' note via Thorsten's follow-up X post."
 +++
 **Logged at IST:** 2026-08-04 22:36 IST
 
@@ -23,8 +24,12 @@ The concrete shift is that he now spawns many more agents. A papercut can become
 
 The useful claim is not just "cloud dev environment." It is that agents can run elsewhere for 10, 20, or 30 minutes, consume their own sandbox, and return proof instead of handing the human a pile of code and review anxiety. Ball frames this as the next large shift: more agents, more ambitious tasks, lighter review load, and more shipping because the agent owns more of the verification loop.
 
+Update: Amp's later “Orbs, Explained” note makes the product boundary clearer. Orbs are remote machines with code and an Amp agent running inside, but the important layer is everything wrapped around that machine: sleep/wake semantics, web/phone/CLI/TUI control, shareable portals, thread URLs, multiplayer sessions, terminal/file/review views, schedules, and even agents spawning other orbs. The point is less “VM” and more “agent workspace as a collaboration and orchestration object.”
+
 **Newsletter angle:** Strong agent-workflow material. Orbs make verification an agent-owned deliverable rather than a local bottleneck, which changes both concurrency and how review feels.
 
 ## Embedded source
 
 {{ tweet(id="2084540293362098513", url="https://x.com/i/status/2084540293362098513") }}
+
+{{ tweet(id="2092253247725572127", url="https://x.com/thorstenball/status/2092253247725572127") }}
