@@ -392,7 +392,13 @@ def write_notes() -> int:
     for date_file in sorted(p for p in READING_LOG.glob('2026-*.md') if p.name != 'INDEX.md'):
         entries = parse_date_file(date_file)
         for idx, entry in enumerate(entries, start=1):
-            skip_text = ' '.join([entry_value(entry, 'retrieval note'), ' '.join(entry.get('body_lines', []))]).lower()
+            skip_text = ' '.join([
+                entry_value(entry, 'what it is'),
+                entry_value(entry, 'gist'),
+                entry_value(entry, 'newsletter angle'),
+                entry_value(entry, 'retrieval note'),
+                ' '.join(entry.get('body_lines', [])),
+            ]).lower()
             if (
                 entry.get('public note')
                 or entry.get('related existing note updated')
@@ -405,6 +411,18 @@ def write_notes() -> int:
             ):
                 # The daily log explicitly says this item was folded into an
                 # existing curated page. Do not create a duplicate imported note.
+                continue
+            if (
+                'keep log-only' in skip_text
+                or 'log-only' in skip_text
+                or 'not strong enough as a standalone public reading-list note' in skip_text
+                or 'hold for later' in skip_text
+                or 'source grounding is weak' in skip_text
+                or 'not yet source-grounded' in skip_text
+            ):
+                # Some logged links are intentionally retained as private/backlog
+                # context or cultural color. Do not auto-publish those during the
+                # weekly importer pass.
                 continue
             title = pick_title(entry, idx)
             source_url = choose_source_url(entry)
