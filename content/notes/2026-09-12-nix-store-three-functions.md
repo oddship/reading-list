@@ -1,7 +1,7 @@
 +++
 title = "A Nix store is three functions"
 slug = "2026-09-12-nix-store-three-functions"
-date = 2026-09-12T22:55:00+05:30
+date = 2026-09-12T22:50:00+05:30
 [taxonomies]
 tags = ["developer-tools", "systems"]
 [extra]
