@@ -24,6 +24,7 @@ A very grounded write-up from antirez on building Redis Array over about four mo
 
 Mitchell Hashimoto highlighted it too:
 <https://x.com/i/status/2051684321732530680>
+_Reading note: [Mitchell Hashimoto post praising antirez's write-up on developing Redis Array support as a good example of...](/notes/2026-05-05-mitchell-hashimoto-post-praising-antirez-s-write-up-on-developing-redis-array-support-as-a-good-exa/)_
 
 {{ tweet(id="2051684321732530680", url="https://x.com/i/status/2051684321732530680") }}
 _Reading note: [Mitchell Hashimoto post praising antirez's write-up on developing Redis Array support as a good example of...](/notes/2026-05-05-mitchell-hashimoto-post-praising-antirez-s-write-up-on-developing-redis-array-support-as-a-good-exa/)_
@@ -36,6 +37,7 @@ Anthropic added three notable ideas to managed agents: memory cleanup (`dreaming
 
 ### Rach on Autodata-style loops for software agents
 <https://x.com/i/status/2052209530801668262>
+_Reading note: [Autodata](/notes/2026-05-07-autodata/)_
 
 {{ tweet(id="2052209530801668262", url="https://x.com/i/status/2052209530801668262") }}
 _Reading note: [Autodata](/notes/2026-05-07-autodata/)_
@@ -56,6 +58,7 @@ One of the better process-level essays I read this week. The core point is that 
 
 ### Mitchell Hashimoto on “AI slop” as exploratory scaffolding
 <https://x.com/i/status/2052397933522506079>
+_Reading note: [AI slop](/notes/2026-05-07-ai-slop/)_
 
 {{ tweet(id="2052397933522506079", url="https://x.com/i/status/2052397933522506079") }}
 _Reading note: [AI slop](/notes/2026-05-07-ai-slop/)_
@@ -64,6 +67,7 @@ This was more nuanced than the phrase suggests. The useful framing is that rough
 
 ### Firefox security bug-fix spike with Claude assistance
 <https://x.com/i/status/2052468573516513762>
+_Reading note: [Claude Mythos Preview](/notes/2026-05-07-claude-mythos-preview/)_
 
 {{ tweet(id="2052468573516513762", url="https://x.com/i/status/2052468573516513762") }}
 _Reading note: [Claude Mythos Preview](/notes/2026-05-07-claude-mythos-preview/)_
@@ -74,6 +78,7 @@ Anthropic shared a chart claiming Firefox fixed more security bugs in April 2026
 
 ### Hunk: a diff viewer built for agent-authored changes
 <https://x.com/i/status/2052128048288567617>
+_Reading note: [Hunk](/notes/2026-05-07-hunk/)_
 
 {{ tweet(id="2052128048288567617", url="https://x.com/i/status/2052128048288567617") }}
 _Reading note: [Hunk](/notes/2026-05-07-hunk/)_
@@ -82,6 +87,7 @@ Mitchell Hashimoto recommended Hunk pretty strongly. It looks like a review-firs
 
 ### Mirage: unified filesystem interface for agents
 <https://x.com/i/status/2052105012172792061>
+_Reading note: [Mirage](/notes/2026-05-07-mirage/)_
 
 {{ tweet(id="2052105012172792061", url="https://x.com/i/status/2052105012172792061") }}
 _Reading note: [Mirage](/notes/2026-05-07-mirage/)_
@@ -90,6 +96,7 @@ Mirage mounts systems like S3, Drive, Slack, Gmail, GitHub, Linear, Notion, data
 
 ### Printing Press: agent-native CLI generation
 <https://x.com/i/status/2052422567181611010>
+_Reading note: [Printing Press](/notes/2026-05-07-printing-press/)_
 
 {{ tweet(id="2052422567181611010", url="https://x.com/i/status/2052422567181611010") }}
 _Reading note: [Printing Press](/notes/2026-05-07-printing-press/)_
@@ -98,6 +105,7 @@ This pitches a library/factory for generating agent-native CLIs, skills, and MCP
 
 ### Auth for MCP from Auth0
 <https://x.com/i/status/2052138238111068277>
+_Reading note: [Auth for MCP](/notes/2026-05-07-auth-for-mcp/)_
 
 {{ tweet(id="2052138238111068277", url="https://x.com/i/status/2052138238111068277") }}
 _Reading note: [Auth for MCP](/notes/2026-05-07-auth-for-mcp/)_
@@ -108,6 +116,7 @@ A sign that MCP is moving beyond toy demos. Auth0 is pitching this as the missin
 
 ### Entire on agentic search
 <https://x.com/i/status/2052437618416025846>
+_Reading note: [Entire's core claim is useful: from ~202k real tool calls across ~1,983 public coding-agent checkpoints, ab...](/notes/2026-05-07-entire-s-core-claim-is-useful-from-202k-real-tool-calls-across-1-983-public-coding-agent-checkpoint/)_
 
 {{ tweet(id="2052437618416025846", url="https://x.com/i/status/2052437618416025846") }}
 _Reading note: [Entire's core claim is useful: from ~202k real tool calls across ~1,983 public coding-agent checkpoints, ab...](/notes/2026-05-07-entire-s-core-claim-is-useful-from-202k-real-tool-calls-across-1-983-public-coding-agent-checkpoint/)_
@@ -117,12 +126,14 @@ One of my favorite links from the week. Entire looked at a large volume of codin
 ### SubQ sparse-attention claims
 Main post:
 <https://x.com/i/status/2051663268704636937>
+_Reading note: [SubQ](/notes/2026-05-05-subq/)_
 
 {{ tweet(id="2051663268704636937", url="https://x.com/i/status/2051663268704636937") }}
 _Reading note: [SubQ](/notes/2026-05-05-subq/)_
 
 Skeptical follow-up from Mario Zechner:
 <https://x.com/badlogicgames/status/2051936321610842245>
+_Reading note: [does not approximate attention](/notes/2026-05-06-does-not-approximate-attention/)_
 
 {{ tweet(id="2051936321610842245", url="https://x.com/badlogicgames/status/2051936321610842245") }}
 _Reading note: [does not approximate attention](/notes/2026-05-06-does-not-approximate-attention/)_
@@ -131,6 +142,7 @@ SubQ makes very large claims around sparse attention, long context, and compute 
 
 ### DFlash and speculative decoding infrastructure
 <https://x.com/i/status/2051900751673467097>
+_Reading note: [DFlash](/notes/2026-05-07-dflash/)_
 
 {{ tweet(id="2051900751673467097", url="https://x.com/i/status/2051900751673467097") }}
 _Reading note: [DFlash](/notes/2026-05-07-dflash/)_
@@ -139,6 +151,7 @@ An open-source speculative decoding project for Gemma 4. Beyond the single proje
 
 ### JSON vs protobuf after compression
 <https://x.com/i/status/2051977984148467890>
+_Reading note: [34kb](/notes/2026-05-07-34kb/)_
 
 {{ tweet(id="2051977984148467890", url="https://x.com/i/status/2051977984148467890") }}
 _Reading note: [34kb](/notes/2026-05-07-34kb/)_
@@ -147,6 +160,7 @@ A fun reminder that raw size and compressed size are different questions. In Sam
 
 ### Microwave-noise training-data anecdote
 <https://x.com/i/status/2051873677998956851>
+_Reading note: [microwavegang](/notes/2026-05-07-microwavegang/)_
 
 {{ tweet(id="2051873677998956851", url="https://x.com/i/status/2051873677998956851") }}
 _Reading note: [microwavegang](/notes/2026-05-07-microwavegang/)_
@@ -157,6 +171,7 @@ A funny post, but also a useful one. The claim is that a GPT-3 training loss spi
 
 ### Microsoft's Work Trend Index on agentic organizations
 <https://x.com/i/status/2051787232043020719>
+_Reading note: [Satya/Microsoft framing: firms need to redesign work around agentic systems, with AI taking more execution...](/notes/2026-05-06-satya-microsoft-framing-firms-need-to-redesign-work-around-agentic-systems-with-ai-taking-more-exec/)_
 
 {{ tweet(id="2051787232043020719", url="https://x.com/i/status/2051787232043020719") }}
 _Reading note: [Satya/Microsoft framing: firms need to redesign work around agentic systems, with AI taking more execution...](/notes/2026-05-06-satya-microsoft-framing-firms-need-to-redesign-work-around-agentic-systems-with-ai-taking-more-exec/)_
@@ -165,6 +180,7 @@ The packaging is very Microsoft, but the underlying point is worth reading: AI i
 
 ### Simon Willison on the xAI/Anthropic data-center deal
 <https://x.com/i/status/2052436629365948920>
+_Reading note: [Colossus 1](/notes/2026-05-07-colossus-1/)_
 
 {{ tweet(id="2052436629365948920", url="https://x.com/i/status/2052436629365948920") }}
 _Reading note: [Colossus 1](/notes/2026-05-07-colossus-1/)_
@@ -173,6 +189,7 @@ A useful note on supply-side dependency, environmental cost, and the awkwardness
 
 ### Gray markets for Claude access in China
 <https://x.com/i/status/2052023116348469608>
+_Reading note: [transfer station](/notes/2026-05-06-transfer-station/)_
 
 {{ tweet(id="2052023116348469608", url="https://x.com/i/status/2052023116348469608") }}
 _Reading note: [transfer station](/notes/2026-05-06-transfer-station/)_
@@ -181,6 +198,7 @@ An interesting ChinaTalk-linked piece on the ecosystem of intermediaries, proxyi
 
 ### Chrome and Gemini Nano silent-install complaints
 <https://x.com/i/status/2051630929622311250>
+_Reading note: [Simone/evilsocket amplifying claim that Chrome silently installs a 4 GB Gemini Nano model on user devices,...](/notes/2026-05-05-simone-evilsocket-amplifying-claim-that-chrome-silently-installs-a-4-gb-gemini-nano-model-on-user-d/)_
 
 {{ tweet(id="2051630929622311250", url="https://x.com/i/status/2051630929622311250") }}
 _Reading note: [Simone/evilsocket amplifying claim that Chrome silently installs a 4 GB Gemini Nano model on user devices,...](/notes/2026-05-05-simone-evilsocket-amplifying-claim-that-chrome-silently-installs-a-4-gb-gemini-nano-model-on-user-d/)_
@@ -191,6 +209,7 @@ Interesting less as Chrome drama and more as a signal: on-device AI is increasin
 
 ### ParliamentWatch
 <https://x.com/i/status/2052264995787079900>
+_Reading note: [ParliamentWatch](/notes/2026-05-07-parliamentwatch/)_
 
 {{ tweet(id="2052264995787079900", url="https://x.com/i/status/2052264995787079900") }}
 _Reading note: [ParliamentWatch](/notes/2026-05-07-parliamentwatch/)_
@@ -199,6 +218,7 @@ A very good civic-tech project that makes Indian parliamentary standing committe
 
 ### Pratilekha
 <https://x.com/i/status/2051675299428143565>
+_Reading note: [Pratilekha](/notes/2026-05-05-pratilekha/)_
 
 {{ tweet(id="2051675299428143565", url="https://x.com/i/status/2051675299428143565") }}
 _Reading note: [Pratilekha](/notes/2026-05-05-pratilekha/)_
@@ -218,6 +238,7 @@ _Reading note: [tqbf](/notes/2026-05-06-tqbf/)_
 
 Thomas Ptacek on the specific `.de` incident:
 <https://x.com/i/status/2051802131636592846>
+_Reading note: [de](/notes/2026-05-06-de/)_
 
 {{ tweet(id="2051802131636592846", url="https://x.com/i/status/2051802131636592846") }}
 _Reading note: [de](/notes/2026-05-06-de/)_

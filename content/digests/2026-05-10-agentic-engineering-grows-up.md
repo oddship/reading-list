@@ -32,6 +32,7 @@ That is much closer to the pattern I keep seeing in practice: the value is not "
 
 That same theme shows up in Mitchell Hashimoto's separate point about "AI slop":
 <https://x.com/i/status/2052397933522506079>
+_Reading note: [AI slop](/notes/2026-05-07-ai-slop/)_
 
 {{ tweet(id="2052397933522506079", url="https://x.com/i/status/2052397933522506079") }}
 _Reading note: [AI slop](/notes/2026-05-07-ai-slop/)_
@@ -42,6 +43,7 @@ The important thing is that this does *not* generalize to "ship garbage everywhe
 
 A third datapoint in the same family: Anthropic's claim that Firefox fixed more security bugs in April 2026, with help from Claude Mythos Preview, than in the previous fifteen months combined:
 <https://x.com/i/status/2052468573516513762>
+_Reading note: [Claude Mythos Preview](/notes/2026-05-07-claude-mythos-preview/)_
 
 {{ tweet(id="2052468573516513762", url="https://x.com/i/status/2052468573516513762") }}
 _Reading note: [Claude Mythos Preview](/notes/2026-05-07-claude-mythos-preview/)_
@@ -81,6 +83,7 @@ What is interesting is not any one feature. It is the direction of travel. Memor
 
 That same pattern appears in Rach's thread connecting Meta's Autodata framing to software agents:
 <https://x.com/i/status/2052209530801668262>
+_Reading note: [Autodata](/notes/2026-05-07-autodata/)_
 
 {{ tweet(id="2052209530801668262", url="https://x.com/i/status/2052209530801668262") }}
 _Reading note: [Autodata](/notes/2026-05-07-autodata/)_
@@ -129,6 +132,7 @@ That is also why I think the interface war for agents may be less about API vs M
 
 One of my favorite pieces from this batch was Entire's work on agentic search, amplified by Mario Zechner:
 <https://x.com/i/status/2052437618416025846>
+_Reading note: [Entire's core claim is useful: from ~202k real tool calls across ~1,983 public coding-agent checkpoints, ab...](/notes/2026-05-07-entire-s-core-claim-is-useful-from-202k-real-tool-calls-across-1-983-public-coding-agent-checkpoint/)_
 
 {{ tweet(id="2052437618416025846", url="https://x.com/i/status/2052437618416025846") }}
 _Reading note: [Entire's core claim is useful: from ~202k real tool calls across ~1,983 public coding-agent checkpoints, ab...](/notes/2026-05-07-entire-s-core-claim-is-useful-from-202k-real-tool-calls-across-1-983-public-coding-agent-checkpoint/)_
@@ -145,12 +149,14 @@ The same "do not confuse the demo metric for the actual bottleneck" warning show
 
 First there was the flashy hype post:
 <https://x.com/i/status/2051663268704636937>
+_Reading note: [SubQ](/notes/2026-05-05-subq/)_
 
 {{ tweet(id="2051663268704636937", url="https://x.com/i/status/2051663268704636937") }}
 _Reading note: [SubQ](/notes/2026-05-05-subq/)_
 
 Then Mario Zechner's skepticism:
 <https://x.com/badlogicgames/status/2051936321610842245>
+_Reading note: [does not approximate attention](/notes/2026-05-06-does-not-approximate-attention/)_
 
 {{ tweet(id="2051936321610842245", url="https://x.com/badlogicgames/status/2051936321610842245") }}
 _Reading note: [does not approximate attention](/notes/2026-05-06-does-not-approximate-attention/)_
@@ -161,6 +167,7 @@ I am not dismissing the underlying line of work. Long-context efficiency is obvi
 
 Another related signal is the rise of open speculative-decoding infrastructure such as DFlash:
 <https://x.com/i/status/2051900751673467097>
+_Reading note: [DFlash](/notes/2026-05-07-dflash/)_
 
 {{ tweet(id="2051900751673467097", url="https://x.com/i/status/2051900751673467097") }}
 _Reading note: [DFlash](/notes/2026-05-07-dflash/)_
@@ -169,6 +176,7 @@ What is notable there is not just one model getting faster. It is the fact that 
 
 And then there was a smaller but delightful reminder from Sam Rose that intuition around wire formats can be very wrong once compression enters the picture:
 <https://x.com/i/status/2051977984148467890>
+_Reading note: [34kb](/notes/2026-05-07-34kb/)_
 
 {{ tweet(id="2051977984148467890", url="https://x.com/i/status/2051977984148467890") }}
 _Reading note: [34kb](/notes/2026-05-07-34kb/)_
@@ -179,6 +187,7 @@ JSON was larger than protobuf raw, but after compression it often ended up sligh
 
 Satya Nadella and Microsoft's Work Trend Index framing is worth reading mostly for the parts that survive the corporate packaging:
 <https://x.com/i/status/2051787232043020719>
+_Reading note: [Satya/Microsoft framing: firms need to redesign work around agentic systems, with AI taking more execution...](/notes/2026-05-06-satya-microsoft-framing-firms-need-to-redesign-work-around-agentic-systems-with-ai-taking-more-exec/)_
 
 {{ tweet(id="2051787232043020719", url="https://x.com/i/status/2051787232043020719") }}
 _Reading note: [Satya/Microsoft framing: firms need to redesign work around agentic systems, with AI taking more execution...](/notes/2026-05-06-satya-microsoft-framing-firms-need-to-redesign-work-around-agentic-systems-with-ai-taking-more-exec/)_
@@ -199,6 +208,7 @@ Not everything worth noticing was about agents writing code.
 
 One of the best projects in the pile was ParliamentWatch:
 <https://x.com/i/status/2052264995787079900>
+_Reading note: [ParliamentWatch](/notes/2026-05-07-parliamentwatch/)_
 
 {{ tweet(id="2052264995787079900", url="https://x.com/i/status/2052264995787079900") }}
 _Reading note: [ParliamentWatch](/notes/2026-05-07-parliamentwatch/)_
@@ -209,6 +219,7 @@ This is the kind of AI application I find much more compelling than generic chat
 
 That same instinct is why I am watching projects like Pratilekha too:
 <https://x.com/i/status/2051675299428143565>
+_Reading note: [Pratilekha](/notes/2026-05-05-pratilekha/)_
 
 {{ tweet(id="2051675299428143565", url="https://x.com/i/status/2051675299428143565") }}
 _Reading note: [Pratilekha](/notes/2026-05-05-pratilekha/)_
@@ -223,6 +234,7 @@ A few of the most important links were reminders that the AI story is also becom
 
 Simon Willison's notes on the xAI/Anthropic data-center deal are a good example:
 <https://x.com/i/status/2052436629365948920>
+_Reading note: [Colossus 1](/notes/2026-05-07-colossus-1/)_
 
 {{ tweet(id="2052436629365948920", url="https://x.com/i/status/2052436629365948920") }}
 _Reading note: [Colossus 1](/notes/2026-05-07-colossus-1/)_
@@ -231,6 +243,7 @@ The interesting part is not gossip about who rented whose cluster. It is the sup
 
 Kyle Chan's pointer to the Chinese gray market for Claude access is another version of the same thing:
 <https://x.com/i/status/2052023116348469608>
+_Reading note: [transfer station](/notes/2026-05-06-transfer-station/)_
 
 {{ tweet(id="2052023116348469608", url="https://x.com/i/status/2052023116348469608") }}
 _Reading note: [transfer station](/notes/2026-05-06-transfer-station/)_
@@ -239,6 +252,7 @@ If every provider control adds another evasion layer, then access policy does no
 
 Even the Chrome/Gemini Nano silent-install complaint fits the pattern:
 <https://x.com/i/status/2051630929622311250>
+_Reading note: [Simone/evilsocket amplifying claim that Chrome silently installs a 4 GB Gemini Nano model on user devices,...](/notes/2026-05-05-simone-evilsocket-amplifying-claim-that-chrome-silently-installs-a-4-gb-gemini-nano-model-on-user-d/)_
 
 {{ tweet(id="2051630929622311250", url="https://x.com/i/status/2051630929622311250") }}
 _Reading note: [Simone/evilsocket amplifying claim that Chrome silently installs a 4 GB Gemini Nano model on user devices,...](/notes/2026-05-05-simone-evilsocket-amplifying-claim-that-chrome-silently-installs-a-4-gb-gemini-nano-model-on-user-d/)_
