@@ -27,12 +27,13 @@ For historical/importer runs, keep the importer incremental: add missing pages, 
    - full IST datetime in `date`
    - approved public tags only
    - tweet and YouTube links rendered with Zola shortcodes, `{{ tweet(id="...", url="...") }}` or `{{ youtube(id="...", url="...") }}`, when they appear in the body. X embeds must remain opt-in: render a local placeholder first, store consent in browser `localStorage`, and only load `platform.x.com/widgets.js` after the reader clicks to enable X embeds
-   - `[extra].source_url`
+   - `[extra].source_url` plus `[extra].source_title` when known, so note pages render a readable title instead of a generic `Original source` label
    - `[extra].source_type`
    - `[extra].newsletter_candidate`
    - `[extra].why_it_matters`
-   - `[extra].saved_link`
-   - `[extra].related_url` when the saved X post differs from the actual source URL
+   - `[extra].saved_link` plus `[extra].saved_title` when known
+   - `[extra].related_url` / `[extra].related_title` when the saved X post differs from the actual source URL
+   - `[extra].related_urls` plus parallel `[extra].related_titles` for any additional sources; keep array order aligned so the Links table can show titles
    - optional `[extra].source_archive_url` / `[extra].saved_archive_url` when an archive was created or found
    - `[extra].retrieval_note` when source access relied on mirrors, screenshots, X cards, or partial reads
 5. Run `python3 scripts/humanize_repo_content.py`.
