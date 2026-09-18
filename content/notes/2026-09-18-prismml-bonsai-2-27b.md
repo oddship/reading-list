@@ -7,6 +7,9 @@ tags = ["ai-infra", "systems"]
 [extra]
 source_url = "https://prismml.com/news/bonsai-2-27b"
 source_type = "model-release"
+source_title = "PrismML: Introducing Bonsai 2 27B"
+saved_title = "PrismML launch post for Ternary Bonsai 2 27B"
+related_titles = ["Hugging Face: prism-ml/Ternary-Bonsai-2-27B-gguf", "TechCrunch: PrismML hopes its tiny LLM will change how we all use AI", "PrismML homepage", "Bonsai 2 27B whitepaper"]
 newsletter_candidate = true
 why_it_matters = "If the reported retention holds up, 27B-class reasoning and multimodal models are getting small enough for local assistants, private workflows, and single-GPU serving without a large quality cliff."
 saved_link = "https://x.com/PrismML/status/2100692248480596348"
@@ -17,6 +20,8 @@ retrieval_note = "PrismML X launch post was extracted via FXTwitter; the attache
 **Logged at IST:** 2026-09-18 10:58 IST
 
 **What it is:** PrismML's launch of Ternary Bonsai 2 27B, a compressed Qwen3.8-27B-derived multimodal model released under Apache 2.0.
+
+{{ tweet(id="2100692248480596348", url="https://x.com/PrismML/status/2100692248480596348") }}
 
 **Gist:** PrismML says Bonsai 2 27B uses ternary `{−1, 0, +1}` weights with FP16 group-wise scaling, landing around **1.76 effective bits per weight** and a **5.9 GB** footprint. The company claims this is more than **9x smaller** than the full-precision Qwen3.8 27B counterpart while retaining **98.2%** of aggregate benchmark performance.
 

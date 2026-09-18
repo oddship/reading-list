@@ -7,6 +7,9 @@ tags = ["security", "ai-infra", "agents", "systems"]
 [extra]
 source_url = "https://www.hacktron.ai/blog/hacking-openai"
 source_type = "security-writeup"
+source_title = "Hacktron: Hacking OpenAI"
+saved_title = "S1r1us announcement thread"
+related_titles = ["HEIF Heist", "Discourse advisory GHSA-vhm9-85gw-x335 / CVE-2026-32882", "Harsh Jaiswal HEIF Heist launch thread", "LiveOverflow technical explainer thread", "LiveOverflow: How OpenAI got hacked with an image", "WSJ: Hackers Used Anthropic’s Claude to Break Into OpenAI", "Discourse ImageMagick sandboxing commit", "Vercel Next.js August 2026 security release", "GitHub Enterprise Server 3.21.5 security fixes"]
 newsletter_candidate = true
 why_it_matters = "A concrete case study in how agent-assisted exploit work, a native image-decoder bug, and loose identity/connectors can turn into cross-product access quickly."
 saved_link = "https://x.com/S1r1u5_/status/2100777801335095383"
@@ -17,6 +20,10 @@ retrieval_note = "S1r1us and Harsh Jaiswal X posts were extracted via FXTwitter;
 **Logged at IST:** 2026-09-18 10:02 IST
 
 **What it is:** One combined entry for Hacktron's OpenAI compromise write-up, the broader HEIF Heist research, the Discourse security advisory, and the related LiveOverflow explainer link.
+
+{{ tweet(id="2100777801335095383", url="https://x.com/S1r1u5_/status/2100777801335095383") }}
+
+{{ youtube(id="gjHh9g7yo9Y", url="https://www.youtube.com/watch?v=gjHh9g7yo9Y") }}
 
 **Gist:** Hacktron says it chained a `libheif`/ImageMagick remote-code-execution path in OpenAI's Discourse forum with an OpenAI SSO flaw. The claimed result was no-interaction takeover of OpenAI employees' ChatGPT/Codex accounts, with potential reach into connected services such as GitHub, Slack, and email.
 

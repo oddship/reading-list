@@ -38,29 +38,51 @@
       <p class="hero-copy">{{ page.extra.why_it_matters }}</p>
     {% endif %}
     {% if page.extra and page.extra.source_url %}
-      <p class="source-links">
-        <strong>Links:</strong>
-        <a href="{{ page.extra.source_url }}">Original source</a>
-        {% if page.extra.saved_link is defined and page.extra.saved_link != page.extra.source_url %}
-          · <a href="{{ page.extra.saved_link }}">Shared link</a>
-        {% endif %}
-        {% if page.extra.related_url is defined and page.extra.related_url != page.extra.source_url and (page.extra.saved_link is not defined or page.extra.related_url != page.extra.saved_link) %}
-          · <a href="{{ page.extra.related_url }}">Related link</a>
-        {% endif %}
-        {% if page.extra.related_urls is defined %}
-          {% for related in page.extra.related_urls %}
-            {% if related != page.extra.source_url and (page.extra.saved_link is not defined or related != page.extra.saved_link) and (page.extra.related_url is not defined or related != page.extra.related_url) %}
-              · <a href="{{ related }}">Related link {{ loop.index }}</a>
+      <aside class="source-links" aria-label="Source and related links">
+        <h2>Links</h2>
+        <table class="source-links__table">
+          <tbody>
+            <tr>
+              <th scope="row">Original source</th>
+              <td><a href="{{ page.extra.source_url }}">{% if page.extra.source_title is defined %}{{ page.extra.source_title }}{% else %}{{ page.title }}{% endif %}</a></td>
+            </tr>
+            {% if page.extra.saved_link is defined and page.extra.saved_link != page.extra.source_url %}
+              <tr>
+                <th scope="row">Shared link</th>
+                <td><a href="{{ page.extra.saved_link }}">{% if page.extra.saved_title is defined %}{{ page.extra.saved_title }}{% else %}{{ page.extra.saved_link | replace(from="https://", to="") | replace(from="http://", to="") | truncate(length=90) }}{% endif %}</a></td>
+              </tr>
             {% endif %}
-          {% endfor %}
-        {% endif %}
-        {% if page.extra.source_archive_url is defined %}
-          · <a href="{{ page.extra.source_archive_url }}">Archived source</a>
-        {% endif %}
-        {% if page.extra.saved_archive_url is defined %}
-          · <a href="{{ page.extra.saved_archive_url }}">Archived post</a>
-        {% endif %}
-      </p>
+            {% if page.extra.related_url is defined and page.extra.related_url != page.extra.source_url and (page.extra.saved_link is not defined or page.extra.related_url != page.extra.saved_link) %}
+              <tr>
+                <th scope="row">Related</th>
+                <td><a href="{{ page.extra.related_url }}">{% if page.extra.related_title is defined %}{{ page.extra.related_title }}{% else %}{{ page.extra.related_url | replace(from="https://", to="") | replace(from="http://", to="") | truncate(length=90) }}{% endif %}</a></td>
+              </tr>
+            {% endif %}
+            {% if page.extra.related_urls is defined %}
+              {% for related in page.extra.related_urls %}
+                {% if related != page.extra.source_url and (page.extra.saved_link is not defined or related != page.extra.saved_link) and (page.extra.related_url is not defined or related != page.extra.related_url) %}
+                  <tr>
+                    <th scope="row">Related</th>
+                    <td><a href="{{ related }}">{% if page.extra.related_titles is defined and page.extra.related_titles | length >= loop.index %}{{ page.extra.related_titles[loop.index0] }}{% else %}{{ related | replace(from="https://", to="") | replace(from="http://", to="") | truncate(length=90) }}{% endif %}</a></td>
+                  </tr>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            {% if page.extra.source_archive_url is defined %}
+              <tr>
+                <th scope="row">Archived source</th>
+                <td><a href="{{ page.extra.source_archive_url }}">{% if page.extra.source_archive_title is defined %}{{ page.extra.source_archive_title }}{% else %}{{ page.extra.source_archive_url | replace(from="https://", to="") | replace(from="http://", to="") | truncate(length=90) }}{% endif %}</a></td>
+              </tr>
+            {% endif %}
+            {% if page.extra.saved_archive_url is defined %}
+              <tr>
+                <th scope="row">Archived post</th>
+                <td><a href="{{ page.extra.saved_archive_url }}">{% if page.extra.saved_archive_title is defined %}{{ page.extra.saved_archive_title }}{% else %}{{ page.extra.saved_archive_url | replace(from="https://", to="") | replace(from="http://", to="") | truncate(length=90) }}{% endif %}</a></td>
+              </tr>
+            {% endif %}
+          </tbody>
+        </table>
+      </aside>
     {% endif %}
     {% if page.taxonomies.tags %}
       <div class="story-footer">

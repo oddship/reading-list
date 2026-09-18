@@ -7,6 +7,9 @@ tags = ["ai-infra", "developer-tools"]
 [extra]
 source_url = "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
 source_type = "article"
+source_title = "TypeSafe: Introducing System One Models and Jev"
+saved_title = "TypeSafe: Introducing System One Models and Jev"
+related_titles = ["TypeSafe documentation", "TypeSafe evals", "Archer Hume: Jev’s Architecture Unmasked"]
 newsletter_candidate = true
 why_it_matters = "TypeSafe is trying to make AI feel less like a chatbot and more like a typed, low-latency decision primitive that normal software can compose."
 saved_link = "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
