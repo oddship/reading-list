@@ -10,8 +10,8 @@ source_type = "security-writeup"
 newsletter_candidate = true
 why_it_matters = "A concrete case study in how agent-assisted exploit work can turn a dependency bug and identity-boundary mistake into cross-product access quickly."
 saved_link = "https://x.com/S1r1u5_/status/2100777801335095383"
-related_urls = ["https://x.com/S1r1u5_/status/2100777801335095383", "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883", "https://github.com/discourse/discourse/security/advisories/GHSA-vhm9-85gw-x335", "https://github.com/discourse/discourse/commit/a07188016987de1613c961277e2e928aaa7c37ec"]
-retrieval_note = "X post extracted via FXTwitter; attached launch image and related screenshots were OCR'd; the Hacktron write-up was read directly, and a partial WSJ article was available before the subscription wall."
+related_urls = ["https://x.com/S1r1u5_/status/2100777801335095383", "https://x.com/LiveOverflow/status/2100768686231499107", "https://www.youtube.com/watch?v=gjHh9g7yo9Y", "https://heif-heist.com/", "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883", "https://github.com/discourse/discourse/security/advisories/GHSA-vhm9-85gw-x335", "https://github.com/discourse/discourse/commit/a07188016987de1613c961277e2e928aaa7c37ec"]
+retrieval_note = "X post extracted via FXTwitter; attached launch image and related screenshots were OCR'd; the Hacktron write-up was read directly, partial WSJ article text was available before the subscription wall, and a related LiveOverflow YouTube explainer was identified via oEmbed/X because transcript extraction was IP-blocked."
 +++
 
 **Logged at IST:** 2026-09-18 10:02 IST
