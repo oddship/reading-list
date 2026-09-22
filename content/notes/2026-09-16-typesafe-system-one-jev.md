@@ -9,12 +9,12 @@ source_url = "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
 source_type = "article"
 source_title = "TypeSafe: Introducing System One Models and Jev"
 saved_title = "TypeSafe: Introducing System One Models and Jev"
-related_titles = ["TypeSafe documentation", "TypeSafe evals", "Archer Hume: Jev’s Architecture Unmasked"]
+related_titles = ["TypeSafe documentation", "TypeSafe evals", "Archer Hume: Jev’s Architecture Unmasked", "Simon Willison: Jev introduces a new shape of LLM"]
 newsletter_candidate = true
 why_it_matters = "TypeSafe is trying to make AI feel less like a chatbot and more like a typed, low-latency decision primitive that normal software can compose."
 saved_link = "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
-related_urls = ["https://docs.typesafe.ai/", "https://evals.typesafe.ai/", "https://archerhume.com/posts/jevs-architecture-unmasked/?v=3"]
-retrieval_note = "Launch article, docs introduction, and workflow evals page were extracted directly. Archer Hume's black-box reconstruction was added later and read directly."
+related_urls = ["https://docs.typesafe.ai/", "https://evals.typesafe.ai/", "https://archerhume.com/posts/jevs-architecture-unmasked/?v=3", "https://simonwillison.net/2026/Sep/21/jev/"]
+retrieval_note = "Launch article, docs introduction, and workflow evals page were extracted directly. Archer Hume's black-box reconstruction and Simon Willison's decision-model framing were added later and read directly."
 +++
 
 **Logged at IST:** 2026-09-16 07:45 IST
@@ -30,5 +30,9 @@ The interesting bet is architectural. If chat models are optimized for human-fac
 **Update, 2026-09-18:** Archer Hume's black-box reconstruction makes the architectural hypothesis much more concrete. The post argues Jev likely uses a causal transformer as a shared-state encoder, then evaluates isolated question branches against that shared state and reads typed probability distributions directly instead of decoding JSON text. The evidence is behavioural rather than a disclosure: token accounting appears additive, sibling questions cannot leak facts into one another while facts in shared state are visible, many questions stay cheap enough to suggest shared computation, and option-order / added-option probes show the alternatives are processed listwise rather than as independent fixed logits.
 
 The post is careful about uncertainty: direct numerical readouts are supported by TypeSafe's own claims, question isolation and option interaction are observable behaviours, while KV sharing, pointer-style readouts, causal masking, and sparse MoE are progressively more speculative explanations. The useful takeaway is still strong: Jev is best understood as a decision-service architecture, not just a JSON classifier wrapper around a chat model.
+
+**Update, 2026-09-22:** Simon Willison's write-up sharpens the public framing: “decision models” may be a better name than “System One models.” Jev is useful anywhere the task is naturally classification-shaped: spam detection, labels, prioritization, ranking, or reranking search candidates after a cheap first-stage retrieval pass. The unusual API and pricing reinforce that shape: many questions can be evaluated in parallel against one state object, output is typed probabilities rather than text, and the service charges only for input tokens.
+
+Simon's caution is equally important. Jev is even more black-box than ordinary text-generating LLMs because the output is only a score, choice distribution, or yes/no probability. There is no generated explanation to inspect, even if LLM explanations are themselves unreliable. That makes bias testing, eval design, and structured experiments central to using Jev safely, especially for decisions about people.
 
 **Newsletter angle:** A strong artifact for the "AI as software primitive" lane: intelligence as fast, typed decision nodes inside workflows, not only chat, copilot, or agent loops.
