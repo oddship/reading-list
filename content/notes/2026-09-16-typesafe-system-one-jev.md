@@ -9,12 +9,12 @@ source_url = "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
 source_type = "article"
 source_title = "TypeSafe: Introducing System One Models and Jev"
 saved_title = "TypeSafe: Introducing System One Models and Jev"
-related_titles = ["TypeSafe documentation", "TypeSafe evals", "Archer Hume: Jev’s Architecture Unmasked", "Simon Willison: Jev introduces a new shape of LLM"]
+related_titles = ["TypeSafe documentation", "TypeSafe evals", "Archer Hume: Jev’s Architecture Unmasked", "Simon Willison: Jev introduces a new shape of LLM", "Simon Willison announcement post on X"]
 newsletter_candidate = true
 why_it_matters = "TypeSafe is trying to make AI feel less like a chatbot and more like a typed, low-latency decision primitive that normal software can compose."
 saved_link = "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
-related_urls = ["https://docs.typesafe.ai/", "https://evals.typesafe.ai/", "https://archerhume.com/posts/jevs-architecture-unmasked/?v=3", "https://simonwillison.net/2026/Sep/21/jev/"]
-retrieval_note = "Launch article, docs introduction, and workflow evals page were extracted directly. Archer Hume's black-box reconstruction and Simon Willison's decision-model framing were added later and read directly."
+related_urls = ["https://docs.typesafe.ai/", "https://evals.typesafe.ai/", "https://archerhume.com/posts/jevs-architecture-unmasked/?v=3", "https://simonwillison.net/2026/Sep/21/jev/", "https://x.com/simonw/status/2102175146740232238"]
+retrieval_note = "Launch article, docs introduction, and workflow evals page were extracted directly. Archer Hume's black-box reconstruction and Simon Willison's decision-model framing were added later and read directly; Simon's X announcement was extracted via FXTwitter."
 +++
 
 **Logged at IST:** 2026-09-16 07:45 IST
@@ -34,5 +34,7 @@ The post is careful about uncertainty: direct numerical readouts are supported b
 **Update, 2026-09-22:** Simon Willison's write-up sharpens the public framing: “decision models” may be a better name than “System One models.” Jev is useful anywhere the task is naturally classification-shaped: spam detection, labels, prioritization, ranking, or reranking search candidates after a cheap first-stage retrieval pass. The unusual API and pricing reinforce that shape: many questions can be evaluated in parallel against one state object, output is typed probabilities rather than text, and the service charges only for input tokens.
 
 Simon's caution is equally important. Jev is even more black-box than ordinary text-generating LLMs because the output is only a score, choice distribution, or yes/no probability. There is no generated explanation to inspect, even if LLM explanations are themselves unreliable. That makes bias testing, eval design, and structured experiments central to using Jev safely, especially for decisions about people.
+
+{{ tweet(id="2102175146740232238", url="https://x.com/simonw/status/2102175146740232238") }}
 
 **Newsletter angle:** A strong artifact for the "AI as software primitive" lane: intelligence as fast, typed decision nodes inside workflows, not only chat, copilot, or agent loops.
