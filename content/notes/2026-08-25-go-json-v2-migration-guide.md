@@ -1,28 +1,35 @@
 +++
-title = "Go's json/v2 migration surface"
+title = "Go's json/v2 API becomes generally available"
 slug = "2026-08-25-go-json-v2-migration-guide"
 date = 2026-08-25T20:19:00+05:30
 [taxonomies]
 tags = ["developer-tools", "systems"]
 [extra]
-source_url = "https://antonz.org/go-json-v2"
+source_url = "https://go.dev/blog/jsonv2"
+source_title = "A new Go API for JSON"
 source_type = "article"
 newsletter_candidate = true
-why_it_matters = "A practical map of a standard-library migration where correctness defaults, streaming APIs, compatibility options, and performance trade-offs all change together."
-saved_link = "https://x.com/ohmypy/status/2092210706137374961"
-related_url = "https://x.com/ohmypy/status/2092210706137374961"
-retrieval_note = "FXTwitter extraction succeeded and resolved the Antonz article; the article HTML was read directly."
+why_it_matters = "Go 1.27 makes a redesigned JSON API generally available, bringing stricter defaults, composable options, streaming primitives, and room to fix compatibility-constrained behavior without breaking encoding/json users."
+saved_link = "https://x.com/golang/status/2118388202327433685?a=0CFY9HLv3YYXm338F7o&s=35"
+saved_title = "Go announces a new API for JSON"
+related_url = "https://antonz.org/go-json-v2"
+related_title = "A practical migration guide to Go's json/v2"
+related_urls = ["https://go.dev/doc/go1.27"]
+related_titles = ["Go 1.27 release notes"]
+retrieval_note = "Read the Go team's announcement and Go 1.27 release notes, as well as Anton Zhiyanov's migration guide already covered in this note. The announcement says encoding/json/v2 and encoding/json/jsontext are stable and generally available in Go 1.27."
 +++
-**Logged at IST:** 2026-08-25 20:19 IST
+**Logged at IST:** 2026-08-25 20:19 IST; updated 2026-11-05
 
-**What it is:** Anton Zhiyanov's interactive guide to Go's new `json/v2` package.
+**What it is:** The Go team's announcement that `encoding/json/v2` and `encoding/json/jsontext` are stable and generally available in Go 1.27, alongside a practical migration guide by Anton Zhiyanov.
 
-**Gist:** The guide is a migration map from `encoding/json` v1 to `json/v2`. The basics still look familiar, but the surrounding API changes a lot: direct `MarshalWrite` and `UnmarshalRead`, streaming encode/decode through `jsontext`, composable options instead of many one-off functions, new struct tags like `case` and `embed`, and streaming custom marshaling through `MarshalJSONTo` / `UnmarshalJSONFrom`.
+**Gist:** The v2 API addresses longstanding limitations in the original `encoding/json`: ambiguous or surprising behavior around invalid UTF-8, duplicate object names, nil slices/maps, and case-insensitive field matching; awkward option plumbing; and limitations in streaming and custom-marshaler performance. The lower-level `jsontext` package provides JSON syntax and token-level facilities, while `json/v2` builds Go-value marshaling and unmarshaling on top. A separate `/v2` namespace allows behavior to improve without breaking the Go 1 compatibility promise.
 
-The defaults also change in ways that will matter in real services. Nil slices encode as `[]` instead of `null`, nil maps as `{}`, byte arrays as base64 strings, invalid UTF-8 is rejected by default, duplicate object names are rejected, and unmarshaling is exact/case-sensitive unless configured otherwise.
+The migration guide maps the changed APIs and defaults, including composable options, streaming custom marshaling, and compatibility considerations. These changes can improve correctness and flexibility, but migration requires checking which v1 behaviors an application relies on and choosing options deliberately.
 
-The useful framing: `json/v2` is more explicit, more flexible, and much better for some streaming/custom-marshaling performance cases, but it is also more complex. This is the kind of standard-library migration where the compatibility options matter as much as the shiny API.
+**Source read:** https://go.dev/blog/jsonv2
 
-**Newsletter angle:** Good Go/developer-tools item: correctness defaults, API ergonomics, and streaming performance are all moving together in one of Go's most heavily used packages.
+**Related:** [Go 1.27 release notes](https://go.dev/doc/go1.27); [Anton Zhiyanov's migration guide](https://antonz.org/go-json-v2).
 
-{{ tweet(id="2092210706137374961", url="https://x.com/ohmypy/status/2092210706137374961") }}
+**Newsletter angle:** A substantial standard-library evolution: stricter JSON behavior and a more composable, streaming API, delivered under a new import path to preserve compatibility for existing Go programs.
+
+{{ tweet(id="2118388202327433685", url="https://x.com/golang/status/2118388202327433685") }}
