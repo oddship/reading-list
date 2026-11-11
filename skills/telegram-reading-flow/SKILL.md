@@ -17,7 +17,7 @@ metadata:
 This skill captures the operating model for the Telegram-to-reading-list pipeline.
 Links arrive in Telegram first, get grounded against the actual source when feasible, are logged compactly in the work reading log, and every useful item is then promoted into the public site.
 
-This is a publish-by-default workflow. A useful link drop is not complete when it is only saved to `/root/work-wiki/reading-log/`; it is complete only after the repo note exists, the site builds, the change is pushed, the deploy succeeds, and the live site is checked when feasible. Leave an item log-only only when the user clearly asks for private/backlog-only capture, or when source access is too weak to publish a grounded public note.
+This is a publish-by-default workflow. A useful link drop is not complete when it is only saved to `.reading-list/reading-log/`; it is complete only after the repo note exists, the site builds, the change is pushed, the deploy succeeds, and the live site is checked when feasible. Leave an item log-only only when the user clearly asks for private/backlog-only capture, or when source access is too weak to publish a grounded public note.
 
 ## When to Use
 
@@ -46,7 +46,7 @@ Do not use when:
 
 3. Log to the work reading dropbox first.
    - Resolve the dated log file in Asia/Kolkata before writing, not the machine timezone.
-   - Append compact entries to `/root/work-wiki/reading-log/YYYY-MM-DD.md`.
+   - Append compact entries to `.reading-list/reading-log/YYYY-MM-DD.md`.
    - Completion criterion: the canonical work log contains the new entry.
 
 4. Promote every useful item to the public site.
@@ -85,7 +85,7 @@ The short repo playbook lives at `docs/link-drop-playbook.md`; keep it synced wi
 For a normal useful work-thread link drop, finish all of these before replying:
 
 1. Read the strongest accessible source, including linked articles/blogs/papers/repos/product pages when feasible. For X links, expand and read the actual destination unless the tweet itself is the source.
-2. Append the grounded compact entry to `/root/work-wiki/reading-log/YYYY-MM-DD.md` using the IST timestamp.
+2. Append the grounded compact entry to `.reading-list/reading-log/YYYY-MM-DD.md` using the IST timestamp.
 3. Dedupe against existing `content/notes/` by source URL and likely title.
 4. Create or update the Zola note with full IST datetime frontmatter, approved public tags, `source_url`, `source_type`, `saved_link`, `why_it_matters`, and concise body copy.
    - The public page renders distinct source links, so preserve `saved_link`, `related_url`, `related_urls`, and optional archive URLs rather than collapsing everything into a single X link.
@@ -112,7 +112,7 @@ If any step is blocked, report the exact unfinished state, for example: `logged 
 - If a note only weakly fits a tag, leave it out. Sparse but reliable tagging is better than noisy coverage.
 - Before introducing a new tag, search the repo for close existing tags and pick the closest stable term if it is good enough.
 - Use `references/tagging-guidance.md` as the longer-lived taxonomy policy.
-- Use `scripts/audit_tags.go` with `go run skills/telegram-reading-flow/scripts/audit_tags.go /root/reading-list-site` when auditing the current tag vocabulary.
+- Use `scripts/audit_tags.go` with `go run skills/telegram-reading-flow/scripts/audit_tags.go /workspace/reading-list` when auditing the current tag vocabulary.
 
 ## Common Pitfalls
 

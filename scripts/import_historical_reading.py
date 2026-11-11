@@ -5,11 +5,11 @@ from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
 
-ROOT = Path('/root')
-SITE = ROOT / 'reading-list-site'
-READING_LOG = ROOT / 'work-wiki' / 'reading-log'
-OLD_MEMORY = ROOT / '.openclaw' / 'workspace-rohan-work' / 'memory'
-OLD_TMP = ROOT / '.openclaw' / 'workspace-rohan-work' / 'tmp'
+SITE = Path(__file__).resolve().parents[1]
+DATA = SITE / '.reading-list'
+READING_LOG = DATA / 'reading-log'
+OLD_MEMORY = DATA / 'legacy-workspace' / 'memory'
+OLD_TMP = DATA / 'legacy-workspace' / 'tmp'
 NOTES_DIR = SITE / 'content' / 'notes'
 DIGESTS_DIR = SITE / 'content' / 'digests'
 

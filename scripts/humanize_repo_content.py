@@ -1,7 +1,7 @@
 from pathlib import Path
 import re
 
-ROOT = Path('/root/reading-list-site')
+ROOT = Path(__file__).resolve().parents[1]
 TARGETS = [
     ROOT / 'content',
     ROOT / 'docs',

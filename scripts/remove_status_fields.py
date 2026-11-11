@@ -1,7 +1,7 @@
 from pathlib import Path
 import re
 
-root = Path('/root/reading-list-site')
+root = Path(__file__).resolve().parents[1]
 content_root = root / 'content'
 
 for path in content_root.rglob('*.md'):
