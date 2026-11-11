@@ -21,7 +21,7 @@ For historical/importer runs, keep the importer incremental: add missing pages, 
    - For X posts, inspect the post, attached media, cards, and expanded URLs.
    - If the post points to an article, blog, paper, repo, video, or product page, follow that destination and ground the note in the actual website when feasible.
    - Preserve retrieval blockers instead of pretending the source was read.
-2. Append the compact entry to `.reading-list/reading-log/YYYY-MM-DD.md` using the IST date and timestamp.
+2. Append the compact entry to `data/reading-log/YYYY-MM-DD.md` using the IST date and timestamp.
 3. Dedupe against existing `content/notes/` by source URL, saved link, and likely title.
 4. Create or update a note under `content/notes/` with:
    - full IST datetime in `date`

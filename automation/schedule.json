@@ -1,0 +1,15 @@
+{
+  "name": "Weekly reading list",
+  "cron": "0 23 * * 0",
+  "timezone": "Asia/Kolkata",
+  "mode": "agent",
+  "instructions": "weekly-reading.md",
+  "working_directory": "..",
+  "required_tools": [
+    "python3",
+    "git",
+    "gh",
+    "zola"
+  ],
+  "report_destination": "current execution session"
+}

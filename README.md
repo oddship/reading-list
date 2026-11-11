@@ -31,8 +31,8 @@ Each note carries frontmatter plus a short body. Useful fields in `[extra]` incl
 
 ## Operating model
 
-1. Links arrive in the BB Reading List project.
-2. Bosun reads the strongest available source and logs a compact grounded entry under `.reading-list/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
+1. Links arrive in the Reading List project.
+2. The agent reads the strongest available source and logs a compact grounded entry under `data/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
 3. Every useful item is promoted into `content/notes/` without waiting for a separate publish decision.
 4. Weekly writeups become `content/digests/`.
 5. Pushes to `main` deploy the site.
@@ -42,7 +42,7 @@ Each note carries frontmatter plus a short body. Useful fields in `[extra]` incl
 
 Older material came from multiple sources:
 
-- the canonical work reading log under `.reading-list/reading-log/`
+- the canonical work reading log under `data/reading-log/`
 - older OpenClaw workspace memory files
 - older weekly draft markdown files
 - prior Google Drive draft history for verification

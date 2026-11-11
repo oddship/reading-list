@@ -4,3 +4,7 @@ public/
 __pycache__/
 *.pyc
 .hermes/
+
+# Private source logs, history, backups and local scheduler adapters
+/data/
+/.bb/

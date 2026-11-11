@@ -12,8 +12,8 @@ This repo is the source of truth for `reading-list.oddship.net` / `oddship.githu
 
 ## Current operating model
 
-1. Links arrive in the BB Reading List project.
-2. The BB agent reads the source when feasible and logs a compact grounded entry in `.reading-list/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
+1. Links arrive in the Reading List project.
+2. The agent reads the source when feasible and logs a compact grounded entry in `data/reading-log/YYYY-MM-DD.md`, resolving the date in Asia/Kolkata.
 3. Every useful item is backported or promoted into `content/notes/*.md` right away.
 4. Push to `main` triggers deploy.
 5. The workflow is not complete until the deploy succeeds and the live page, or at least `/notes/`, reflects the update.
@@ -96,7 +96,7 @@ For X posts that primarily point somewhere else, treat the post as the saved/sha
 For a normal useful link dropped in the work thread, complete this whole path before replying:
 
 1. Read the strongest accessible source, following linked articles/blogs/papers/repos/product pages when feasible. For X links, expand the card/URLs and ground the note in the destination website unless the tweet itself is the only source.
-2. Append the compact grounded entry to `.reading-list/reading-log/YYYY-MM-DD.md` using an IST timestamp.
+2. Append the compact grounded entry to `data/reading-log/YYYY-MM-DD.md` using an IST timestamp.
 3. Dedupe against existing notes by source URL and likely title.
 4. Create or update `content/notes/*.md` with full IST datetime frontmatter, approved public tags, source metadata, and concise public-facing prose.
 5. If a digest mentions the item, run `python3 scripts/link_digest_notes.py` so the digest links to the note entry.
@@ -117,8 +117,8 @@ If blocked, report the precise partial state: `logged but not published`, `note 
 
 ## Auth expectations for automation
 
-- Use the Archon BB worker's authenticated `gh` CLI for GitHub API calls and Git authentication.
-- BB supplies the worker credential in authenticated execution sessions. An administrator container shell may be signed out.
+- Use the current host's authenticated `gh` CLI for GitHub API calls and Git authentication.
+- Make authentication available to the scheduled job process as well as interactive sessions.
 - Do not copy a GitHub token from the old Hermes host or read its environment file.
 - Match the `Deploy via s3site` Actions run to the pushed full commit SHA before reporting deployment success.
 - Read the project Humanizer skill before publishing prose and never use em dashes.
@@ -134,4 +134,4 @@ If blocked, report the precise partial state: `logged but not published`, `note 
 7. Verify the deploy workflow run succeeded
 8. Check the live rendered page, not just the git push
 9. For site-shape changes, verify homepage, `/notes/`, pagination, and `/digests/`
-10. When the workflow itself changes, update `skills/` and this guide in the same commit, then sync the matching local Hermes skill if needed
+10. When the workflow itself changes, update `skills/` and this guide in the same commit, and keep the root instructions and scheduled task file aligned

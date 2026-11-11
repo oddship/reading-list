@@ -1,12 +1,15 @@
 from __future__ import annotations
 
+import os
 import re
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
 
 SITE = Path(__file__).resolve().parents[1]
-DATA = SITE / '.reading-list'
+DATA = Path(os.environ.get('READING_LIST_DATA_DIR', SITE / 'data')).expanduser()
+if not DATA.is_absolute():
+    DATA = SITE / DATA
 READING_LOG = DATA / 'reading-log'
 OLD_MEMORY = DATA / 'legacy-workspace' / 'memory'
 OLD_TMP = DATA / 'legacy-workspace' / 'tmp'
@@ -540,6 +543,8 @@ def write_digests() -> int:
 
 
 def main() -> None:
+    if not READING_LOG.is_dir():
+        raise SystemExit(f'Missing private reading log: {READING_LOG}. Transfer data/ or set READING_LIST_DATA_DIR before importing.')
     backfill_missing_logs()
     rebuild_index()
     notes = write_notes()

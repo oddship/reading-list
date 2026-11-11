@@ -1,27 +1,21 @@
-# Repo-local agent skills
+# Project agent skills
 
-This directory stores repo-local `SKILL.md` files so the maintenance workflow, ingest flow, and skill-authoring guidance are versioned alongside the site itself.
+Each directory contains a `SKILL.md` with Agent Skills frontmatter and Markdown
+instructions. Agents can read these files directly, and `AGENTS.md` routes the
+main reading workflows to them.
 
-## Included skills
+- `work-reading-dropbox`: capture links in the private reading log and promote grounded notes.
+- `reading-list-curator`: source extraction, provenance and thematic curation.
+- `reading-list-site-operations`: content, taxonomy, feeds and routine publication.
+- `reading-list-zola-publishing`: Zola builds, templates and deployment.
+- `reading-list-zola-publish-verification`: verify generated pages and the exact deployed commit.
+- `humanizer`: review outgoing prose.
+- `reading-list-repo-maintenance`, `telegram-reading-flow`, and `agent-skills-authoring`: existing repository-specific guides. The Telegram guide applies only when that transport is explicitly configured.
 
-- `reading-list-repo-maintenance/`
-  - repo operations, Zola edits, Pages verification, live-site checks, and pre-commit humanizer discipline
-- `telegram-reading-flow/`
-  - Telegram ingest, source grounding, work-log capture, immediate promotion of useful notes, tag discipline, and historical import hygiene
-- `agent-skills-authoring/`
-  - meta guidance for creating/updating repo-local skills, syncing local-vs-repo workflow knowledge, and using references/scripts cleanly
+Historical Hermes skill references remain private in
+`data/previous-agent-skills/` and `data/original-hermes-skills/`. Current root
+instructions take precedence over their old commands and paths.
 
-## Why keep them in-repo
-
-- operational knowledge evolves with the repo
-- curation and publishing conventions stay reviewable in git
-- future automation can clone one repo and recover both content and process
-- cron-driven publishing can follow the same checked-in rules as manual maintenance
-
-## Format
-
-Each skill lives in its own directory with a `SKILL.md` file using frontmatter plus a markdown body, following the Agent Skills pattern at `https://agentskills.io/specification`.
-
-When a skill grows beyond its always-needed instructions, prefer:
-- `references/` for longer policy notes and examples
-- `scripts/` for reusable helpers, with `go run` preferred in this repo when practical
+BB can load these same files through optional symlinks created by
+`python3 scripts/setup_bb_adapter.py`. Another agent can use the root files
+directly. See `docs/portability.md` for host migration and private data handling.
