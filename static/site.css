@@ -1,0 +1,8 @@
+@layer product {
+  /* The reading site's page measure; components and appearance belong to Oatbase. */
+  .site-shell {
+    inline-size: min(100% - var(--space-8), 60rem);
+    margin-inline: auto;
+    padding-block: var(--space-6);
+  }
+}

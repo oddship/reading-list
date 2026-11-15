@@ -70,5 +70,21 @@ zola serve
 ## Build
 
 ```bash
-zola build
+zola build --force
 ```
+
+## UI assets
+
+The site uses Oatbase's default appearance, Item lists, Prose, Description List,
+and Theme Switcher. Its Oat-inclusive CSS is served locally, with focused scripts
+and styles for theme switching and video aspect ratios. `static/site.css` only sets
+the page width and outer spacing. X consent and provider loading live in
+`static/embeds.js`.
+
+The upstream revision and SHA-256 checksums are recorded in
+`static/vendor/oatbase/manifest.json`. To update, check out the intended revision
+of [Oatbase](https://github.com/oddship/oatbase), run `npm ci` and `make dist`
+with Bun available, then run `python3 scripts/vendor_oatbase.py /path/to/oatbase`.
+Commit upstream component changes before copying the bundle. Review the vendor
+manifest and asset diff, build with Zola 0.22.1, and check narrow layouts, themes,
+source links, and social embeds.

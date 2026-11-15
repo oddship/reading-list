@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "components.html" as components %}
 {% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
 {% block social_meta %}
   {% set social_title = config.title %}
@@ -22,73 +23,75 @@
   {% set digests = get_section(path="digests/_index.md") %}
   {% set latest_digest = digests.pages | first %}
 
-  <section class="hero">
+  <section class="vstack gap-4 mb-6">
     <div>
-      <p class="hero-kicker">{{ config.extra.site_subtitle }}</p>
+      <p class="text-light">{{ config.extra.site_subtitle }}</p>
       <h1>{{ section.title }}</h1>
-      <p class="hero-copy">{{ section.content | safe }}</p>
+      <div class="text-light" data-prose>{{ section.content | safe }}</div>
     </div>
-    <div class="hero-actions">
+    <div class="hstack">
       <a href="{{ get_url(path='@/notes/_index.md') }}" class="button">Browse notes</a>
       <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline">Browse digests</a>
       <a href="{{ get_url(path='tags') }}" class="button outline">Browse tags</a>
     </div>
-    <div class="counts">
+    <div class="hstack">
       <span class="badge">{{ notes.pages | length }} notes</span>
       <span class="badge" data-variant="secondary">{{ digests.pages | length }} digests</span>
     </div>
   </section>
 
   {% if latest_digest %}
-    <section class="magazine-section">
-      <div class="section-head">
+    <section class="vstack gap-4 mb-6">
+      <div class="hstack justify-between">
         <div>
-          <p class="kicker">Latest digest</p>
+          <p class="text-light">Latest digest</p>
           <h2><a href="{{ latest_digest.permalink }}">{{ latest_digest.title }}</a></h2>
           <p>The newest weekly round-up from the archive.</p>
         </div>
         <a href="{{ get_url(path='@/digests/_index.md') }}" class="button outline small">All digests</a>
       </div>
-      <article class="feature">
-        <p class="story-meta">{{ latest_digest.date }}</p>
-        <p class="story-summary">{{ latest_digest.summary | default(value=latest_digest.description | default(value=latest_digest.content | striptags | replace(from="This week This week’s", to="This week’s") | replace(from="Intro This week’s", to="This week’s") | truncate(length=420))) }}</p>
-        <div class="story-footer">
+      <article class="vstack gap-4">
+        <p class="text-light">{{ latest_digest.date | date(format="%Y-%m-%d") }}</p>
+        <p class="mb-4">{{ components::summary(page=latest_digest, length=420) }}</p>
+        <div class="hstack">
           <a href="{{ latest_digest.permalink }}" class="button small">Read digest</a>
-          <span class="archive-note">Repo-driven archive synced from the work reading log.</span>
+          <span class="text-light">Repo-driven archive synced from the work reading log.</span>
         </div>
       </article>
     </section>
   {% endif %}
 
-  <section class="magazine-section">
-    <div class="section-head">
+  <section class="vstack gap-4 mb-6">
+    <div class="hstack justify-between">
       <div>
-        <p class="kicker">Recent notes</p>
+        <p class="text-light">Recent notes</p>
         <h2>Recent notes</h2>
         <p>A front-page sample from the latest entries.</p>
       </div>
       <a href="{{ get_url(path='@/notes/_index.md') }}" class="button outline small">All notes</a>
     </div>
-    <div class="story-list">
+    <div class="item-group" data-divided>
       {% for page in notes.pages %}
         {% if loop.index <= 6 %}
-          <article class="story">
-            <p class="story-meta">{{ page.date }}</p>
-            <h3><a href="{{ page.permalink }}">{{ page.title | truncate(length=72) }}</a></h3>
-            {% if page.extra and page.extra.why_it_matters %}
-              <p class="story-summary">{{ page.extra.why_it_matters | truncate(length=180) }}</p>
-            {% else %}
-              <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=180))) }}</p>
-            {% endif %}
-            <div class="story-footer">
-              <a href="{{ page.permalink }}" class="button small">Read note</a>
-              {% if page.taxonomies.tags %}
-                {% for tag in page.taxonomies.tags %}
-                  {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 2 %}
-                    <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ tag }}</a>
-                  {% endif %}
-                {% endfor %}
+          <article class="item">
+            <div class="vstack gap-2">
+              <p class="text-light">{{ page.date | date(format="%Y-%m-%d") }}</p>
+              <h3><a href="{{ page.permalink }}">{{ page.title | truncate(length=72) }}</a></h3>
+              {% if page.extra and page.extra.why_it_matters %}
+                <p class="mb-4">{{ page.extra.why_it_matters | truncate(length=180) }}</p>
+              {% else %}
+                <p class="mb-4">{{ components::summary(page=page, length=180) }}</p>
               {% endif %}
+              <div class="hstack">
+                <a href="{{ page.permalink }}" class="button small">Read note</a>
+                {% if page.taxonomies.tags %}
+                  {% for tag in page.taxonomies.tags %}
+                    {% if tag != "reading-log" and tag != "historical-backfill" and tag != "x-post" and tag != "article" and loop.index <= 2 %}
+                      <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ components::tag_label(name=tag) }}</a>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              </div>
             </div>
           </article>
         {% endif %}

@@ -1,7 +1,8 @@
 {% extends "base.html" %}
-{% block title %}{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% elif term.name == 'developer-tools' %}Developer Tools{% elif term.name == 'org-design' %}Org Design{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %} · {{ config.title }}{% endblock title %}
+{% import "components.html" as components %}
+{% block title %}{{ components::tag_label(name=term.name) }} · {{ config.title }}{% endblock title %}
 {% block social_meta %}
-  {% if term.name == 'ai-infra' %}{% set tag_title = 'AI Infra' %}{% elif term.name == 'llm-research' %}{% set tag_title = 'LLM Research' %}{% elif term.name == 'developer-tools' %}{% set tag_title = 'Developer Tools' %}{% elif term.name == 'org-design' %}{% set tag_title = 'Org Design' %}{% else %}{% set tag_title = term.name | replace(from='-', to=' ') | title %}{% endif %}
+  {% set tag_title = components::tag_label(name=term.name) %}
   {% set social_title = tag_title ~ " · " ~ config.title %}
   {% set social_description = "Reading notes in the " ~ tag_title ~ " theme." %}
   <meta name="description" content="{{ social_description }}">
@@ -19,32 +20,34 @@
   <meta name="twitter:image" content="{{ get_url(path='social-card.png') }}">
 {% endblock social_meta %}
 {% block content %}
-  <section class="hero">
-    <p class="kicker">Tag</p>
-    <h1>{% if term.name == 'ai-infra' %}AI Infra{% elif term.name == 'llm-research' %}LLM Research{% elif term.name == 'developer-tools' %}Developer Tools{% elif term.name == 'org-design' %}Org Design{% else %}{{ term.name | replace(from='-', to=' ') | title }}{% endif %}</h1>
-    <p class="hero-copy">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %} in this recurring theme.</p>
-    <div class="hero-actions">
+  <section class="vstack gap-4 mb-6">
+    <p class="text-light">Tag</p>
+    <h1>{{ components::tag_label(name=term.name) }}</h1>
+    <p class="text-light">{{ term.pages | length }} note{% if term.pages | length != 1 %}s{% endif %} in this recurring theme.</p>
+    <div class="hstack">
       <a href="{{ term.permalink }}rss.xml" class="button">RSS for this tag</a>
       <a href="{{ get_url(path='tags') }}" class="button outline">All tags</a>
     </div>
   </section>
 
-  <section class="magazine-section">
-    <div class="section-head">
+  <section class="vstack gap-4 mb-6">
+    <div class="hstack justify-between">
       <div>
-        <p class="kicker">Archive</p>
+        <p class="text-light">Archive</p>
         <h2>Notes in this tag</h2>
       </div>
     </div>
 
-    <div class="story-list">
+    <div class="item-group" data-divided>
       {% for page in term.pages %}
-        <article class="story">
-          <p class="story-meta">{{ page.date | date(format="%Y-%m-%d") }}</p>
-          <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-          <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=260))) }}</p>
-          <div class="story-footer">
-            <a href="{{ page.permalink }}" class="button small">Read note</a>
+        <article class="item">
+          <div class="vstack gap-2">
+            <p class="text-light">{{ page.date | date(format="%Y-%m-%d") }}</p>
+            <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+            <p class="mb-4">{{ components::summary(page=page, length=260) }}</p>
+            <div class="hstack">
+              <a href="{{ page.permalink }}" class="button small">Read note</a>
+            </div>
           </div>
         </article>
       {% endfor %}
