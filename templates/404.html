@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Page not found · {{ config.title }}{% endblock title %}
+{% block content %}
+  <section class="vstack gap-4">
+    <h1>Page not found</h1>
+    <p>This address does not match a page in the reading list.</p>
+    <div class="hstack">
+      <a class="button" href="{{ get_url(path='@/_index.md') }}">Reading List home</a>
+      <a class="button outline" href="{{ get_url(path='@/notes/_index.md') }}">Browse notes</a>
+    </div>
+  </section>
+{% endblock content %}

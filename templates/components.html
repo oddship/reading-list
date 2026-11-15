@@ -1,0 +1,20 @@
+{% macro tag_label(name) -%}
+{%- if name == 'ai-infra' -%}AI Infra
+{%- elif name == 'llm-research' -%}LLM Research
+{%- elif name == 'developer-tools' -%}Developer Tools
+{%- elif name == 'org-design' -%}Org Design
+{%- else -%}{{ name | replace(from='-', to=' ') | title }}
+{%- endif -%}
+{%- endmacro tag_label %}
+
+{% macro summary(page, length=240) -%}
+{%- if page.extra and page.extra.why_it_matters -%}
+  {{ page.extra.why_it_matters | truncate(length=length) }}
+{%- elif page.summary -%}
+  {{ page.summary | striptags | truncate(length=length) }}
+{%- elif page.description -%}
+  {{ page.description | striptags | truncate(length=length) }}
+{%- else -%}
+  {{ page.content | striptags | truncate(length=length) }}
+{%- endif -%}
+{%- endmacro summary %}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/oddship/oatbase",
+  "revision": "e05909a658ffe4263b949a6da52cdc6d69256431",
+  "version": "0.1.0",
+  "sha256": {
+    "oatbase.min.css": "b8b03cf781210b5749b6ec88dce280ed4c26abd15a6c4d08be3f6b70cc4dfc8a",
+    "theme-switcher.js": "38f4f6f68845bf46613e1ace8aa3c1450990c3ce1bb324011c61b4afc46eeb12",
+    "aspect-ratio.css": "f390dbae8f810fcee3659374cea532716df3517c1bfae5be4eb2482c21dc20c7",
+    "LICENSE": "3923ab0ca7cc024ae4e7c0d878e4693b7c4ed8f8432069bc0ba289789dba1ef5",
+    "THIRD_PARTY_NOTICES.md": "fcc8ebca005fe1cad260f958ba3d769d440b32ba73904b34b083281a4e9ee831"
+  }
+}

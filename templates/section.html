@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "components.html" as components %}
 {% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
 {% block social_meta %}
   {% set social_title = section.title ~ " · " ~ config.title %}
@@ -34,13 +35,13 @@
     {% set section_count = section.pages | length %}
   {% endif %}
 
-  <section class="hero">
+  <section class="vstack gap-4 mb-6">
     <div>
-      <p class="hero-kicker">{{ config.extra.site_subtitle }}</p>
+      <p class="text-light">{{ config.extra.site_subtitle }}</p>
       <h1>{{ section.title }}</h1>
-      <p class="hero-copy">{{ section.content | safe }}</p>
+      <div class="text-light" data-prose>{{ section.content | safe }}</div>
     </div>
-    <div class="hero-actions">
+    <div class="hstack">
       {% if section.title == "Notes" %}
         <a href="{{ get_url(path='tags') }}" class="button">Browse tags</a>
         <a href="{{ get_url(path='notes/rss.xml') }}" class="button outline">Notes RSS</a>
@@ -52,9 +53,9 @@
       {% endif %}
     </div>
     {% if section.title == "Digests" %}
-      <div class="counts"><span class="badge" data-variant="secondary">{{ section_count }} digests</span></div>
+      <div class="hstack"><span class="badge" data-variant="secondary">{{ section_count }} digests</span></div>
     {% elif section.title == "Notes" %}
-      <div class="counts"><span class="badge">{{ section_count }} notes</span></div>
+      <div class="hstack"><span class="badge">{{ section_count }} notes</span></div>
     {% endif %}
   </section>
 
@@ -64,41 +65,43 @@
     {% set note_pages = section.pages %}
   {% endif %}
 
-  <div class="story-list">
+  <div class="item-group" data-divided>
     {% for page in note_pages %}
-      <article class="story">
-        <p class="story-meta">{{ page.date | date(format="%Y-%m-%d") }}</p>
-        <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=92) }}</a></h2>
-        {% if section.title == "Digests" %}
-          <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | replace(from="This week This week’s", to="This week’s") | replace(from="Intro This week’s", to="This week’s") | truncate(length=420))) }}</p>
-          <div class="story-footer">
-            <a href="{{ page.permalink }}" class="button small">Read digest</a>
-          </div>
-        {% elif page.extra and page.extra.why_it_matters %}
-          <p class="story-summary">{{ page.extra.why_it_matters | truncate(length=240) }}</p>
-          <div class="story-footer">
-            <a href="{{ page.permalink }}" class="button small">Read note</a>
-            {% if page.taxonomies.tags %}
-              {% for tag in page.taxonomies.tags %}
-                {% if loop.index <= 3 %}
-                  <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{% if tag == 'ai-infra' %}AI Infra{% elif tag == 'llm-research' %}LLM Research{% elif tag == 'developer-tools' %}Developer Tools{% elif tag == 'org-design' %}Org Design{% else %}{{ tag | replace(from='-', to=' ') | title }}{% endif %}</a>
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-          </div>
-        {% else %}
-          <p class="story-summary">{{ page.summary | default(value=page.description | default(value=page.content | striptags | truncate(length=240))) }}</p>
-          <div class="story-footer">
-            <a href="{{ page.permalink }}" class="button small">Read note</a>
-          </div>
-        {% endif %}
+      <article class="item">
+        <div class="vstack gap-2">
+          <p class="text-light">{{ page.date | date(format="%Y-%m-%d") }}</p>
+          <h2><a href="{{ page.permalink }}">{{ page.title | truncate(length=92) }}</a></h2>
+          {% if section.title == "Digests" %}
+            <p class="mb-4">{{ components::summary(page=page, length=420) }}</p>
+            <div class="hstack">
+              <a href="{{ page.permalink }}" class="button small">Read digest</a>
+            </div>
+          {% elif page.extra and page.extra.why_it_matters %}
+            <p class="mb-4">{{ page.extra.why_it_matters | truncate(length=240) }}</p>
+            <div class="hstack">
+              <a href="{{ page.permalink }}" class="button small">Read note</a>
+              {% if page.taxonomies.tags %}
+                {% for tag in page.taxonomies.tags %}
+                  {% if loop.index <= 3 %}
+                    <a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="badge outline">{{ components::tag_label(name=tag) }}</a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            </div>
+          {% else %}
+            <p class="mb-4">{{ components::summary(page=page, length=240) }}</p>
+            <div class="hstack">
+              <a href="{{ page.permalink }}" class="button small">Read note</a>
+            </div>
+          {% endif %}
+        </div>
       </article>
     {% endfor %}
   </div>
 
   {% if paginator %}
     <nav aria-label="Pagination">
-      <menu class="buttons">
+      <menu class="unstyled hstack">
         {% if paginator.previous %}<li><a href="{{ paginator.previous }}" class="button outline small">&larr; Newer</a></li>{% endif %}
         <li><button class="outline small" disabled>Page {{ paginator.current_index }} of {{ paginator.number_pagers }}</button></li>
         {% if paginator.next %}<li><a href="{{ paginator.next }}" class="button outline small">Older &rarr;</a></li>{% endif %}
